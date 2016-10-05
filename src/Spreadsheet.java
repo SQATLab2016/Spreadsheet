@@ -37,19 +37,19 @@ public class Spreadsheet {
 		}
 		// Reset referenced cell counter
 		this.referencedCells.clear();
-		
-		// Integer operations
-		p = Pattern.compile("^=([\\d+\\-\\*/%]+)$");
-		m = p.matcher(value);
-		if (m.find()) {
-			return 2;
-		}
 
 		// An integer
 		p = Pattern.compile("^=?(-?\\d+)$");
 		m = p.matcher(value);
 		if (m.find()) {
 			return m.group(1);
+		}
+		
+		// Integer operations
+		p = Pattern.compile("^=([\\d+\\-\\*/%]+)$");
+		m = p.matcher(value);
+		if (m.find()) {
+			return "2";
 		}
 		
 		// An invalid integer
