@@ -92,4 +92,12 @@ public class SpreadsheetTest {
 		assertEquals("#Error", evaluatedValue);
 	}
 
+	@Test
+	public void test_cell_reference_integer() {
+		s.set("A5", "5");
+		s.set("A1", "=A5");
+		String evaluatedValue = s.evaluate("A1");
+		assertEquals("5", evaluatedValue);
+	}
+
 }

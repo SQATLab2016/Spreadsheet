@@ -134,3 +134,10 @@ RefactoringAction 1475682711113 SpreadsheetTest.java RENAME test_set_and_evaluat
 RefactoringAction 1475682716632 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_5A()=>void test_set_and_evaluate_A1_invalid_integer_5A() METHOD
 RefactoringAction 1475682719149 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_negative_integer()=>void test_set_and_evaluate_A1_negative_integer_minus1() METHOD
 EditAction 1475682722372 SpreadsheetTest.java 2433 12 36 12
+UnitTestCaseAction 1475682723599 SpreadsheetTest.java OK
+UnitTestSessionAction 1475682723599 SpreadsheetTest.java OK
+RefactoringAction 1475682772214 SpreadsheetTest.java ADD void test_set_and_evaluate_A1_equals_invalid_integer()/2 METHOD
+RefactoringAction 1475682780732 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_equals_invalid_integer()/2=>void test_cross_reference_integer_A1_equals_invalid_integer() METHOD
+RefactoringAction 1475682782750 SpreadsheetTest.java RENAME test_cross_reference_integer_A1_equals_invalid_integer()=>void test_cross_reference_integer() METHOD
+RefactoringAction 1475682789272 SpreadsheetTest.java RENAME test_cross_reference_integer()=>void test_cell_reference_integer() METHOD
+EditAction 1475682820920 SpreadsheetTest.java 2620 13 40 13
