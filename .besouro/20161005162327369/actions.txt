@@ -25,3 +25,21 @@ UnitTestSessionAction 1475674121269 SpreadsheetTest.java FAIL
 RefactoringAction 1475674130054 Spreadsheet.java ADD HashMap m FIELD
 RefactoringAction 1475674135064 Spreadsheet.java RENAME m=>HashMap mValues FIELD
 EditAction 1475674188056 Spreadsheet.java 256 3 2 0
+CompilationAction 1475674190036 Spreadsheet.java
+RefactoringAction 1475674193758 Spreadsheet.java ADD import java.util.HashMap IMPORT
+CompilationAction 1475674242299 Spreadsheet.java
+UnitTestCaseAction 1475674251229 SpreadsheetTest.java OK
+UnitTestSessionAction 1475674251230 SpreadsheetTest.java OK
+RefactoringAction 1475674265658 SpreadsheetTest.java ADD void testAssignment_A1_Pos_1()/2 METHOD
+RefactoringAction 1475674275688 SpreadsheetTest.java RENAME testAssignment_A1_Pos_1()/2=>void testAssignment_A1_() METHOD
+RefactoringAction 1475674306202 SpreadsheetTest.java RENAME testAssignment_A1_()=>void testAssignment_Invalid() METHOD
+RefactoringAction 1475674310716 SpreadsheetTest.java RENAME testAssignment_Invalid()=>void testAssignment_InvalidInte() METHOD
+RefactoringAction 1475674312729 SpreadsheetTest.java RENAME testAssignment_InvalidInte()=>void testAssignment_Invalid() METHOD
+RefactoringAction 1475674316241 SpreadsheetTest.java RENAME testAssignment_Invalid()=>void testAssignment_InvalidInteger() METHOD
+RefactoringAction 1475674320252 SpreadsheetTest.java RENAME testAssignment_InvalidInteger()=>void testAssignment_InvalidInteger_() METHOD
+RefactoringAction 1475674322757 SpreadsheetTest.java RENAME testAssignment_InvalidInteger_()=>void testAssignment_InvalidInteger_Decimal() METHOD
+RefactoringAction 1475674329269 SpreadsheetTest.java RENAME testAssignment_InvalidInteger_Decimal()=>void testAssignment_InvalidInteger_Decimal_() METHOD
+RefactoringAction 1475674331778 SpreadsheetTest.java RENAME testAssignment_InvalidInteger_Decimal_()=>void testAssignment_InvalidInteger_DecimalPoint_() METHOD
+RefactoringAction 1475674337291 SpreadsheetTest.java RENAME testAssignment_InvalidInteger_DecimalPoint_()=>void testAssignment_InvalidInteger_DecimalPoint_Error() METHOD
+RefactoringAction 1475674346804 SpreadsheetTest.java RENAME testAssignment_InvalidInteger_DecimalPoint_Error()=>void testAssignmentInvalidInteger_DecimalPoint_Error() METHOD
+EditAction 1475674360156 SpreadsheetTest.java 677 4 10 3

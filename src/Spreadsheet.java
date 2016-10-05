@@ -1,6 +1,7 @@
+import java.util.HashMap;
 
 public class Spreadsheet {
-	HashMap mValues = new HashMap();
+	HashMap<String, String> mValues = new HashMap<String, String>();
 	
 	public String get(String cell) {
 		// to be implemented
@@ -8,11 +9,11 @@ public class Spreadsheet {
 	}
 	
 	public void set(String cell, String value) {
-		
+		mValues.put(cell, value);
 	}
 	
 	public String evaluate(String cell) {
-		return "-1";
+		return (String) mValues.get(cell);
 	}
 	
 }

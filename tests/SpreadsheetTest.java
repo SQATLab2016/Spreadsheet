@@ -15,19 +15,22 @@ public class SpreadsheetTest {
 	@Test
 	public void testAssignment_A1_Neg_1() {
 		sheet.set("A1", "-1");
-		
 		String result = sheet.evaluate("A1");
-		
 		assertEquals("-1", result);
 	}
-	
+
 	@Test
 	public void testAssignment_A1_Pos_1() {
 		sheet.set("A1", "1");
-		
 		String result = sheet.evaluate("A1");
-		
 		assertEquals("1", result);
+	}
+	
+	@Test
+	public void testAssignmentInvalidInteger_DecimalPoint_Error() {
+		sheet.set("A1", "1.");
+		String result = sheet.evaluate("A1");
+		assertEquals("#Error", result);
 	}
 
 }
