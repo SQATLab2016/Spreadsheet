@@ -1,0 +1,13 @@
+FileOpenedAction 1475674359330 SpreadsheetTest.java 162 1 1 0
+RefactoringAction 1475674364919 SpreadsheetTest.java RENAME test()=>void testSpread() METHOD
+RefactoringAction 1475674367423 SpreadsheetTest.java RENAME testSpread()=>void testSpreadS() METHOD
+RefactoringAction 1475674369934 SpreadsheetTest.java RENAME testSpreadS()=>void testSpreadSheet() METHOD
+RefactoringAction 1475674371941 SpreadsheetTest.java RENAME testSpreadSheet()=>void testSpreadSheet_() METHOD
+RefactoringAction 1475674374452 SpreadsheetTest.java RENAME testSpreadSheet_()=>void testSpreadSheet_se() METHOD
+RefactoringAction 1475674375957 SpreadsheetTest.java RENAME testSpreadSheet_se()=>void testSpreadSheet_set() METHOD
+RefactoringAction 1475674398468 SpreadsheetTest.java RENAME testSpreadSheet_set()=>void testSpreadSheet_setCell() METHOD
+RefactoringAction 1475674400473 SpreadsheetTest.java RENAME testSpreadSheet_setCell()=>void testSpreadSheet_setCellA FIELD
+RefactoringAction 1475674401978 SpreadsheetTest.java RENAME <initializer /1>=>void _2() METHOD
+RefactoringAction 1475674405490 SpreadsheetTest.java RENAME testSpreadSheet_setCellA1()=>void testSpreadSheet_setCellA1_() METHOD
+RefactoringAction 1475674406494 SpreadsheetTest.java RENAME testSpreadSheet_setCellA1_()=>void testSpreadSheet_setCellA1_1() METHOD
+EditAction 1475674433822 SpreadsheetTest.java 198 1 1 0

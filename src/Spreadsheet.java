@@ -1,6 +1,10 @@
+import java.util.HashMap;
+import java.util.Map;
 
 public class Spreadsheet {
 
+	Map<String,Integer> sheet = new HashMap<String,Integer>();
+	
 	public String get(String cell) {
 		// to be implemented
 		return null;
