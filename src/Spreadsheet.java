@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -41,7 +42,7 @@ public class Spreadsheet {
 		p = Pattern.compile("^=([\\d+\\-\\*/%]+)$");
 		m = p.matcher(value);
 		if (m.find()) {
-			return m.group(1).split("(?<=\\D)(?=\\d)|(?<=\\d)(?=\\D)")[1];
+			return Arrays.toString(m.group(1).split("(?<=\\D)(?=\\d)|(?<=\\d)(?=\\D)"));
 		}
 
 		// An integer
