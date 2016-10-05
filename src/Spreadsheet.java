@@ -9,13 +9,21 @@ public class Spreadsheet {
 	}
 	
 	public void set(String cell, String value) {
-		for (char c : value.toCharArray()) {
-			if (c < '0' || c > '9') {
-				value = "#Error";
-				break;
+		if (value.length() > 0) {
+			if (value.charAt(0) == '-') {
+				if (value.length() == 1) {
+					value = "#Error";
+				} else {
+					for (int i = 1; i < value.length(); i++) {
+						char c = value.charAt(i);
+						if (c < '0' || c > '9') {
+							value = "#Error";
+							break;
+						}
+					}
+				}
 			}
 		}
-		
 		mValues.put(cell, value);
 	}
 	
