@@ -11,7 +11,7 @@ public class Spreadsheet {
 	}
 	
 	public void set(String cell, int value) {
-		// to be implemented
+		sheet.put(cell, value);
 	}
 	
 	public String evaluate(String cell) {
