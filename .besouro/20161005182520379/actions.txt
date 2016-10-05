@@ -117,3 +117,11 @@ UnitTestSessionAction 1475682607820 SpreadsheetTest.java OK
 RefactoringAction 1475682613868 SpreadsheetTest.java ADD void test_set_and_evaluate_A1_equals_a_string_without_heading_quote()/2 METHOD
 RefactoringAction 1475682617886 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_equals_a_string_without_heading_quote()/2=>void test_set_and_evaluate_A1_equals_a_string_without_trailing_quote() METHOD
 EditAction 1475682624383 SpreadsheetTest.java 2193 11 33 11
+UnitTestCaseAction 1475682625518 SpreadsheetTest.java OK
+UnitTestSessionAction 1475682625518 SpreadsheetTest.java OK
+RefactoringAction 1475682655453 SpreadsheetTest.java ADD void test_set_and_evaluate_A1_equals_integer()/2 METHOD
+RefactoringAction 1475682658970 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_equals_integer()/2=>void test_set_and_evaluate_A1_equals_negative_integer() METHOD
+RefactoringAction 1475682669993 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_equals_negative_integer()=>void test_set_and_evaluate_A1_equals_n_integer() METHOD
+RefactoringAction 1475682671509 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_equals_n_integer()=>void test_set_and_evaluate_A1_equals__integer() METHOD
+RefactoringAction 1475682677026 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_equals__integer()=>void test_set_and_evaluate_A1_equals_invalid_integer() METHOD
+EditAction 1475682693310 SpreadsheetTest.java 2384 12 36 12
