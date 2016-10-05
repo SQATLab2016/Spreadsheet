@@ -100,4 +100,12 @@ public class SpreadsheetTest {
 		assertEquals("5", evaluatedValue);
 	}
 
+	@Test
+	public void test_cell_reference_invalid_integer() {
+		s.set("A5", "5A");
+		s.set("A1", "=A5");
+		String evaluatedValue = s.evaluate("A1");
+		assertEquals("#Error", evaluatedValue);
+	}
+
 }

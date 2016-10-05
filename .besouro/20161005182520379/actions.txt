@@ -161,3 +161,8 @@ CompilationAction 1475682977320 Spreadsheet.java
 UnitTestCaseAction 1475682978843 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475682978844 SpreadsheetTest.java FAIL
 EditAction 1475682988500 Spreadsheet.java 1209 3 17 0
+UnitTestCaseAction 1475682989563 SpreadsheetTest.java OK
+UnitTestSessionAction 1475682989563 SpreadsheetTest.java OK
+RefactoringAction 1475683015134 SpreadsheetTest.java ADD void test_cell_reference_integer()/2 METHOD
+RefactoringAction 1475683018151 SpreadsheetTest.java RENAME test_cell_reference_integer()/2=>void test_cell_reference_invalid_integer() METHOD
+EditAction 1475683028100 SpreadsheetTest.java 2821 14 44 14
