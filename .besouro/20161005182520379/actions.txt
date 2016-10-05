@@ -144,3 +144,6 @@ EditAction 1475682820920 SpreadsheetTest.java 2620 13 40 13
 UnitTestCaseAction 1475682822926 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475682822927 SpreadsheetTest.java FAIL
 EditAction 1475682912743 Spreadsheet.java 1209 3 17 0
+UnitTestCaseAction 1475682914282 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475682914282 SpreadsheetTest.java FAIL
+EditAction 1475682928529 Spreadsheet.java 1194 3 17 0
