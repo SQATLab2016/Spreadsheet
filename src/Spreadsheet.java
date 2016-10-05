@@ -26,6 +26,11 @@ public class Spreadsheet {
 		Matcher m = p.matcher(value);
 		if (m.find()) {
 			String referencedCell = m.group(1);
+			
+			if (this.referencedCells.contains(referencedCell)) {
+				return "#Circular";
+			}
+			
 			referencedCells.add(referencedCell);
 			return this.evaluate(referencedCell);
 		}

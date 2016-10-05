@@ -178,3 +178,4 @@ RefactoringAction 1475683227284 Spreadsheet.java ADD String FIELD
 RefactoringAction 1475683361426 Spreadsheet.java ADD import java.util.ArrayList IMPORT
 RefactoringAction 1475683365728 Spreadsheet.java ADD import java.util.List IMPORT
 EditAction 1475683438454 Spreadsheet.java 1486 3 18 0
+EditAction 1475683501441 Spreadsheet.java 1584 3 18 0
