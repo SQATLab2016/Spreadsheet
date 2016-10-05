@@ -64,4 +64,11 @@ public class SpreadsheetTest {
 		assertEquals("a string", evaluatedValue);
 	}
 
+	@Test
+	public void test_set_and_evaluate_A1_equals_integer() {
+		s.set("A1", "=8");
+		String evaluatedValue = s.evaluate("A1");
+		assertEquals("8", evaluatedValue);
+	}
+
 }
