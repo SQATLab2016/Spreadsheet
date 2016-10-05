@@ -25,10 +25,17 @@ public class SpreadsheetTest {
 		String result = sheet.evaluate("A1");
 		assertEquals("1", result);
 	}
+
+	@Test
+	public void testAssignmentInvalidInteger_Excess_DecimalPoint_Error() {
+		sheet.set("A1", "1.");
+		String result = sheet.evaluate("A1");
+		assertEquals("#Error", result);
+	}
 	
 	@Test
-	public void testAssignmentInvalidInteger_DecimalPoint_Error() {
-		sheet.set("A1", "1.");
+	public void testAssignmentInvalidInteger_Excess_A_Error() {
+		sheet.set("A1", "5A");
 		String result = sheet.evaluate("A1");
 		assertEquals("#Error", result);
 	}

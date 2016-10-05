@@ -60,3 +60,16 @@ EditAction 1475674763591 Spreadsheet.java 731 3 4 0
 UnitTestCaseAction 1475674765892 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475674765893 SpreadsheetTest.java FAIL
 EditAction 1475674903349 Spreadsheet.java 598 3 2 0
+CompilationAction 1475674905204 Spreadsheet.java
+CompilationAction 1475674905205 Spreadsheet.java
+CompilationAction 1475674931826 Spreadsheet.java
+CompilationAction 1475674931827 Spreadsheet.java
+UnitTestCaseAction 1475674956026 SpreadsheetTest.java OK
+UnitTestSessionAction 1475674956027 SpreadsheetTest.java OK
+RefactoringAction 1475674970366 SpreadsheetTest.java ADD void testAssignmentInvalidInteger_DecimalPoint_Error()/2 METHOD
+RefactoringAction 1475674975887 SpreadsheetTest.java RENAME testAssignmentInvalidInteger_DecimalPoint_Error()/2=>void testAssignmentInvalidInteger_A_Error() METHOD
+RefactoringAction 1475674978398 SpreadsheetTest.java RENAME testAssignmentInvalidInteger_DecimalPoint_Error()=>void testAssignmentInvalidInteger_ExDecimalPoint_Error() METHOD
+RefactoringAction 1475674981409 SpreadsheetTest.java RENAME testAssignmentInvalidInteger_ExDecimalPoint_Error()=>void testAssignmentInvalidInteger_ExcessDecimalPoint_Error() METHOD
+RefactoringAction 1475674982418 SpreadsheetTest.java RENAME testAssignmentInvalidInteger_ExcessDecimalPoint_Error()=>void testAssignmentInvalidInteger_Excess_DecimalPoint_Error() METHOD
+RefactoringAction 1475674985428 SpreadsheetTest.java RENAME testAssignmentInvalidInteger_A_Error()=>void testAssignmentInvalidInteger_Excess_A_Error() METHOD
+EditAction 1475674993208 SpreadsheetTest.java 855 5 13 4

@@ -9,17 +9,20 @@ public class Spreadsheet {
 	}
 	
 	public void set(String cell, String value) {
-		if (value.length() > 0) {
-			boolean isInteger = false,
-			for (int i = 1; i < value.length(); i++) {
-				char c = value.charAt(i);
-				if (i == 0 && )
-				if (c < '0' || c > '9') {
-					value = "#Error";
-					break;
-				}
+		boolean isInteger = true;
+		for (int i = 1; i < value.length(); i++) {
+			char c = value.charAt(i);
+			if (i == 0 && c == '-')
+				continue;
+			
+			if (c < '0' || c > '9') {
+				isInteger = false;
+				break;
 			}
 		}
+		
+		if (!isInteger)
+			value = "#Error";
 		
 		mValues.put(cell, value);
 	}
