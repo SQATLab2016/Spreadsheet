@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -6,6 +8,7 @@ import java.util.regex.Pattern;
 public class Spreadsheet {
 	
 	private Map<String, String> cells = new HashMap<String, String>();
+	private List<String> referencedCells = new ArrayList<String>();
 
 	public String get(String cell) {
 		return cells.get(cell);
@@ -22,8 +25,13 @@ public class Spreadsheet {
 		Pattern p = Pattern.compile("^=([A-Z]+\\d+)$");
 		Matcher m = p.matcher(value);
 		if (m.find()) {
-			return this.evaluate(m.group(1));
+			String referencedCell = m.group(1);
+			referencedCells.add(referencedCell);
+			return this.evaluate(referencedCell);
 		}
+		
+		// Reset referenced cell counter
+		this.referencedCells.clear();
 
 		// An integer
 		p = Pattern.compile("^=?(-?\\d+)$");

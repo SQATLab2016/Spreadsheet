@@ -172,3 +172,9 @@ RefactoringAction 1475683133277 SpreadsheetTest.java ADD void test_cell_referenc
 RefactoringAction 1475683136792 SpreadsheetTest.java RENAME test_cell_reference_invalid_integer()/2=>void test_circular_reference_invalid_integer() METHOD
 RefactoringAction 1475683139807 SpreadsheetTest.java RENAME test_circular_reference_invalid_integer()=>void test_circular_reference() METHOD
 EditAction 1475683154134 SpreadsheetTest.java 3014 15 48 15
+UnitTestCaseAction 1475683155535 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475683155536 SpreadsheetTest.java FAIL
+RefactoringAction 1475683227284 Spreadsheet.java ADD String FIELD
+RefactoringAction 1475683361426 Spreadsheet.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1475683365728 Spreadsheet.java ADD import java.util.List IMPORT
+EditAction 1475683438454 Spreadsheet.java 1486 3 18 0
