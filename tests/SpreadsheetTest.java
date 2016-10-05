@@ -29,4 +29,11 @@ public class SpreadsheetTest {
 		assertEquals("-1", evaluatedValue);
 	}
 
+	@Test
+	public void test_set_and_evaluate_A1_5A() {
+		s.set("A1", "-1");
+		String evaluatedValue = s.evaluate("A1");
+		assertEquals("#Error", evaluatedValue);
+	}
+
 }

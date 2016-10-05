@@ -35,3 +35,8 @@ EditAction 1475681595776 Spreadsheet.java 370 3 3 0
 UnitTestCaseAction 1475681598432 SpreadsheetTest.java OK
 UnitTestSessionAction 1475681598433 SpreadsheetTest.java OK
 EditAction 1475681672428 SpreadsheetTest.java 628 3 9 3
+UnitTestCaseAction 1475681673828 SpreadsheetTest.java OK
+UnitTestSessionAction 1475681673828 SpreadsheetTest.java OK
+RefactoringAction 1475681687143 SpreadsheetTest.java ADD void test_set_and_evaluate_A1_minus1()/2 METHOD
+RefactoringAction 1475681693173 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_minus1()/2=>void test_set_and_evaluate_A1_5A() METHOD
+EditAction 1475681705046 SpreadsheetTest.java 798 4 12 4
