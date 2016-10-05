@@ -18,17 +18,20 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		String value = this.get(cell);
 		
+		// An invalid integer
 		if (value.matches(".*\\d+.*") && value.matches(".*[^\\d-]+.*")) {
 			return "#Error";
 		}
 		
+		// A string
 		Pattern p = Pattern.compile("^'(.*)'$");
 		Matcher m = p.matcher(value);
 		if (m.find()) {
 			return m.group(1);
 		}
 		
-		p = Pattern.compile("^'(.*)[^']$");
+		// A string without a heading or trailing quote
+		p = Pattern.compile("^[^'](.*)'$|^'(.*)[^']$");
 		m = p.matcher(value);
 		if (m.find()) {
 			return "#Error";
