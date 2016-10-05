@@ -44,6 +44,13 @@ public class Spreadsheet {
 			return "#Error";
 		}
 		
+		// Cell reference
+		p = Pattern.compile("^=([A-Z]+\\d+)$");
+		m = p.matcher(value);
+		if (m.find()) {
+			return this.evaluate(m.group(1));
+		}
+		
 		return "#Error";
 	}
 	
