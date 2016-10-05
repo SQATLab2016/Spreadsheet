@@ -28,6 +28,12 @@ public class Spreadsheet {
 			return m.group(1);
 		}
 		
+		p = Pattern.compile("^'(.*)[^']$");
+		m = p.matcher(value);
+		if (m.find()) {
+			return "#Error";
+		}
+		
 		return "-1";
 	}
 	

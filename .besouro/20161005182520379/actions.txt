@@ -74,3 +74,6 @@ RefactoringAction 1475682147706 SpreadsheetTest.java ADD void test_set_and_evalu
 RefactoringAction 1475682149724 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_a_string()/2=>void test_set_and_evaluate_A1_a_string_() METHOD
 RefactoringAction 1475682154243 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_a_string_()=>void test_set_and_evaluate_A1_a_string_without_trailing_quote() METHOD
 EditAction 1475682160125 SpreadsheetTest.java 1190 6 18 6
+UnitTestCaseAction 1475682161527 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475682161527 SpreadsheetTest.java FAIL
+EditAction 1475682209225 Spreadsheet.java 814 3 11 0
