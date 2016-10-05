@@ -195,3 +195,6 @@ UnitTestCaseAction 1475683897173 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475683897173 SpreadsheetTest.java FAIL
 RefactoringAction 1475683976952 Spreadsheet.java ADD import java.util.Arrays IMPORT
 EditAction 1475683977607 Spreadsheet.java 1813 3 21 0
+UnitTestCaseAction 1475683978899 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475683978899 SpreadsheetTest.java FAIL
+EditAction 1475684010212 Spreadsheet.java 1813 3 21 0
