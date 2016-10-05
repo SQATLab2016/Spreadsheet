@@ -19,15 +19,15 @@ public class Spreadsheet {
 		String value = this.get(cell);
 		
 		// Cell reference
-		p = Pattern.compile("^=([A-Z]+\\d+)$");
-		m = p.matcher(value);
+		Pattern p = Pattern.compile("^=([A-Z]+\\d+)$");
+		Matcher m = p.matcher(value);
 		if (m.find()) {
-			return m.group(1);
+			return this.evaluate(m.group(1));
 		}
 
 		// An integer
-		Pattern p = Pattern.compile("^=?(-?\\d+)$");
-		Matcher m = p.matcher(value);
+		p = Pattern.compile("^=?(-?\\d+)$");
+		m = p.matcher(value);
 		if (m.find()) {
 			return m.group(1);
 		}
