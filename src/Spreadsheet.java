@@ -34,9 +34,15 @@ public class Spreadsheet {
 			referencedCells.add(referencedCell);
 			return this.evaluate(referencedCell);
 		}
-		
 		// Reset referenced cell counter
 		this.referencedCells.clear();
+		
+		// Integer operations
+		p = Pattern.compile("^=([\\d+\\-\\*/%]+)$");
+		m = p.matcher(value);
+		if (m.find()) {
+			return m.group(1).split("(?<=\\D)(?=\\d)|(?<=\\d)(?=\\D)")[0];
+		}
 
 		// An integer
 		p = Pattern.compile("^=?(-?\\d+)$");
