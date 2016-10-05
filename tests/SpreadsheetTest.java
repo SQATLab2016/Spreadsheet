@@ -57,4 +57,11 @@ public class SpreadsheetTest {
 		assertEquals("#Error", evaluatedValue);
 	}
 
+	@Test
+	public void test_set_and_evaluate_A1_equals_a_string() {
+		s.set("A1", "='a string'");
+		String evaluatedValue = s.evaluate("A1");
+		assertEquals("a string", evaluatedValue);
+	}
+
 }
