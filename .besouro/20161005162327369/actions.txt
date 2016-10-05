@@ -13,3 +13,10 @@ EditAction 1475674057673 SpreadsheetTest.java 363 2 4 1
 UnitTestCaseAction 1475674065053 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475674065054 SpreadsheetTest.java FAIL
 EditAction 1475674079540 Spreadsheet.java 241 3 2 0
+UnitTestCaseAction 1475674082276 SpreadsheetTest.java OK
+UnitTestSessionAction 1475674082277 SpreadsheetTest.java OK
+RefactoringAction 1475674094033 SpreadsheetTest.java ADD void testAssignment_A1_Neg_1()/2 METHOD
+RefactoringAction 1475674104052 SpreadsheetTest.java REMOVE testAssignment_A1_Neg_1()/2 METHOD
+RefactoringAction 1475674108563 SpreadsheetTest.java ADD void testAssignment_A1_Neg_1()/2 METHOD
+RefactoringAction 1475674112583 SpreadsheetTest.java RENAME testAssignment_A1_Neg_1()/2=>void testAssignment_A1_Pos_1() METHOD
+EditAction 1475674118513 SpreadsheetTest.java 514 3 7 2

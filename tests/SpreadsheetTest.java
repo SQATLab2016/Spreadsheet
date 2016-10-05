@@ -11,7 +11,7 @@ public class SpreadsheetTest {
 	public void initilize() {
 		sheet = new Spreadsheet();
 	}
-	
+
 	@Test
 	public void testAssignment_A1_Neg_1() {
 		sheet.set("A1", "-1");
@@ -19,6 +19,15 @@ public class SpreadsheetTest {
 		String result = sheet.evaluate("A1");
 		
 		assertEquals("-1", result);
+	}
+	
+	@Test
+	public void testAssignment_A1_Pos_1() {
+		sheet.set("A1", "1");
+		
+		String result = sheet.evaluate("A1");
+		
+		assertEquals("1", result);
 	}
 
 }
