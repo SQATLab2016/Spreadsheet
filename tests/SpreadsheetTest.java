@@ -71,4 +71,11 @@ public class SpreadsheetTest {
 		assertEquals("8", evaluatedValue);
 	}
 
+	@Test
+	public void test_set_and_evaluate_A1_equals_a_string_without_heading_quote() {
+		s.set("A1", "=a string'");
+		String evaluatedValue = s.evaluate("A1");
+		assertEquals("#Error", evaluatedValue);
+	}
+
 }
