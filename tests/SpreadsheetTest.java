@@ -108,4 +108,12 @@ public class SpreadsheetTest {
 		assertEquals("#Error", evaluatedValue);
 	}
 
+	@Test
+	public void test_circular_reference() {
+		s.set("A5", "=A1");
+		s.set("A1", "=A5");
+		String evaluatedValue = s.evaluate("A1");
+		assertEquals("#Circular", evaluatedValue);
+	}
+
 }

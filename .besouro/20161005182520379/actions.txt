@@ -166,3 +166,9 @@ UnitTestSessionAction 1475682989563 SpreadsheetTest.java OK
 RefactoringAction 1475683015134 SpreadsheetTest.java ADD void test_cell_reference_integer()/2 METHOD
 RefactoringAction 1475683018151 SpreadsheetTest.java RENAME test_cell_reference_integer()/2=>void test_cell_reference_invalid_integer() METHOD
 EditAction 1475683028100 SpreadsheetTest.java 2821 14 44 14
+UnitTestCaseAction 1475683030446 SpreadsheetTest.java OK
+UnitTestSessionAction 1475683030446 SpreadsheetTest.java OK
+RefactoringAction 1475683133277 SpreadsheetTest.java ADD void test_cell_reference_invalid_integer()/2 METHOD
+RefactoringAction 1475683136792 SpreadsheetTest.java RENAME test_cell_reference_invalid_integer()/2=>void test_circular_reference_invalid_integer() METHOD
+RefactoringAction 1475683139807 SpreadsheetTest.java RENAME test_circular_reference_invalid_integer()=>void test_circular_reference() METHOD
+EditAction 1475683154134 SpreadsheetTest.java 3014 15 48 15
