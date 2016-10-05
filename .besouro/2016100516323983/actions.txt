@@ -11,3 +11,7 @@ RefactoringAction 1475674401978 SpreadsheetTest.java RENAME <initializer /1>=>vo
 RefactoringAction 1475674405490 SpreadsheetTest.java RENAME testSpreadSheet_setCellA1()=>void testSpreadSheet_setCellA1_() METHOD
 RefactoringAction 1475674406494 SpreadsheetTest.java RENAME testSpreadSheet_setCellA1_()=>void testSpreadSheet_setCellA1_1() METHOD
 EditAction 1475674433822 SpreadsheetTest.java 198 1 1 0
+RefactoringAction 1475674590589 SpreadsheetTest.java RENAME testSpreadSheet_setCellA1_1()=>void testSpreadSheet_getCellA1_1() METHOD
+RefactoringAction 1475674596105 SpreadsheetTest.java RENAME testSpreadSheet_getCellA1_1()=>void testSpreadSheet_getCellA1After_1() METHOD
+RefactoringAction 1475674598118 SpreadsheetTest.java RENAME testSpreadSheet_getCellA1After_1()=>void testSpreadSheet_getCellA1AfterSet_1() METHOD
+EditAction 1475674639972 Spreadsheet.java 371 3 2 0

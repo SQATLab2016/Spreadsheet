@@ -10,7 +10,7 @@ public class Spreadsheet {
 		return null;
 	}
 	
-	public void set(String cell, String value) {
+	public void set(String cell, int value) {
 		// to be implemented
 	}
 	
