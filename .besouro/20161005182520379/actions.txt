@@ -21,3 +21,8 @@ RefactoringAction 1475681410195 Spreadsheet.java ADD import java.util.HashMap IM
 RefactoringAction 1475681417861 Spreadsheet.java ADD import java.util.Map IMPORT
 CompilationAction 1475681418855 Spreadsheet.java
 EditAction 1475681453058 Spreadsheet.java 394 3 3 0
+UnitTestCaseAction 1475681455019 SpreadsheetTest.java OK
+UnitTestSessionAction 1475681455020 SpreadsheetTest.java OK
+RefactoringAction 1475681531861 SpreadsheetTest.java ADD void test_set_and_get_A1_1()/2 METHOD
+RefactoringAction 1475681533384 SpreadsheetTest.java RENAME test_set_and_get_A1_1()/2=>void test_set_and_get_A1_ FIELD
+EditAction 1475681545921 SpreadsheetTest.java 618 3 9 3
