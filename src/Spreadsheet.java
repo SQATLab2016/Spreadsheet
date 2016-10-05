@@ -9,21 +9,28 @@ public class Spreadsheet {
 	}
 	
 	public void set(String cell, String value) {
-		boolean isInteger = true;
-		for (int i = 1; i < value.length(); i++) {
-			char c = value.charAt(i);
-			if (i == 0 && c == '-')
-				continue;
-			
-			if (c < '0' || c > '9') {
-				isInteger = false;
-				break;
+		if (value.length() > 0) {
+			if (value.charAt(0) == '\'') {
+				
+				
+			} else {
+				boolean isInteger = true;
+				for (int i = 1; i < value.length(); i++) {
+					char c = value.charAt(i);
+					if (i == 0 && c == '-')
+						continue;
+					
+					if (c < '0' || c > '9') {
+						isInteger = false;
+						break;
+					}
+				}
+				
+				if (!isInteger)
+					value = "#Error";
+				}
 			}
 		}
-		
-		if (!isInteger)
-			value = "#Error";
-		
 		mValues.put(cell, value);
 	}
 	
