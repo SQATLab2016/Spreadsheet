@@ -1,15 +1,24 @@
 import static org.junit.Assert.*;
 
-
+import org.junit.Before;
 import org.junit.Test;
 
 
 public class SpreadsheetTest {
-
+	Spreadsheet sheet;
+	
+	@Before
+	public void initilize() {
+		sheet = new Spreadsheet();
+	}
+	
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testAssignment_A1_Neg_1() {
+		sheet.set("A1", "-1");
 		
+		String result = sheet.evaluate("A1");
+		
+		assertEquals("-1", result);
 	}
 
 }

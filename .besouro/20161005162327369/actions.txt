@@ -1,0 +1,12 @@
+FileOpenedAction 1475673807464 SpreadsheetTest.java 162 1 1 0
+RefactoringAction 1475673852555 SpreadsheetTest.java RENAME test()=>void test_A_1() METHOD
+RefactoringAction 1475673854065 SpreadsheetTest.java RENAME test_A_1()=>void test_A1_() METHOD
+RefactoringAction 1475673857579 SpreadsheetTest.java RENAME test_A1_()=>void test_A1_MINUS() METHOD
+RefactoringAction 1475673859088 SpreadsheetTest.java RENAME test_A1_MINUS()=>void test_A1_MINUS_1() METHOD
+RefactoringAction 1475673876598 SpreadsheetTest.java RENAME test_A1_MINUS_1()=>void testAssignment_A1_MINUS_1() METHOD
+RefactoringAction 1475673908173 SpreadsheetTest.java ADD void initilize() METHOD
+RefactoringAction 1475673913691 SpreadsheetTest.java RENAME testAssignment_A1_MINUS_1()=>void testAssignment_A1_Minus_1() METHOD
+RefactoringAction 1475673919208 SpreadsheetTest.java RENAME testAssignment_A1_Minus_1()=>void testAssignment_A1_Neg_1() METHOD
+RefactoringAction 1475673930822 SpreadsheetTest.java ADD import org.junit.Before IMPORT
+RefactoringAction 1475673941255 SpreadsheetTest.java ADD Spreadsheet sheet FIELD
+EditAction 1475674057673 SpreadsheetTest.java 363 2 4 1
