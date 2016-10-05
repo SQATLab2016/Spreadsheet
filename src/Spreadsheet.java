@@ -3,7 +3,7 @@ import java.util.Map;
 
 public class Spreadsheet {
 
-	Map<String,Integer> sheet = new HashMap<String,Integer>();
+	Map<String,String> sheet = new HashMap<String,String>();
 	
 	public String get(String cell) {
 		return sheet.get(cell);
