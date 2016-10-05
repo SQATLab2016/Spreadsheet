@@ -28,9 +28,9 @@ public class Spreadsheet {
 				
 				if (!isInteger)
 					value = "#Error";
-				}
 			}
 		}
+	
 		mValues.put(cell, value);
 	}
 	
