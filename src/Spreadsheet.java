@@ -10,9 +10,12 @@ public class Spreadsheet {
 	
 	public void set(String cell, String value) {
 		for (char c : value.toCharArray()) {
-			if (c < '0' || c > '9')
+			if (c < '0' || c > '9') {
 				value = "#Error";
+				break;
+			}
 		}
+		
 		mValues.put(cell, value);
 	}
 	
