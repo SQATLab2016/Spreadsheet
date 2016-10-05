@@ -19,7 +19,7 @@ public class Spreadsheet {
 		String value = this.get(cell);
 
 		// An integer
-		Pattern p = Pattern.compile("^=?-?(\\d+)$");
+		Pattern p = Pattern.compile("^=?(-?\\d+)$");
 		Matcher m = p.matcher(value);
 		if (m.find()) {
 			return m.group(1);
