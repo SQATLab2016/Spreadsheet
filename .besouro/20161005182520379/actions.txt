@@ -68,3 +68,9 @@ UnitTestSessionAction 1475681973190 SpreadsheetTest.java FAIL
 RefactoringAction 1475682057624 Spreadsheet.java ADD import java.util.regex.Pattern IMPORT
 RefactoringAction 1475682092373 Spreadsheet.java ADD import java.util.regex.Matcher IMPORT
 EditAction 1475682112077 Spreadsheet.java 701 3 8 0
+UnitTestCaseAction 1475682114000 SpreadsheetTest.java OK
+UnitTestSessionAction 1475682114000 SpreadsheetTest.java OK
+RefactoringAction 1475682147706 SpreadsheetTest.java ADD void test_set_and_evaluate_A1_a_string()/2 METHOD
+RefactoringAction 1475682149724 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_a_string()/2=>void test_set_and_evaluate_A1_a_string_() METHOD
+RefactoringAction 1475682154243 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_a_string_()=>void test_set_and_evaluate_A1_a_string_without_trailing_quote() METHOD
+EditAction 1475682160125 SpreadsheetTest.java 1190 6 18 6
