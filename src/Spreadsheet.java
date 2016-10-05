@@ -1,5 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Spreadsheet {
 	
@@ -15,8 +17,15 @@ public class Spreadsheet {
 	
 	public String evaluate(String cell) {
 		String value = this.get(cell);
+		
 		if (value.matches(".*\\d+.*") && value.matches(".*[^\\d-]+.*")) {
 			return "#Error";
+		}
+		
+		Pattern p = Pattern.compile("^'(.*)'$");
+		Matcher m = p.matcher(value);
+		if (m.find()) {
+			return m.group(1);
 		}
 		
 		return "-1";

@@ -63,3 +63,8 @@ UnitTestSessionAction 1475681921470 SpreadsheetTest.java OK
 RefactoringAction 1475681957489 SpreadsheetTest.java ADD void test_set_and_evaluate_A1_5A()/2 METHOD
 RefactoringAction 1475681961006 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_5A()/2=>void test_set_and_evaluate_A1_a_string() METHOD
 EditAction 1475681970523 SpreadsheetTest.java 984 5 15 5
+UnitTestCaseAction 1475681973190 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475681973190 SpreadsheetTest.java FAIL
+RefactoringAction 1475682057624 Spreadsheet.java ADD import java.util.regex.Pattern IMPORT
+RefactoringAction 1475682092373 Spreadsheet.java ADD import java.util.regex.Matcher IMPORT
+EditAction 1475682112077 Spreadsheet.java 701 3 8 0
