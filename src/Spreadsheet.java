@@ -10,7 +10,8 @@ public class Spreadsheet {
 	
 	public void set(String cell, String value) {
 		if (value.length() > 0) {
-			if (value.charAt(0) == '-') {
+			if (value.charAt(0) == '-' || 
+					value.charAt(0) < '0' || value.charAt(0) > '9') {
 				if (value.length() == 1) {
 					value = "#Error";
 				} else {
