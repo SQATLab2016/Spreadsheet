@@ -1,8 +1,6 @@
 import static org.junit.Assert.*;
 
-
 import org.junit.Test;
-
 
 public class SpreadsheetTest {
 
@@ -10,6 +8,7 @@ public class SpreadsheetTest {
 	public void testSpreadSheet_getCellA1AfterSet_1() {
 		Spreadsheet oneSheet = new Spreadsheet();
 		oneSheet.set("A1", 1);
+		assertEquals(1, oneSheet.get("A1"));
 	}
 
 }
