@@ -98,3 +98,6 @@ UnitTestSessionAction 1475682381039 SpreadsheetTest.java OK
 RefactoringAction 1475682393087 SpreadsheetTest.java ADD void test_set_and_evaluate_A1_equals_a_string()/2 METHOD
 RefactoringAction 1475682397605 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_equals_a_string()/2=>void test_set_and_evaluate_A1_equals_integer() METHOD
 EditAction 1475682404817 SpreadsheetTest.java 1766 9 27 9
+UnitTestCaseAction 1475682406362 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475682406363 SpreadsheetTest.java FAIL
+EditAction 1475682507240 Spreadsheet.java 1052 3 14 0

@@ -17,6 +17,13 @@ public class Spreadsheet {
 	
 	public String evaluate(String cell) {
 		String value = this.get(cell);
+
+		// An integer
+		Pattern p = Pattern.compile("^=?(\\d+)$");
+		Matcher m = p.matcher(value);
+		if (m.find()) {
+			return m.group(1);
+		}
 		
 		// An invalid integer
 		if (value.matches(".*\\d+.*") && value.matches(".*[^\\d-]+.*")) {
@@ -24,8 +31,8 @@ public class Spreadsheet {
 		}
 		
 		// A string
-		Pattern p = Pattern.compile("^=?'(.*)'$");
-		Matcher m = p.matcher(value);
+		p = Pattern.compile("^=?'(.*)'$");
+		m = p.matcher(value);
 		if (m.find()) {
 			return m.group(1);
 		}
@@ -37,7 +44,7 @@ public class Spreadsheet {
 			return "#Error";
 		}
 		
-		return "-1";
+		return "#Error";
 	}
 	
 }
