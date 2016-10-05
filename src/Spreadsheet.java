@@ -1,5 +1,10 @@
 
 public class Spreadsheet {
+	
+	private HashMap<String, String> cells = new Map<String, String>();
+	{
+		
+	}
 
 	public String get(String cell) {
 		return "1";

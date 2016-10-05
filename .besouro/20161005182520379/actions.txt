@@ -9,3 +9,7 @@ RefactoringAction 1475681204021 SpreadsheetTest.java RENAME test_set_and_get()=>
 RefactoringAction 1475681350648 SpreadsheetTest.java ADD void test_set_and_get_A1_1()/2 METHOD
 RefactoringAction 1475681353167 SpreadsheetTest.java RENAME test_set_and_get_A1_1()/2=>void test_set_and_get_A1_2() METHOD
 EditAction 1475681355656 SpreadsheetTest.java 458 2 6 2
+UnitTestCaseAction 1475681357059 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475681357059 SpreadsheetTest.java FAIL
+RefactoringAction 1475681380432 Spreadsheet.java ADD HashMap<String,String> cells FIELD
+EditAction 1475681397904 Spreadsheet.java 341 3 2 0
