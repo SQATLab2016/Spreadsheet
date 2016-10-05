@@ -50,3 +50,6 @@ EditAction 1475681793510 Spreadsheet.java 462 3 4 0
 UnitTestCaseAction 1475681795147 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475681795147 SpreadsheetTest.java FAIL
 EditAction 1475681861542 Spreadsheet.java 499 3 5 0
+UnitTestCaseAction 1475681862976 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475681862976 SpreadsheetTest.java FAIL
+EditAction 1475681890495 Spreadsheet.java 516 3 6 0
