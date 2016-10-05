@@ -41,7 +41,7 @@ public class Spreadsheet {
 		p = Pattern.compile("^=([\\d+\\-\\*/%]+)$");
 		m = p.matcher(value);
 		if (m.find()) {
-			return m.group(1).split("(?<=\\D)(?=\\d)|(?<=\\d)(?=\\D)")[0];
+			return m.group(1).split("(?<=\\D)(?=\\d)|(?<=\\d)(?=\\D)")[1];
 		}
 
 		// An integer
