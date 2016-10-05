@@ -10,3 +10,6 @@ RefactoringAction 1475673919208 SpreadsheetTest.java RENAME testAssignment_A1_Mi
 RefactoringAction 1475673930822 SpreadsheetTest.java ADD import org.junit.Before IMPORT
 RefactoringAction 1475673941255 SpreadsheetTest.java ADD Spreadsheet sheet FIELD
 EditAction 1475674057673 SpreadsheetTest.java 363 2 4 1
+UnitTestCaseAction 1475674065053 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475674065054 SpreadsheetTest.java FAIL
+EditAction 1475674079540 Spreadsheet.java 241 3 2 0
