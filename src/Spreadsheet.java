@@ -24,7 +24,7 @@ public class Spreadsheet {
 		}
 		
 		// A string
-		Pattern p = Pattern.compile("^'(.*)'$");
+		Pattern p = Pattern.compile("^=?'(.*)'$");
 		Matcher m = p.matcher(value);
 		if (m.find()) {
 			return m.group(1);
