@@ -5,7 +5,7 @@ public class Spreadsheet {
 
 	Map<String,Integer> sheet = new HashMap<String,Integer>();
 	
-	public Integer get(String cell) {
+	public int get(String cell) {
 		return sheet.get(cell);
 	}
 	
