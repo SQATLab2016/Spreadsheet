@@ -26,3 +26,6 @@ EditAction 1475674785485 Spreadsheet.java 359 3 3 0
 UnitTestCaseAction 1475674791196 SpreadsheetTest.java OK
 UnitTestSessionAction 1475674791198 SpreadsheetTest.java OK
 EditAction 1475674805276 SpreadsheetTest.java 269 1 3 1
+CompilationAction 1475674806742 SpreadsheetTest.java
+RefactoringAction 1475674817664 Spreadsheet.java RENAME set(String, int)=>void set(String, String) METHOD
+EditAction 1475674817700 Spreadsheet.java 365 3 3 0
