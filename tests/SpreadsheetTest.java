@@ -23,7 +23,7 @@ public class SpreadsheetTest {
 	}
 
 	@Test
-	public void test_set_and_get_A1_minus1() {
+	public void test_set_and_evaluate_A1_minus1() {
 		s.set("A1", "-1");
 		String evaluatedValue = s.evaluate("A1");
 		assertEquals("-1", evaluatedValue);
