@@ -26,3 +26,6 @@ UnitTestSessionAction 1475681455020 SpreadsheetTest.java OK
 RefactoringAction 1475681531861 SpreadsheetTest.java ADD void test_set_and_get_A1_1()/2 METHOD
 RefactoringAction 1475681533384 SpreadsheetTest.java RENAME test_set_and_get_A1_1()/2=>void test_set_and_get_A1_ FIELD
 EditAction 1475681545921 SpreadsheetTest.java 618 3 9 3
+UnitTestCaseAction 1475681547466 SpreadsheetTest.java OK
+UnitTestSessionAction 1475681547466 SpreadsheetTest.java OK
+EditAction 1475681581793 SpreadsheetTest.java 623 3 9 3
