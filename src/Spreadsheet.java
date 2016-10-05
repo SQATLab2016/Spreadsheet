@@ -14,7 +14,7 @@ public class Spreadsheet {
 	}
 	
 	public String evaluate(String cell) {
-		if (cell.matches("\\d") && cell.matches("[^\\d]")) {
+		if (cell.matches(".*\\d+.*") && cell.matches("[^\\d]+")) {
 			return "#Error";
 		}
 		
