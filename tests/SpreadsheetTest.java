@@ -31,7 +31,7 @@ public class SpreadsheetTest {
 
 	@Test
 	public void test_set_and_evaluate_A1_5A() {
-		s.set("A1", "-1");
+		s.set("A1", "5A");
 		String evaluatedValue = s.evaluate("A1");
 		assertEquals("#Error", evaluatedValue);
 	}
