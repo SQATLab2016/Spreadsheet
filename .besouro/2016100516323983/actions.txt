@@ -15,3 +15,4 @@ RefactoringAction 1475674590589 SpreadsheetTest.java RENAME testSpreadSheet_setC
 RefactoringAction 1475674596105 SpreadsheetTest.java RENAME testSpreadSheet_getCellA1_1()=>void testSpreadSheet_getCellA1After_1() METHOD
 RefactoringAction 1475674598118 SpreadsheetTest.java RENAME testSpreadSheet_getCellA1After_1()=>void testSpreadSheet_getCellA1AfterSet_1() METHOD
 EditAction 1475674639972 Spreadsheet.java 371 3 2 0
+EditAction 1475674644549 SpreadsheetTest.java 228 1 2 0
