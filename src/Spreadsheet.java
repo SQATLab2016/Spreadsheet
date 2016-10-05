@@ -1,17 +1,16 @@
+import java.util.HashMap;
+import java.util.Map;
 
 public class Spreadsheet {
 	
-	private HashMap<String, String> cells = new Map<String, String>();
-	{
-		
-	}
+	private Map<String, String> cells = new HashMap<String, String>();
 
 	public String get(String cell) {
-		return "1";
+		return cells.get(cell);
 	}
 	
 	public void set(String cell, String value) {
-		// to be implemented
+		cells.put(cell, value);
 	}
 	
 	public String evaluate(String cell) {

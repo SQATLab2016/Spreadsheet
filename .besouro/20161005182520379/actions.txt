@@ -13,3 +13,11 @@ UnitTestCaseAction 1475681357059 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475681357059 SpreadsheetTest.java FAIL
 RefactoringAction 1475681380432 Spreadsheet.java ADD HashMap<String,String> cells FIELD
 EditAction 1475681397904 Spreadsheet.java 341 3 2 0
+CompilationAction 1475681398076 Spreadsheet.java
+CompilationAction 1475681398077 Spreadsheet.java
+CompilationAction 1475681405164 Spreadsheet.java
+CompilationAction 1475681405312 Spreadsheet.java
+RefactoringAction 1475681410195 Spreadsheet.java ADD import java.util.HashMap IMPORT
+RefactoringAction 1475681417861 Spreadsheet.java ADD import java.util.Map IMPORT
+CompilationAction 1475681418855 Spreadsheet.java
+EditAction 1475681453058 Spreadsheet.java 394 3 3 0
