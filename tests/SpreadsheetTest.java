@@ -32,12 +32,19 @@ public class SpreadsheetTest {
 		String result = sheet.evaluate("A1");
 		assertEquals("#Error", result);
 	}
-	
+
 	@Test
 	public void testAssignmentInvalidInteger_Excess_A_Error() {
 		sheet.set("A1", "5A");
 		String result = sheet.evaluate("A1");
 		assertEquals("#Error", result);
+	}
+	
+	@Test
+	public void testAssignment_A1_ValidString() {
+		sheet.set("A1", "'a string'");
+		String result = sheet.evaluate("A1");
+		assertEquals("a string", result);
 	}
 
 }

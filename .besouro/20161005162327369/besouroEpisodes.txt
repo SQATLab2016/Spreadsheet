@@ -41,3 +41,5 @@
 1475674956060 test-first 3 690 true
 1475674956061 test-first 3 690 true
 1475674956062 test-first 3 690 true
+1475674996032 test-addition 1 25 true
+1475674996033 test-addition 1 25 true

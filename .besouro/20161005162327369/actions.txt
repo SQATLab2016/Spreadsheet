@@ -73,3 +73,12 @@ RefactoringAction 1475674981409 SpreadsheetTest.java RENAME testAssignmentInvali
 RefactoringAction 1475674982418 SpreadsheetTest.java RENAME testAssignmentInvalidInteger_ExcessDecimalPoint_Error()=>void testAssignmentInvalidInteger_Excess_DecimalPoint_Error() METHOD
 RefactoringAction 1475674985428 SpreadsheetTest.java RENAME testAssignmentInvalidInteger_A_Error()=>void testAssignmentInvalidInteger_Excess_A_Error() METHOD
 EditAction 1475674993208 SpreadsheetTest.java 855 5 13 4
+UnitTestCaseAction 1475674996031 SpreadsheetTest.java OK
+UnitTestSessionAction 1475674996032 SpreadsheetTest.java OK
+RefactoringAction 1475675016450 SpreadsheetTest.java ADD void testAssignmentInvalidInteger_Excess_A_Error()/2 METHOD
+RefactoringAction 1475675024971 SpreadsheetTest.java RENAME testAssignmentInvalidInteger_Excess_A_Error()/2=>void testAssignment_() METHOD
+RefactoringAction 1475675026982 SpreadsheetTest.java RENAME testAssignment_()=>void testAssignment_A1() METHOD
+RefactoringAction 1475675027993 SpreadsheetTest.java RENAME testAssignment_A1()=>void testAssignment_A1_() METHOD
+RefactoringAction 1475675030005 SpreadsheetTest.java RENAME testAssignment_A1_()=>void testAssignment_A1_String() METHOD
+RefactoringAction 1475675035514 SpreadsheetTest.java RENAME testAssignment_A1_String()=>void testAssignment_A1_ValidString() METHOD
+EditAction 1475675054922 SpreadsheetTest.java 1022 6 16 5
