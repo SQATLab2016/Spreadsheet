@@ -7,8 +7,8 @@ public class SpreadsheetTest {
 	@Test
 	public void testSpreadSheet_getCellA1AfterSet_1() {
 		Spreadsheet oneSheet = new Spreadsheet();
-		oneSheet.set("A1", 1);
-		assertEquals(1, oneSheet.get("A1"));
+		oneSheet.set("A1", "1");
+		assertEquals("1", oneSheet.get("A1"));
 	}
 
 }

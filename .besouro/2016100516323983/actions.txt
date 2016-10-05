@@ -23,3 +23,6 @@ EditAction 1475674726052 Spreadsheet.java 374 3 3 0
 EditAction 1475674754915 Spreadsheet.java 363 3 3 0
 CompilationAction 1475674756333 SpreadsheetTest.java
 EditAction 1475674785485 Spreadsheet.java 359 3 3 0
+UnitTestCaseAction 1475674791196 SpreadsheetTest.java OK
+UnitTestSessionAction 1475674791198 SpreadsheetTest.java OK
+EditAction 1475674805276 SpreadsheetTest.java 269 1 3 1
