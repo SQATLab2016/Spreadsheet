@@ -112,3 +112,8 @@ UnitTestSessionAction 1475682540004 SpreadsheetTest.java OK
 RefactoringAction 1475682597309 SpreadsheetTest.java ADD void test_set_and_evaluate_A1_a_string_without_heading_quote()/2 METHOD
 RefactoringAction 1475682601828 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_a_string_without_heading_quote()/2=>void test_set_and_evaluate_A1_equals_a_string_without_heading_quote() METHOD
 EditAction 1475682606700 SpreadsheetTest.java 1979 10 30 10
+UnitTestCaseAction 1475682607820 SpreadsheetTest.java OK
+UnitTestSessionAction 1475682607820 SpreadsheetTest.java OK
+RefactoringAction 1475682613868 SpreadsheetTest.java ADD void test_set_and_evaluate_A1_equals_a_string_without_heading_quote()/2 METHOD
+RefactoringAction 1475682617886 SpreadsheetTest.java RENAME test_set_and_evaluate_A1_equals_a_string_without_heading_quote()/2=>void test_set_and_evaluate_A1_equals_a_string_without_trailing_quote() METHOD
+EditAction 1475682624383 SpreadsheetTest.java 2193 11 33 11
