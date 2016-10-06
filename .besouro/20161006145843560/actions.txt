@@ -173,3 +173,13 @@ RefactoringAction 1475761448125 Spreadsheet.java RENAME subtra(String, String)=>
 RefactoringAction 1475761474167 Spreadsheet.java ADD String subtraction(String, String)/2 METHOD
 RefactoringAction 1475761501181 Spreadsheet.java RENAME subtraction(String, String)/2=>String multiplication FIELD
 EditAction 1475761515245 Spreadsheet.java 1266 8 19 0
+RefactoringAction 1475761536252 Spreadsheet.java ADD String multiplication(String, String)/2 METHOD
+RefactoringAction 1475761544277 Spreadsheet.java RENAME multiplication(String, String)/2=>String divi(String, String) METHOD
+RefactoringAction 1475761546290 Spreadsheet.java RENAME divi(String, String)=>String division(String, String) METHOD
+RefactoringAction 1475761611332 Spreadsheet.java ADD String mo FIELD
+RefactoringAction 1475761612345 Spreadsheet.java RENAME mo=>String mod FIELD
+RefactoringAction 1475761613851 Spreadsheet.java RENAME mod=>String module FIELD
+RefactoringAction 1475761616354 Spreadsheet.java RENAME module=>String module() METHOD
+RefactoringAction 1475761621864 Spreadsheet.java RENAME module()=>String module(String) METHOD
+RefactoringAction 1475762022865 Spreadsheet.java ADD import org.hamcrest.core.SubstringMatcher IMPORT
+EditAction 1475762365665 Spreadsheet.java 1694 10 26 0

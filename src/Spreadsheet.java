@@ -1,3 +1,4 @@
+import org.hamcrest.core.SubstringMatcher;
 
 public class Spreadsheet {
 
@@ -57,6 +58,26 @@ public class Spreadsheet {
 		return result;
 
 	}
+	public String division(String value1, String value2) {
+
+		int parameter1 = Integer.parseInt(value1);
+		int parameter2 = Integer.parseInt(value2);
+
+		int var = parameter1 / parameter2;
+
+		String result = String.valueOf(var);
+		return result;
+
+	}
+	public String module(String value){
+		
+	if(value.substring(0).equals("-")){
+		value.substring(1);
+		return value;
+	}
+		return value;
+	}
+	
 
 	public boolean isInteger(String parameter) {
 
