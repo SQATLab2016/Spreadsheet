@@ -70,3 +70,6 @@ RefactoringAction 1475763450339 SpreadsheetTest.java ADD void testCreateCellA1_5
 RefactoringAction 1475763505465 SpreadsheetTest.java RENAME testCreateCellA1_5A()/2=>void testCreateCellA1astring() METHOD
 RefactoringAction 1475763513478 SpreadsheetTest.java REMOVE set() METHOD
 EditAction 1475763515350 SpreadsheetTest.java 776 5 13 4
+UnitTestCaseAction 1475763517210 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475763517210 SpreadsheetTest.java FAIL
+EditAction 1475764116999 Spreadsheet.java 936 3 7 0

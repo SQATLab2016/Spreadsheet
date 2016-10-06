@@ -33,6 +33,15 @@ public class Spreadsheet {
 			}
 			return value;
 		}
+		
+		else {
+			if(c == '\'' && value.substring(value.length() - 1).equals("'")) {
+				StringBuilder sb = new StringBuilder(value);
+				sb.deleteCharAt(0);
+				sb.deleteCharAt(sb.length()-1);
+				return sb.toString();
+			}
+		}
 		return null;
 	}
 	
