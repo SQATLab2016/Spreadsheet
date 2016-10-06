@@ -8,3 +8,4 @@ RefactoringAction 1475758787679 Spreadsheet.java ADD char FIELD
 RefactoringAction 1475758863258 Spreadsheet.java ADD Spreadsheet(char METHOD
 RefactoringAction 1475758874785 Spreadsheet.java RENAME Spreadsheet(char=>Spreadsheet() METHOD
 EditAction 1475758896582 Spreadsheet.java 667 5 6 0
+EditAction 1475758941749 SpreadsheetTest.java 304 1 4 1
