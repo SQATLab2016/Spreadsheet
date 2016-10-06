@@ -38,3 +38,6 @@ CompilationAction 1475755747737 SpreadsheetTest.java
 UnitTestCaseAction 1475755750009 SpreadsheetTest.java OK
 UnitTestSessionAction 1475755750010 SpreadsheetTest.java OK
 EditAction 1475755757534 SpreadsheetTest.java 331 1 5 2
+UnitTestCaseAction 1475755757822 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475755757822 SpreadsheetTest.java FAIL
+EditAction 1475755830734 SpreadsheetTest.java 364 1 5 1
