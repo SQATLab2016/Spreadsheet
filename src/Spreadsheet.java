@@ -22,8 +22,7 @@ public class Spreadsheet {
 			return getErrorString();
 		}
 			
-		else if (isArbitraryString(this.get(cell))) 
-		{
+		else if (isArbitraryString(this.get(cell))) {
 			return formatArbitraryStringForEvaluation(this.get(cell));
 		}
 			
