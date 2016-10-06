@@ -7,3 +7,6 @@ RefactoringAction 1475755881280 SpreadsheetTest.java RENAME test_setAndGet()=>vo
 RefactoringAction 1475755886290 SpreadsheetTest.java RENAME test_setAndGet_()=>void test_setAndGet_1() METHOD
 FileOpenedAction 1475755893535 TestRomanNumerals.java 2619 18 36 18
 EditAction 1475756027553 SpreadsheetTest.java 288 1 0 0
+CompilationAction 1475756027690 SpreadsheetTest.java
+CompilationAction 1475756027690 SpreadsheetTest.java
+EditAction 1475756030840 SpreadsheetTest.java 289 1 4 1
