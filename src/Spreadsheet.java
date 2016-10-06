@@ -13,20 +13,21 @@ public class Spreadsheet {
 	}
 	
 	public String evaluate(String cell) {
-		if (isIllegalInteger(this.get(cell))) {
-			return getErrorString();
-		}
 		
 		if (isIllegalString(this.get(cell))) {
 			return getErrorString();
 		}
 		
-		if (isArbitraryString(this.get(cell))) 
+		else if (isIllegalInteger(this.get(cell))) {
+			return getErrorString();
+		}
+			
+		else if (isArbitraryString(this.get(cell))) 
 		{
 			return formatArbitraryStringForEvaluation(this.get(cell));
 		}
-		
-		return cellValues.get(cell);
+			
+		else return cellValues.get(cell);
 	}
 
 	private boolean isIllegalString(String string) {
