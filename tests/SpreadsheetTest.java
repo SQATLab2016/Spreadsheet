@@ -24,7 +24,7 @@ public class SpreadsheetTest {
 		//Act
 		char[] alphabet = sheet.getAlphabet();
 		//Assert
-		assertEquals('A', alphabet[0]);
+		assertEquals('A', alphabet[1]);
 	}
 
 }
