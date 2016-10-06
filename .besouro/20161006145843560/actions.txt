@@ -184,3 +184,4 @@ RefactoringAction 1475761621864 Spreadsheet.java RENAME module()=>String module(
 RefactoringAction 1475762022865 Spreadsheet.java ADD import org.hamcrest.core.SubstringMatcher IMPORT
 EditAction 1475762365665 Spreadsheet.java 1694 10 26 0
 EditAction 1475762379001 Spreadsheet.java 1698 10 25 0
+EditAction 1475762390128 SpreadsheetTest.java 684 2 9 4

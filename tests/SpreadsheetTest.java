@@ -21,6 +21,7 @@ public class SpreadsheetTest {
 		
 		String add = cell1.addition(cell1.get(), cell2.get());
 		assertEquals("String: ", "124", add);
+		
 	}
 	
 	
