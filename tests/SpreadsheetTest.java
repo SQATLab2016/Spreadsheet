@@ -17,6 +17,14 @@ public class SpreadsheetTest {
 		assertEquals("1", result);
 	}
 	
-	
+	@Test
+	public void test_consctuctor_A() {
+		//Arrange
+		Spreadsheet sheet = new Spreadsheet();
+		//Act
+		char[] alphabet = sheet.getAlphabet();
+		//Assert
+		assertEquals('a', alphabet[0]);
+	}
 
 }

@@ -8,6 +8,10 @@ public class Spreadsheet {
 		createAlphabetArray();
 	}
 
+	public char[] getAlphabet(){
+		return alphabet;
+	}
+	
 	public String get(String cell) {
 		// to be implemented
 		return null;

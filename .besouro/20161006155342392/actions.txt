@@ -18,3 +18,7 @@ RefactoringAction 1475758970440 SpreadsheetTest.java RENAME test_consctuctor_1()
 RefactoringAction 1475758977453 SpreadsheetTest.java RENAME test_consctuctor_()=>void test_consctuctor_a() METHOD
 RefactoringAction 1475758978965 SpreadsheetTest.java RENAME test_consctuctor_a()=>void test_consctuctor_A() METHOD
 EditAction 1475758989779 Spreadsheet.java 667 5 6 0
+RefactoringAction 1475759082550 Spreadsheet.java ADD void getAlphabet() METHOD
+RefactoringAction 1475759096082 Spreadsheet.java RENAME getAlphabet()=>void chargetAlphabet() METHOD
+RefactoringAction 1475759099097 Spreadsheet.java RENAME chargetAlphabet()=>char METHOD
+EditAction 1475759270457 SpreadsheetTest.java 495 2 7 2
