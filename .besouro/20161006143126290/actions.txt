@@ -98,3 +98,14 @@ RefactoringAction 1475756881189 Spreadsheet.java REMOVE Spreadsheet() METHOD
 UnitTestCaseAction 1475756886871 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475756886872 SpreadsheetTest.java FAIL
 EditAction 1475757120520 Spreadsheet.java 547 3 6 0
+UnitTestCaseAction 1475757124080 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475757124081 SpreadsheetTest.java FAIL
+RefactoringAction 1475757300842 Cell.java RENAME Cell(String, String)=>Cell(String) METHOD
+RefactoringAction 1475757302852 Cell.java REMOVE name FIELD
+RefactoringAction 1475757305362 Cell.java REMOVE getName() METHOD
+RefactoringAction 1475757365407 Cell.java RENAME Cell(String)=>String name FIELD
+RefactoringAction 1475758391859 SpreadsheetTest.java ADD void SetCellName() METHOD
+RefactoringAction 1475758470073 Cell.java ADD void set FIELD
+RefactoringAction 1475758474584 Cell.java RENAME set=>void setName FIELD
+RefactoringAction 1475758478095 Cell.java RENAME setName=>void setName(String) METHOD
+EditAction 1475758529647 Spreadsheet.java 547 3 6 0
