@@ -14,7 +14,7 @@ public class SpreadsheetTest {
 		
 		
 	//	System.out.println("coisa: " + test1);
-		//assertEquals("String: ","0",test1);
+		assertEquals("String: ","0",test1);
 		
 		
 		
