@@ -123,3 +123,8 @@ EditAction 1475757713066 SpreadsheetTest.java 520 3 6 4
 RefactoringAction 1475758064971 SpreadsheetTest.java RENAME testIsInteger_A1_False()=>void assertTrue() METHOD
 RefactoringAction 1475758067484 SpreadsheetTest.java REMOVE assertTrue() METHOD
 EditAction 1475758083840 SpreadsheetTest.java 525 2 5 3
+UnitTestCaseAction 1475758086332 SpreadsheetTest.java OK
+UnitTestSessionAction 1475758086333 SpreadsheetTest.java OK
+RefactoringAction 1475758111980 Spreadsheet.java REMOVE isInteger(String) METHOD
+RefactoringAction 1475758115498 Spreadsheet.java ADD boolean isInteger(String) METHOD
+EditAction 1475758126966 Spreadsheet.java 534 5 5 0

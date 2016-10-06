@@ -18,22 +18,23 @@ public class Spreadsheet {
 		cellVar = value;
 
 	}
-	public boolean isInteger(String parameter){
-		
-		try { 
-	        Integer.parseInt(parameter); 
-	    } catch(NumberFormatException e) { 
-	        return false; 
-	    } catch(NullPointerException e) {
-	        return false;
-	    }
-	    
-	    return true;
-	}
 
 	public String evaluate(String cell) {
 		// to be implemented
 		return null;
+	}
+
+	public boolean isInteger(String parameter) {
+
+		try {
+			Integer.parseInt(parameter);
+		} catch (NumberFormatException e) {
+			return false;
+		} catch (NullPointerException e) {
+			return false;
+		}
+
+		return true;
 	}
 
 }
