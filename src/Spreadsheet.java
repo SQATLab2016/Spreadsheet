@@ -5,7 +5,6 @@ import java.util.List;
 
 public class Spreadsheet {
 	
-	public Spreadsheet(){List<Cell> Spreadsheet= new ArrayList<>();}
 	
 	List<Cell> Spreadsheet= new ArrayList<>();
 	
@@ -13,7 +12,7 @@ public class Spreadsheet {
 		int i = 0;
 		int index=0;
 		for (i=0;i<Spreadsheet.size();i++){
-			if (Spreadsheet.get(i).getName()==cell){index=i;}
+			if (Spreadsheet.get(i).name==cell){index=i;}
 		}
 		
 		return Spreadsheet.get(index).getValue() ;

@@ -92,3 +92,9 @@ EditAction 1475756737368 Spreadsheet.java 618 4 7 0
 CompilationAction 1475756739337 Spreadsheet.java
 EditAction 1475756739387 SpreadsheetTest.java 557 4 7 3
 EditAction 1475756741143 Cell.java 320 5 3 0
+UnitTestCaseAction 1475756742921 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475756742922 SpreadsheetTest.java FAIL
+RefactoringAction 1475756881189 Spreadsheet.java REMOVE Spreadsheet() METHOD
+UnitTestCaseAction 1475756886871 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475756886872 SpreadsheetTest.java FAIL
+EditAction 1475757120520 Spreadsheet.java 547 3 6 0
