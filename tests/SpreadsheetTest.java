@@ -35,5 +35,13 @@ public class SpreadsheetTest {
 		assertEquals("#Error", s);
 				
 	}
+	
+	@Test
+	public void testCreateCellA1astring() {
+		sheet.set("A1", "'a string'");
+		String s = sheet.evaluate("A1");
+		assertEquals("a string", s);
+				
+	}
 
 }
