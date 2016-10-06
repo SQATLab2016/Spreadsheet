@@ -13,3 +13,8 @@ EditAction 1475756030840 SpreadsheetTest.java 289 1 4 1
 CompilationAction 1475756031092 SpreadsheetTest.java
 CompilationAction 1475756053080 SpreadsheetTest.java
 EditAction 1475756063326 SpreadsheetTest.java 300 1 4 1
+UnitTestCaseAction 1475756065547 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475756065547 SpreadsheetTest.java FAIL
+RefactoringAction 1475756215022 Spreadsheet.java ADD ArrayList<ArrayList> matrix FIELD
+RefactoringAction 1475756230041 Spreadsheet.java RENAME matrix=>ArrayList<ArrayList> sheetMatrix FIELD
+RefactoringAction 1475756244049 Spreadsheet.java ADD import java.util.ArrayList IMPORT
