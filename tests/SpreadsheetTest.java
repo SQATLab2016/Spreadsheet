@@ -64,6 +64,13 @@ public class SpreadsheetTest {
 		assertEquals("#Error", value);
 	}
 	
+	@Test
+	public void test_SetEvaluateIllegalStringValue_teststring_WithoutTrailingQuoteCellA1() {
+		setCellValue("A1", "'teststring");
+		String value = evaluateCell("A1");
+		assertEquals("#Error", value);
+	}
+	
 	private String getCell(String cell) {
 		String value = sheet.get(cell);
 		return value;
