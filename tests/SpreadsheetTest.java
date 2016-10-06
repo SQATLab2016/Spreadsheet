@@ -43,5 +43,13 @@ public class SpreadsheetTest {
 		assertEquals("a string", s);
 				
 	}
+	
+	@Test
+	public void testCreateCellA1astringWithBadFormat() {
+		sheet.set("A1", "'a string");
+		String s = sheet.evaluate("A1");
+		assertEquals("#Error", s);
+				
+	}
 
 }
