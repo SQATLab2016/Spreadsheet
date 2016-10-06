@@ -18,13 +18,13 @@ public class SpreadsheetTest {
 	public void GetCellValue(){
 	
 		Cell.value="1";
-		assertEquals("","1",Cell.getValue());
+		assertEquals("",1,Cell.getValue());
 	}
 	
 	@Test
 	public void SetCellValue(){
 		Cell.setValue("2");
-		assertEquals("","2",Cell.value);
+		assertEquals("",2,Cell.value);
 	}
 	
 	@Test	
@@ -37,7 +37,7 @@ public class SpreadsheetTest {
 	@Test
 	public void NewCell(){
 		Spreadsheet.set("A2", "1");
-		assertEquals("","1",Spreadsheet.get("A2"));
+		assertEquals("",1,Spreadsheet.get("A2"));
 		
 	}
 	

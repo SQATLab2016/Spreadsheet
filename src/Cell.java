@@ -5,9 +5,7 @@ public class Cell  {
 	
 	
 	public Object getValue(){ 
-		if(Number.isNaN(Integer.parseInt(value,10))) {return this.value;}
-	
-		else return Integer.parseInt(value,10);
+		 return Integer.parseInt(value,10);
 	}
 	public void setValue(String value) {
 
