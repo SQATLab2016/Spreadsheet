@@ -10,8 +10,12 @@ public class Spreadsheet {
 	List<Cell> Spreadsheet= new ArrayList<>();
 	
 	public String get(String cell) {
-	
-		int index = Spreadsheet.indexOf(cell );
+		int i = 0;
+		int index=0;
+		for (i=0;i<Spreadsheet.size();i++){
+			if (Spreadsheet.get(i).getName()==cell){index=i;}
+		}
+		
 		return Spreadsheet.get(index).getValue() ;
 	}
 

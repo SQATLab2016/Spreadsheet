@@ -84,3 +84,8 @@ EditAction 1475756112351 Spreadsheet.java 541 4 5 0
 UnitTestCaseAction 1475756114742 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475756114744 SpreadsheetTest.java FAIL
 EditAction 1475756149962 Spreadsheet.java 536 4 5 0
+UnitTestCaseAction 1475756152345 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475756152346 SpreadsheetTest.java FAIL
+RefactoringAction 1475756527233 Cell.java ADD String getName FIELD
+RefactoringAction 1475756528745 Cell.java RENAME getName=>String getName() METHOD
+EditAction 1475756737368 Spreadsheet.java 618 4 7 0
