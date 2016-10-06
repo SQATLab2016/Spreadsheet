@@ -20,8 +20,15 @@ public class Spreadsheet {
 	}
 	public boolean isInteger(String parameter){
 		
-		return false;
-		
+		try { 
+	        Integer.parseInt(parameter); 
+	    } catch(NumberFormatException e) { 
+	        return false; 
+	    } catch(NullPointerException e) {
+	        return false;
+	    }
+	    
+	    return true;
 	}
 
 	public String evaluate(String cell) {
