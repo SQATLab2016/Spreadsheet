@@ -40,3 +40,4 @@ RefactoringAction 1475761372891 SpreadsheetTest.java ADD import org.junit.Before
 CompilationAction 1475761377331 SpreadsheetTest.java
 RefactoringAction 1475761463921 Cell.java ADD Cell(String, String) METHOD
 EditAction 1475761475432 Cell.java 396 5 6 0
+EditAction 1475761616333 Spreadsheet.java 364 3 3 0
