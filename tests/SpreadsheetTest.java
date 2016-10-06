@@ -36,8 +36,8 @@ public class SpreadsheetTest {
 	
 	@Test
 	public void NewCell(){
-		Spreadsheet.set("A1", "1");
-		assertEquals("","1",Spreadsheet.get("A1"));
+		Spreadsheet.set("A2", "1");
+		assertEquals("","1",Spreadsheet.get("A2"));
 		
 	}
 
