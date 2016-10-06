@@ -18,3 +18,5 @@ UnitTestSessionAction 1475756065547 SpreadsheetTest.java FAIL
 RefactoringAction 1475756215022 Spreadsheet.java ADD ArrayList<ArrayList> matrix FIELD
 RefactoringAction 1475756230041 Spreadsheet.java RENAME matrix=>ArrayList<ArrayList> sheetMatrix FIELD
 RefactoringAction 1475756244049 Spreadsheet.java ADD import java.util.ArrayList IMPORT
+FileOpenedAction 1475756281827 TestRomanNumerals.java 2619 18 36 18
+FileOpenedAction 1475756291993 RomanNumerals.java 2055 6 19 0
