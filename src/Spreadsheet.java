@@ -74,7 +74,7 @@ public class Spreadsheet {
 	if(value.substring(0).equals("-")){
 		value.substring(1);
 		return value;
-	}
+	}else
 		return value;
 	}
 	
