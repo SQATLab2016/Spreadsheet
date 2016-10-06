@@ -18,12 +18,12 @@ public class Spreadsheet {
 			return getErrorString();
 		}
 		
-		else if (isIllegalInteger(this.get(cell))) {
-			return getErrorString();
-		}
-			
 		else if (isArbitraryString(this.get(cell))) {
 			return formatArbitraryStringForEvaluation(this.get(cell));
+		}
+		
+		else if (isIllegalInteger(this.get(cell))) {
+			return getErrorString();
 		}
 			
 		else return cellValues.get(cell);
