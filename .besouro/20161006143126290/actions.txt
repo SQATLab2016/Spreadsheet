@@ -24,3 +24,5 @@ RefactoringAction 1475754202175 SpreadsheetTest.java RENAME GetCell=>void GetCel
 RefactoringAction 1475754206718 SpreadsheetTest.java RENAME GetCellValue=>void GetCellValue8 FIELD
 RefactoringAction 1475754208233 SpreadsheetTest.java RENAME GetCellValue8=>void GetCellValue() METHOD
 EditAction 1475754300743 Spreadsheet.java 351 4 3 0
+CompilationAction 1475754302535 Spreadsheet.java
+EditAction 1475754302593 SpreadsheetTest.java 285 2 4 1
