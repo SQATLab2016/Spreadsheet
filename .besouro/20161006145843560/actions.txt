@@ -9,3 +9,8 @@ UnitTestSessionAction 1475755229902 SpreadsheetTest.java FAIL
 RefactoringAction 1475755240864 Spreadsheet.java REMOVE cell FIELD
 RefactoringAction 1475755242875 Spreadsheet.java ADD String cell FIELD
 EditAction 1475755247925 Spreadsheet.java 336 4 3 0
+UnitTestCaseAction 1475755251773 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475755251773 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1475755257915 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475755257915 SpreadsheetTest.java FAIL
+EditAction 1475755302517 Spreadsheet.java 339 4 3 0

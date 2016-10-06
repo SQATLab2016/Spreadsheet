@@ -7,7 +7,8 @@ public class Spreadsheet {
 			
 	}
 	
-	String cell = "";
+	String cell = "0";
+	
 	
 
 	public String get( ){
