@@ -9,3 +9,6 @@ RefactoringAction 1475759533099 SpreadsheetTest.java RENAME GetCellValue=>void G
 RefactoringAction 1475759534620 SpreadsheetTest.java RENAME GetCellValue_=>void GetCellValue_INT FIELD
 RefactoringAction 1475759535647 SpreadsheetTest.java RENAME GetCellValue_INT=>void GetCellValue_INT() METHOD
 EditAction 1475759575219 SpreadsheetTest.java 749 6 11 5
+UnitTestCaseAction 1475759577530 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475759577531 SpreadsheetTest.java FAIL
+EditAction 1475760534654 Spreadsheet.java 547 3 6 0

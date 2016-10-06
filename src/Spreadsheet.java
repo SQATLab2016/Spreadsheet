@@ -8,7 +8,7 @@ public class Spreadsheet {
 	
 	List<Cell> Spreadsheet= new ArrayList<>();
 	
-	public String get(String cell) {
+	public Object get(String cell) {
 		int i = 0;
 		int index=0;
 		for (i=0;i<Spreadsheet.size();i++){
