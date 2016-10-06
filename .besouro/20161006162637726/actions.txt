@@ -53,3 +53,4 @@ RefactoringAction 1475761914545 SpreadsheetTest.java ADD void testCreateCellA1_m
 RefactoringAction 1475761919073 SpreadsheetTest.java RENAME testCreateCellA1_minus1()/2=>void testCreateCellA1_5() METHOD
 RefactoringAction 1475761920086 SpreadsheetTest.java RENAME testCreateCellA1_5()=>void testCreateCellA1_5A() METHOD
 EditAction 1475761995345 SpreadsheetTest.java 610 4 10 3
+EditAction 1475762016230 SpreadsheetTest.java 619 4 10 3

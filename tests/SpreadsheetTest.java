@@ -31,8 +31,8 @@ public class SpreadsheetTest {
 	@Test
 	public void testCreateCellA1_5A() {
 		sheet.set("A1", "5A");
-		String s = sheet.get("A1");
-		assertEquals("-1", s);
+		String s = sheet.evaluate("A1");
+		assertEquals("#Error", s);
 				
 	}
 
