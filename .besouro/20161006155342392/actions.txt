@@ -32,3 +32,8 @@ EditAction 1475759327750 SpreadsheetTest.java 495 2 7 2
 UnitTestCaseAction 1475759328101 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475759328102 SpreadsheetTest.java FAIL
 EditAction 1475759351059 Spreadsheet.java 723 6 7 0
+UnitTestCaseAction 1475759353635 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475759353635 SpreadsheetTest.java FAIL
+RefactoringAction 1475759363710 SpreadsheetTest.java ADD void test_consctuctor_A()/2 METHOD
+RefactoringAction 1475759366723 SpreadsheetTest.java RENAME test_consctuctor_A()/2=>void test_consctuctor_Z() METHOD
+EditAction 1475759373331 SpreadsheetTest.java 691 3 10 3

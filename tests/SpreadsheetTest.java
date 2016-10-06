@@ -26,5 +26,15 @@ public class SpreadsheetTest {
 		//Assert
 		assertEquals('A', alphabet[1]);
 	}
+	
+	@Test
+	public void test_consctuctor_Z() {
+		//Arrange
+		Spreadsheet sheet = new Spreadsheet();
+		//Act
+		char[] alphabet = sheet.getAlphabet();
+		//Assert
+		assertEquals('Z', alphabet[26]);
+	}
 
 }
