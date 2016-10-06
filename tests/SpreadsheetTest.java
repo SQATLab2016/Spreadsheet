@@ -71,6 +71,19 @@ public class SpreadsheetTest {
 		assertEquals("#Error", value);
 	}
 	
+	@Test
+	public void test_SetGetChangeIntegerValueFirstValue1SecondValue2CellA1() {
+		setCellValue("A1", "1");
+		setCellValue("A1", "2");
+		String value = evaluateCell("A1");
+		assertEquals("2", value);
+	}
+	
+	@Test
+	public void test_SetEvaluateFormula() {
+		fail("Not implemented");
+	}
+	
 	private String getCell(String cell) {
 		String value = sheet.get(cell);
 		return value;
