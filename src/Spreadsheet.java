@@ -30,8 +30,12 @@ public class Spreadsheet {
 	}
 
 	private boolean isIllegalInteger(String string) {
-		if (!string.matches("[0-9]+")) return true;
-		else return false;
+		try {
+			Long.parseLong(string);
+			return false;
+		} catch(NumberFormatException ex) {
+			return true;
+		}
 	}
 
 	private String formatArbitraryStringForEvaluation(String string) {
