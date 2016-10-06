@@ -30,7 +30,7 @@ public class Spreadsheet {
 	}
 
 	private boolean isIllegalString(String string) {
-		if (string.charAt(0) == '\'' && string.charAt(string.length() - 1) != '\'' || string.charAt(0) != '\'' && string.charAt(string.length() - 1) == '\'') {
+		if ((string.charAt(0) == '\'' && string.charAt(string.length() - 1) != '\'') || (string.charAt(0) != '\'' && string.charAt(string.length() - 1) == '\'')) {
 			return true;
 		}
 		return false;
