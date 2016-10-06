@@ -17,7 +17,16 @@ public class Spreadsheet {
 	}
 	
 	public String evaluate(String cell) {
-		// to be implemented
+		String value = get(cell);
+		char c = value.charAt(0);
+		
+		if(Character.isDigit(c) || c =='-')
+			for(char ch: value.toCharArray()){
+				if(!Character.isDigit(ch))
+					return "#Error";
+				else
+					return value;
+			}
 		return null;
 	}
 	
