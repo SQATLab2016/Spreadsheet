@@ -33,3 +33,8 @@ EditAction 1475755559988 SpreadsheetTest.java 308 1 3 1
 UnitTestCaseAction 1475755560317 SpreadsheetTest.java OK
 UnitTestSessionAction 1475755560317 SpreadsheetTest.java OK
 EditAction 1475755707607 SpreadsheetTest.java 344 1 5 2
+CompilationAction 1475755707697 SpreadsheetTest.java
+CompilationAction 1475755747737 SpreadsheetTest.java
+UnitTestCaseAction 1475755750009 SpreadsheetTest.java OK
+UnitTestSessionAction 1475755750010 SpreadsheetTest.java OK
+EditAction 1475755757534 SpreadsheetTest.java 331 1 5 2
