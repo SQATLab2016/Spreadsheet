@@ -33,3 +33,4 @@ UnitTestSessionAction 1475760570083 SpreadsheetTest.java FAIL
 RefactoringAction 1475760646927 Spreadsheet.java ADD boolean isIllegalInteger(String) METHOD
 RefactoringAction 1475760648957 Spreadsheet.java ADD String getErrorString() METHOD
 EditAction 1475760657900 Spreadsheet.java 1049 7 9 0
+EditAction 1475760878561 Spreadsheet.java 1026 7 9 0

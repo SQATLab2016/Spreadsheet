@@ -26,13 +26,12 @@ public class Spreadsheet {
 	}
 
 	private String getErrorString() {
-		// TODO Auto-generated method stub
 		return "#Error";
 	}
 
 	private boolean isIllegalInteger(String string) {
-		// TODO Auto-generated method stub
-		return false;
+		if (!string.matches("[0-9]+")) return true;
+		else return false;
 	}
 
 	private String formatArbitraryStringForEvaluation(String string) {
