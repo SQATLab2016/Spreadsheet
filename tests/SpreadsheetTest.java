@@ -1,7 +1,6 @@
 import static org.junit.Assert.*;
-
-
 import org.junit.Test;
+import org.junit.Before;
 
 
 public class SpreadsheetTest {
@@ -11,7 +10,6 @@ public class SpreadsheetTest {
 	@Before
 	public void init() {
 		sheet = new Spreadsheet();
-		sheet.init();
 	}
 
 	@Test
