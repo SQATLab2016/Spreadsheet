@@ -24,7 +24,7 @@ public class SpreadsheetTest {
 	@Test
 	public void SetCellValue(){
 		Cell.setValue("2");
-		assertEquals("",2,Cell.value);
+		assertEquals("","2",Cell.value);
 	}
 	
 	@Test	
