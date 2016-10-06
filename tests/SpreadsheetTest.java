@@ -40,5 +40,11 @@ public class SpreadsheetTest {
 		assertEquals("","1",Spreadsheet.get("A2"));
 		
 	}
+	
+	@Test
+	public void GetCellValue_INT(){
+		Cell.value="1";
+		assertEquals("",1,Cell.getValue());
+	}
 
 }
