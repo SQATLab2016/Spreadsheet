@@ -1,11 +1,18 @@
 
-public class Spreadsheet {
+public class Spreadsheet extends Cell {
+	
+	public Cell[] Spreadsheet;
 
 	public String get(String cell) {
-		// to be implemented
-		return null;
+		
+		return getCell().getValue();
 	}
 	
+	private Cell getCell() {
+		
+		return null;
+	}
+
 	public void set(String cell, String value) {
 		// to be implemented
 	}

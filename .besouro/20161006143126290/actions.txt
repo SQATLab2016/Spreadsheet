@@ -1,0 +1,26 @@
+FileOpenedAction 1475753486599 Spreadsheet.java 264 3 2 0
+RefactoringAction 1475753561287 Cell.java ADD Cell.java CLASS
+FileOpenedAction 1475753561425 Cell.java 28 0 0 0
+RefactoringAction 1475753582508 Cell.java ADD String cell FIELD
+RefactoringAction 1475753590552 Cell.java ADD String v FIELD
+RefactoringAction 1475753593063 Cell.java RENAME v=>String value FIELD
+RefactoringAction 1475753614630 Cell.java ADD String getValue FIELD
+RefactoringAction 1475753617647 Cell.java RENAME getValue=>String getValue() METHOD
+RefactoringAction 1475753632709 Cell.java RENAME getValue()=>String getValue(String) METHOD
+RefactoringAction 1475753640743 Cell.java RENAME getValue(String)=>String getValue() METHOD
+RefactoringAction 1475753708248 Spreadsheet.java ADD Object getCell() METHOD
+RefactoringAction 1475753779383 Spreadsheet.java ADD List<Cell> Spre FIELD
+RefactoringAction 1475753781410 Spreadsheet.java RENAME Spre=>List<Cell> Spread FIELD
+RefactoringAction 1475753782932 Spreadsheet.java RENAME Spread=>List<Cell> Spreadsheet FIELD
+RefactoringAction 1475753804526 Spreadsheet.java REMOVE Spreadsheet FIELD
+RefactoringAction 1475753913581 Cell.java RENAME cell=>String name FIELD
+RefactoringAction 1475753965624 Spreadsheet.java ADD List<Cell> Spread FIELD
+RefactoringAction 1475753973142 Spreadsheet.java RENAME Spread=>List<Cell> Spreadsheet FIELD
+RefactoringAction 1475754079281 Spreadsheet.java REMOVE Spreadsheet FIELD
+RefactoringAction 1475754092817 Spreadsheet.java ADD Cell FIELD
+RefactoringAction 1475754096335 Spreadsheet.java RENAME Sprea=>Cell FIELD
+RefactoringAction 1475754200161 SpreadsheetTest.java ADD void GetCell FIELD
+RefactoringAction 1475754202175 SpreadsheetTest.java RENAME GetCell=>void GetCellValue FIELD
+RefactoringAction 1475754206718 SpreadsheetTest.java RENAME GetCellValue=>void GetCellValue8 FIELD
+RefactoringAction 1475754208233 SpreadsheetTest.java RENAME GetCellValue8=>void GetCellValue() METHOD
+EditAction 1475754300743 Spreadsheet.java 351 4 3 0
