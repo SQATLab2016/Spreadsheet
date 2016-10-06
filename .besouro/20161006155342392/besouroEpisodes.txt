@@ -42,3 +42,5 @@
 1475761201277 test-last 1 2778 false
 1475761201278 test-first 3 2778 true
 1475761201279 test-first 3 2778 true
+1475761749959 test-addition 1 12 true
+1475761749960 test-addition 1 12 true

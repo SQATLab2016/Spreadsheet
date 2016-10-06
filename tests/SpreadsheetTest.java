@@ -29,6 +29,17 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
+	public void test_setAndGet_minus1() {
+		//Arrange
+		Spreadsheet sheet = new Spreadsheet();
+		//Act
+		sheet.set("A1", "-1");
+		String result = sheet.evaluate("A1");
+		//Assert
+		assertEquals("-1", result);
+	}
+	
+	@Test
 	public void test_consctuctor_A() {
 		//Arrange
 		Spreadsheet sheet = new Spreadsheet();

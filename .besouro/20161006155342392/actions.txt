@@ -89,3 +89,9 @@ UnitTestSessionAction 1475761201236 SpreadsheetTest.java OK
 RefactoringAction 1475761736988 SpreadsheetTest.java ADD void test_setAndGet_1()/2 METHOD
 RefactoringAction 1475761741498 SpreadsheetTest.java RENAME test_setAndGet_1()/2=>void test_setAndGet_minus1() METHOD
 EditAction 1475761748319 SpreadsheetTest.java 904 4 14 4
+UnitTestCaseAction 1475761749958 SpreadsheetTest.java OK
+UnitTestSessionAction 1475761749959 SpreadsheetTest.java OK
+RefactoringAction 1475761795530 SpreadsheetTest.java RENAME test_setAndGet_minus1()=>void test_setAndGet_1()/2 METHOD
+RefactoringAction 1475761798041 SpreadsheetTest.java RENAME test_setAndGet_1()/2=>void test_setAndGet_minus1() METHOD
+RefactoringAction 1475761801052 SpreadsheetTest.java ADD void test_setAndGet_minus1()/2 METHOD
+EditAction 1475761849572 SpreadsheetTest.java 1122 5 18 5
