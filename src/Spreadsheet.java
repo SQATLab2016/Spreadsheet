@@ -44,7 +44,6 @@ public class Spreadsheet {
 			else
 				return "#Error";
 		}
-		return null;
 	}
 	
 }
