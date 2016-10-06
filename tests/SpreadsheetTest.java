@@ -12,9 +12,9 @@ public class SpreadsheetTest {
 		Spreadsheet sheet = new Spreadsheet();
 		//Act
 		sheet.set("A1", "1");
-		int num = sheet.get("A1");
+		String result = sheet.get("A1");
 		//Assert
-		assertEquals(1, num);
+		assertEquals("1", result);
 	}
 
 }

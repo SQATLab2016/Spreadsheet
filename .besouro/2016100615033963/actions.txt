@@ -10,3 +10,6 @@ EditAction 1475756027553 SpreadsheetTest.java 288 1 0 0
 CompilationAction 1475756027690 SpreadsheetTest.java
 CompilationAction 1475756027690 SpreadsheetTest.java
 EditAction 1475756030840 SpreadsheetTest.java 289 1 4 1
+CompilationAction 1475756031092 SpreadsheetTest.java
+CompilationAction 1475756053080 SpreadsheetTest.java
+EditAction 1475756063326 SpreadsheetTest.java 300 1 4 1
