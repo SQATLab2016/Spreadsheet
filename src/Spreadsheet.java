@@ -19,13 +19,9 @@ public class Spreadsheet {
 
 	}
 
-	public void evaluate(String cell) {
+	public boolean evaluate(String cell) {
 		// to be implemented
-		if(cell.isEmpty()){
 			
-			
-		}
-		
 	}
 
 	public boolean isInteger(String parameter) {

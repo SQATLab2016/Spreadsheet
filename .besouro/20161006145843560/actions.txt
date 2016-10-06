@@ -133,3 +133,4 @@ UnitTestSessionAction 1475758553059 SpreadsheetTest.java OK
 RefactoringAction 1475758757174 Spreadsheet.java ADD void isEmpty() METHOD
 RefactoringAction 1475758758687 Spreadsheet.java REMOVE isEmpty() METHOD
 EditAction 1475758808281 Spreadsheet.java 554 5 5 0
+EditAction 1475759655616 Spreadsheet.java 524 5 4 0
