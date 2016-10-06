@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Spreadsheet {
-	ArrayList<ArrayList> sheetMatrix = new ArrayList(27);
+	ArrayList<ArrayList<String>> sheetMatrix = new ArrayList(27);
 	char[] alphabet = new char[27];
 	
 	public Spreadsheet() {
@@ -20,12 +20,14 @@ public class Spreadsheet {
 	public void set(String cell, String value) {
 		char row = cell.charAt(0);
 		char col = cell.charAt(1);
-		sheetMatrix.get(alphabetNumber(row)).add(col, value););
+		sheetMatrix.get(alphabetNumber(row)).add(col, value);
 	}
 	
 	public String evaluate(String cell) {
-		// to be implemented
-		return null;
+		char row = cell.charAt(0);
+		char col = cell.charAt(1);
+		return sheetMatrix.get(alphabetNumber(row)).get(col);
+		
 	}
 	
 	private void createAlphabetArray(){

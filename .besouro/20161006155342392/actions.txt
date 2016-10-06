@@ -47,3 +47,8 @@ RefactoringAction 1475759736418 Spreadsheet.java RENAME alphabetNumber()=>void a
 EditAction 1475759768828 Spreadsheet.java 897 7 10 0
 CompilationAction 1475759768948 Spreadsheet.java
 EditAction 1475759832754 Spreadsheet.java 918 7 7 0
+CompilationAction 1475759832880 Spreadsheet.java
+RefactoringAction 1475759850694 Spreadsheet.java REMOVE sheetMatrix FIELD
+RefactoringAction 1475759854723 Spreadsheet.java ADD ArrayList<ArrayList<String>> sheetMatrix FIELD
+CompilationAction 1475759860019 Spreadsheet.java
+EditAction 1475760108066 Spreadsheet.java 1003 7 12 0
