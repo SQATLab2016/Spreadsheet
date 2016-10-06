@@ -23,6 +23,13 @@ public class Spreadsheet {
 		// to be implemented
 			
 	}
+	
+	public String addition(){
+		String result ="";
+		
+		return result;
+		
+	}
 
 	public boolean isInteger(String parameter) {
 

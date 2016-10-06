@@ -149,3 +149,9 @@ EditAction 1475760429561 SpreadsheetTest.java 527 2 5 3
 UnitTestCaseAction 1475760429825 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475760429825 SpreadsheetTest.java FAIL
 EditAction 1475760441298 SpreadsheetTest.java 525 2 5 3
+UnitTestCaseAction 1475760441582 SpreadsheetTest.java OK
+UnitTestSessionAction 1475760441583 SpreadsheetTest.java OK
+RefactoringAction 1475760451860 SpreadsheetTest.java RENAME testIsInteger_213214_True()=>void testIsInteger_True() METHOD
+RefactoringAction 1475760705388 Spreadsheet.java ADD String addition FIELD
+RefactoringAction 1475760707909 Spreadsheet.java RENAME addition=>String addition() METHOD
+EditAction 1475760769512 Spreadsheet.java 597 6 6 0
