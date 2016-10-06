@@ -41,6 +41,8 @@ public class Spreadsheet {
 				sb.deleteCharAt(sb.length()-1);
 				return sb.toString();
 			}
+			else
+				return "#Error";
 		}
 		return null;
 	}
