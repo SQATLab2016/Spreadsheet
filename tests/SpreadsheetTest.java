@@ -22,7 +22,7 @@ public class SpreadsheetTest {
 	
 	@Test
 	public void testIsInteger_213214_True(){
-		assertTrue(sheet.isInteger("55"));
+		assertTrue(sheet.isInteger("jj55"));
 		
 	}
 	
