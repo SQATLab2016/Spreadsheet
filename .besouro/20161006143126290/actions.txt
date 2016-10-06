@@ -70,3 +70,6 @@ RefactoringAction 1475755652485 Spreadsheet.java ADD List<Cell> Spreadsheet FIEL
 RefactoringAction 1475755843838 Spreadsheet.java RENAME getCell()=>int index FIELD
 RefactoringAction 1475755845857 Spreadsheet.java REMOVE index FIELD
 EditAction 1475755909629 Spreadsheet.java 545 4 5 0
+CompilationAction 1475755911709 Spreadsheet.java
+CompilationAction 1475755911710 Spreadsheet.java
+EditAction 1475755911751 Cell.java 261 3 2 0

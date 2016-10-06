@@ -1,6 +1,6 @@
 
-public class Cell {
-	public String name;
+public class Cell  {
+	public static String name;
 	public String value;
 	
 	
@@ -9,6 +9,10 @@ public class Cell {
 
 	public void setValue(String value) {
 		this.value=value;
+		
+	}
+	public Cell(String name, String value){
+		
 		
 	}
 
