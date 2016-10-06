@@ -20,13 +20,18 @@ public class Spreadsheet {
 		String value = get(cell);
 		char c = value.charAt(0);
 		
-		if(Character.isDigit(c) || c =='-')
+		if(Character.isDigit(c) || c =='-') {
+			int counter = 0;
 			for(char ch: value.toCharArray()){
+				if(ch == '-') {
+					
+				}
+					
 				if(!Character.isDigit(ch))
 					return "#Error";
-				else
-					return value;
 			}
+			return value;
+		}
 		return null;
 	}
 	
