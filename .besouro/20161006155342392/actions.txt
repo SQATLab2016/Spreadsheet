@@ -52,3 +52,40 @@ RefactoringAction 1475759850694 Spreadsheet.java REMOVE sheetMatrix FIELD
 RefactoringAction 1475759854723 Spreadsheet.java ADD ArrayList<ArrayList<String>> sheetMatrix FIELD
 CompilationAction 1475759860019 Spreadsheet.java
 EditAction 1475760108066 Spreadsheet.java 1003 7 12 0
+UnitTestCaseAction 1475760111552 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760111552 SpreadsheetTest.java FAIL
+CompilationAction 1475760204753 Spreadsheet.java
+CompilationAction 1475760204753 Spreadsheet.java
+RefactoringAction 1475760375774 Spreadsheet.java REMOVE sheetMatrix FIELD
+RefactoringAction 1475760376788 Spreadsheet.java ADD ArrayList<ArrayList<S>> sheetMatrix FIELD
+CompilationAction 1475760397700 Spreadsheet.java
+CompilationAction 1475760397701 Spreadsheet.java
+CompilationAction 1475760397879 Spreadsheet.java
+CompilationAction 1475760397879 Spreadsheet.java
+CompilationAction 1475760397879 Spreadsheet.java
+CompilationAction 1475760404415 Spreadsheet.java
+CompilationAction 1475760404416 Spreadsheet.java
+CompilationAction 1475760404417 Spreadsheet.java
+UnitTestCaseAction 1475760407249 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760407250 SpreadsheetTest.java FAIL
+CompilationAction 1475760437001 Spreadsheet.java
+UnitTestCaseAction 1475760454061 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760454061 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1475760501785 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760501790 SpreadsheetTest.java FAIL
+RefactoringAction 1475760840658 Spreadsheet.java REMOVE sheetMatrix FIELD
+RefactoringAction 1475760882714 Spreadsheet.java ADD ArrayList<String FIELD
+UnitTestCaseAction 1475760886796 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760886796 SpreadsheetTest.java FAIL
+RefactoringAction 1475760946866 Spreadsheet.java REMOVE sheetMatrix FIELD
+RefactoringAction 1475760948878 Spreadsheet.java ADD String sheetMatrix FIELD
+RefactoringAction 1475760955399 Spreadsheet.java REMOVE sheetMatrix FIELD
+RefactoringAction 1475760989955 Spreadsheet.java ADD String FIELD
+CompilationAction 1475761122102 Spreadsheet.java
+CompilationAction 1475761148232 Spreadsheet.java
+CompilationAction 1475761148380 Spreadsheet.java
+UnitTestCaseAction 1475761201235 SpreadsheetTest.java OK
+UnitTestSessionAction 1475761201236 SpreadsheetTest.java OK
+RefactoringAction 1475761736988 SpreadsheetTest.java ADD void test_setAndGet_1()/2 METHOD
+RefactoringAction 1475761741498 SpreadsheetTest.java RENAME test_setAndGet_1()/2=>void test_setAndGet_minus1() METHOD
+EditAction 1475761748319 SpreadsheetTest.java 904 4 14 4

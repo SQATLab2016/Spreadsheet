@@ -1,10 +1,11 @@
 import java.util.ArrayList;
 
 public class Spreadsheet {
-	ArrayList<ArrayList<String>> sheetMatrix = new ArrayList(27);
+	String[][] sheetMatrix = new String[27][10000];
 	char[] alphabet = new char[27];
 	
 	public Spreadsheet() {
+		for(String[] ar : sheetMatrix)
 		createAlphabetArray();
 	}
 
@@ -13,20 +14,19 @@ public class Spreadsheet {
 	}
 	
 	public String get(String cell) {
-		// to be implemented
-		return null;
+		char row = cell.charAt(0);
+		char col = cell.charAt(1);
+		return sheetMatrix[alphabetNumber(row)][col];
 	}
 	
 	public void set(String cell, String value) {
 		char row = cell.charAt(0);
 		char col = cell.charAt(1);
-		sheetMatrix.get(alphabetNumber(row)).add(col, value);
+		sheetMatrix[alphabetNumber(row)][col] = value;
 	}
 	
 	public String evaluate(String cell) {
-		char row = cell.charAt(0);
-		char col = cell.charAt(1);
-		return sheetMatrix.get(alphabetNumber(row)).get(col);
+		return null;
 		
 	}
 	
