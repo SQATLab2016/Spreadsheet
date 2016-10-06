@@ -134,3 +134,6 @@ RefactoringAction 1475758757174 Spreadsheet.java ADD void isEmpty() METHOD
 RefactoringAction 1475758758687 Spreadsheet.java REMOVE isEmpty() METHOD
 EditAction 1475758808281 Spreadsheet.java 554 5 5 0
 EditAction 1475759655616 Spreadsheet.java 524 5 4 0
+CompilationAction 1475759655734 Spreadsheet.java
+CompilationAction 1475759660907 Spreadsheet.java
+EditAction 1475759718888 SpreadsheetTest.java 529 2 5 3

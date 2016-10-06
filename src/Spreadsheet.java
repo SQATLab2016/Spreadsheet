@@ -19,7 +19,7 @@ public class Spreadsheet {
 
 	}
 
-	public boolean evaluate(String cell) {
+	public void evaluate(String cell) {
 		// to be implemented
 			
 	}
