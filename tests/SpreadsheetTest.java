@@ -10,6 +10,7 @@ public class SpreadsheetTest {
 		Spreadsheet cell1 = new Spreadsheet();
 		
 		assertEquals("String: ", "0", cell1.get());
+		
 		cell1.set("123");
 
 
