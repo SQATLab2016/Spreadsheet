@@ -46,3 +46,27 @@ RefactoringAction 1475754551748 SpreadsheetTest.java RENAME New=>void NewCell FI
 RefactoringAction 1475754553763 SpreadsheetTest.java RENAME NewCell=>void NewCell() METHOD
 RefactoringAction 1475754644460 SpreadsheetTest.java ADD Spreadsheet Spreadsheet FIELD
 EditAction 1475754740004 SpreadsheetTest.java 551 4 7 3
+UnitTestCaseAction 1475754742686 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475754742687 SpreadsheetTest.java FAIL
+RefactoringAction 1475754784774 Cell.java ADD void ne FIELD
+RefactoringAction 1475754786287 Cell.java RENAME ne=>void newCell FIELD
+RefactoringAction 1475754788300 Cell.java RENAME newCell=>void newCell() METHOD
+RefactoringAction 1475754792320 Cell.java RENAME newCell()=>void newCell FIELD
+RefactoringAction 1475754793332 Cell.java RENAME newCell=>void newCell() METHOD
+RefactoringAction 1475754807871 Cell.java RENAME newCell()=>void newCell(String) METHOD
+RefactoringAction 1475754810881 Cell.java RENAME newCell(String)=>void newCell(String, String) METHOD
+RefactoringAction 1475755044498 Cell.java RENAME newCell(String, String)=>Cell(String, String) METHOD
+RefactoringAction 1475755102839 Spreadsheet.java ADD Spreadsheet(String, String) METHOD
+RefactoringAction 1475755263059 Spreadsheet.java REMOVE Spreadsheet(String, String) METHOD
+RefactoringAction 1475755322743 Spreadsheet.java ADD import java.lang.reflect.Array IMPORT
+RefactoringAction 1475755335682 Spreadsheet.java REMOVE Spreadsheet FIELD
+RefactoringAction 1475755364696 Spreadsheet.java ADD List<Cell> Spreadsheet FIELD
+RefactoringAction 1475755436405 Spreadsheet.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1475755440974 Spreadsheet.java ADD import java.util.List IMPORT
+RefactoringAction 1475755490824 Spreadsheet.java RENAME Spreadsheet=>Spreadsheet() METHOD
+RefactoringAction 1475755548402 Spreadsheet.java ADD import Cell IMPORT
+RefactoringAction 1475755563420 Spreadsheet.java REMOVE import Cell IMPORT
+RefactoringAction 1475755652485 Spreadsheet.java ADD List<Cell> Spreadsheet FIELD
+RefactoringAction 1475755843838 Spreadsheet.java RENAME getCell()=>int index FIELD
+RefactoringAction 1475755845857 Spreadsheet.java REMOVE index FIELD
+EditAction 1475755909629 Spreadsheet.java 545 4 5 0

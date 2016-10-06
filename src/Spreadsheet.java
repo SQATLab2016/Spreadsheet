@@ -1,20 +1,23 @@
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
 
-public class Spreadsheet extends Cell {
+
+public class Spreadsheet {
 	
-	public Cell[] Spreadsheet;
-
+	public Spreadsheet(){List<Cell> Spreadsheet= new ArrayList<>();}
+	
+	List<Cell> Spreadsheet= new ArrayList<>();
+	
 	public String get(String cell) {
-		
-		return getCell().getValue();
-	}
 	
-	private Cell getCell() {
-		
-		return null;
+		int index = Spreadsheet.indexOf(Cell.name=cell);
+		return Spreadsheet.get(index).getValue() ;
 	}
 
 	public void set(String cell, String value) {
-		// to be implemented
+		 Spreadsheet.add(new Cell(cell, value));
+		
 	}
 	
 	public String evaluate(String cell) {
