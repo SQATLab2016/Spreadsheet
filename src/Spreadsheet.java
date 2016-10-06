@@ -25,9 +25,9 @@ public class Spreadsheet {
 	}
 	
 	private void createAlphabetArray(){
-           for(char ch = 'a'; ch <= 'z'; ++ch)// fills alphabet array with the alphabet
+           for(char ch = 'A'; ch <= 'Z'; ++ch)// fills alphabet array with the alphabet
            {
-               alphabet[ch-'a']=ch;
+               alphabet[ch-'A']=ch;
            } 
     }
 

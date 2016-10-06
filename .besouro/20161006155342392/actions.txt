@@ -9,3 +9,12 @@ RefactoringAction 1475758863258 Spreadsheet.java ADD Spreadsheet(char METHOD
 RefactoringAction 1475758874785 Spreadsheet.java RENAME Spreadsheet(char=>Spreadsheet() METHOD
 EditAction 1475758896582 Spreadsheet.java 667 5 6 0
 EditAction 1475758941749 SpreadsheetTest.java 304 1 4 1
+RefactoringAction 1475758949383 SpreadsheetTest.java ADD char FIELD
+RefactoringAction 1475758950893 SpreadsheetTest.java REMOVE alphabet FIELD
+RefactoringAction 1475758954907 SpreadsheetTest.java ADD void test_setAndGet_1()/2 METHOD
+RefactoringAction 1475758964419 SpreadsheetTest.java RENAME test_setAndGet_1()/2=>void test_contru_1() METHOD
+RefactoringAction 1475758968429 SpreadsheetTest.java RENAME test_contru_1()=>void test_consctuctor_1() METHOD
+RefactoringAction 1475758970440 SpreadsheetTest.java RENAME test_consctuctor_1()=>void test_consctuctor_() METHOD
+RefactoringAction 1475758977453 SpreadsheetTest.java RENAME test_consctuctor_()=>void test_consctuctor_a() METHOD
+RefactoringAction 1475758978965 SpreadsheetTest.java RENAME test_consctuctor_a()=>void test_consctuctor_A() METHOD
+EditAction 1475758989779 Spreadsheet.java 667 5 6 0
