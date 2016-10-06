@@ -1,22 +1,26 @@
 
 public class Cell  {
-	public String name;
+	public  String name;
 	public String value;
 	
 	
 	public String getValue(){ return this.value;}
-	public String getName(){return this.name;}
 
 
 	public void setValue(String value) {
 		this.value=value;
 		
 	}
+	
+	public void setName(String name){
+		this.name=name;
+	}
+	
+	
 	public Cell(String name, String value){
-		
-		
+		this.value=value;
+		this.name=name;
 	}
-	public Cell(){
-	}
+	public Cell(){}
 
 }

@@ -110,3 +110,4 @@ RefactoringAction 1475758474584 Cell.java RENAME set=>void setName FIELD
 RefactoringAction 1475758478095 Cell.java RENAME setName=>void setName(String) METHOD
 EditAction 1475758529647 Spreadsheet.java 547 3 6 0
 EditAction 1475758531710 SpreadsheetTest.java 648 5 9 4
+EditAction 1475758533731 Cell.java 373 5 5 0
