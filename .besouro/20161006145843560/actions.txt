@@ -82,3 +82,25 @@ UnitTestCaseAction 1475756660623 SpreadsheetTest.java OK
 UnitTestSessionAction 1475756660623 SpreadsheetTest.java OK
 EditAction 1475756697443 SpreadsheetTest.java 291 1 4 2
 EditAction 1475756710324 SpreadsheetTest.java 290 1 4 2
+RefactoringAction 1475756905401 SpreadsheetTest.java ADD void test FIELD
+RefactoringAction 1475756906912 SpreadsheetTest.java RENAME test=>void testIs FIELD
+RefactoringAction 1475756909922 SpreadsheetTest.java RENAME testIs=>void testIsIntiger FIELD
+RefactoringAction 1475756921433 SpreadsheetTest.java RENAME testIsIntiger=>void testIsInteger FIELD
+RefactoringAction 1475756924944 SpreadsheetTest.java RENAME testIsInteger=>void testIsInteger_ FIELD
+RefactoringAction 1475756945457 SpreadsheetTest.java RENAME testIsInteger_=>void testIsInteger_20 FIELD
+RefactoringAction 1475756946469 SpreadsheetTest.java RENAME testIsInteger_20=>void testIsInteger_2 FIELD
+RefactoringAction 1475756947480 SpreadsheetTest.java RENAME testIsInteger_2=>void testIsInteger_213 FIELD
+RefactoringAction 1475756949492 SpreadsheetTest.java RENAME testIsInteger_213=>void testIsInteger_213214 FIELD
+RefactoringAction 1475756954003 SpreadsheetTest.java RENAME testIsInteger_213214=>void testIsInteger_213214_ FIELD
+RefactoringAction 1475756955014 SpreadsheetTest.java RENAME testIsInteger_213214_=>void testIsInteger_213214_T FIELD
+RefactoringAction 1475756956025 SpreadsheetTest.java RENAME testIsInteger_213214_T=>void testIsInteger_213214_Ture FIELD
+RefactoringAction 1475756957035 SpreadsheetTest.java RENAME testIsInteger_213214_Ture=>void testIsInteger_213214_T FIELD
+RefactoringAction 1475756959045 SpreadsheetTest.java RENAME testIsInteger_213214_T=>void testIsInteger_213214_True FIELD
+RefactoringAction 1475756964056 SpreadsheetTest.java RENAME testIsInteger_213214_True=>void testIsInteger_213214_True() METHOD
+RefactoringAction 1475757063222 SpreadsheetTest.java ADD Spreadsheet cell1 FIELD
+RefactoringAction 1475757066732 SpreadsheetTest.java RENAME cell1=>Spreadsheet sheet FIELD
+RefactoringAction 1475757122759 SpreadsheetTest.java ADD void testIsInteger_213214_True()/2 METHOD
+RefactoringAction 1475757128773 SpreadsheetTest.java RENAME testIsInteger_213214_True()/2=>void testIsInteger_213214_() METHOD
+RefactoringAction 1475757133286 SpreadsheetTest.java RENAME testIsInteger_213214_()=>void testIsInteger_213214_False() METHOD
+RefactoringAction 1475757144800 SpreadsheetTest.java RENAME testIsInteger_213214_False()=>void testIsInteger_A1_False() METHOD
+EditAction 1475757159913 SpreadsheetTest.java 520 3 6 4

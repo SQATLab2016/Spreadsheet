@@ -3,7 +3,8 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class SpreadsheetTest {
-
+	Spreadsheet sheet = new Spreadsheet();
+	
 	@Test
 	public void test() {
 
@@ -15,6 +16,18 @@ public class SpreadsheetTest {
 
 		assertEquals("String: ", "123", cell1.get());
 
+	}
+	
+	@Test
+	public void testIsInteger_213214_True(){
+		assertTrue(sheet.isInteger("213214"));
+		
+	}
+	
+	@Test
+	public void testIsInteger_A1_False(){
+		assertTrue(sheet.isInteger("A1"));
+		
 	}
 
 }
