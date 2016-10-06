@@ -61,3 +61,4 @@ RefactoringAction 1475756058711 Spreadsheet.java RENAME set(String)=>void set FI
 EditAction 1475756087203 Spreadsheet.java 334 4 3 0
 CompilationAction 1475756087300 SpreadsheetTest.java
 EditAction 1475756107605 SpreadsheetTest.java 353 1 6 2
+EditAction 1475756114880 SpreadsheetTest.java 355 1 6 2
