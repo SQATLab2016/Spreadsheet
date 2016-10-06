@@ -116,3 +116,7 @@ RefactoringAction 1475757242566 Spreadsheet.java RENAME isInteger=>boolean isInt
 RefactoringAction 1475757336177 Spreadsheet.java RENAME isInteger()=>boolean isInteger(String) METHOD
 EditAction 1475757399805 Spreadsheet.java 384 5 4 0
 EditAction 1475757642794 Spreadsheet.java 571 5 5 0
+UnitTestCaseAction 1475757684360 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475757684361 SpreadsheetTest.java FAIL
+RefactoringAction 1475757708905 SpreadsheetTest.java RENAME test()=>Spreadsheet cell1 FIELD
+EditAction 1475757713066 SpreadsheetTest.java 520 3 6 4
