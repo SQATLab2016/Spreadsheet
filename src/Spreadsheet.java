@@ -19,5 +19,15 @@ public class Spreadsheet {
 		}
 		return cellValues.get(cell);
 	}
+
+	private String formatArbitraryStringForEvaluation(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private boolean isArbitraryString(String string) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 	
 }
