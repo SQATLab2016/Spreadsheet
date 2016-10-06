@@ -120,3 +120,6 @@ UnitTestCaseAction 1475757684360 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475757684361 SpreadsheetTest.java FAIL
 RefactoringAction 1475757708905 SpreadsheetTest.java RENAME test()=>Spreadsheet cell1 FIELD
 EditAction 1475757713066 SpreadsheetTest.java 520 3 6 4
+RefactoringAction 1475758064971 SpreadsheetTest.java RENAME testIsInteger_A1_False()=>void assertTrue() METHOD
+RefactoringAction 1475758067484 SpreadsheetTest.java REMOVE assertTrue() METHOD
+EditAction 1475758083840 SpreadsheetTest.java 525 2 5 3

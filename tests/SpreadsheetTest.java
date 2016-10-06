@@ -24,10 +24,9 @@ public class SpreadsheetTest {
 		
 	}
 	
-	@Test
-	public void testIsInteger_A1_False(){
-		assertTrue(sheet.isInteger("A1"));
-		
-	}
+	//@Test
+	//public void testIsInteger_A1_False(){
+	//	assertTrue(sheet.isInteger("A1"));
+	//}
 
 }
