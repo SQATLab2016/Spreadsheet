@@ -1,2 +1,32 @@
 FileOpenedAction 1475760397941 SpreadsheetTest.java 323 2 5 1
 EditAction 1475760420015 SpreadsheetTest.java 326 2 5 1
+CompilationAction 1475760420171 SpreadsheetTest.java
+CompilationAction 1475760420171 SpreadsheetTest.java
+UnitTestCaseAction 1475760425033 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760425034 SpreadsheetTest.java FAIL
+RefactoringAction 1475760476452 TableCell.java ADD TableCell.java CLASS
+FileOpenedAction 1475760476609 TableCell.java 33 0 0 0
+RefactoringAction 1475760491520 TableCell.java REMOVE TableCell.java CLASS
+RefactoringAction 1475760512672 Tablecell.java ADD Tablecell.java CLASS
+FileOpenedAction 1475760512792 Tablecell.java 33 0 0 0
+RefactoringAction 1475760549974 Tablecell.java REMOVE Tablecell.java CLASS
+RefactoringAction 1475760566738 Cell.java ADD Cell.java CLASS
+FileOpenedAction 1475760566858 Cell.java 28 0 0 0
+RefactoringAction 1475760581353 Spreadsheet.java ADD Cell cells FIELD
+RefactoringAction 1475760630905 Cell.java ADD String id FIELD
+RefactoringAction 1475760639419 Cell.java ADD String value FIELD
+RefactoringAction 1475760652935 Cell.java ADD String getId() METHOD
+RefactoringAction 1475760652936 Cell.java ADD void setId(String) METHOD
+RefactoringAction 1475760652937 Cell.java ADD String getValue() METHOD
+RefactoringAction 1475760652938 Cell.java ADD void setValue(String) METHOD
+RefactoringAction 1475760792258 Cell.java REMOVE Cell.java CLASS
+RefactoringAction 1475760797474 Spreadsheet.java REMOVE cells FIELD
+RefactoringAction 1475761112631 Cell.java ADD Cell.java CLASS
+FileOpenedAction 1475761112776 Cell.java 28 0 0 0
+RefactoringAction 1475761133807 Cell.java ADD String id FIELD
+RefactoringAction 1475761133808 Cell.java ADD String value FIELD
+RefactoringAction 1475761157828 Cell.java ADD String getId() METHOD
+RefactoringAction 1475761157829 Cell.java ADD void setId(String) METHOD
+RefactoringAction 1475761157829 Cell.java ADD String getValue() METHOD
+RefactoringAction 1475761157830 Cell.java ADD void setValue(String) METHOD
+EditAction 1475761180142 Cell.java 291 4 4 0
