@@ -11,7 +11,7 @@ public class Spreadsheet {
 	
 	public String get(String cell) {
 	
-		int index = Spreadsheet.indexOf(Cell.name=cell);
+		int index = Spreadsheet.indexOf(Cell.name );
 		return Spreadsheet.get(index).getValue() ;
 	}
 
