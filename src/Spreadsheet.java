@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Spreadsheet {
 	ArrayList<ArrayList> sheetMatrix = new ArrayList(27);
-	char[] alphabet = new char[26];
+	char[] alphabet = new char[27];
 	
 	public Spreadsheet() {
 		createAlphabetArray();
