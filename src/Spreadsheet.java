@@ -21,13 +21,14 @@ public class Spreadsheet {
 	}
 
 	private String formatArbitraryStringForEvaluation(String string) {
-		// TODO Auto-generated method stub
-		return null;
+		return string.substring(1, string.length() - 1);
 	}
 
 	private boolean isArbitraryString(String string) {
-		// TODO Auto-generated method stub
-		return false;
+		if (string.charAt(0) == '\'' && string.charAt(string.length() - 1) == '\'') {
+			return true;
+		}
+		else return false;
 	}
 	
 }

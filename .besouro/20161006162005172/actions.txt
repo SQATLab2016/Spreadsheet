@@ -7,3 +7,8 @@ CompilationAction 1475760146982 Spreadsheet.java
 RefactoringAction 1475760149134 Spreadsheet.java ADD boolean isArbitraryString(String) METHOD
 RefactoringAction 1475760152012 Spreadsheet.java ADD String formatArbitraryStringForEvaluation(String) METHOD
 EditAction 1475760158533 Spreadsheet.java 700 5 6 0
+UnitTestCaseAction 1475760162959 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760162960 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1475760407081 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760407082 SpreadsheetTest.java FAIL
+EditAction 1475760415249 Spreadsheet.java 767 5 6 0
