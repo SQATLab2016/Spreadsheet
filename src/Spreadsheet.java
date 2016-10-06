@@ -11,7 +11,7 @@ public class Spreadsheet {
 	
 	
 
-	public String get( ){
+	public String get(){
 		// to be implemented
 		return cell;
 		
