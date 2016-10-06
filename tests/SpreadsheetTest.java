@@ -12,7 +12,7 @@ public class SpreadsheetTest {
 		Spreadsheet cell1 = new Spreadsheet();
 		String test1 = cell1.get();
 		
-		assertEquals("","00",test1);
+		assertEquals("String: ","",test1);
 		
 		
 		

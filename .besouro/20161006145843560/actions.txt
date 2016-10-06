@@ -2,3 +2,10 @@ FileOpenedAction 1475755123789 SpreadsheetTest.java 285 1 4 1
 UnitTestCaseAction 1475755129075 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475755129076 SpreadsheetTest.java FAIL
 EditAction 1475755208944 Spreadsheet.java 337 4 3 0
+UnitTestCaseAction 1475755216062 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475755216062 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1475755229902 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475755229902 SpreadsheetTest.java FAIL
+RefactoringAction 1475755240864 Spreadsheet.java REMOVE cell FIELD
+RefactoringAction 1475755242875 Spreadsheet.java ADD String cell FIELD
+EditAction 1475755247925 Spreadsheet.java 336 4 3 0

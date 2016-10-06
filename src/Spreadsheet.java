@@ -1,14 +1,13 @@
 
 public class Spreadsheet {
 	
-	String cell = "";
-	
+		
 	public Spreadsheet(){
 		
 			
 	}
 	
-	
+	String cell = "";
 	
 
 	public String get( ){
