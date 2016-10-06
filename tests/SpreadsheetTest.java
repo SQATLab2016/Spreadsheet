@@ -19,5 +19,13 @@ public class SpreadsheetTest {
 		assertEquals("1", s);
 				
 	}
+	
+	@Test
+	public void testCreateCellA1_minus1() {
+		sheet.set("A1", "-1");
+		String s = sheet.get("A1");
+		assertEquals("-1", s);
+				
+	}
 
 }
