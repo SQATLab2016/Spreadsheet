@@ -23,12 +23,13 @@ public class Spreadsheet {
 		if(Character.isDigit(c) || c =='-') {
 			int counter = 0;
 			for(char ch: value.toCharArray()){
-				if(ch == '-') {
+				if(ch == '-' && counter == 0) {
 					
 				}
 					
-				if(!Character.isDigit(ch))
+				else if(!Character.isDigit(ch))
 					return "#Error";
+				counter++;
 			}
 			return value;
 		}
