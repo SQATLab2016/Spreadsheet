@@ -23,6 +23,14 @@ public class SpreadsheetTest {
 	@Test
 	public void testCreateCellA1_minus1() {
 		sheet.set("A1", "-1");
+		String s = sheet.evaluate("A1");
+		assertEquals("-1", s);
+				
+	}
+	
+	@Test
+	public void testCreateCellA1_5A() {
+		sheet.set("A1", "5A");
 		String s = sheet.get("A1");
 		assertEquals("-1", s);
 				
