@@ -17,7 +17,22 @@ public class Spreadsheet {
 		{
 			return formatArbitraryStringForEvaluation(this.get(cell));
 		}
+		
+		if (isIllegalInteger(this.get(cell)))
+		{
+			return getErrorString();
+		}
 		return cellValues.get(cell);
+	}
+
+	private String getErrorString() {
+		// TODO Auto-generated method stub
+		return "#Error";
+	}
+
+	private boolean isIllegalInteger(String string) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 	private String formatArbitraryStringForEvaluation(String string) {
