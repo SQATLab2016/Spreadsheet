@@ -57,6 +57,13 @@ public class SpreadsheetTest {
 		assertEquals("teststring", value);
 	}
 	
+	@Test
+	public void test_SetEvaluateIllegalIntegerValue5ACellA1() {
+		setCellValue("A1", "5A");
+		String value = evaluateCell("A1");
+		assertEquals("#Error", value);
+	}
+	
 	private String getCell(String cell) {
 		String value = sheet.get(cell);
 		return value;
