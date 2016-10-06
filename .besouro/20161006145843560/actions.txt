@@ -158,3 +158,4 @@ EditAction 1475760769512 Spreadsheet.java 597 6 6 0
 RefactoringAction 1475760786661 Spreadsheet.java RENAME addition()=>String addition(String) METHOD
 RefactoringAction 1475760807211 Spreadsheet.java RENAME addition(String)=>String addition(String, String) METHOD
 EditAction 1475761211813 Spreadsheet.java 765 6 9 0
+EditAction 1475761213861 SpreadsheetTest.java 520 2 5 3

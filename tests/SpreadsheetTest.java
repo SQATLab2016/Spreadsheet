@@ -21,10 +21,11 @@ public class SpreadsheetTest {
 	
 	
 	@Test
-	public void testIsInteger_213214_True(){
+	public void testIsInteger_True(){
 		assertTrue(sheet.isInteger("55"));
 		
 	}
+	
 	
 	//@Test
 	//public void testIsInteger_A1_False(){
