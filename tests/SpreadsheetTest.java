@@ -24,9 +24,14 @@ public class SpreadsheetTest {
 	@Test
 	public void SetCellValue(){
 		Cell.setValue("2");
-		assertEquals("","2",Cell.getValue());
+		assertEquals("","2",Cell.value);
 	}
 	
+	@Test	
+	public void SetCellName(){
+		Cell.setName("A1");
+		assertEquals("","A1",Cell.name);
+	}
 	
 	
 	@Test
