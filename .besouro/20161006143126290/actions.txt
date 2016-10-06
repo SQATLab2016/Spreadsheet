@@ -73,3 +73,8 @@ EditAction 1475755909629 Spreadsheet.java 545 4 5 0
 CompilationAction 1475755911709 Spreadsheet.java
 CompilationAction 1475755911710 Spreadsheet.java
 EditAction 1475755911751 Cell.java 261 3 2 0
+CompilationAction 1475755913799 SpreadsheetTest.java
+UnitTestCaseAction 1475755916384 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475755916385 SpreadsheetTest.java FAIL
+RefactoringAction 1475755930139 Cell.java ADD Cell() METHOD
+EditAction 1475755942680 Cell.java 282 4 2 0
