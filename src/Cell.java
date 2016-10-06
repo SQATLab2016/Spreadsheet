@@ -1,10 +1,11 @@
 
 public class Cell  {
-	public static String name;
+	public String name;
 	public String value;
 	
 	
 	public String getValue(){ return this.value;}
+	public String getName(){return this.name;}
 
 
 	public void setValue(String value) {
