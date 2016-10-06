@@ -53,3 +53,9 @@ EditAction 1475755956569 SpreadsheetTest.java 357 1 6 2
 UnitTestCaseAction 1475755959047 SpreadsheetTest.java OK
 UnitTestSessionAction 1475755959048 SpreadsheetTest.java OK
 EditAction 1475755973296 SpreadsheetTest.java 360 1 6 2
+RefactoringAction 1475756014578 Spreadsheet.java RENAME cell=>String cellvar FIELD
+RefactoringAction 1475756016589 Spreadsheet.java RENAME cellvar=>String cell FIELD
+RefactoringAction 1475756018100 Spreadsheet.java RENAME cell=>String cellVar FIELD
+RefactoringAction 1475756057698 Spreadsheet.java RENAME set(String, String)=>void set(String) METHOD
+RefactoringAction 1475756058711 Spreadsheet.java RENAME set(String)=>void set FIELD
+EditAction 1475756087203 Spreadsheet.java 334 4 3 0

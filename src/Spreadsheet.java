@@ -7,19 +7,20 @@ public class Spreadsheet {
 			
 	}
 	
-	String cell = "0";
+	String cellVar="0";
+	
 	
 	
 
 	public String get(){
 		// to be implemented
-		return cell;
+		return cellVar;
 		
 	}
 	
-	public void set(String cell, String value) {
+	public void set(String value) {
 		// to be implemented
-		cell = value;
+		cellVar = value;
 		
 	}
 	
