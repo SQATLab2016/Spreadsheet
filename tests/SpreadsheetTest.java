@@ -8,8 +8,8 @@ public class SpreadsheetTest {
 	public void test() {
 
 		Spreadsheet cell1 = new Spreadsheet();
-		String test1 = cell1.get();
-		assertEquals("String: ", "0", test1);
+		
+		assertEquals("String: ", "0", cell1.get());
 		cell1.set("123");
 
 
