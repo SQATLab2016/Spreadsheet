@@ -11,11 +11,11 @@ public class SpreadsheetTest {
 		
 		Spreadsheet cell1 = new Spreadsheet();
 		String test1 = cell1.get();
-		
-		
-	//	System.out.println("coisa: " + test1);
 		assertEquals("String: ","0",test1);
 		
+		String test2 = cell1.set(test1, "123");		
+		
+		assertEquals("String: ","0",test1);
 		
 		
 		
