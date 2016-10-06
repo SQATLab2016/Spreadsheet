@@ -37,3 +37,5 @@ RefactoringAction 1475754413708 SpreadsheetTest.java RENAME SetCellValue=>void S
 RefactoringAction 1475754434320 SpreadsheetTest.java ADD Cell Cell FIELD
 RefactoringAction 1475754497755 Cell.java ADD void setValue(String) METHOD
 EditAction 1475754526818 SpreadsheetTest.java 390 3 5 2
+CompilationAction 1475754528803 SpreadsheetTest.java
+EditAction 1475754528868 Cell.java 199 2 2 0
