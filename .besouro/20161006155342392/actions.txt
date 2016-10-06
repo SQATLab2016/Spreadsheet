@@ -37,3 +37,11 @@ UnitTestSessionAction 1475759353635 SpreadsheetTest.java FAIL
 RefactoringAction 1475759363710 SpreadsheetTest.java ADD void test_consctuctor_A()/2 METHOD
 RefactoringAction 1475759366723 SpreadsheetTest.java RENAME test_consctuctor_A()/2=>void test_consctuctor_Z() METHOD
 EditAction 1475759373331 SpreadsheetTest.java 691 3 10 3
+UnitTestCaseAction 1475759374635 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475759374635 SpreadsheetTest.java FAIL
+RefactoringAction 1475759581002 Spreadsheet.java ADD void alphabe FIELD
+RefactoringAction 1475759583020 Spreadsheet.java RENAME alphabe=>void alphabet/2 FIELD
+RefactoringAction 1475759585539 Spreadsheet.java RENAME alphabet/2=>void alphabetNumber FIELD
+RefactoringAction 1475759602056 Spreadsheet.java RENAME alphabetNumber=>void alphabetNumber() METHOD
+RefactoringAction 1475759736418 Spreadsheet.java RENAME alphabetNumber()=>void alphabetNumber(char) METHOD
+EditAction 1475759768828 Spreadsheet.java 897 7 10 0

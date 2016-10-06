@@ -20,7 +20,7 @@ public class Spreadsheet {
 	public void set(String cell, String value) {
 		char row = cell.charAt(0);
 		char col = cell.charAt(1);
-		
+		sheetMatrix.get(alphabetNumber());
 	}
 	
 	public String evaluate(String cell) {
@@ -34,5 +34,14 @@ public class Spreadsheet {
                alphabet[ch-'A'+1]=ch;
            } 
     }
+	
+	private int alphabetNumber(char c){
+		for(int i = 1; i<27; i++)
+        {
+			if(alphabet[i]==c)
+				return i;
+        } 
+		return -1;
+	}
 
 }
