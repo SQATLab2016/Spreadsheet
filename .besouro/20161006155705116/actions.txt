@@ -13,3 +13,11 @@ UnitTestCaseAction 1475759577530 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475759577531 SpreadsheetTest.java FAIL
 EditAction 1475760534654 Spreadsheet.java 547 3 6 0
 EditAction 1475760537538 Cell.java 446 5 5 0
+CompilationAction 1475760539675 Cell.java
+UnitTestCaseAction 1475760545107 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760545108 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1475760786374 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760786375 SpreadsheetTest.java FAIL
+RefactoringAction 1475761764728 Cell.java ADD void isNaN() METHOD
+RefactoringAction 1475761766744 Cell.java REMOVE isNaN() METHOD
+EditAction 1475762182258 Cell.java 471 5 5 0
