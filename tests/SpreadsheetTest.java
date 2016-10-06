@@ -26,6 +26,9 @@ public class SpreadsheetTest {
 		Cell.setValue("2");
 		assertEquals("","2",Cell.getValue());
 	}
+	
+	
+	
 	@Test
 	public void NewCell(){
 		Spreadsheet.set("A1", "1");
