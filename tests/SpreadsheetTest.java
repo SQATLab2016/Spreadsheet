@@ -16,7 +16,7 @@ public class SpreadsheetTest {
 	public void GetCellValue(){
 		Cell Cell = new Cell();
 		Cell.value="1";
-		assertEquals("",1,Cell.getValue());
+		assertEquals("","1",Cell.getValue());
 	}
 
 }
