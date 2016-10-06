@@ -5,7 +5,10 @@ public class Spreadsheet {
 	
 	
 	public String get(String cell) {
-		// to be implemented
+		for(Cell c: cells) {
+			if(cell.equals(c.getId()))
+				return c.getValue();
+		}
 		return null;
 	}
 	
