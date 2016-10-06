@@ -21,14 +21,19 @@ public class Spreadsheet {
 
 	public void evaluate(String cell) {
 		// to be implemented
-			
+
 	}
-	
-	public String addition(){
-		String result ="";
-		
+
+	public String addition(String value1, String value2) {
+
+		int parameter1 = Integer.parseInt(value1);
+		int parameter2 = Integer.parseInt(value2);
+
+		int var = parameter1 + parameter2;
+
+		String result = String.valueOf(var);
 		return result;
-		
+
 	}
 
 	public boolean isInteger(String parameter) {
