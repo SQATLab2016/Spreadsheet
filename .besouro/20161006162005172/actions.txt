@@ -1,0 +1,4 @@
+FileOpenedAction 1475760005407 SpreadsheetTest.java 1526 10 25 7
+UnitTestCaseAction 1475760013851 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760013853 SpreadsheetTest.java FAIL
+EditAction 1475760144895 Spreadsheet.java 467 3 4 0

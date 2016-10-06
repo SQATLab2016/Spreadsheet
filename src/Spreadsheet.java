@@ -1,18 +1,23 @@
+import java.util.HashMap;
 
 public class Spreadsheet {
+	
+	HashMap<String, String> cellValues = new HashMap<String, String>();
 
 	public String get(String cell) {
-		// to be implemented
-		return null;
+		return cellValues.get(cell);
 	}
 	
 	public void set(String cell, String value) {
-		// to be implemented
+		cellValues.put(cell, value);
 	}
 	
 	public String evaluate(String cell) {
-		// to be implemented
-		return null;
+		if (isArbitraryString(this.get(cell))) 
+		{
+			return formatArbitraryStringForEvaluation(this.get(cell));
+		}
+		return cellValues.get(cell);
 	}
 	
 }
