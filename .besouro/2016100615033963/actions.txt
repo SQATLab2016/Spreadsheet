@@ -1,0 +1,9 @@
+FileOpenedAction 1475755419296 Spreadsheet.java 264 3 2 0
+RefactoringAction 1475755874732 SpreadsheetTest.java RENAME test()=>void test_() METHOD
+RefactoringAction 1475755876244 SpreadsheetTest.java RENAME test_()=>void test_set() METHOD
+RefactoringAction 1475755877760 SpreadsheetTest.java RENAME test_set()=>void test_setAnd() METHOD
+RefactoringAction 1475755879770 SpreadsheetTest.java RENAME test_setAnd()=>void test_setAndGet() METHOD
+RefactoringAction 1475755881280 SpreadsheetTest.java RENAME test_setAndGet()=>void test_setAndGet_() METHOD
+RefactoringAction 1475755886290 SpreadsheetTest.java RENAME test_setAndGet_()=>void test_setAndGet_1() METHOD
+FileOpenedAction 1475755893535 TestRomanNumerals.java 2619 18 36 18
+EditAction 1475756027553 SpreadsheetTest.java 288 1 0 0
