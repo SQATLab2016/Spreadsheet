@@ -22,3 +22,4 @@ RefactoringAction 1475759082550 Spreadsheet.java ADD void getAlphabet() METHOD
 RefactoringAction 1475759096082 Spreadsheet.java RENAME getAlphabet()=>void chargetAlphabet() METHOD
 RefactoringAction 1475759099097 Spreadsheet.java RENAME chargetAlphabet()=>char METHOD
 EditAction 1475759270457 SpreadsheetTest.java 495 2 7 2
+EditAction 1475759276128 SpreadsheetTest.java 495 2 7 2
