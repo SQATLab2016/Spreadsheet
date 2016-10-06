@@ -23,3 +23,6 @@ RefactoringAction 1475759096082 Spreadsheet.java RENAME getAlphabet()=>void char
 RefactoringAction 1475759099097 Spreadsheet.java RENAME chargetAlphabet()=>char METHOD
 EditAction 1475759270457 SpreadsheetTest.java 495 2 7 2
 EditAction 1475759276128 SpreadsheetTest.java 495 2 7 2
+UnitTestCaseAction 1475759303710 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475759303710 SpreadsheetTest.java FAIL
+EditAction 1475759320315 Spreadsheet.java 723 6 7 0

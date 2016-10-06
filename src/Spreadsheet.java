@@ -31,7 +31,7 @@ public class Spreadsheet {
 	private void createAlphabetArray(){
            for(char ch = 'A'; ch <= 'Z'; ++ch)// fills alphabet array with the alphabet
            {
-               alphabet[ch-'A']=ch;
+               alphabet[ch-'A'+1]=ch;
            } 
     }
 
