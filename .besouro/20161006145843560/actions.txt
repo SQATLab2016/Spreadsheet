@@ -104,3 +104,14 @@ RefactoringAction 1475757128773 SpreadsheetTest.java RENAME testIsInteger_213214
 RefactoringAction 1475757133286 SpreadsheetTest.java RENAME testIsInteger_213214_()=>void testIsInteger_213214_False() METHOD
 RefactoringAction 1475757144800 SpreadsheetTest.java RENAME testIsInteger_213214_False()=>void testIsInteger_A1_False() METHOD
 EditAction 1475757159913 SpreadsheetTest.java 520 3 6 4
+CompilationAction 1475757160016 SpreadsheetTest.java
+RefactoringAction 1475757203415 Spreadsheet.java ADD import org.omg.CORBA.PUBLIC_MEMBER IMPORT
+RefactoringAction 1475757226010 Spreadsheet.java ADD boolean is FIELD
+RefactoringAction 1475757228019 Spreadsheet.java RENAME is=>boolean isI FIELD
+RefactoringAction 1475757229027 Spreadsheet.java RENAME isI=>boolean isIn FIELD
+RefactoringAction 1475757231040 Spreadsheet.java RENAME isIn=>boolean isIntegert FIELD
+RefactoringAction 1475757232049 Spreadsheet.java RENAME isIntegert=>boolean isIntege FIELD
+RefactoringAction 1475757241557 Spreadsheet.java RENAME isIntege=>boolean isInteger FIELD
+RefactoringAction 1475757242566 Spreadsheet.java RENAME isInteger=>boolean isInteger() METHOD
+RefactoringAction 1475757336177 Spreadsheet.java RENAME isInteger()=>boolean isInteger(String) METHOD
+EditAction 1475757399805 Spreadsheet.java 384 5 4 0

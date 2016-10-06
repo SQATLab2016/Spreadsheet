@@ -18,6 +18,11 @@ public class Spreadsheet {
 		cellVar = value;
 
 	}
+	public boolean isInteger(String parameter){
+		
+		return false;
+		
+	}
 
 	public String evaluate(String cell) {
 		// to be implemented
