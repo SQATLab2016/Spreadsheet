@@ -13,7 +13,6 @@ public class SpreadsheetTest {
 		
 		cell1.set("123");
 
-
 		assertEquals("String: ", "123", cell1.get());
 
 	}
