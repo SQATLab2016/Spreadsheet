@@ -161,3 +161,15 @@ EditAction 1475761211813 Spreadsheet.java 765 6 9 0
 EditAction 1475761213861 SpreadsheetTest.java 520 2 5 3
 EditAction 1475761256877 SpreadsheetTest.java 588 2 7 3
 EditAction 1475761377282 SpreadsheetTest.java 681 2 9 4
+UnitTestCaseAction 1475761377584 SpreadsheetTest.java OK
+UnitTestSessionAction 1475761377584 SpreadsheetTest.java OK
+RefactoringAction 1475761422577 Spreadsheet.java ADD String addition(String, String)/2 METHOD
+RefactoringAction 1475761436591 Spreadsheet.java ADD String value1 FIELD
+RefactoringAction 1475761436592 Spreadsheet.java ADD String String FIELD
+RefactoringAction 1475761438603 Spreadsheet.java REMOVE String FIELD
+RefactoringAction 1475761438604 Spreadsheet.java REMOVE value1 FIELD
+RefactoringAction 1475761444115 Spreadsheet.java RENAME addition(String, String)/2=>String subtra(String, String) METHOD
+RefactoringAction 1475761448125 Spreadsheet.java RENAME subtra(String, String)=>String subtraction(String, String) METHOD
+RefactoringAction 1475761474167 Spreadsheet.java ADD String subtraction(String, String)/2 METHOD
+RefactoringAction 1475761501181 Spreadsheet.java RENAME subtraction(String, String)/2=>String multiplication FIELD
+EditAction 1475761515245 Spreadsheet.java 1266 8 19 0

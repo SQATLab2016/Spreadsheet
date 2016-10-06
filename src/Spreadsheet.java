@@ -35,6 +35,28 @@ public class Spreadsheet {
 		return result;
 
 	}
+	public String subtraction(String value1, String value2) {
+
+		int parameter1 = Integer.parseInt(value1);
+		int parameter2 = Integer.parseInt(value2);
+
+		int var = parameter1 - parameter2;
+
+		String result = String.valueOf(var);
+		return result;
+
+	}
+	public String multiplication(String value1, String value2) {
+
+		int parameter1 = Integer.parseInt(value1);
+		int parameter2 = Integer.parseInt(value2);
+
+		int var = parameter1 * parameter2;
+
+		String result = String.valueOf(var);
+		return result;
+
+	}
 
 	public boolean isInteger(String parameter) {
 
