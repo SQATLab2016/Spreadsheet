@@ -37,3 +37,7 @@ EditAction 1475760878561 Spreadsheet.java 1026 7 9 0
 UnitTestCaseAction 1475760883406 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475760883407 SpreadsheetTest.java FAIL
 EditAction 1475760964869 Spreadsheet.java 1069 7 9 0
+UnitTestCaseAction 1475760973451 SpreadsheetTest.java OK
+UnitTestSessionAction 1475760973453 SpreadsheetTest.java OK
+RefactoringAction 1475761067637 Spreadsheet.java ADD boolean isIllegalString(String) METHOD
+EditAction 1475761191460 Spreadsheet.java 1390 8 12 0

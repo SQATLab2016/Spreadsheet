@@ -13,16 +13,27 @@ public class Spreadsheet {
 	}
 	
 	public String evaluate(String cell) {
+		if (isIllegalInteger(this.get(cell))) {
+			return getErrorString();
+		}
+		
+		if (isIllegalString(this.get(cell))) {
+			return getErrorString();
+		}
+		
 		if (isArbitraryString(this.get(cell))) 
 		{
 			return formatArbitraryStringForEvaluation(this.get(cell));
 		}
 		
-		if (isIllegalInteger(this.get(cell)))
-		{
-			return getErrorString();
-		}
 		return cellValues.get(cell);
+	}
+
+	private boolean isIllegalString(String string) {
+		if (string.charAt(0) == '\'' && string.charAt(string.length() - 1) != '\'' || string.charAt(0) != '\'' && string.charAt(string.length() - 1) == '\'') {
+			return true;
+		}
+		return false;
 	}
 
 	private String getErrorString() {
