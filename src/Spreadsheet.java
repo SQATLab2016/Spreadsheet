@@ -20,7 +20,7 @@ public class Spreadsheet {
 	public void set(String cell, String value) {
 		char row = cell.charAt(0);
 		char col = cell.charAt(1);
-		sheetMatrix.get(alphabetNumber());
+		sheetMatrix.get(alphabetNumber(row)).add(col, value););
 	}
 	
 	public String evaluate(String cell) {

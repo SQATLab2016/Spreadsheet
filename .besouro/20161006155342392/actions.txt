@@ -45,3 +45,5 @@ RefactoringAction 1475759585539 Spreadsheet.java RENAME alphabet/2=>void alphabe
 RefactoringAction 1475759602056 Spreadsheet.java RENAME alphabetNumber=>void alphabetNumber() METHOD
 RefactoringAction 1475759736418 Spreadsheet.java RENAME alphabetNumber()=>void alphabetNumber(char) METHOD
 EditAction 1475759768828 Spreadsheet.java 897 7 10 0
+CompilationAction 1475759768948 Spreadsheet.java
+EditAction 1475759832754 Spreadsheet.java 918 7 7 0
