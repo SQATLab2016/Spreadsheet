@@ -95,3 +95,8 @@ RefactoringAction 1475761795530 SpreadsheetTest.java RENAME test_setAndGet_minus
 RefactoringAction 1475761798041 SpreadsheetTest.java RENAME test_setAndGet_1()/2=>void test_setAndGet_minus1() METHOD
 RefactoringAction 1475761801052 SpreadsheetTest.java ADD void test_setAndGet_minus1()/2 METHOD
 EditAction 1475761849572 SpreadsheetTest.java 1122 5 18 5
+CompilationAction 1475761849860 SpreadsheetTest.java
+RefactoringAction 1475761884159 SpreadsheetTest.java RENAME test_setAndGet_minus1()/2=>void test_evaluate_minus1() METHOD
+CompilationAction 1475761884995 SpreadsheetTest.java
+UnitTestCaseAction 1475761887068 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475761887068 SpreadsheetTest.test_evaluate_minus1 FAIL

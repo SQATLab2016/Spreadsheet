@@ -26,8 +26,9 @@ public class Spreadsheet {
 	}
 	
 	public String evaluate(String cell) {
-		return null;
-		
+		char row = cell.charAt(0);
+		char col = cell.charAt(1);
+		String value =  sheetMatrix[alphabetNumber(row)][col];
 	}
 	
 	private void createAlphabetArray(){

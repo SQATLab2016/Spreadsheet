@@ -29,7 +29,7 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void test_setAndGet_minus1() {
+	public void test_evaluate_minus1() {
 		//Arrange
 		Spreadsheet sheet = new Spreadsheet();
 		//Act
