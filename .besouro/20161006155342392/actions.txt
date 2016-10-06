@@ -1,0 +1,10 @@
+FileOpenedAction 1475758422479 Spreadsheet.java 346 3 2 0
+RefactoringAction 1475758738503 Spreadsheet.java ADD static void main(String METHOD
+RefactoringAction 1475758754055 Spreadsheet.java RENAME main(String=>void create FIELD
+RefactoringAction 1475758755570 Spreadsheet.java RENAME create=>void createAl FIELD
+RefactoringAction 1475758758079 Spreadsheet.java RENAME createAl=>void createAlphabet FIELD
+RefactoringAction 1475758760589 Spreadsheet.java RENAME createAlphabet=>void createAlphabetArray FIELD
+RefactoringAction 1475758787679 Spreadsheet.java ADD char FIELD
+RefactoringAction 1475758863258 Spreadsheet.java ADD Spreadsheet(char METHOD
+RefactoringAction 1475758874785 Spreadsheet.java RENAME Spreadsheet(char=>Spreadsheet() METHOD
+EditAction 1475758896582 Spreadsheet.java 667 5 6 0
