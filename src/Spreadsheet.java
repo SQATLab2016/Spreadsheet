@@ -1,6 +1,8 @@
 
 public class Spreadsheet {
 
+	private Map<String, String> sheetmap = new Map<String, String>();
+	
 	public String get(String cell) {
 		// to be implemented
 		return null;
