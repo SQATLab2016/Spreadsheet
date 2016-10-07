@@ -17,8 +17,9 @@ public class SpreadsheetTest {
 	public void spreadsheet_set_a1_1() {
 		ss.set("A1", "1");
 		
+		String result = ss.get("A1");
 		
-		
+		assertEquals("1", result);
 	}
 	
 	

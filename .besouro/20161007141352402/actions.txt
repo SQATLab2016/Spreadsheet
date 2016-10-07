@@ -14,3 +14,4 @@ RefactoringAction 1475839266062 Spreadsheet.java REMOVE map FIELD
 RefactoringAction 1475839268586 Spreadsheet.java ADD Map<String,String> map FIELD
 EditAction 1475839278957 Spreadsheet.java 347 3 2 0
 EditAction 1475839282715 SpreadsheetTest.java 285 2 2 1
+EditAction 1475839330770 SpreadsheetTest.java 343 2 4 2
