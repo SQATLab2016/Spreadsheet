@@ -53,7 +53,7 @@ public class Spreadsheet {
 			// if there is a '=' character then
 			// the subsequent char can only be '-', '\'' or digit.
 			if(c[i] == '=') {
-				if(c[i+1] == '-' || Character.isDigit(c[i+1])) {
+				if(c[i+1] == '-') {
 					isNegative = true;
 					continue;
 				} else if (c[i+1] == '\'') {
@@ -64,6 +64,8 @@ public class Spreadsheet {
 							
 						}
 					}
+					
+				} else if (Character.isDigit(c[i+1])){
 					
 				} else {
 					return "#Error";
