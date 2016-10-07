@@ -50,3 +50,6 @@ EditAction 1475839850569 SpreadsheetTest.java 728 4 13 4
 UnitTestCaseAction 1475839852104 SpreadsheetTest.java OK
 UnitTestSessionAction 1475839852104 SpreadsheetTest.java OK
 EditAction 1475839862861 SpreadsheetTest.java 702 4 12 4
+RefactoringAction 1475840057331 SpreadsheetTest.java ADD void spreadsheet_evaluate FIELD
+RefactoringAction 1475840065346 SpreadsheetTest.java RENAME spreadsheet_evaluate=>void spreadsheet_evaluate_negative() METHOD
+EditAction 1475840075075 SpreadsheetTest.java 874 5 15 5

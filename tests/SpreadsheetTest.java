@@ -34,5 +34,13 @@ public class SpreadsheetTest {
 		assertEquals("errormessage", ss.get("A2"));
 	}
 	
+	@Test
+	public void spreadsheet_evaluate_negative() {
+		Spreadsheet ss = new Spreadsheet();
+		ss.set("A1", "2");
+		assertEquals("errormessage", ss.evaluate("A2"));
+		
+	}
+	
 	
 }
