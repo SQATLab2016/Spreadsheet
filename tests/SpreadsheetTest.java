@@ -35,6 +35,13 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
+	public void spreadsheet_get_ValueNotFoundError() {
+		Spreadsheet ss = new Spreadsheet();
+		ss.set("A1", "2");
+		assertEquals("ValueNotFoundError", ss.get("A2"));
+	}
+	
+	@Test
 	public void spreadsheet_evaluate_negative() {
 		Spreadsheet ss = new Spreadsheet();
 		ss.set("A1", "-1");

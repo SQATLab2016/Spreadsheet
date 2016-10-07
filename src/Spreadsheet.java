@@ -57,11 +57,6 @@ public class Spreadsheet {
 			
 		}
 		
-		// remove quotation marks and return the string.
-		if(isString) {
-			return "taalla";//RemoveQuotes(value);
-		}
-		
 		// if there are some other characters than digits.
 		// 1. Check if the number is negative
 		// 2. if the string contains other characters than digits and '-'.
@@ -75,7 +70,8 @@ public class Spreadsheet {
 			}
 		}
 		
-		return value;
+		// it is a string?
+		return RemoveQuotes(value);
 	}
 	
 	private String RemoveQuotes(String s) {

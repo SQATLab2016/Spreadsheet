@@ -181,3 +181,7 @@ RefactoringAction 1475842257908 Spreadsheet.java ADD String RemoveQuotes(String)
 UnitTestCaseAction 1475842279697 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475842279697 SpreadsheetTest.java FAIL
 EditAction 1475842299847 Spreadsheet.java 1704 4 15 0
+UnitTestCaseAction 1475842331823 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475842331824 SpreadsheetTest.java FAIL
+RefactoringAction 1475842418298 SpreadsheetTest.java ADD void spreadsheet_get_ValueNotFoundError() METHOD
+EditAction 1475842428986 SpreadsheetTest.java 1222 7 21 7
