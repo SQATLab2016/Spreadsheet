@@ -10,10 +10,10 @@ public class Spreadsheet {
 	public String get(String cell) {
 		
 		if(map.containsKey(cell)) {
-			
+			return map.get(cell);
 		}
 		
-		return null;
+		return -1;
 	}
 	
 	public void set(String cell, String value) {
