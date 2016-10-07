@@ -61,7 +61,7 @@ public class Spreadsheet {
 					// loop through the remaining characters for closing quote.
 					for(int j = i+1; j < c.length; j++) {
 						if(c[j] == '\'') {
-							
+							break;
 						}
 					}
 					
