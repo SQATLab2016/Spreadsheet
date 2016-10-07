@@ -70,8 +70,9 @@ public class Spreadsheet {
 						}
 					}
 					
+					// return the string after equals character.
 					if(hasClosingQuote) {
-						
+						return 
 					}
 					
 					
