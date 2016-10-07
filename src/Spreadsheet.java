@@ -22,7 +22,7 @@ public class Spreadsheet {
 		cells.get(cells.indexOf(cell)+1).startsWith("-") ||
 		cells.get(cells.indexOf(cell)+1).startsWith("+")){
 			
-			for(int i=0; i<cells.get(cells.indexOf(cell)+1).length() ; i++){
+			for(int i=1; i<cells.get(cells.indexOf(cell)+1).length() ; i++){
 				if(!(cells.get(cells.indexOf(cell)+1).substring(i).startsWith("0")||
 				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("1")||
 				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("2")||
