@@ -38,6 +38,11 @@ public class Spreadsheet {
 		//for(char c : value.toCharArray()) {
 		for(int i = 0; i < c.length; i++) {
 		
+			// if value is a string.
+			if(c[0] == '\'' && c[c.length - 1] == '\'') {
+				
+			}
+			
 			// if the first character is negative (-).
 			if(c[i] == '-' && i == 0) {
 				isNegative = true;
