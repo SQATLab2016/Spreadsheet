@@ -349,3 +349,6 @@ CompilationAction 1475845140179 SpreadsheetTest.java
 CompilationAction 1475845140179 SpreadsheetTest.java
 RefactoringAction 1475845162080 SpreadsheetTest.java RENAME spreadsheet_evaluate_simple_equals_formula_=>void spreadsheet_evaluate_simple_equals_formula_negative_int() METHOD
 EditAction 1475845172451 SpreadsheetTest.java 1992 11 33 11
+UnitTestCaseAction 1475845174438 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475845174438 SpreadsheetTest.java FAIL
+EditAction 1475845184280 Spreadsheet.java 2530 3 13 0

@@ -88,9 +88,6 @@ public class Spreadsheet {
 				}
 			}
 			
-			
-			
-			
 			if(Character.isDigit(c[i])) {
 				digitCount ++;
 			}
