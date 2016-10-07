@@ -44,11 +44,18 @@ public class Spreadsheet {
 				break;
 			}
 			
+			// if there is a '=' character
+			// the subsequent char is either '-', '\'' or digit.
+			if(c[i] == '=') {
+				
+			}
+			
 			// if the first character is negative (-).
 			if(c[i] == '-' && i == 0) {
 				isNegative = true;
 				continue;
 			}
+			
 			
 			if(Character.isDigit(c[i])) {
 				digitCount ++;
