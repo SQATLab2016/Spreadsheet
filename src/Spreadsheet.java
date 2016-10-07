@@ -58,7 +58,7 @@ public class Spreadsheet {
 		}
 		
 		if(isString) {
-			return 
+			return RemoveQuotes(value);
 		}
 		
 		// if there are some other characters than digits.

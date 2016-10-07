@@ -159,3 +159,6 @@ RefactoringAction 1475841812766 Spreadsheet.java ADD String Cut FIELD
 RefactoringAction 1475841822282 Spreadsheet.java RENAME Cut=>String RemoveQuotes() METHOD
 RefactoringAction 1475841828313 Spreadsheet.java RENAME RemoveQuotes()=>String RemoveQuotes(String) METHOD
 EditAction 1475841841646 Spreadsheet.java 1602 4 4 0
+CompilationAction 1475841841753 Spreadsheet.java
+CompilationAction 1475841841754 Spreadsheet.java
+EditAction 1475841854407 Spreadsheet.java 1622 4 15 0
