@@ -31,3 +31,10 @@ EditAction 1475839674377 Spreadsheet.java 465 3 4 0
 CompilationAction 1475839674485 Spreadsheet.java
 CompilationAction 1475839682215 Spreadsheet.java
 EditAction 1475839686308 Spreadsheet.java 477 3 4 0
+UnitTestCaseAction 1475839699452 SpreadsheetTest.java OK
+UnitTestSessionAction 1475839699452 SpreadsheetTest.java OK
+RefactoringAction 1475839713866 SpreadsheetTest.java ADD void spreadsheet_get_ FIELD
+RefactoringAction 1475839717879 SpreadsheetTest.java RENAME spreadsheet_get_=>void spreadsheet_get_error FIELD
+RefactoringAction 1475839721392 SpreadsheetTest.java RENAME spreadsheet_get_error=>void spreadsheet_get_error() METHOD
+RefactoringAction 1475839753964 SpreadsheetTest.java REMOVE ss FIELD
+EditAction 1475839763365 SpreadsheetTest.java 488 3 8 2
