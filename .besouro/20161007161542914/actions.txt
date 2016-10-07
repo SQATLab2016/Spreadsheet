@@ -47,3 +47,5 @@ RefactoringAction 1475847235580 SpreadsheetTest.java RENAME test_evaluateCorrect
 RefactoringAction 1475847236610 SpreadsheetTest.java RENAME test_evaluateCorrectlyFormattedCellInteger=>void test_evaluateCorrectlyFormattedCellInteger() METHOD
 RefactoringAction 1475847246391 SpreadsheetTest.java ADD Spreadsheet sheet FIELD
 EditAction 1475847247888 SpreadsheetTest.java 335 2 2 1
+RefactoringAction 1475847255657 SpreadsheetTest.java RENAME sheet=>Spreadsheet test_sheet FIELD
+EditAction 1475847260977 SpreadsheetTest.java 350 2 2 1
