@@ -44,6 +44,12 @@ public class Spreadsheet {
 				break;
 			}
 			
+			// if the first character is negative (-).
+			if(c[i] == '-' && i == 0) {
+				isNegative = true;
+				continue;
+			}
+						
 			// if there is a '=' character then
 			// the subsequent char can only be '-', '\'' or digit.
 			if(c[i] == '=') {
@@ -60,11 +66,7 @@ public class Spreadsheet {
 				}
 			}
 			
-			// if the first character is negative (-).
-			if(c[i] == '-' && i == 0) {
-				isNegative = true;
-				continue;
-			}
+			
 			
 			
 			if(Character.isDigit(c[i])) {
