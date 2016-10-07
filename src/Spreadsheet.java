@@ -59,7 +59,7 @@ public class Spreadsheet {
 		
 		// remove quotation marks and return the string.
 		if(isString) {
-			return RemoveQuotes(value);
+			return "taalla";//RemoveQuotes(value);
 		}
 		
 		// if there are some other characters than digits.
