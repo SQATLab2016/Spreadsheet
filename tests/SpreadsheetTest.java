@@ -30,8 +30,8 @@ public class SpreadsheetTest {
 	@Test
 	public void testReturnInteger() {
 		
-		test.set("A1",  "5");
-		assertEquals("5", test.get("A1"));
+		test.set("A1",  "-1");
+		assertEquals("-1", test.get("A1"));
 		
 	}
 	
