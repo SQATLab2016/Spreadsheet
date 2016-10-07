@@ -50,3 +50,6 @@ EditAction 1475847247888 SpreadsheetTest.java 335 2 2 1
 RefactoringAction 1475847255657 SpreadsheetTest.java RENAME sheet=>Spreadsheet test_sheet FIELD
 EditAction 1475847260977 SpreadsheetTest.java 350 2 2 1
 EditAction 1475847338728 SpreadsheetTest.java 451 2 5 2
+UnitTestCaseAction 1475847345689 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847345689 SpreadsheetTest.java OK
+EditAction 1475847390898 SpreadsheetTest.java 458 2 5 2
