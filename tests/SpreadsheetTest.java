@@ -48,10 +48,18 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void spreadsheet_set_a1_teststring() {
+	public void spreadsheet_evaluate_a1_teststring() {
 		Spreadsheet ss = new Spreadsheet();
 		ss.set("A1", "'teststring'");
 		assertEquals("teststring", ss.evaluate("A1"));
+	}
+	
+	@Test
+	public void spreadsheet_evaluate_incorrect_string() {
+		Spreadsheet ss = new Spreadsheet();
+		ss.set("A1", "'teststring");
+		assertEquals("#Error", ss.evaluate("A1"));
+		
 	}
 	
 	

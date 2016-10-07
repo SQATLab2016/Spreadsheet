@@ -238,3 +238,18 @@ EditAction 1475842985743 SpreadsheetTest.java 1228 7 21 7
 UnitTestCaseAction 1475842997833 SpreadsheetTest.java OK
 UnitTestSessionAction 1475842997834 SpreadsheetTest.java OK
 EditAction 1475843044970 Spreadsheet.java 1571 3 13 0
+UnitTestCaseAction 1475843052884 SpreadsheetTest.java OK
+UnitTestSessionAction 1475843052884 SpreadsheetTest.java OK
+RefactoringAction 1475843064460 SpreadsheetTest.java ADD void spreadsheet_set_ FIELD
+RefactoringAction 1475843065971 SpreadsheetTest.java RENAME spreadsheet_set_=>void spreadsheet_set_a1_ FIELD
+RefactoringAction 1475843067983 SpreadsheetTest.java RENAME spreadsheet_set_a1_=>void spreadsheet_set_a1_test FIELD
+RefactoringAction 1475843069494 SpreadsheetTest.java RENAME spreadsheet_set_a1_test=>void spreadsheet_set_a1_teststring_ FIELD
+RefactoringAction 1475843074507 SpreadsheetTest.java RENAME spreadsheet_set_a1_teststring_=>void spreadsheet_evaluate FIELD
+RefactoringAction 1475843078520 SpreadsheetTest.java RENAME spreadsheet_set_a1_teststring()=>void spreadsheet_evaluate_a1_teststring() METHOD
+RefactoringAction 1475843081031 SpreadsheetTest.java RENAME spreadsheet_evaluate=>void spreadsheet_evaluate_ FIELD
+RefactoringAction 1475843083543 SpreadsheetTest.java RENAME spreadsheet_evaluate_=>void spreadsheet_evaluate_wrong FIELD
+RefactoringAction 1475843086054 SpreadsheetTest.java RENAME spreadsheet_evaluate_wrong=>void spreadsheet_evaluate_ FIELD
+RefactoringAction 1475843087565 SpreadsheetTest.java RENAME spreadsheet_evaluate_=>void spreadsheet_evaluate_in FIELD
+RefactoringAction 1475843089076 SpreadsheetTest.java RENAME spreadsheet_evaluate_in=>void spreadsheet_evaluate_incorrect FIELD
+RefactoringAction 1475843092087 SpreadsheetTest.java RENAME spreadsheet_evaluate_incorrect=>void spreadsheet_evaluate_incorrect_string() METHOD
+EditAction 1475843105957 SpreadsheetTest.java 1417 8 24 8
