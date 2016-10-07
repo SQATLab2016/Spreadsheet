@@ -57,10 +57,14 @@ public class Spreadsheet {
 					isNegative = true;
 					continue;
 				} else if (c[i+1] == '\'') {
+					
 					// loop through the remaining characters for closing quote.
 					for(int j = i+1; j < c.length; j++) {
-						
+						if(c[j] == '\'') {
+							
+						}
 					}
+					
 				} else {
 					return "#Error";
 				}
