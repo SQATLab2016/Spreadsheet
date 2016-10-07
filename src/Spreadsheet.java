@@ -60,9 +60,12 @@ public class Spreadsheet {
 					
 				} else if (c[i+1] == '\'') {
 					
+					boolean hasClosingQuote = false;
+					
 					// loop through the remaining characters for closing quote.
 					for(int j = i+1; j < c.length; j++) {
 						if(c[j] == '\'') {
+							hasClosingQuote = true;
 							break;
 						}
 					}
