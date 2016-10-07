@@ -38,3 +38,12 @@ RefactoringAction 1475847099685 SpreadsheetTest.java RENAME test_setCellToValueA
 RefactoringAction 1475847101230 SpreadsheetTest.java RENAME test_setCellToValueSA1_1()=>void test_setCellToValueStringA1_1() METHOD
 EditAction 1475847102103 SpreadsheetTest.java 254 1 3 1
 EditAction 1475847107906 SpreadsheetTest.java 256 1 3 1
+UnitTestCaseAction 1475847111747 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847111747 SpreadsheetTest.java OK
+RefactoringAction 1475847224254 SpreadsheetTest.java ADD void test_a FIELD
+RefactoringAction 1475847229402 SpreadsheetTest.java RENAME test_a=>void test_evaluateCellInteger FIELD
+RefactoringAction 1475847232491 SpreadsheetTest.java RENAME test_evaluateCellInteger=>void test_evaluateCorrectCellInteger FIELD
+RefactoringAction 1475847235580 SpreadsheetTest.java RENAME test_evaluateCorrectCellInteger=>void test_evaluateCorrectlyFormattedCellInteger FIELD
+RefactoringAction 1475847236610 SpreadsheetTest.java RENAME test_evaluateCorrectlyFormattedCellInteger=>void test_evaluateCorrectlyFormattedCellInteger() METHOD
+RefactoringAction 1475847246391 SpreadsheetTest.java ADD Spreadsheet sheet FIELD
+EditAction 1475847247888 SpreadsheetTest.java 335 2 2 1
