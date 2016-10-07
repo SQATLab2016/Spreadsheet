@@ -39,9 +39,9 @@ public class Spreadsheet {
 					cells.get(cells.lastIndexOf(cell)+1);
 				}
 		    }	
-		}else if(cells.get(cells.lastIndexOf(cell)+1).startsWith("'")){
+		}else if(cells.get(cells.lastIndexOf(cell)+1).startsWith("’")){
 			
-			if(cells.get(cells.lastIndexOf(cell)+1).endsWith("'")){
+			if(cells.get(cells.lastIndexOf(cell)+1).endsWith("’")){
 				return cells.get(cells.lastIndexOf(cell)+1).substring(1,cells.get(cells.lastIndexOf(cell)+1).length());
 			}else{
 				return "#Error";
