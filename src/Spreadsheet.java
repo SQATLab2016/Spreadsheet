@@ -7,9 +7,9 @@ public class Spreadsheet {
 	public String get(String cell) {
 		// to be implemented
 		
-		sheetmap.get(cell);
+		return sheetmap.get(cell);
 		
-		return null;
+		
 	}
 	
 	public void set(String cell, String value) {
