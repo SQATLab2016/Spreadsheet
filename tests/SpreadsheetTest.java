@@ -44,8 +44,9 @@ public class SpreadsheetTest {
 	}
 	@Test
 	public void test8() {
+		test.set("A4", "wizard");
 		test.set("B2", "=A4");
-	    assertTrue(test.evaluate("B2").equals("an animal"));	
+	    assertTrue(test.evaluate("B2").equals("wizard"));	
 	}
 	
 	
