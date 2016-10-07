@@ -260,3 +260,10 @@ EditAction 1475843398818 Spreadsheet.java 1706 3 13 0
 EditAction 1475843481458 Spreadsheet.java 1784 3 13 0
 EditAction 1475843500026 Spreadsheet.java 1786 3 13 0
 EditAction 1475843506894 Spreadsheet.java 1791 3 13 0
+RefactoringAction 1475843593700 SpreadsheetTest.java ADD void spreadsheet FIELD
+RefactoringAction 1475843595210 SpreadsheetTest.java RENAME spreadsheet=>void spreadsheet_eva FIELD
+RefactoringAction 1475843596721 SpreadsheetTest.java RENAME spreadsheet_eva=>void spreadsheet_evaluate FIELD
+RefactoringAction 1475843598734 SpreadsheetTest.java RENAME spreadsheet_evaluate=>void spreadsheet_evaluate_ FIELD
+RefactoringAction 1475843608747 SpreadsheetTest.java RENAME spreadsheet_evaluate_=>void spreadsheet_evaluate_simple_formula() METHOD
+RefactoringAction 1475843614759 SpreadsheetTest.java RENAME spreadsheet_evaluate_simple_formula()=>void spreadsheet_evaluate_simple_equals_formula() METHOD
+EditAction 1475843615871 SpreadsheetTest.java 1485 9 24 8

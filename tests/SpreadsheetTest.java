@@ -59,10 +59,12 @@ public class SpreadsheetTest {
 		Spreadsheet ss = new Spreadsheet();
 		ss.set("A1", "'teststring");
 		assertEquals("#Error", ss.evaluate("A1"));
-		
 	}
 	
-	
+	@Test
+	public void spreadsheet_evaluate_simple_equals_formula() {
+		
+	}
 	
 	
 	
