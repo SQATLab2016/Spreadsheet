@@ -48,7 +48,11 @@ public class SpreadsheetTest {
 		test.set("B2", "=A4");
 	    assertTrue(test.evaluate("B2").equals("wizard"));	
 	}
-	
+	public void test9() {
+		test.set("A5", "5A");
+		test.set("A1", "=A5");
+	    assertTrue(test.evaluate("B2").equals("#Error"));	
+	}
 	
 
 }
