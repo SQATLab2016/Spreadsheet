@@ -19,14 +19,6 @@ public class SpreadsheetTest {
 		String result = ss.get("A1");
 		assertEquals("1", result);
 	}
-	
-	@Test
-	public void spreadsheet_set_a1_teststring() {
-		Spreadsheet ss = new Spreadsheet();
-		ss.set("A1", "'teststring'");
-		assertEquals("teststring", ss.get("A1"));
-	}
-	
 	@Test
 	public void spreadsheet_get_error() {
 		Spreadsheet ss = new Spreadsheet();
@@ -55,6 +47,12 @@ public class SpreadsheetTest {
 		assertEquals("#Error", ss.evaluate("A1"));
 	}
 	
+	@Test
+	public void spreadsheet_set_a1_teststring() {
+		Spreadsheet ss = new Spreadsheet();
+		ss.set("A1", "'teststring'");
+		assertEquals("teststring", ss.get("A1"));
+	}
 	
 	
 	
