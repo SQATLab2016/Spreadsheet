@@ -17,8 +17,9 @@ public class Spreadsheet {
 	}
 	
 	public String evaluate(String cell) {
-		// to be implemented
-		return null;
+		
+		int integer = Integer.parseInt(myMap.get(cell));
+		return integer;
 	}
 	
 	
