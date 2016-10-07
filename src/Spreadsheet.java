@@ -136,12 +136,15 @@ public class Spreadsheet {
 			} else {
 				return value;
 			}
+			
 		} else {
+			
 			if(digitCount != c.length) {
 				return "#Error";
 			} else {
 				return value;
 			}
+			
 		}
 	}
 }
