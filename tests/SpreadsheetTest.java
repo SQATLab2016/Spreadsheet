@@ -42,7 +42,7 @@ public class SpreadsheetTest {
 		
 		n.set("A1", "5A");
 		
-		assertEquals("Evaluation is not correct", "1", n.evaluate("A1"));
+		assertEquals("Evaluation is not correct", "#Error", n.evaluate("A1"));
 	}
 	
 

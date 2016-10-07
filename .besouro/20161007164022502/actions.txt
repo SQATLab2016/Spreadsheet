@@ -30,3 +30,4 @@ RefactoringAction 1475848355159 SpreadsheetTest.java RENAME test_NumberHandlingS
 RefactoringAction 1475848357175 SpreadsheetTest.java RENAME test_Incorrect()=>void test_IncorrectInteger() METHOD
 EditAction 1475848357363 SpreadsheetTest.java 989 5 15 5
 EditAction 1475848375863 SpreadsheetTest.java 990 5 15 5
+EditAction 1475848394837 SpreadsheetTest.java 995 5 15 5
