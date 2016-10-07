@@ -63,3 +63,4 @@ EditAction 1475843566745 Spreadsheet.java 1978 3 4 0
 CompilationAction 1475843566839 Spreadsheet.java
 CompilationAction 1475843738517 Spreadsheet.java
 EditAction 1475844034841 Spreadsheet.java 1970 3 5 0
+EditAction 1475844182542 SpreadsheetTest.java 460 3 6 3
