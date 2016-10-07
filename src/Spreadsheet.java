@@ -3,8 +3,9 @@ import java.util.*;
 public class Spreadsheet {
 
 	// dictionary of cells and values.
-	Map <String, String> map = new HashMap<String, String>();
-	
+	// cell => key
+	// value => value
+	private Map <String, String> map = new HashMap<String, String>();
 	
 	public String get(String cell) {
 		
@@ -15,7 +16,7 @@ public class Spreadsheet {
 	
 	public void set(String cell, String value) {
 		
-		if(map.containsKey(cell))
+		map.put(cell, value);
 		
 		
 	}
