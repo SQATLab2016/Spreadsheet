@@ -10,7 +10,14 @@ public class SpreadsheetTest {
 	@Test
 	public void testSpreadsheetAppCreated_NotNull() {
 		
-		assertNotNull()
+		assertNotNull(test);
+		
+	}
+	@Test
+	pubic void testGetOperationDefinition() {
+		
+		
+		assertEquals(0, test.get(cell));
 		
 	}
 	

@@ -2,3 +2,17 @@ FileOpenedAction 1475845820648 Spreadsheet.java 264 3 2 0
 RefactoringAction 1475845883282 SpreadsheetTest.java RENAME test()=>void testSpreadsheetAppCreated_NotNull() METHOD
 RefactoringAction 1475845930659 SpreadsheetTest.java ADD SpreadsheetTest test FIELD
 EditAction 1475845958864 SpreadsheetTest.java 222 1 0 0
+CompilationAction 1475845961064 SpreadsheetTest.java
+CompilationAction 1475845961064 SpreadsheetTest.java
+RefactoringAction 1475845965962 SpreadsheetTest.java ADD void assertNotNull() METHOD
+RefactoringAction 1475845968770 SpreadsheetTest.java REMOVE assertNotNull() METHOD
+CompilationAction 1475845979971 SpreadsheetTest.java
+UnitTestCaseAction 1475845983624 SpreadsheetTest.java OK
+UnitTestSessionAction 1475845983624 SpreadsheetTest.java OK
+RefactoringAction 1475845993983 SpreadsheetTest.java ADD void test/2 FIELD
+RefactoringAction 1475845995527 SpreadsheetTest.java RENAME test/2=>void testGet FIELD
+RefactoringAction 1475846002220 SpreadsheetTest.java RENAME testGet=>void testGetOper FIELD
+RefactoringAction 1475846005823 SpreadsheetTest.java RENAME testGetOper=>void testGetOperation FIELD
+RefactoringAction 1475846007882 SpreadsheetTest.java RENAME testGetOperation=>void testGetOperationDefinition FIELD
+RefactoringAction 1475846011486 SpreadsheetTest.java RENAME testGetOperationDefinition=>void testGetOperationDefinition() METHOD
+EditAction 1475846034699 SpreadsheetTest.java 324 2 2 2
