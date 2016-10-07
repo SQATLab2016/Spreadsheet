@@ -21,6 +21,7 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		
 		String value = "";
+		char[] c;
 		
 		// get the value of the cell.
 		if(map.containsKey(cell)) {
@@ -29,23 +30,26 @@ public class Spreadsheet {
 			return "ValueNotFoundError";
 		}
 		
-		int cLenght = value.toCharArray().length;  
+		c = value.toCharArray();
 		int digitCount = 0;
 		
 		// loop through the value and check for letters.
-		for(char c : value.toCharArray()) {
-			
+		//for(char c : value.toCharArray()) {
+		for(int i = 0; i < c.length; i++) {
+		
 			// if the first char is negative (-).
-			if()
+			if(c[i] == '-' && i == 0) {
+				continue;
+			}
 			
-			if(Character.isDigit(c)) {
+			if(Character.isDigit(c[i])) {
 				digitCount ++;
 			}
 			
 		}
 		
 		// if there are some other characters than digits.
-		if(digitCount != cLenght) {
+		if(digitCount != c.length) {
 			return "#Error";
 		}
 		
