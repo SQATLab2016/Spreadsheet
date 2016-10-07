@@ -21,4 +21,12 @@ public class SpreadsheetTest {
 		assertEquals("1", result);
 		
 	}
+	
+	@Test
+	public void test_evaluateCorrectlyFormattedCellNegativeInteger() {
+		test_sheet.set("A1", "1");
+		String result = test_sheet.evaluate("A1");
+		assertEquals("1", result);
+		
+	}
 }
