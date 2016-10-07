@@ -26,8 +26,8 @@ public class SpreadsheetTest {
 	}
 	@Test
 	public void test4() {
-		test.set("A1", "5A");
-	    assertTrue(test.get("A1").equals("#Error"));	
+		test.set("A1", "’a string’");
+	    assertTrue(test.get("A1").equals("a string"));	
 	}
 	
 	
