@@ -24,6 +24,11 @@ public class SpreadsheetTest {
 		test.set("A3", "5A");
 	    assertTrue(test.get("A3").equals("#Error"));	
 	}
+	@Test
+	public void test3() {
+		test.set("A3", "5A");
+	    assertTrue(test.get("A3").equals("#Error"));	
+	}
 	
 	
 
