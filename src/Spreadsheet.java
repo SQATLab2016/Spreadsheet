@@ -73,9 +73,9 @@ public class Spreadsheet {
 					// return the string after equals character.
 					if(hasClosingQuote) {
 						return 
+					} else {
+						return "#Error";
 					}
-					
-					
 					
 				} else if (Character.isDigit(c[i+1])){
 					
