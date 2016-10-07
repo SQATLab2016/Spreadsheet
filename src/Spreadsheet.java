@@ -68,13 +68,14 @@ public class Spreadsheet {
 					for(int j = i+2; j < c.length; j++) {
 						if(c[j] == '\'') {
 							hasClosingQuote = true;
+							StringEndPos = j;
 							break;
 						}
 					}
 					
 					// return the string after equals character.
 					if(hasClosingQuote) {
-						return 
+						return value.substring(StringStartPos, StringEndPos);
 					} else {
 						return "#Error";
 					}
