@@ -30,7 +30,7 @@ public class SpreadsheetTest {
 	    assertTrue(test.get("A1").equals("a string"));	
 	}
 	@Test
-	public void test4() {
+	public void test5() {
 		test.set("A1", "’a string");
 	    assertTrue(test.get("A1").equals("#Error"));	
 	}
