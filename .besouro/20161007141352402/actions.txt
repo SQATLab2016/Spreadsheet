@@ -1,2 +1,15 @@
 FileOpenedAction 1475838832611 SpreadsheetTest.java 162 1 1 1
 EditAction 1475838841813 SpreadsheetTest.java 203 1 1 1
+UnitTestCaseAction 1475838842296 SpreadsheetTest.java OK
+UnitTestSessionAction 1475838842297 SpreadsheetTest.java OK
+RefactoringAction 1475838864280 SpreadsheetTest.java ADD void s FIELD
+RefactoringAction 1475838866798 SpreadsheetTest.java RENAME s=>void spreadsheet_ FIELD
+RefactoringAction 1475838869321 SpreadsheetTest.java RENAME spreadsheet_=>void spreadsheet_set_a FIELD
+RefactoringAction 1475838871845 SpreadsheetTest.java RENAME spreadsheet_set_a=>void spreadsheet_set_a1_1() METHOD
+RefactoringAction 1475839138870 Spreadsheet.java ADD Map my FIELD
+RefactoringAction 1475839144887 Spreadsheet.java RENAME my=>Map map FIELD
+RefactoringAction 1475839250031 Spreadsheet.java ADD import java.util.Map IMPORT
+RefactoringAction 1475839254049 Spreadsheet.java RENAME import java.util.Map=>import java.util.* IMPORT
+RefactoringAction 1475839266062 Spreadsheet.java REMOVE map FIELD
+RefactoringAction 1475839268586 Spreadsheet.java ADD Map<String,String> map FIELD
+EditAction 1475839278957 Spreadsheet.java 347 3 2 0
