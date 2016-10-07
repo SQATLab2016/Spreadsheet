@@ -47,7 +47,9 @@ public class Spreadsheet {
 			// if there is a '=' character
 			// the subsequent char is either '-', '\'' or digit.
 			if(c[i] == '=') {
-				
+				if(c[i+1] == '-' || c[i+1] == '\'' || Character.isDigit(c[i+1])) {
+					
+				}
 			}
 			
 			// if the first character is negative (-).
