@@ -7,8 +7,9 @@ import org.junit.Test;
 public class SpreadsheetTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void test_setCellToValueA1_1() {
+		SpreadSheet sheet = new SpreadSheet();
+		
 		
 	}
 

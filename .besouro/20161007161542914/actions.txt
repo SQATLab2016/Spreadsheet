@@ -1,0 +1,12 @@
+FileOpenedAction 1475846143101 Spreadsheet.java 264 3 2 0
+UnitTestCaseAction 1475846188251 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846188251 tests FAIL
+FileOpenedAction 1475846201261 SpreadsheetTest.java 162 1 1 0
+RefactoringAction 1475846277951 SpreadsheetTest.java RENAME test()=>void test_() METHOD
+RefactoringAction 1475846282069 SpreadsheetTest.java RENAME test_()=>void test_set() METHOD
+RefactoringAction 1475846285158 SpreadsheetTest.java RENAME test_set()=>void test_setCellTovalue() METHOD
+RefactoringAction 1475846289277 SpreadsheetTest.java RENAME test_setCellTovalue()=>void test_setCellToValue() METHOD
+RefactoringAction 1475846316561 SpreadsheetTest.java RENAME test_setCellToValue()=>void test_setCellToValueA1() METHOD
+RefactoringAction 1475846317591 SpreadsheetTest.java RENAME test_setCellToValueA1()=>void test_setCellToValueA1_V() METHOD
+RefactoringAction 1475846318620 SpreadsheetTest.java RENAME test_setCellToValueA1_V()=>void test_setCellToValueA1_1() METHOD
+EditAction 1475846391004 SpreadsheetTest.java 194 1 1 0
