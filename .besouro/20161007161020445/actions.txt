@@ -98,3 +98,8 @@ RefactoringAction 1475847178648 Spreadsheet.java RENAME map=>HashMap<String,Stri
 EditAction 1475847179522 Spreadsheet.java 463 3 2 0
 EditAction 1475847209146 Spreadsheet.java 486 3 3 0
 EditAction 1475847239909 Spreadsheet.java 497 3 3 0
+UnitTestCaseAction 1475847245965 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847245965 SpreadsheetTest.java OK
+RefactoringAction 1475847293914 SpreadsheetTest.java ADD void testSetOperationDefinition()/2 METHOD
+RefactoringAction 1475847303926 SpreadsheetTest.java RENAME testSetOperationDefinition()/2=>void testSetOperation_GetOperation() METHOD
+EditAction 1475847304420 SpreadsheetTest.java 573 4 6 4

@@ -21,6 +21,13 @@ public class SpreadsheetTest {
 		
 	}
 	@Test
+	public void testSetOperation_GetOperation() {
+		
+		test.set("A1",  "5");
+		assertEquals("5", test.get("A1"));
+		
+	}
+	@Test
 	public void testSetOperationDefinition() {
 		
 		test.set("A1",  "5");
