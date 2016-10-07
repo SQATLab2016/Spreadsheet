@@ -82,4 +82,11 @@ public class SpreadsheetTest {
 		assertEquals("-5", ss.evaluate("A1"));
 	}
 	
+	@Test
+	public void spreadsheet_evaluate_simple_equals_formula_int() {
+		Spreadsheet ss = new Spreadsheet();
+		ss.set("A1", "=5");
+		assertEquals("5", ss.evaluate("A1"));
+	}
+	
 }
