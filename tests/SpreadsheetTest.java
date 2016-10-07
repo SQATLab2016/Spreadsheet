@@ -26,7 +26,6 @@ public class SpreadsheetTest {
 	public void test_evaluateCorrectlyFormattedCellNegativeInteger() {
 		test_sheet.set("A1", "-1");
 		String result = test_sheet.evaluate("A1");
-		assertEquals("-1", result);
-		
+		assertEquals("-1", result);		
 	}
 }
