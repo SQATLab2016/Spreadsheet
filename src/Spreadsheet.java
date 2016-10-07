@@ -22,6 +22,7 @@ public class Spreadsheet {
 		
 		String value = "";
 		
+		
 		// get the value of the cell.
 		if(map.containsKey(cell)) {
 			value = map.get(cell);
