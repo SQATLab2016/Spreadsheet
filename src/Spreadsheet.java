@@ -67,7 +67,7 @@ public class Spreadsheet {
 			if(digitCount != (c.length - 1)) {
 				return "#Error";
 			} else {
-				return value;
+				return "taalla"; //value;
 			}
 		} else {
 			if(digitCount != c.length) {
