@@ -65,3 +65,6 @@ EditAction 1475847481621 SpreadsheetTest.java 465 2 5 2
 RefactoringAction 1475847488828 SpreadsheetTest.java ADD void test_evaluateCorrectlyFormattedCellPositiveInteger()/2 METHOD
 EditAction 1475847496020 SpreadsheetTest.java 651 3 8 3
 EditAction 1475847502978 SpreadsheetTest.java 653 3 8 3
+UnitTestCaseAction 1475847507614 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847507614 SpreadsheetTest.java OK
+EditAction 1475847524431 SpreadsheetTest.java 655 3 8 3
