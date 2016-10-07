@@ -52,12 +52,14 @@ public class Spreadsheet {
 		
 		// if there are some other characters than digits.
 		if(isNegative) {
-			return value;
+			if(digitCount != (c.length - 1)) {
+				return "#Error";
+			}
+		} else {
+			
 		}
 		
-		if(digitCount != c.length) {
-			return "#Error";
-		}
+		
 		
 		return value;
 	}
