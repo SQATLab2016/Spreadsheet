@@ -24,3 +24,7 @@ CompilationAction 1475846061469 SpreadsheetTest.java
 UnitTestCaseAction 1475846063578 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475846063578 SpreadsheetTest.java FAIL
 EditAction 1475846081892 SpreadsheetTest.java 328 2 2 2
+UnitTestCaseAction 1475846084843 SpreadsheetTest.java OK
+UnitTestSessionAction 1475846084843 SpreadsheetTest.java OK
+RefactoringAction 1475846089227 SpreadsheetTest.java ADD void testGetOperationDefinition()/2 METHOD
+EditAction 1475846091052 SpreadsheetTest.java 429 3 3 3

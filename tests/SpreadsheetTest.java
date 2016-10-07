@@ -20,6 +20,13 @@ public class SpreadsheetTest {
 		assertEquals(null, test.get("A1"));
 		
 	}
+	@Test
+	public void testSetOperationDefinition() {
+		
+		
+		assertEquals(null, test.get("A1"));
+		
+	}
 	
 
 }
