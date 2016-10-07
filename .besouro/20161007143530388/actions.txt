@@ -32,3 +32,9 @@ RefactoringAction 1475841342859 Spreadsheet.java RENAME al=>ArrayList<String> ce
 RefactoringAction 1475841396573 Spreadsheet.java REMOVE cells FIELD
 RefactoringAction 1475841404096 Spreadsheet.java ADD ArrayList<String> cells FIELD
 EditAction 1475841492045 Spreadsheet.java 392 3 4 0
+UnitTestCaseAction 1475841494069 SpreadsheetTest.java OK
+UnitTestSessionAction 1475841494070 SpreadsheetTest.java OK
+RefactoringAction 1475841517607 SpreadsheetTest.java RENAME test()=>void test1() METHOD
+RefactoringAction 1475841525623 SpreadsheetTest.java ADD void test1()/2 METHOD
+RefactoringAction 1475841557708 SpreadsheetTest.java RENAME test1()/2=>void test2() METHOD
+EditAction 1475841558646 SpreadsheetTest.java 346 2 4 2
