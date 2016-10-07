@@ -139,7 +139,7 @@ public class Spreadsheet {
 			if(digitCount != (c.length - 1)) {
 				return "#Error";
 			} else {
-				return value;
+				return value.substring(startPos);
 			}
 			
 		} else {
