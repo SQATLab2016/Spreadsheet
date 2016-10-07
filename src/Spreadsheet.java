@@ -9,7 +9,9 @@ public class Spreadsheet {
 	
 	public String get(String cell) {
 		
-		
+		if(map.containsKey(cell)) {
+			
+		}
 		
 		return null;
 	}
