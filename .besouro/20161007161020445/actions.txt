@@ -103,3 +103,6 @@ UnitTestSessionAction 1475847245965 SpreadsheetTest.java OK
 RefactoringAction 1475847293914 SpreadsheetTest.java ADD void testSetOperationDefinition()/2 METHOD
 RefactoringAction 1475847303926 SpreadsheetTest.java RENAME testSetOperationDefinition()/2=>void testSetOperation_GetOperation() METHOD
 EditAction 1475847304420 SpreadsheetTest.java 573 4 6 4
+RefactoringAction 1475847310439 SpreadsheetTest.java RENAME testSetOperationDefinition()=>void test() METHOD
+RefactoringAction 1475847313949 SpreadsheetTest.java RENAME test()=>void testReturn() METHOD
+EditAction 1475847322674 SpreadsheetTest.java 564 4 6 4

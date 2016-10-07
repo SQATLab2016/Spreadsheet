@@ -28,7 +28,7 @@ public class SpreadsheetTest {
 		
 	}
 	@Test
-	public void testSetOperationDefinition() {
+	public void testReturnInteger() {
 		
 		test.set("A1",  "5");
 		assertEquals("5", test.get("A1"));
