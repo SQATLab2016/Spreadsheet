@@ -107,3 +107,6 @@ RefactoringAction 1475847310439 SpreadsheetTest.java RENAME testSetOperationDefi
 RefactoringAction 1475847313949 SpreadsheetTest.java RENAME test()=>void testReturn() METHOD
 EditAction 1475847322674 SpreadsheetTest.java 564 4 6 4
 EditAction 1475847333908 SpreadsheetTest.java 566 4 6 4
+UnitTestCaseAction 1475847336328 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847336329 SpreadsheetTest.java OK
+EditAction 1475847393511 SpreadsheetTest.java 571 4 6 4
