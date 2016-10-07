@@ -10,3 +10,5 @@ RefactoringAction 1475846316561 SpreadsheetTest.java RENAME test_setCellToValue(
 RefactoringAction 1475846317591 SpreadsheetTest.java RENAME test_setCellToValueA1()=>void test_setCellToValueA1_V() METHOD
 RefactoringAction 1475846318620 SpreadsheetTest.java RENAME test_setCellToValueA1_V()=>void test_setCellToValueA1_1() METHOD
 EditAction 1475846391004 SpreadsheetTest.java 194 1 1 0
+CompilationAction 1475846392954 SpreadsheetTest.java
+EditAction 1475846531919 SpreadsheetTest.java 194 1 1 0
