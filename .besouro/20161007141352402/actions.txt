@@ -28,3 +28,6 @@ EditAction 1475839556426 Spreadsheet.java 420 3 3 0
 EditAction 1475839594547 Spreadsheet.java 455 3 4 0
 EditAction 1475839634776 Spreadsheet.java 446 3 4 0
 EditAction 1475839674377 Spreadsheet.java 465 3 4 0
+CompilationAction 1475839674485 Spreadsheet.java
+CompilationAction 1475839682215 Spreadsheet.java
+EditAction 1475839686308 Spreadsheet.java 477 3 4 0

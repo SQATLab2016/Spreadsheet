@@ -13,7 +13,7 @@ public class Spreadsheet {
 			return map.get(cell);
 		}
 		
-		return -1;
+		return "errormessage";
 	}
 	
 	public void set(String cell, String value) {
