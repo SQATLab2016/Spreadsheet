@@ -2,3 +2,8 @@ FileOpenedAction 1475847622795 SpreadsheetTest.java 452 2 7 2
 UnitTestCaseAction 1475847638127 SpreadsheetTest.java OK
 UnitTestSessionAction 1475847638127 SpreadsheetTest.java OK
 EditAction 1475847712375 SpreadsheetTest.java 441 2 3 1
+CompilationAction 1475847712519 SpreadsheetTest.java
+CompilationAction 1475847713842 SpreadsheetTest.java
+UnitTestCaseAction 1475847717539 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847717539 SpreadsheetTest.java FAIL
+EditAction 1475847741840 Spreadsheet.java 432 4 4 0
