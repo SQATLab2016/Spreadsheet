@@ -30,12 +30,17 @@ public class Spreadsheet {
 		}
 		
 		int cLenght = value.toCharArray().length;  
+		int digitCount = 0;
 		
 		// loop through the value and check for letters.
 		for(char c : value.toCharArray()) {
 			if(Character.isDigit(c)) {
-				
+				digitCount ++;
 			}
+		}
+		
+		if(digitCount == cLenght) {
+			
 		}
 		
 		return value;
