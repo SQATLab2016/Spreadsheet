@@ -18,3 +18,17 @@ CompilationAction 1475840636737 Spreadsheet.java
 CompilationAction 1475840646615 Spreadsheet.java
 CompilationAction 1475840646616 Spreadsheet.java
 EditAction 1475840659716 SpreadsheetTest.java 239 1 2 1
+RefactoringAction 1475840935848 Spreadsheet.java ADD String cells FIELD
+RefactoringAction 1475841010430 Spreadsheet.java REMOVE cells FIELD
+RefactoringAction 1475841032996 Spreadsheet.java ADD String vc FIELD
+RefactoringAction 1475841035006 Spreadsheet.java RENAME vc=>String cells FIELD
+RefactoringAction 1475841063069 Spreadsheet.java REMOVE cells FIELD
+RefactoringAction 1475841065593 Spreadsheet.java ADD String cells FIELD
+RefactoringAction 1475841088700 Spreadsheet.java REMOVE cells FIELD
+RefactoringAction 1475841184234 Spreadsheet.java ADD Vector FIELD
+RefactoringAction 1475841315787 Spreadsheet.java RENAME cells=>List<String> al FIELD
+RefactoringAction 1475841322179 Spreadsheet.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1475841342859 Spreadsheet.java RENAME al=>ArrayList<String> cells FIELD
+RefactoringAction 1475841396573 Spreadsheet.java REMOVE cells FIELD
+RefactoringAction 1475841404096 Spreadsheet.java ADD ArrayList<String> cells FIELD
+EditAction 1475841492045 Spreadsheet.java 392 3 4 0
