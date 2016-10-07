@@ -77,4 +77,12 @@ public class Spreadsheet {
 		return value;
 	}
 	
+	private String RemoveQuotes(String s) {
+		
+		
+		
+		return s;
+	}
+	
+	
 }
