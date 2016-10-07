@@ -65,3 +65,5 @@ RefactoringAction 1475840227953 SpreadsheetTest.java ADD void spreadsheet_evalua
 RefactoringAction 1475840235467 SpreadsheetTest.java RENAME spreadsheet_evaluate_negative()/2=>void spreadsheet_evaluate_wrong() METHOD
 RefactoringAction 1475840244988 SpreadsheetTest.java RENAME spreadsheet_evaluate_wrong()=>void spreadsheet_evaluate_wrongFormattedInt() METHOD
 EditAction 1475840246757 SpreadsheetTest.java 1035 6 18 6
+RefactoringAction 1475840250502 SpreadsheetTest.java RENAME spreadsheet_evaluate_wrongFormattedInt()=>void spreadsheet_evaluate_wronglyFormattedInt() METHOD
+EditAction 1475840251366 SpreadsheetTest.java 1037 6 18 6

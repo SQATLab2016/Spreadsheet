@@ -42,7 +42,7 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void spreadsheet_evaluate_wrongFormattedInt() {
+	public void spreadsheet_evaluate_wronglyFormattedInt() {
 		Spreadsheet ss = new Spreadsheet();
 		ss.set("A1", "-1");
 		assertEquals("-1", ss.evaluate("A1"));
