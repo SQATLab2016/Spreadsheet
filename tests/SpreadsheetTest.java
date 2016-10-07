@@ -24,7 +24,7 @@ public class SpreadsheetTest {
 	public void spreadsheet_get_error() {
 		Spreadsheet ss = new Spreadsheet();
 		ss.set("A1", "2");
-		ss.get("A2");
+		assertEquals("errormessage", ss.get("A2"));
 	}
 	
 	

@@ -39,3 +39,4 @@ RefactoringAction 1475839721392 SpreadsheetTest.java RENAME spreadsheet_get_erro
 RefactoringAction 1475839753964 SpreadsheetTest.java REMOVE ss FIELD
 EditAction 1475839763365 SpreadsheetTest.java 488 3 8 2
 EditAction 1475839773338 SpreadsheetTest.java 501 3 9 2
+EditAction 1475839801077 SpreadsheetTest.java 531 3 9 3
