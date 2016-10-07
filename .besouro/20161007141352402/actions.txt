@@ -327,3 +327,10 @@ UnitTestCaseAction 1475844958325 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475844958325 SpreadsheetTest.java FAIL
 EditAction 1475844972803 SpreadsheetTest.java 1602 9 27 9
 EditAction 1475845003937 Spreadsheet.java 2542 3 13 0
+UnitTestCaseAction 1475845005501 SpreadsheetTest.java OK
+UnitTestSessionAction 1475845005501 SpreadsheetTest.java OK
+RefactoringAction 1475845027920 SpreadsheetTest.java ADD void spreadsheet FIELD
+RefactoringAction 1475845029932 SpreadsheetTest.java RENAME spreadsheet=>void spreadsheet_evaluate_ FIELD
+RefactoringAction 1475845033444 SpreadsheetTest.java RENAME spreadsheet_evaluate_=>void spreadsheet_evaluate_simple_equals_forum FIELD
+RefactoringAction 1475845037453 SpreadsheetTest.java RENAME spreadsheet_evaluate_simple_equals_forum=>void spreadsheet_evaluate_simple_equals_formula_error() METHOD
+EditAction 1475845046742 SpreadsheetTest.java 1795 10 30 10
