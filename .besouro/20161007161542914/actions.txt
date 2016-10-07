@@ -20,3 +20,11 @@ UnitTestSessionAction 1475846594403 SpreadsheetTest.java FAIL
 RefactoringAction 1475846708440 Spreadsheet.java ADD Map<String,String> sheet FIELD
 RefactoringAction 1475846709953 Spreadsheet.java RENAME sheet=>Map<String,String> sheetmap FIELD
 EditAction 1475846723488 Spreadsheet.java 333 3 2 0
+CompilationAction 1475846725860 Spreadsheet.java
+RefactoringAction 1475846735641 Spreadsheet.java ADD import java.util.Map IMPORT
+CompilationAction 1475846747590 Spreadsheet.java
+CompilationAction 1475846747746 Spreadsheet.java
+CompilationAction 1475846825204 Spreadsheet.java
+CompilationAction 1475846825263 Spreadsheet.java
+CompilationAction 1475846838659 Spreadsheet.java
+EditAction 1475846907300 Spreadsheet.java 395 3 3 0

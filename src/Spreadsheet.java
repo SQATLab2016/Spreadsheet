@@ -1,7 +1,8 @@
+import java.util.HashMap;
 
 public class Spreadsheet {
 
-	private Map<String, String> sheetmap = new Map<String, String>();
+	private HashMap<String, String> sheetmap = new HashMap<String, String>();
 	
 	public String get(String cell) {
 		// to be implemented
@@ -10,6 +11,7 @@ public class Spreadsheet {
 	
 	public void set(String cell, String value) {
 		// to be implemented
+		sheetmap.put(cell,value);
 	}
 	
 	public String evaluate(String cell) {
