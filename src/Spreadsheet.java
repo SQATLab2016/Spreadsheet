@@ -100,7 +100,7 @@ public class Spreadsheet {
 					// dont do anything.
 					
 				} else {
-					return "#Errorasf";
+					return "#Error";
 				}
 			}
 			
