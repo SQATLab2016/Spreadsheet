@@ -32,12 +32,16 @@ public class Spreadsheet {
 			return "ValueNotFoundError";
 		}
 		
+		// convert string to character array.
 		c = value.toCharArray();
+		
+		// this is a counter that counts digits in the value.
 		int digitCount = 0;
 		
 		// TODO:
-		// refactor for loop. 
+		// refactor: for loop. 
 		// atm. there are too much going on.
+		// using same-ish code multiple times, could be done better.
 		
 		// loop through the value and check for letters.
 		for(int i = 0; i < c.length; i++) {
