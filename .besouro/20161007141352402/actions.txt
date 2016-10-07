@@ -440,3 +440,6 @@ EditAction 1475847224592 Spreadsheet.java 3301 3 16 0
 EditAction 1475847239822 Spreadsheet.java 3349 3 16 0
 EditAction 1475847267678 Spreadsheet.java 3404 3 16 0
 EditAction 1475847284755 Spreadsheet.java 3396 3 16 0
+UnitTestCaseAction 1475847290395 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847290395 SpreadsheetTest.java FAIL
+EditAction 1475847307208 Spreadsheet.java 3424 3 16 0
