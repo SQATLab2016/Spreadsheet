@@ -91,7 +91,6 @@ public class Spreadsheet {
 			if(Character.isDigit(c[i])) {
 				digitCount ++;
 			}
-			
 		}
 		
 		// if the value is a string.
