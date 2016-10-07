@@ -70,3 +70,7 @@ UnitTestSessionAction 1475847507614 SpreadsheetTest.java OK
 EditAction 1475847524431 SpreadsheetTest.java 655 3 8 3
 EditAction 1475847595723 Spreadsheet.java 433 3 3 0
 EditAction 1475847601854 SpreadsheetTest.java 654 3 8 3
+RefactoringAction 1475847610309 SpreadsheetTest.java ADD void test_evaluateCorrectlyFormattedCellNegativeInteger()/2 METHOD
+RefactoringAction 1475847617001 SpreadsheetTest.java RENAME test_evaluateCorrectlyFormattedCellNegativeInteger()/2=>void test_evaluateInvalidFormattedCellNegativeInteger() METHOD
+RefactoringAction 1475847621634 SpreadsheetTest.java RENAME test_evaluateInvalidFormattedCellNegativeInteger()=>void test_evaluateInvalidFormattedCellInteger() METHOD
+EditAction 1475847622773 SpreadsheetTest.java 831 4 11 4
