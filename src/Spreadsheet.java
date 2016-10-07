@@ -54,8 +54,10 @@ public class Spreadsheet {
 			// the subsequent char can only be '-', '\'' or digit.
 			if(c[i] == '=') {
 				if(c[i+1] == '-') {
+					
 					isNegative = true;
 					continue;
+					
 				} else if (c[i+1] == '\'') {
 					
 					// loop through the remaining characters for closing quote.
