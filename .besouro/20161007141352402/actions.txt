@@ -368,3 +368,6 @@ EditAction 1475845942991 Spreadsheet.java 2900 3 13 0
 EditAction 1475846082550 Spreadsheet.java 2983 3 13 0
 EditAction 1475846084568 Spreadsheet.java 2984 3 13 0
 EditAction 1475846128925 Spreadsheet.java 2873 3 13 0
+UnitTestCaseAction 1475846131608 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846131608 SpreadsheetTest.java FAIL
+EditAction 1475846252893 Spreadsheet.java 2967 3 12 0
