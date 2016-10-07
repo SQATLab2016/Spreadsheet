@@ -29,3 +29,18 @@ UnitTestSessionAction 1475846084843 SpreadsheetTest.java OK
 RefactoringAction 1475846089227 SpreadsheetTest.java ADD void testGetOperationDefinition()/2 METHOD
 EditAction 1475846091052 SpreadsheetTest.java 429 3 3 3
 EditAction 1475846095451 SpreadsheetTest.java 429 3 3 3
+CompilationAction 1475846097308 SpreadsheetTest.java
+CompilationAction 1475846289219 SpreadsheetTest.java
+CompilationAction 1475846289393 SpreadsheetTest.java
+CompilationAction 1475846289394 SpreadsheetTest.java
+CompilationAction 1475846295668 SpreadsheetTest.java
+CompilationAction 1475846295670 SpreadsheetTest.java
+CompilationAction 1475846295805 SpreadsheetTest.java
+CompilationAction 1475846309399 SpreadsheetTest.java
+UnitTestCaseAction 1475846314089 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846314090 SpreadsheetTest.java FAIL
+RefactoringAction 1475846595809 Spreadsheet.java ADD Dictionary spreadsheet FIELD
+RefactoringAction 1475846651355 Spreadsheet.java RENAME spreadsheet=>void dictionary() METHOD
+RefactoringAction 1475846725411 Spreadsheet.java REMOVE dictionary() METHOD
+RefactoringAction 1475846736471 Spreadsheet.java ADD Map<String,String> spreadsheet FIELD
+EditAction 1475846800920 Spreadsheet.java 327 3 2 0

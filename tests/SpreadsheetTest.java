@@ -23,8 +23,8 @@ public class SpreadsheetTest {
 	@Test
 	public void testSetOperationDefinition() {
 		
-		
-		assertEquals(null, test.set("A1"));
+		test.set("A1",  "5");
+		assertEquals("5", test.get("A1"));
 		
 	}
 	
