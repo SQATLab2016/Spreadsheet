@@ -21,8 +21,9 @@ public class Spreadsheet {
 		cells.get(cells.indexOf(cell)+1).startsWith("9") ||
 		cells.get(cells.indexOf(cell)+1).startsWith("-") ||
 		cells.get(cells.indexOf(cell)+1).startsWith("+")){
+			
 			for(int i=0; i<cells.get(cells.indexOf(cell)+1).length() ; i++){
-				if(cells.get(cells.indexOf(cell)+1).substring(i).startsWith("0")||
+				if(!(cells.get(cells.indexOf(cell)+1).substring(i).startsWith("0")||
 				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("1")||
 				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("2")||
 				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("3")||
@@ -32,17 +33,15 @@ public class Spreadsheet {
 				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("7")||
 				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("8")||
 				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("9")||
-				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("0")){
+				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("0"))){
 					return "#Error";
-				}else{
-					return cells.get(cells.indexOf(cell)+1);
 				}
-				
-		}		
+		    }		
 			
 		}else{
 			return cells.get(cells.indexOf(cell)+1);
 		}
+		return cells.get(cells.indexOf(cell)+1);
 				
 	}
 	
