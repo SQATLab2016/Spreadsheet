@@ -61,7 +61,7 @@ public class Spreadsheet {
 				} else if (c[i+1] == '\'') {
 					
 					boolean hasClosingQuote = false;
-					int StringStartPos = i+1;
+					int StringStartPos = i+2;
 					int StringEndPos = 0;
 					
 					// loop through the remaining characters for closing quote.
