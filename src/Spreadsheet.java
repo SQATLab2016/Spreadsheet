@@ -1,7 +1,11 @@
-
+import java.util.Dictionary;
+import java.util.HashMap;
+import java.util.Map;
 public class Spreadsheet {
+	//private static final Map<String, String> map;
+	HashMap<String, String> myMap = new HashMap<String, String>();
+		
 	
-	Map<String, String> spreadsheet = new Map<String, String>();
 	public String get(String cell) {
 		// to be implemented
 		return null;
@@ -9,11 +13,14 @@ public class Spreadsheet {
 	
 	public void set(String cell, String value) {
 		// to be implemented
+	
 	}
 	
 	public String evaluate(String cell) {
 		// to be implemented
 		return null;
 	}
+	
+	
 	
 }

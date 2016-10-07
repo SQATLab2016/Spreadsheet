@@ -44,3 +44,55 @@ RefactoringAction 1475846651355 Spreadsheet.java RENAME spreadsheet=>void dictio
 RefactoringAction 1475846725411 Spreadsheet.java REMOVE dictionary() METHOD
 RefactoringAction 1475846736471 Spreadsheet.java ADD Map<String,String> spreadsheet FIELD
 EditAction 1475846800920 Spreadsheet.java 327 3 2 0
+CompilationAction 1475846802737 Spreadsheet.java
+RefactoringAction 1475846834536 Spreadsheet.java REMOVE spreadsheet FIELD
+RefactoringAction 1475846840563 Spreadsheet.java ADD Map<String,String> spreadsheet FIELD
+RefactoringAction 1475846861576 Spreadsheet.java RENAME spreadsheet=>Map<String,String> sheet FIELD
+CompilationAction 1475846876589 Spreadsheet.java
+RefactoringAction 1475846888803 Spreadsheet.java ADD Map<String,String> dictionary FIELD
+RefactoringAction 1475846891377 Spreadsheet.java REMOVE dictionary FIELD
+RefactoringAction 1475846913514 Spreadsheet.java ADD import java.util.Dictionary IMPORT
+CompilationAction 1475846915667 Spreadsheet.java
+CompilationAction 1475846915807 Spreadsheet.java
+RefactoringAction 1475846926633 Spreadsheet.java ADD import java.util.Map IMPORT
+CompilationAction 1475846945604 Spreadsheet.java
+CompilationAction 1475846945760 Spreadsheet.java
+UnitTestCaseAction 1475846958945 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846958945 SpreadsheetTest.java FAIL
+RefactoringAction 1475847018568 Spreadsheet.java REMOVE sheet FIELD
+RefactoringAction 1475847060159 Spreadsheet.java ADD Map<String,String> map FIELD
+RefactoringAction 1475847070680 Spreadsheet.java REMOVE map FIELD
+RefactoringAction 1475847074191 Spreadsheet.java ADD Map<String,String> map FIELD
+CompilationAction 1475847081594 Spreadsheet.java
+UnitTestCaseAction 1475847085840 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847085840 SpreadsheetTest.java FAIL
+RefactoringAction 1475847115309 Spreadsheet.java REMOVE map FIELD
+RefactoringAction 1475847129208 Spreadsheet.java ADD HashMap<String,String> map FIELD
+RefactoringAction 1475847136930 Spreadsheet.java REMOVE set(String, String) METHOD
+RefactoringAction 1475847136930 Spreadsheet.java REMOVE get(String) METHOD
+RefactoringAction 1475847136930 Spreadsheet.java REMOVE evaluate(String) METHOD
+CompilationAction 1475847145479 Spreadsheet.java
+CompilationAction 1475847145635 Spreadsheet.java
+CompilationAction 1475847145635 Spreadsheet.java
+CompilationAction 1475847145635 Spreadsheet.java
+CompilationAction 1475847145635 SpreadsheetTest.java
+CompilationAction 1475847145635 SpreadsheetTest.java
+RefactoringAction 1475847152655 Spreadsheet.java ADD import java.util.HashMap IMPORT
+CompilationAction 1475847154808 Spreadsheet.java
+CompilationAction 1475847154808 Spreadsheet.java
+CompilationAction 1475847154808 Spreadsheet.java
+CompilationAction 1475847154948 Spreadsheet.java
+CompilationAction 1475847154948 Spreadsheet.java
+CompilationAction 1475847154948 SpreadsheetTest.java
+CompilationAction 1475847154948 SpreadsheetTest.java
+UnitTestCaseAction 1475847157978 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847157978 SpreadsheetTest.java FAIL
+RefactoringAction 1475847161644 Spreadsheet.java ADD String get(String) METHOD
+RefactoringAction 1475847161644 Spreadsheet.java ADD void set(String, String) METHOD
+RefactoringAction 1475847161644 Spreadsheet.java ADD String evaluate(String) METHOD
+CompilationAction 1475847161862 Spreadsheet.java
+CompilationAction 1475847161862 Spreadsheet.java
+CompilationAction 1475847162018 Spreadsheet.java
+CompilationAction 1475847166043 Spreadsheet.java
+RefactoringAction 1475847178648 Spreadsheet.java RENAME map=>HashMap<String,String> mymap FIELD
+EditAction 1475847179522 Spreadsheet.java 463 3 2 0
