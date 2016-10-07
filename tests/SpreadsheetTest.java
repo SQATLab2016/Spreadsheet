@@ -62,17 +62,20 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void spreadsheet_evaluate_simple_equals_formula() {
+	public void spreadsheet_evaluate_simple_equals_formula_string() {
 		Spreadsheet ss = new Spreadsheet();
 		ss.set("A1", "='teststring'");
 		assertEquals("teststring", ss.evaluate("A1"));
 	}
 	
 	@Test
-	public void spreadsheet_evaluate_simple_equals_formula_error() {
+	public void spreadsheet_evaluate_simple_equals_formula_string_error() {
 		Spreadsheet ss = new Spreadsheet();
 		ss.set("A1", "='teststring");
 		assertEquals("#Error", ss.evaluate("A1"));
 	}
+	
+	@Test
+	public void spreadsheet_evaluate_simple_equals_formula_
 	
 }
