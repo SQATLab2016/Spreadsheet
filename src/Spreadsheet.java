@@ -74,7 +74,6 @@ public class Spreadsheet {
 				return "#Error";
 			}
 		}
-		
 		return value;
 	}
 	
