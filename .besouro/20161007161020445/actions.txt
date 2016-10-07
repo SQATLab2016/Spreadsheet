@@ -96,3 +96,4 @@ CompilationAction 1475847162018 Spreadsheet.java
 CompilationAction 1475847166043 Spreadsheet.java
 RefactoringAction 1475847178648 Spreadsheet.java RENAME map=>HashMap<String,String> mymap FIELD
 EditAction 1475847179522 Spreadsheet.java 463 3 2 0
+EditAction 1475847209146 Spreadsheet.java 486 3 3 0

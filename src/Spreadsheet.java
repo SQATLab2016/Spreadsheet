@@ -13,7 +13,7 @@ public class Spreadsheet {
 	
 	public void set(String cell, String value) {
 		// to be implemented
-	
+	myMap.put(cell, value);
 	}
 	
 	public String evaluate(String cell) {
