@@ -40,10 +40,15 @@ public class Spreadsheet {
 		int digitCount = 0;
 		
 		// TODO:
-		// 1. Refactor: using same-ish code multiple times, could be done better.
+		// 1. Refactor: using same-ish code multiple times, could be done better (in for loop).
 		// 2. if value is "= ", there is no error message for special cases.
+		// 3. make it recursive (I guess).
+		
+		// TODO:
+		// start & end positions are smelly.
 		
 		// for cutting the string to substring.
+		// used to manipulate the value string in the return statements.
 		int startPos = 0;
 		int endPos = 0;
 		

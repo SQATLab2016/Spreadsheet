@@ -473,3 +473,8 @@ EditAction 1475847519747 Spreadsheet.java 3451 3 16 0
 UnitTestCaseAction 1475847521806 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475847521806 SpreadsheetTest.java FAIL
 EditAction 1475847555965 Spreadsheet.java 3472 3 16 0
+UnitTestCaseAction 1475847557261 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847557261 SpreadsheetTest.java OK
+RefactoringAction 1475847849393 SpreadsheetTest.java ADD void spreadsheet_evaluate_ FIELD
+RefactoringAction 1475847854404 SpreadsheetTest.java RENAME spreadsheet_evaluate_=>void spreadsheet_evaluate_cell_reference() METHOD
+EditAction 1475847896200 SpreadsheetTest.java 2355 13 40 13
