@@ -23,8 +23,8 @@ public class SpreadsheetTest {
 	@Test
 	public void spreadsheet_set_a1_teststring() {
 		Spreadsheet ss = new Spreadsheet();
-		ss.set("A1", "teststring");
-		assertEquals("'teststring'", ss.get("A1"));
+		ss.set("A1", "'teststring'");
+		assertEquals("teststring", ss.get("A1"));
 	}
 	
 	@Test
