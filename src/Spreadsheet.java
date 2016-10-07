@@ -110,7 +110,7 @@ public class Spreadsheet {
 					continue;
 					
 				// next character is a letter.
-				// -> 
+				// -> cell reference
 				} else if(Character.isLetter(c[i+1])) { 
 					
 					
