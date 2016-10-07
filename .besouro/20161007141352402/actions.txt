@@ -267,3 +267,4 @@ RefactoringAction 1475843598734 SpreadsheetTest.java RENAME spreadsheet_evaluate
 RefactoringAction 1475843608747 SpreadsheetTest.java RENAME spreadsheet_evaluate_=>void spreadsheet_evaluate_simple_formula() METHOD
 RefactoringAction 1475843614759 SpreadsheetTest.java RENAME spreadsheet_evaluate_simple_formula()=>void spreadsheet_evaluate_simple_equals_formula() METHOD
 EditAction 1475843615871 SpreadsheetTest.java 1485 9 24 8
+EditAction 1475843651613 SpreadsheetTest.java 1602 9 27 9

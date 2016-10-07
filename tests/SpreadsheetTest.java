@@ -63,7 +63,9 @@ public class SpreadsheetTest {
 	
 	@Test
 	public void spreadsheet_evaluate_simple_equals_formula() {
-		
+		Spreadsheet ss = new Spreadsheet();
+		ss.set("A1", "='teststring'");
+		assertEquals("teststring", ss.evaluate("A1"));
 	}
 	
 	
