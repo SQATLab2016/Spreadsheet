@@ -92,9 +92,9 @@ public class SpreadsheetTest {
 	@Test
 	public void spreadsheet_evaluate_cell_reference() {
 		Spreadsheet ss = new Spreadsheet();
-		ss.set("A5", "5");
+		ss.set("A5", "-5");
 		ss.set("A1", "=A5");
-		assertEquals("5", ss.evaluate("A5"));
+		assertEquals("-5", ss.evaluate("A5"));
 	}
 	
 }

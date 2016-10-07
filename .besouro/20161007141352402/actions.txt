@@ -478,3 +478,6 @@ UnitTestSessionAction 1475847557261 SpreadsheetTest.java OK
 RefactoringAction 1475847849393 SpreadsheetTest.java ADD void spreadsheet_evaluate_ FIELD
 RefactoringAction 1475847854404 SpreadsheetTest.java RENAME spreadsheet_evaluate_=>void spreadsheet_evaluate_cell_reference() METHOD
 EditAction 1475847896200 SpreadsheetTest.java 2355 13 40 13
+UnitTestCaseAction 1475847918102 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847918102 SpreadsheetTest.java OK
+EditAction 1475847938325 SpreadsheetTest.java 2357 13 40 13
