@@ -73,7 +73,7 @@ public class Spreadsheet {
 			if(digitCount != c.length) {
 				return "#Error";
 			} else {
-				return value;
+				return "taalla";//value;
 			}
 		}
 	}
