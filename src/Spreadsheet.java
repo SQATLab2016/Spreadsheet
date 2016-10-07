@@ -35,7 +35,7 @@ public class Spreadsheet {
 				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("0")){
 					return "#Error";
 				}else{
-					cells.get(cells.indexOf(cell)+1);
+					return cells.get(cells.indexOf(cell)+1);
 				}
 				
 		}		
