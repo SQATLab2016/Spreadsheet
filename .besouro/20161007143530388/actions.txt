@@ -149,3 +149,6 @@ CompilationAction 1475848039318 Spreadsheet.java
 UnitTestCaseAction 1475848041021 SpreadsheetTest.java OK
 UnitTestSessionAction 1475848041021 SpreadsheetTest.java OK
 EditAction 1475848455795 Spreadsheet.java 3551 3 5 0
+RefactoringAction 1475848464516 SpreadsheetTest.java ADD void test9()/2 METHOD
+RefactoringAction 1475848468119 SpreadsheetTest.java RENAME test9()/2=>void test10() METHOD
+EditAction 1475848500068 SpreadsheetTest.java 1377 10 23 10

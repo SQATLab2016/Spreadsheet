@@ -54,6 +54,12 @@ public class SpreadsheetTest {
 		test.set("C6", "=A6");
 	    assertTrue(test.evaluate("C6").equals("#Error"));	
 	}
+	@Test
+	public void test10() {
+		test.set("O6", "=P6");
+		test.set("P6", "=O6");
+	    assertTrue(test.evaluate("P6").equals("#Circular"));	
+	}
 	
 
 }
