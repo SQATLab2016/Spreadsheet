@@ -123,7 +123,7 @@ public class Spreadsheet {
 		// 2. if the string contains other characters than digits and '-'.
 		if(isNegative || containsEquals) {
 			
-			// "remove" two from lenght of the value.
+			// "remove" two from value length
 			// 1. negative sign
 			// 2. equals sign
 			
@@ -134,6 +134,9 @@ public class Spreadsheet {
 					return value;
 				}
 			}
+			
+			//"remove" one from value length
+			// 1. negative sign
 			
 			if(digitCount != (c.length - 1)) {
 				return "#Error";
