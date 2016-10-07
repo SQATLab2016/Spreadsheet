@@ -37,7 +37,7 @@ public class Spreadsheet {
 		//for(char c : value.toCharArray()) {
 		for(int i = 0; i < c.length; i++) {
 		
-			// if the first char is negative (-).
+			// if the first character is negative (-).
 			if(c[i] == '-' && i == 0) {
 				continue;
 			}
