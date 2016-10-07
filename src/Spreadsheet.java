@@ -96,8 +96,6 @@ public class Spreadsheet {
 				
 				// next character is a digit.
 				} else if(Character.isDigit(c[i+1])) {
-					
-					digitCount++;
 					continue;
 					
 				} else {
