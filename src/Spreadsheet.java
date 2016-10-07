@@ -3,11 +3,9 @@ import java.util.ArrayList;
 public class Spreadsheet {
 
 	 ArrayList<String> cells=new ArrayList<String>();
-	 
-	 
 	
 	public String get(String cell) {
-		          
+		      
 		return cells.get(cells.lastIndexOf(cell)+1);
 				
 	}
@@ -59,7 +57,14 @@ public class Spreadsheet {
 						return "#Error";
 					}
 					
-					
+				}else if(cells.get(cells.lastIndexOf(cell)+1).startsWith("=")){
+					   if(cells.get(cells.lastIndexOf(cell)+1).substring(1,2).equals("’")){
+						   if(cells.get(cells.lastIndexOf(cell)+1).endsWith("’")){
+							   return cells.get(cells.lastIndexOf(cell)+1).substring(2,cells.get(cells.lastIndexOf(cell)+1).length()-1);
+						   }else{
+							   return "#Error";
+						   }
+					   }
 				}else{
 					return cells.get(cells.lastIndexOf(cell)+1);
 				}
