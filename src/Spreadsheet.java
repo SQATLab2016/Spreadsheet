@@ -126,7 +126,6 @@ public class Spreadsheet {
 			// "remove" two from value length
 			// 1. negative sign
 			// 2. equals sign
-			
 			if(isNegative && containsEquals) {
 				if(digitCount != c.length - 2) {
 					return "#Error";
@@ -137,7 +136,6 @@ public class Spreadsheet {
 			
 			//"remove" one from value length
 			// 1. negative sign
-			
 			if(digitCount != (c.length - 1)) {
 				return "#Error";
 			} else {
