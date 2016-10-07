@@ -8,7 +8,7 @@ public class Spreadsheet {
 	
 	public String get(String cell) {
 		          
-		return  cells.get(cells.indexOf(cell)+1);
+		return cells.get(cells.indexOf(cell)+1);
 				
 	}
 	
