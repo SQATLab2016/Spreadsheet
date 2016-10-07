@@ -35,6 +35,9 @@ public class Spreadsheet {
 		c = value.toCharArray();
 		int digitCount = 0;
 		
+		// TODO:
+		// 
+		
 		// loop through the value and check for letters.
 		for(int i = 0; i < c.length; i++) {
 		
