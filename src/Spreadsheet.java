@@ -57,6 +57,10 @@ public class Spreadsheet {
 			
 		}
 		
+		if(isString) {
+			return 
+		}
+		
 		// if there are some other characters than digits.
 		// 1. Check if the number is negative
 		// 2. if the string contains other characters than digits and '-'.
