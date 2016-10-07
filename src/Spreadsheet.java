@@ -65,6 +65,8 @@ public class Spreadsheet {
 						}
 					}
 					
+					
+					
 				} else if (Character.isDigit(c[i+1])){
 					
 				} else {
