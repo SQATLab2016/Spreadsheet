@@ -25,9 +25,9 @@ public class SpreadsheetTest {
 	    assertTrue(test.get("A3").equals("#Error"));	
 	}
 	@Test
-	public void test3() {
-		test.set("A3", "5A");
-	    assertTrue(test.get("A3").equals("#Error"));	
+	public void test4() {
+		test.set("A1", "5A");
+	    assertTrue(test.get("A1").equals("#Error"));	
 	}
 	
 	
