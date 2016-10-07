@@ -59,7 +59,8 @@ public class Spreadsheet {
 					
 					isNegative = true;
 					continue;
-					
+				
+				// opening single quote.
 				} else if (c[i+1] == '\'') {
 					
 					boolean hasClosingQuote = false;
