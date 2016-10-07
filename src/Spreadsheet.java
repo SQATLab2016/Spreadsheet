@@ -9,7 +9,6 @@ public class Spreadsheet {
 	public String get(String cell) {
 		          
 		
-		
 		if (cells.get(cells.indexOf(cell)+1).startsWith("0") ||
 		cells.get(cells.indexOf(cell)+1).startsWith("1") ||
 		cells.get(cells.indexOf(cell)+1).startsWith("2") ||
@@ -33,21 +32,17 @@ public class Spreadsheet {
 				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("7")||
 				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("8")||
 				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("9")||
-				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("0")||
-				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("+")||
-				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("-")||
-				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("/")||
-				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("*")){
-					re
+				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("0")){
+					return "#Error";
+				}else{
+					cells.get(cells.indexOf(cell)+1);
 				}
 				
-					
+		}		
 			
+		}else{
+			return cells.get(cells.indexOf(cell)+1);
 		}
-		
-		
-		
-		return cells.get(cells.indexOf(cell)+1);
 				
 	}
 	
