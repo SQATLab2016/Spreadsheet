@@ -10,7 +10,7 @@ public class SpreadsheetTest {
 	@Test
 	public void test() {
 		test.set("A1", "1");
-	    assertTrue(test.get("A1").equals(1));	
+	    assertTrue(test.get("A1").equals("1"));	
 	}
 
 }
