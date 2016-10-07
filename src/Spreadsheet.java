@@ -38,7 +38,15 @@ public class Spreadsheet {
 				}else{
 					cells.get(cells.lastIndexOf(cell)+1);
 				}
-		    }		
+		    }	
+		}else if(cells.get(cells.lastIndexOf(cell)+1).startsWith("'")){
+			
+			if(cells.get(cells.lastIndexOf(cell)+1).endsWith("'")){
+				return cells.get(cells.lastIndexOf(cell)+1).substring(1,cells.get(cells.lastIndexOf(cell)+1).length());
+			}else{
+				return "#Error";
+			}
+			
 			
 		}else{
 			return cells.get(cells.lastIndexOf(cell)+1);

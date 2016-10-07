@@ -78,3 +78,6 @@ EditAction 1475845323853 SpreadsheetTest.java 568 4 8 4
 CompilationAction 1475845323947 SpreadsheetTest.java
 RefactoringAction 1475845350217 SpreadsheetTest.java RENAME test3()/2=>void test4() METHOD
 EditAction 1475845350966 SpreadsheetTest.java 568 4 8 4
+UnitTestCaseAction 1475845352545 SpreadsheetTest.java OK
+UnitTestSessionAction 1475845352545 SpreadsheetTest.java OK
+EditAction 1475845756212 Spreadsheet.java 2404 3 5 0
