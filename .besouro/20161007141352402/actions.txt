@@ -194,3 +194,6 @@ EditAction 1475842453391 SpreadsheetTest.java 1223 7 21 7
 EditAction 1475842479481 Spreadsheet.java 1608 4 14 0
 RefactoringAction 1475842486790 Spreadsheet.java REMOVE RemoveQuotes(String) METHOD
 EditAction 1475842490393 Spreadsheet.java 1517 3 13 0
+UnitTestCaseAction 1475842500361 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475842500361 SpreadsheetTest.java FAIL
+EditAction 1475842505118 Spreadsheet.java 1496 3 13 0

@@ -70,7 +70,6 @@ public class Spreadsheet {
 			}
 		}
 		
-		// it is a string?
 		return value;
 	}
 }
