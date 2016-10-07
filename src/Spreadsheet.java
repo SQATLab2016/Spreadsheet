@@ -64,10 +64,14 @@ public class Spreadsheet {
 						   }else{
 							   return "#Error"; // 7
 						   }
-					   }else if(cells.contains(cells.get(cells.lastIndexOf(cell)+1).substring(1))){ // 8 =A1 ALSO 9
-						   if()
+					  }else if(cells.contains(cells.get(cells.lastIndexOf(cell)+1).substring(1))){ // 8 =A1 ALSO 9
+					           if(cells.get(cells.lastIndexOf(cells.get(cells.lastIndexOf(cell)+1).substring(1))+1).equals("=" + cell)){
+					        	   return "#Circular"; // 10
+					           }else{
+					        	   return evaluate(cells.get(cells.lastIndexOf(cell)+1).substring(1)); // 8 =A1 ALSO 9
+					           }
 						   
-						   return evaluate(cells.get(cells.lastIndexOf(cell)+1).substring(1));
+						   
 					   }
 				}else{
 					return cells.get(cells.lastIndexOf(cell)+1);
