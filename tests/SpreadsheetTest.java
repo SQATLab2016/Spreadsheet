@@ -40,7 +40,7 @@ public class SpreadsheetTest {
 	public void test_IncorrectInteger() {
 		Spreadsheet n = new Spreadsheet();
 		
-		n.set("A1", "1");
+		n.set("A1", "5A");
 		
 		assertEquals("Evaluation is not correct", "1", n.evaluate("A1"));
 	}
