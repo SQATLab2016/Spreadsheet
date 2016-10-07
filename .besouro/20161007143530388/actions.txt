@@ -10,3 +10,6 @@ RefactoringAction 1475840340105 Spreadsheet.java ADD String value FIELD
 RefactoringAction 1475840455972 Spreadsheet.java REMOVE cell FIELD
 RefactoringAction 1475840455973 Spreadsheet.java REMOVE value FIELD
 EditAction 1475840623831 Spreadsheet.java 247 3 2 0
+UnitTestCaseAction 1475840624116 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475840624116 SpreadsheetTest.java FAIL
+EditAction 1475840636637 Spreadsheet.java 254 3 2 0
