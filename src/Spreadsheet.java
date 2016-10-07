@@ -108,6 +108,8 @@ public class Spreadsheet {
 				} else if(Character.isDigit(c[i+1])) {
 					startPos = i+1;
 					continue;
+				} else if(Character.isLetter(c[i+1])) { 
+				
 				} else {
 					return "#Error";
 				}
