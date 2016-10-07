@@ -36,7 +36,8 @@ public class Spreadsheet {
 		int digitCount = 0;
 		
 		// TODO:
-		// 
+		// refactor for loop. 
+		// atm. there are too much going on.
 		
 		// loop through the value and check for letters.
 		for(int i = 0; i < c.length; i++) {
