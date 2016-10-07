@@ -56,7 +56,9 @@ public class Spreadsheet {
 				return "#Error";
 			}
 		} else {
-			
+			if(digitCount != c.length) {
+				return "#Error";
+			}
 		}
 		
 		
