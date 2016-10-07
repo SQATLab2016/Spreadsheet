@@ -20,7 +20,8 @@ public class Spreadsheet {
 	
 	public String evaluate(String cell) {
 		// to be implemented
-		return "-1";
+		
+		return cells.get(cell);
 	}
 	
 }
