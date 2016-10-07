@@ -13,4 +13,13 @@ public class SpreadsheetTest {
 		assertNotNull(ss);
 	}
 
+	@Test
+	public void spreadsheet_set_a1_1() {
+		ss.set("A1", "1");
+		
+		
+		
+	}
+	
+	
 }
