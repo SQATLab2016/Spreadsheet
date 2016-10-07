@@ -20,10 +20,13 @@ public class Spreadsheet {
 	
 	public String evaluate(String cell) {
 		
+		String value = "";
 		
+		if(map.containsKey(cell)) {
+			value = map.get(cell);
+		}
 		
-		
-		return null;
+		return value;
 	}
 	
 }
