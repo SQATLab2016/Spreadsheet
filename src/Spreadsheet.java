@@ -40,6 +40,7 @@ public class Spreadsheet {
 		
 			// if the first character is negative (-).
 			if(c[i] == '-' && i == 0) {
+				isNegative = true;
 				continue;
 			}
 			
