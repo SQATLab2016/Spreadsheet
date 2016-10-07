@@ -54,13 +54,13 @@ public class Spreadsheet {
 			// the subsequent char can only be '-', '\'' or a digit.
 			if(c[i] == '=') {
 			
-				// negative sign
+				// next character is negative sign
 				if(c[i+1] == '-') {
 					
 					isNegative = true;
 					continue;
 				
-				// opening single quote.
+				// next character is opening single quote.
 				} else if (c[i+1] == '\'') {
 					
 					boolean hasClosingQuote = false;
