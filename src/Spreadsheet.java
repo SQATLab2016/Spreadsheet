@@ -101,6 +101,7 @@ public class Spreadsheet {
 				
 				// next character is a digit.
 				} else if(Character.isDigit(c[i+1])) {
+					startPos = i+1;
 					continue;
 				} else {
 					return "#Error";
