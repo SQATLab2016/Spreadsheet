@@ -71,7 +71,7 @@ public class Spreadsheet {
 		}
 		
 		// it is a string?
-		return RemoveQuotes(value);
+		return value;
 	}
 	
 	private String RemoveQuotes(String s) {

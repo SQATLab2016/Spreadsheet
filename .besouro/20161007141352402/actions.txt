@@ -191,3 +191,4 @@ UnitTestSessionAction 1475842437412 SpreadsheetTest.java FAIL
 RefactoringAction 1475842449344 SpreadsheetTest.java REMOVE spreadsheet_set_a1_teststring() METHOD
 RefactoringAction 1475842452363 SpreadsheetTest.java ADD void spreadsheet_set_a1_teststring() METHOD
 EditAction 1475842453391 SpreadsheetTest.java 1223 7 21 7
+EditAction 1475842479481 Spreadsheet.java 1608 4 14 0
