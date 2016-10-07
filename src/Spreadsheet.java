@@ -22,13 +22,14 @@ public class Spreadsheet {
 		
 		String value = "";
 		
-		
 		// get the value of the cell.
 		if(map.containsKey(cell)) {
 			value = map.get(cell);
 		} else {
 			return "ValueNotFoundError";
 		}
+		
+		int cLenght = value.toCharArray().length;  
 		
 		// loop through the value and check for letters.
 		for(char c : value.toCharArray()) {
