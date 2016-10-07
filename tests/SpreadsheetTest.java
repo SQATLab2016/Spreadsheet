@@ -15,7 +15,9 @@ public class SpreadsheetTest {
 	}
 
 	public void test_evaluateCorrectlyFormattedCellInteger() {
-		
+		test_sheet.set("A1", "1");
+		String result = test_sheet.evaluate("A1");
+		assertEquals("A1", result);
 		
 	}
 }
