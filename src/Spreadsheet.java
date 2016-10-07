@@ -62,7 +62,7 @@ public class Spreadsheet {
 			// the subsequent char can only be '-', '\'' or a digit.
 			if(c[i] == '=') {
 			
-				// next character is negative sign
+				// next character is negative sign.
 				if(c[i+1] == '-') {
 					
 					isNegative = true;
