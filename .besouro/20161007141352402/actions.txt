@@ -334,3 +334,4 @@ RefactoringAction 1475845029932 SpreadsheetTest.java RENAME spreadsheet=>void sp
 RefactoringAction 1475845033444 SpreadsheetTest.java RENAME spreadsheet_evaluate_=>void spreadsheet_evaluate_simple_equals_forum FIELD
 RefactoringAction 1475845037453 SpreadsheetTest.java RENAME spreadsheet_evaluate_simple_equals_forum=>void spreadsheet_evaluate_simple_equals_formula_error() METHOD
 EditAction 1475845046742 SpreadsheetTest.java 1795 10 30 10
+EditAction 1475845049730 SpreadsheetTest.java 1791 10 30 10

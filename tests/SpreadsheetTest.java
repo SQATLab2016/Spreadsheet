@@ -72,7 +72,7 @@ public class SpreadsheetTest {
 	public void spreadsheet_evaluate_simple_equals_formula_error() {
 		Spreadsheet ss = new Spreadsheet();
 		ss.set("A1", "='teststring");
-		assertEquals("teststring", ss.evaluate("A1"));
+		assertEquals("#Error", ss.evaluate("A1"));
 	}
 	
 }
