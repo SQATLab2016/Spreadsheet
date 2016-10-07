@@ -84,6 +84,9 @@ public class Spreadsheet {
 						}
 					}
 					
+					// TODO:
+					// characters after the closing quote are being discarded
+					
 					// return value if the closing quote is found.
 					if(hasClosingQuote) {
 						return value.substring(StringStartPos, StringEndPos);
