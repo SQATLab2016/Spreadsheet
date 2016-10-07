@@ -33,7 +33,7 @@ public class Spreadsheet {
 		
 		// loop through the value and check for letters.
 		for(char c : value.toCharArray()) {
-			if(Character.isLetter(c)) {
+			if(Character.isDigit(c)) {
 				return "#Error";
 			}
 		}
