@@ -21,10 +21,13 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		
 		String value = "";
+		char[] c = '';
 		
 		if(map.containsKey(cell)) {
 			value = map.get(cell);
 		}
+		
+		for(int i = 0; i < )
 		
 		return value;
 	}

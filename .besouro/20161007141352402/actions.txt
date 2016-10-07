@@ -69,3 +69,6 @@ RefactoringAction 1475840250502 SpreadsheetTest.java RENAME spreadsheet_evaluate
 EditAction 1475840251366 SpreadsheetTest.java 1037 6 18 6
 EditAction 1475840265529 SpreadsheetTest.java 1041 6 18 6
 EditAction 1475840269427 SpreadsheetTest.java 1045 6 18 6
+UnitTestCaseAction 1475840271097 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475840271097 SpreadsheetTest.java FAIL
+EditAction 1475840339636 Spreadsheet.java 582 3 3 0
