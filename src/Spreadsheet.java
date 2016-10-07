@@ -70,7 +70,7 @@ public class Spreadsheet {
 				
 				// next character is negative sign.
 				if(c[i+1] == '-') {
-					
+					startPos = i+2;
 					isNegative = true;
 					continue;
 				

@@ -444,3 +444,12 @@ UnitTestCaseAction 1475847290395 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475847290395 SpreadsheetTest.java FAIL
 EditAction 1475847307208 Spreadsheet.java 3424 3 16 0
 EditAction 1475847329550 Spreadsheet.java 3430 3 16 0
+UnitTestCaseAction 1475847358792 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847358792 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1475847374274 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847374274 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1475847378299 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847378300 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1475847416436 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847416437 SpreadsheetTest.java FAIL
+EditAction 1475847424609 Spreadsheet.java 3445 3 16 0
