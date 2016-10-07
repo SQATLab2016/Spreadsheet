@@ -1,0 +1,4 @@
+FileOpenedAction 1475845820648 Spreadsheet.java 264 3 2 0
+RefactoringAction 1475845883282 SpreadsheetTest.java RENAME test()=>void testSpreadsheetAppCreated_NotNull() METHOD
+RefactoringAction 1475845930659 SpreadsheetTest.java ADD SpreadsheetTest test FIELD
+EditAction 1475845958864 SpreadsheetTest.java 222 1 0 0
