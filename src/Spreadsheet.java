@@ -65,6 +65,7 @@ public class Spreadsheet {
 			
 		}
 		
+		// if the value is a string.
 		if(isString) {
 			return value.substring(1, value.length() - 1);
 		}
