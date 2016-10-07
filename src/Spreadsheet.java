@@ -39,6 +39,7 @@ public class Spreadsheet {
 			}
 		}
 		
+		// value has only digits
 		if(digitCount == cLenght) {
 			
 		}
