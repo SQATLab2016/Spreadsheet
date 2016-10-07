@@ -39,9 +39,12 @@ public class Spreadsheet {
 		int digitCount = 0;
 		
 		// TODO:
-		// refactor: for loop. 
-		// atm. there are too much going on.
-		// using same-ish code multiple times, could be done better.
+		// 1. Refactor: using same-ish code multiple times, could be done better.
+		// 2. if value is "= ", there is no error message for special cases.
+		
+		// for cutting the string to substring.
+		int startPos = 0;
+		int endPos = 0;
 		
 		// loop through the value and check for letters.
 		for(int i = 0; i < c.length; i++) {
@@ -72,14 +75,13 @@ public class Spreadsheet {
 				} else if (c[i+1] == '\'') {
 					
 					boolean hasClosingQuote = false;
-					int StringStartPos = i+2;
-					int StringEndPos = 0;
+					startPos = i+2;
 					
 					// loop through the remaining characters for closing quote.
 					for(int j = i+2; j < c.length; j++) {
 						if(c[j] == '\'') {
 							hasClosingQuote = true;
-							StringEndPos = j;
+							endPos = j;
 							break;
 						}
 					}
@@ -89,7 +91,7 @@ public class Spreadsheet {
 					
 					// return value if the closing quote is found.
 					if(hasClosingQuote) {
-						return value.substring(StringStartPos, StringEndPos);
+						return value.substring(startPos, endPos);
 					} else {
 						return "#Error";
 					}

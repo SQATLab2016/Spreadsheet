@@ -417,3 +417,8 @@ UnitTestSessionAction 1475846379546 SpreadsheetTest.java FAIL
 EditAction 1475846459005 Spreadsheet.java 2984 3 13 0
 RefactoringAction 1475846479228 SpreadsheetTest.java ADD void spreadsheet_evaluate_simple_equals_formula_int() METHOD
 EditAction 1475846489983 SpreadsheetTest.java 2168 12 36 12
+UnitTestCaseAction 1475846491744 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846491745 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1475846766881 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846766882 SpreadsheetTest.java FAIL
+EditAction 1475846889442 Spreadsheet.java 3031 3 15 0
