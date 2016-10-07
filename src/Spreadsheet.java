@@ -34,9 +34,14 @@ public class Spreadsheet {
 		
 		// loop through the value and check for letters.
 		for(char c : value.toCharArray()) {
+			
+			// if the first char is negative (-).
+			if()
+			
 			if(Character.isDigit(c)) {
 				digitCount ++;
 			}
+			
 		}
 		
 		// if there are some other characters than digits.
