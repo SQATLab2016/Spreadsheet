@@ -10,7 +10,7 @@ public class SpreadsheetTest {
 	public void test_setCellToValueStringA1_1() {
 		Spreadsheet sheet = new Spreadsheet();
 		sheet.set("A1", "1");
-		assertEquals(1, sheet.get("A1"));
+		assertEquals("1", sheet.get("A1"));
 	}
 
 }
