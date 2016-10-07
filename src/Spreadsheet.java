@@ -38,7 +38,7 @@ public class Spreadsheet {
 		// loop through the value and check for letters.
 		for(int i = 0; i < c.length; i++) {
 		
-			// if value is a string.
+			// if whole value is a string.
 			if(c[0] == '\'' && c[c.length - 1] == '\'') {
 				isString = true;
 				break;

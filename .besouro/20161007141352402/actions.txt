@@ -253,3 +253,6 @@ RefactoringAction 1475843087565 SpreadsheetTest.java RENAME spreadsheet_evaluate
 RefactoringAction 1475843089076 SpreadsheetTest.java RENAME spreadsheet_evaluate_in=>void spreadsheet_evaluate_incorrect FIELD
 RefactoringAction 1475843092087 SpreadsheetTest.java RENAME spreadsheet_evaluate_incorrect=>void spreadsheet_evaluate_incorrect_string() METHOD
 EditAction 1475843105957 SpreadsheetTest.java 1417 8 24 8
+UnitTestCaseAction 1475843108135 SpreadsheetTest.java OK
+UnitTestSessionAction 1475843108136 SpreadsheetTest.java OK
+EditAction 1475843254069 Spreadsheet.java 1577 3 13 0
