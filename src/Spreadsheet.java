@@ -43,6 +43,7 @@ public class Spreadsheet {
 			
 			if(cells.get(cells.lastIndexOf(cell)+1).endsWith("’")){
 				return cells.get(cells.lastIndexOf(cell)+1).substring(1,cells.get(cells.lastIndexOf(cell)+1).length());
+				System.out.println("asd");
 			}else{
 				return "#Error";
 			}
