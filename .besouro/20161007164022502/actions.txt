@@ -18,3 +18,4 @@ EditAction 1475847827739 Spreadsheet.java 446 4 4 0
 RefactoringAction 1475847835528 SpreadsheetTest.java ADD void test_NumberHandlingPositive()/2 METHOD
 RefactoringAction 1475847842539 SpreadsheetTest.java RENAME test_NumberHandlingPositive()/2=>void test_NumberHandlingSigned() METHOD
 EditAction 1475847842969 SpreadsheetTest.java 804 4 12 4
+EditAction 1475847850100 SpreadsheetTest.java 807 4 12 4
