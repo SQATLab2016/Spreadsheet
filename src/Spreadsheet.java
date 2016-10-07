@@ -17,10 +17,7 @@ public class Spreadsheet {
 	}
 	
 	public void set(String cell, String value) {
-		
 		map.put(cell, value);
-		
-		
 	}
 	
 	public String evaluate(String cell) {
