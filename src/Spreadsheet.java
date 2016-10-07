@@ -122,6 +122,15 @@ public class Spreadsheet {
 		// 1. Check if the number is negative
 		// 2. if the string contains other characters than digits and '-'.
 		if(isNegative || containsEquals) {
+			
+			if(isNegative && containsEquals) {
+				if(digitCount != c.length - 2) {
+					return "#Error";
+				} else {
+					return value;
+				}
+			}
+			
 			if(digitCount != (c.length - 1)) {
 				return "#Error";
 			} else {
