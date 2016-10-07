@@ -70,3 +70,7 @@ EditAction 1475844349699 Spreadsheet.java 1970 3 5 0
 UnitTestCaseAction 1475844350014 SpreadsheetTest.java OK
 UnitTestSessionAction 1475844350014 SpreadsheetTest.java OK
 EditAction 1475844544516 Spreadsheet.java 2020 3 5 0
+UnitTestCaseAction 1475844546828 SpreadsheetTest.java OK
+UnitTestSessionAction 1475844546828 SpreadsheetTest.java OK
+RefactoringAction 1475845266739 SpreadsheetTest.java ADD void test3()/2 METHOD
+EditAction 1475845321654 Spreadsheet.java 2128 3 5 0
