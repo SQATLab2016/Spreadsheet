@@ -64,7 +64,8 @@ public class Spreadsheet {
 						   }else{
 							   return "#Error"; // 7
 						   }
-					   }else if(cells.contains(cells.get(cells.lastIndexOf(cell)+1).substring(1))){ // 8 =A1
+					   }else if(cells.contains(cells.get(cells.lastIndexOf(cell)+1).substring(1))){ // 8 =A1 ALSO 9
+						   if()
 						   
 						   return evaluate(cells.get(cells.lastIndexOf(cell)+1).substring(1));
 					   }
