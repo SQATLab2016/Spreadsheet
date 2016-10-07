@@ -31,8 +31,8 @@ public class SpreadsheetTest {
 	
 	@Test
 	public void test_evaluateInvalidFormattedCellInteger() {
-		test_sheet.set("A1", "-1");
+		test_sheet.set("A1", "A3");
 		String result = test_sheet.evaluate("A1");
-		assertEquals("-1", result);		
+		assertEquals("#Error", result);		
 	}
 }

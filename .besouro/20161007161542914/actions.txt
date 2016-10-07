@@ -74,3 +74,4 @@ RefactoringAction 1475847610309 SpreadsheetTest.java ADD void test_evaluateCorre
 RefactoringAction 1475847617001 SpreadsheetTest.java RENAME test_evaluateCorrectlyFormattedCellNegativeInteger()/2=>void test_evaluateInvalidFormattedCellNegativeInteger() METHOD
 RefactoringAction 1475847621634 SpreadsheetTest.java RENAME test_evaluateInvalidFormattedCellNegativeInteger()=>void test_evaluateInvalidFormattedCellInteger() METHOD
 EditAction 1475847622773 SpreadsheetTest.java 831 4 11 4
+EditAction 1475847650494 SpreadsheetTest.java 835 4 11 4
