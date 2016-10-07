@@ -52,7 +52,7 @@ public class SpreadsheetTest {
 	public void test9() {
 		test.set("A6", "5A");
 		test.set("A1", "=A6");
-	    assertTrue(test.evaluate("B2").equals("#Error"));	
+	    assertTrue(test.evaluate("A1").equals("#Error"));	
 	}
 	
 
