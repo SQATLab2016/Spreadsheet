@@ -42,6 +42,7 @@ public class SpreadsheetTest {
 		test.set("B1", "=’a string");
 	    assertTrue(test.evaluate("B1").equals("#Error"));	
 	}
+	@Test
 	public void test8() {
 		test.set("B2", "=A4");
 	    assertTrue(test.evaluate("B2").equals("an animal"));	
