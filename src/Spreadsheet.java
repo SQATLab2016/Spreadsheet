@@ -124,6 +124,9 @@ public class Spreadsheet {
 		if(isNegative || containsEquals) {
 			
 			// "remove" two from lenght of the value.
+			// 1. negative sign
+			// 2. equals sign
+			
 			if(isNegative && containsEquals) {
 				if(digitCount != c.length - 2) {
 					return "#Error";
