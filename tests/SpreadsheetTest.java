@@ -44,8 +44,8 @@ public class SpreadsheetTest {
 	@Test
 	public void spreadsheet_evaluate_wronglyFormattedInt() {
 		Spreadsheet ss = new Spreadsheet();
-		ss.set("A1", "-1");
-		assertEquals("-1", ss.evaluate("A1"));
+		ss.set("A1", "5A");
+		assertEquals("#Error", ss.evaluate("A1"));
 	}
 	
 	
