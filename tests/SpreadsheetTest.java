@@ -17,7 +17,7 @@ public class SpreadsheetTest {
 	@Test
 	public void test2() {
 		test.set("A2", "-1");
-	    assertTrue(test.get("A1").equals("-1"));	
+	    assertTrue(test.get("A2").equals("-1"));	
 	}
 	
 
