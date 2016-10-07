@@ -40,3 +40,6 @@ RefactoringAction 1475839753964 SpreadsheetTest.java REMOVE ss FIELD
 EditAction 1475839763365 SpreadsheetTest.java 488 3 8 2
 EditAction 1475839773338 SpreadsheetTest.java 501 3 9 2
 EditAction 1475839801077 SpreadsheetTest.java 531 3 9 3
+UnitTestCaseAction 1475839803004 SpreadsheetTest.java OK
+UnitTestSessionAction 1475839803004 SpreadsheetTest.java OK
+EditAction 1475839813876 Spreadsheet.java 471 3 4 0

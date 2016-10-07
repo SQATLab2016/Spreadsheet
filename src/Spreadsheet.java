@@ -8,11 +8,9 @@ public class Spreadsheet {
 	private Map <String, String> map = new HashMap<String, String>();
 	
 	public String get(String cell) {
-		
 		if(map.containsKey(cell)) {
 			return map.get(cell);
 		}
-		
 		return "errormessage";
 	}
 	
