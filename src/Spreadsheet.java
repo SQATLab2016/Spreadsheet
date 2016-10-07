@@ -70,6 +70,10 @@ public class Spreadsheet {
 						}
 					}
 					
+					if(hasClosingQuote) {
+						
+					}
+					
 					
 					
 				} else if (Character.isDigit(c[i+1])){
