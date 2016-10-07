@@ -49,7 +49,7 @@ public class Spreadsheet {
 		}
 		
 		// if there are some other characters than digits.
-		if(digitCount != c.length - 1) {
+		if(digitCount != c.length) {
 			return "#Error";
 		}
 		
