@@ -24,7 +24,7 @@ public class SpreadsheetTest {
 	public void testSetOperationDefinition() {
 		
 		
-		assertEquals(null, test.get("A1"));
+		assertEquals(null, test.set("A1"));
 		
 	}
 	
