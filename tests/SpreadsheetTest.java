@@ -24,8 +24,7 @@ public class SpreadsheetTest {
 	public void spreadsheet_set_a1_teststring() {
 		Spreadsheet ss = new Spreadsheet();
 		ss.set("A1", "teststring");
-		String result = ss.get("A1");
-		assertEquals("teststring", result);
+		assertEquals("teststring", ss.get("A1"));
 	}
 	
 	@Test

@@ -47,3 +47,6 @@ RefactoringAction 1475839832190 SpreadsheetTest.java ADD void spreadsheet_set_a1
 RefactoringAction 1475839834706 SpreadsheetTest.java RENAME spreadsheet_set_a1_1()/2=>void spreadsheet_set_a1_() METHOD
 RefactoringAction 1475839839222 SpreadsheetTest.java RENAME spreadsheet_set_a1_()=>void spreadsheet_set_a1_teststring() METHOD
 EditAction 1475839850569 SpreadsheetTest.java 728 4 13 4
+UnitTestCaseAction 1475839852104 SpreadsheetTest.java OK
+UnitTestSessionAction 1475839852104 SpreadsheetTest.java OK
+EditAction 1475839862861 SpreadsheetTest.java 702 4 12 4
