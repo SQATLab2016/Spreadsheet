@@ -51,8 +51,8 @@ public class SpreadsheetTest {
 	@Test
 	public void test9() {
 		test.set("A6", "5A");
-		test.set("A1", "=A6");
-	    assertTrue(test.evaluate("A1").equals("#Error"));	
+		test.set("C6", "=A6");
+	    assertTrue(test.evaluate("C6").equals("#Error"));	
 	}
 	
 
