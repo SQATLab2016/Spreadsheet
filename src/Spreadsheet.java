@@ -57,7 +57,7 @@ public class Spreadsheet {
 			
 		}
 		
-		// remove quatation marks and return the string.
+		// remove quotation marks and return the string.
 		if(isString) {
 			return RemoveQuotes(value);
 		}
