@@ -39,7 +39,7 @@ public class Spreadsheet {
 		for(int i = 0; i < c.length; i++) {
 		
 			// if value is a string.
-			if(c[0] == 39) { //&& c[c.length - 1] == '\'') {
+			if(c[0] == '\'') { //&& c[c.length - 1] == '\'') {
 				isString = true;
 				break;
 			}
