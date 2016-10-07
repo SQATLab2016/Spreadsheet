@@ -54,3 +54,4 @@ RefactoringAction 1475840057331 SpreadsheetTest.java ADD void spreadsheet_evalua
 RefactoringAction 1475840065346 SpreadsheetTest.java RENAME spreadsheet_evaluate=>void spreadsheet_evaluate_negative() METHOD
 EditAction 1475840075075 SpreadsheetTest.java 874 5 15 5
 EditAction 1475840084440 SpreadsheetTest.java 875 5 15 5
+EditAction 1475840091058 SpreadsheetTest.java 865 5 15 5

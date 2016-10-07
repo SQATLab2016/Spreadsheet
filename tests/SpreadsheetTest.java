@@ -38,7 +38,7 @@ public class SpreadsheetTest {
 	public void spreadsheet_evaluate_negative() {
 		Spreadsheet ss = new Spreadsheet();
 		ss.set("A1", "-1");
-		assertEquals("errormessage", ss.evaluate("A1"));
+		assertEquals("-1", ss.evaluate("A1"));
 		
 	}
 	
