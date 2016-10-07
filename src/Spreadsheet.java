@@ -8,6 +8,45 @@ public class Spreadsheet {
 	
 	public String get(String cell) {
 		          
+		
+		
+		if (cells.get(cells.indexOf(cell)+1).startsWith("0") ||
+		cells.get(cells.indexOf(cell)+1).startsWith("1") ||
+		cells.get(cells.indexOf(cell)+1).startsWith("2") ||
+		cells.get(cells.indexOf(cell)+1).startsWith("3") ||
+		cells.get(cells.indexOf(cell)+1).startsWith("4") ||
+		cells.get(cells.indexOf(cell)+1).startsWith("5") ||
+		cells.get(cells.indexOf(cell)+1).startsWith("6") ||
+		cells.get(cells.indexOf(cell)+1).startsWith("7") ||
+		cells.get(cells.indexOf(cell)+1).startsWith("8") ||
+		cells.get(cells.indexOf(cell)+1).startsWith("9") ||
+		cells.get(cells.indexOf(cell)+1).startsWith("-") ||
+		cells.get(cells.indexOf(cell)+1).startsWith("+")){
+			for(int i=0; i<cells.get(cells.indexOf(cell)+1).length() ; i++){
+				if(cells.get(cells.indexOf(cell)+1).substring(i).startsWith("0")||
+				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("1")||
+				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("2")||
+				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("3")||
+				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("4")||
+				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("5")||
+				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("6")||
+				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("7")||
+				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("8")||
+				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("9")||
+				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("0")||
+				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("+")||
+				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("-")||
+				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("/")||
+				cells.get(cells.indexOf(cell)+1).substring(i).startsWith("*")){
+					re
+				}
+				
+					
+			
+		}
+		
+		
+		
 		return cells.get(cells.indexOf(cell)+1);
 				
 	}
