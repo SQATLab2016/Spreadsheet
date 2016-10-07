@@ -16,3 +16,11 @@ RefactoringAction 1475846005823 SpreadsheetTest.java RENAME testGetOper=>void te
 RefactoringAction 1475846007882 SpreadsheetTest.java RENAME testGetOperation=>void testGetOperationDefinition FIELD
 RefactoringAction 1475846011486 SpreadsheetTest.java RENAME testGetOperationDefinition=>void testGetOperationDefinition() METHOD
 EditAction 1475846034699 SpreadsheetTest.java 324 2 2 2
+CompilationAction 1475846036618 SpreadsheetTest.java
+CompilationAction 1475846036618 SpreadsheetTest.java
+CompilationAction 1475846052467 SpreadsheetTest.java
+CompilationAction 1475846052592 SpreadsheetTest.java
+CompilationAction 1475846061469 SpreadsheetTest.java
+UnitTestCaseAction 1475846063578 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846063578 SpreadsheetTest.java FAIL
+EditAction 1475846081892 SpreadsheetTest.java 328 2 2 2

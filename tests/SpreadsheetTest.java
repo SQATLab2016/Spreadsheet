@@ -14,10 +14,10 @@ public class SpreadsheetTest {
 		
 	}
 	@Test
-	pubic void testGetOperationDefinition() {
+	public void testGetOperationDefinition() {
 		
 		
-		assertEquals(0, test.get(cell));
+		assertEquals(null, test.get("A1"));
 		
 	}
 	
