@@ -22,6 +22,7 @@ public class Spreadsheet {
 		
 		String value = "";
 		char[] c;
+		boolean isNegative = false;
 		
 		// get the value of the cell.
 		if(map.containsKey(cell)) {
