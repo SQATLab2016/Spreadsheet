@@ -65,7 +65,7 @@ public class Spreadsheet {
 					int StringEndPos = 0;
 					
 					// loop through the remaining characters for closing quote.
-					for(int j = i+1; j < c.length; j++) {
+					for(int j = i+2; j < c.length; j++) {
 						if(c[j] == '\'') {
 							hasClosingQuote = true;
 							StringEndPos = j;
