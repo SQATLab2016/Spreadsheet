@@ -36,5 +36,14 @@ public class SpreadsheetTest {
 		
 		assertEquals("Evaluation is not correct", "1", n.evaluate("A1"));
 	}
+	@Test
+	public void test_IncorrectInteger() {
+		Spreadsheet n = new Spreadsheet();
+		
+		n.set("A1", "1");
+		
+		assertEquals("Evaluation is not correct", "1", n.evaluate("A1"));
+	}
+	
 
 }

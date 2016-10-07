@@ -19,3 +19,13 @@ RefactoringAction 1475847835528 SpreadsheetTest.java ADD void test_NumberHandlin
 RefactoringAction 1475847842539 SpreadsheetTest.java RENAME test_NumberHandlingPositive()/2=>void test_NumberHandlingSigned() METHOD
 EditAction 1475847842969 SpreadsheetTest.java 804 4 12 4
 EditAction 1475847850100 SpreadsheetTest.java 807 4 12 4
+UnitTestCaseAction 1475848217412 SpreadsheetTest.java OK
+UnitTestSessionAction 1475848217413 SpreadsheetTest.java OK
+RefactoringAction 1475848312589 SpreadsheetTest.java ADD void test_NumberHandlingSigned()/2 METHOD
+RefactoringAction 1475848317103 SpreadsheetTest.java RENAME test_NumberHandlingSigned()/2=>void test_NumberHandling() METHOD
+RefactoringAction 1475848321116 SpreadsheetTest.java RENAME test_NumberHandling()=>void test_NumberHandlingTwoCells() METHOD
+RefactoringAction 1475848331127 SpreadsheetTest.java REMOVE test_NumberHandlingTwoCells() METHOD
+RefactoringAction 1475848348140 SpreadsheetTest.java ADD void test_NumberHandlingSigned()/2 METHOD
+RefactoringAction 1475848355159 SpreadsheetTest.java RENAME test_NumberHandlingSigned()/2=>void test_Incorrect() METHOD
+RefactoringAction 1475848357175 SpreadsheetTest.java RENAME test_Incorrect()=>void test_IncorrectInteger() METHOD
+EditAction 1475848357363 SpreadsheetTest.java 989 5 15 5

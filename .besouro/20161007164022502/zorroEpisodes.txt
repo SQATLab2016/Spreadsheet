@@ -1,2 +1,3 @@
-1475847638127 regression 1 15 false
-1475847745278 refactoring 1A 107 false
+1475847638127 regression 1 15 true
+1475847745278 refactoring 1A 107 true
+1475848217413 test-first 3 472 true
