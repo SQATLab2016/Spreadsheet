@@ -216,3 +216,4 @@ RefactoringAction 1475842702736 Spreadsheet.java RENAME is=>boolean get FIELD
 RefactoringAction 1475842708251 Spreadsheet.java RENAME get=>boolean getIsString() METHOD
 RefactoringAction 1475842717764 Spreadsheet.java REMOVE getIsString() METHOD
 EditAction 1475842718870 Spreadsheet.java 1576 3 13 0
+EditAction 1475842777733 Spreadsheet.java 1599 3 13 0

@@ -41,7 +41,8 @@ public class Spreadsheet {
 			// if value is a string.
 			if(c[0] == '\'') { //&& c[c.length - 1] == '\'') {
 				isString = true;
-				break;
+				return "taalla";
+				//break;
 			}
 			
 			// if the first character is negative (-).
