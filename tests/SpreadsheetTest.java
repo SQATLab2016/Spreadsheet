@@ -26,8 +26,8 @@ public class SpreadsheetTest {
 	}
 	@Test
 	public void test4() {
-		test.set("A1", "’a string’");
-	    assertTrue(test.evaluate("A1").equals("a string"));	
+		test.set("A4", "’an animal’");
+	    assertTrue(test.evaluate("A4").equals("an animal"));	
 	}
 	@Test
 	public void test5() {
@@ -35,12 +35,16 @@ public class SpreadsheetTest {
 	    assertTrue(test.evaluate("A1").equals("#Error"));	
 	}@Test
 	public void test6() {
-		test.set("A1", "=’a string’");
-	    assertTrue(test.evaluate("A1").equals("a string"));	
+		test.set("A5", "=’a string’");
+	    assertTrue(test.evaluate("A5").equals("a string"));	
 	}@Test
 	public void test7() {
 		test.set("B1", "=’a string");
 	    assertTrue(test.evaluate("B1").equals("#Error"));	
+	}
+	public void test8() {
+		test.set("B2", "=A4");
+	    assertTrue(test.evaluate("B2").equals("an animal"));	
 	}
 	
 	

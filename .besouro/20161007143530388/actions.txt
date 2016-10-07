@@ -116,3 +116,6 @@ UnitTestCaseAction 1475846671002 SpreadsheetTest.java OK
 UnitTestSessionAction 1475846671002 SpreadsheetTest.java OK
 EditAction 1475847115150 Spreadsheet.java 3124 3 5 0
 EditAction 1475847372349 Spreadsheet.java 3308 3 5 0
+RefactoringAction 1475847380976 SpreadsheetTest.java ADD void test7()/2 METHOD
+RefactoringAction 1475847424734 SpreadsheetTest.java RENAME test7()/2=>void test8() METHOD
+EditAction 1475847463656 SpreadsheetTest.java 1066 8 16 8
