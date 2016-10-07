@@ -39,7 +39,7 @@ public class Spreadsheet {
 			}
 		}
 		
-		// if there is some other characters than digits.
+		// if there are some other characters than digits.
 		if(digitCount != cLenght) {
 			return "#Error";
 		}
