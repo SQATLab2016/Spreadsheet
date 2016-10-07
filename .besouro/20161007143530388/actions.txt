@@ -91,3 +91,6 @@ CompilationAction 1475846006705 Spreadsheet.java
 UnitTestCaseAction 1475846008471 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1475846008471 SpreadsheetTest.java FAIL
 EditAction 1475846016583 Spreadsheet.java 2414 3 5 0
+UnitTestCaseAction 1475846017163 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846017163 SpreadsheetTest.java FAIL
+EditAction 1475846042873 Spreadsheet.java 2416 3 5 0
