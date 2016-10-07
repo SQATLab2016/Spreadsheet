@@ -192,3 +192,5 @@ RefactoringAction 1475842449344 SpreadsheetTest.java REMOVE spreadsheet_set_a1_t
 RefactoringAction 1475842452363 SpreadsheetTest.java ADD void spreadsheet_set_a1_teststring() METHOD
 EditAction 1475842453391 SpreadsheetTest.java 1223 7 21 7
 EditAction 1475842479481 Spreadsheet.java 1608 4 14 0
+RefactoringAction 1475842486790 Spreadsheet.java REMOVE RemoveQuotes(String) METHOD
+EditAction 1475842490393 Spreadsheet.java 1517 3 13 0

@@ -73,10 +73,4 @@ public class Spreadsheet {
 		// it is a string?
 		return value;
 	}
-	
-	private String RemoveQuotes(String s) {
-		return s.substring(1, s.length() - 1);
-	}
-	
-	
 }
