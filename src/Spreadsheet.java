@@ -4,21 +4,16 @@ public class Spreadsheet {
 
 	private HashMap<String, String> sheetmap = new HashMap<String, String>();
 	
-	public String get(String cell) {
-		// to be implemented
-		
-		return sheetmap.get(cell);
-		
-		
+	public String get(String cell) {	
+		return sheetmap.get(cell);	
 	}
 	
-	public void set(String cell, String value) {
-		// to be implemented
+	public void set(String cell, String value) {		
 		sheetmap.put(cell,value);
 	}
 	
 	public String evaluate(String cell) {
-		// to be implemented
+		
 		return sheetmap.get(cell);
 	}
 
