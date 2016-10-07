@@ -76,7 +76,7 @@ public class Spreadsheet {
 						}
 					}
 					
-					// return the string after equals character.
+					// return value if the closing quote is found.
 					if(hasClosingQuote) {
 						return value.substring(StringStartPos, StringEndPos);
 					} else {
