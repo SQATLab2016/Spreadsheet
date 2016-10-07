@@ -6,6 +6,9 @@ public class Spreadsheet {
 	
 	public String get(String cell) {
 		// to be implemented
+		
+		sheetmap.get(cell);
+		
 		return null;
 	}
 	
