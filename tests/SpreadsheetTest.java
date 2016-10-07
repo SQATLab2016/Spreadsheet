@@ -76,6 +76,10 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void spreadsheet_evaluate_simple_equals_formula_
+	public void spreadsheet_evaluate_simple_equals_formula_negative_int() {
+		Spreadsheet ss = new Spreadsheet();
+		ss.set("A1", "=-5");
+		assertEquals("-5", ss.evaluate("A1"));
+	}
 	
 }
