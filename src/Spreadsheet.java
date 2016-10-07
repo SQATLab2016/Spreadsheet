@@ -66,6 +66,7 @@ public class Spreadsheet {
 		}
 		
 		// if the value is a string.
+		// return a substring without single quotes.
 		if(isString) {
 			return value.substring(1, value.length() - 1);
 		}
