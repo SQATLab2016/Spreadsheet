@@ -6,7 +6,7 @@ public class Spreadsheet {
 	
 	public String get(String cell) {
 		      
-		return cells.get(cells.lastIndexOf(cell)+1);
+		return cells.get(cells.lastIndexOf(cell)+1); // 1 
 				
 	}
 	
@@ -17,7 +17,7 @@ public class Spreadsheet {
 	}
 	
 	public String evaluate(String cell) {
-		if (cells.get(cells.lastIndexOf(cell)+1).startsWith("0") ||
+		if (cells.get(cells.lastIndexOf(cell)+1).startsWith("0") || // starts with numbers or signs
 				cells.get(cells.lastIndexOf(cell)+1).startsWith("1") ||
 				cells.get(cells.lastIndexOf(cell)+1).startsWith("2") ||
 				cells.get(cells.lastIndexOf(cell)+1).startsWith("3") ||
@@ -31,7 +31,7 @@ public class Spreadsheet {
 				cells.get(cells.lastIndexOf(cell)+1).startsWith("+")){
 					
 					for(int i=1; i<cells.get(cells.lastIndexOf(cell)+1).length() ; i++){
-						if(!(cells.get(cells.lastIndexOf(cell)+1).substring(i).startsWith("0")||
+						if(!(cells.get(cells.lastIndexOf(cell)+1).substring(i).startsWith("0")|| // 3 not countinious with number
 						cells.get(cells.lastIndexOf(cell)+1).substring(i).startsWith("1")||
 						cells.get(cells.lastIndexOf(cell)+1).substring(i).startsWith("2")||
 						cells.get(cells.lastIndexOf(cell)+1).substring(i).startsWith("3")||
@@ -44,25 +44,25 @@ public class Spreadsheet {
 						cells.get(cells.lastIndexOf(cell)+1).substring(i).startsWith("0"))){
 							return "#Error";
 						}else{
-							cells.get(cells.lastIndexOf(cell)+1);
+							cells.get(cells.lastIndexOf(cell)+1); // 2 number 
 						}
 				    }	
-				}else if(cells.get(cells.lastIndexOf(cell)+1).startsWith("’")){
+				}else if(cells.get(cells.lastIndexOf(cell)+1).startsWith("’")){ // starts with quote
 					
-					if(cells.get(cells.lastIndexOf(cell)+1).endsWith("’")){
+					if(cells.get(cells.lastIndexOf(cell)+1).endsWith("’")){ // 4 ends with quote
 						
 						return cells.get(cells.lastIndexOf(cell)+1).substring(1,cells.get(cells.lastIndexOf(cell)+1).length()-1);
 						
-					}else{
+					}else{  // 5 starts with quote not ends with quote 
 						return "#Error";
 					}
 					
-				}else if(cells.get(cells.lastIndexOf(cell)+1).startsWith("=")){
-					   if(cells.get(cells.lastIndexOf(cell)+1).substring(1,2).equals("’")){
-						   if(cells.get(cells.lastIndexOf(cell)+1).endsWith("’")){
+				}else if(cells.get(cells.lastIndexOf(cell)+1).startsWith("=")){ // starts with equation
+					   if(cells.get(cells.lastIndexOf(cell)+1).substring(1,2).equals("’")){ // starts with equation end quote 
+						   if(cells.get(cells.lastIndexOf(cell)+1).endsWith("’")){ // 6
 							   return cells.get(cells.lastIndexOf(cell)+1).substring(2,cells.get(cells.lastIndexOf(cell)+1).length()-1);
 						   }else{
-							   return "#Error";
+							   return "#Error"; // 7
 						   }
 					   }
 				}else{
