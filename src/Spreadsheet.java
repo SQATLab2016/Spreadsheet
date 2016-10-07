@@ -51,8 +51,10 @@ public class Spreadsheet {
 			}
 						
 			// if there is a '=' character then
-			// the subsequent char can only be '-', '\'' or digit.
+			// the subsequent char can only be '-', '\'' or a digit.
 			if(c[i] == '=') {
+			
+				// negative sign
 				if(c[i+1] == '-') {
 					
 					isNegative = true;
