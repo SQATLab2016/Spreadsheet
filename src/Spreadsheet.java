@@ -24,6 +24,7 @@ public class Spreadsheet {
 		char[] c;
 		boolean isNegative = false;
 		boolean isString = false;
+		boolean containsEquals = false;
 		
 		// get the value of the cell.
 		if(map.containsKey(cell)) {
@@ -65,6 +66,8 @@ public class Spreadsheet {
 			// the subsequent char can only be '-', '\'' or a digit.
 			if(c[i] == '=') {
 			
+				containsEquals = true;
+				
 				// next character is negative sign.
 				if(c[i+1] == '-') {
 					
@@ -119,7 +122,7 @@ public class Spreadsheet {
 		// if there are some other characters than digits.
 		// 1. Check if the number is negative
 		// 2. if the string contains other characters than digits and '-'.
-		if(isNegative) {
+		if(isNegative || containsEqual) {
 			if(digitCount != (c.length - 1)) {
 				return "#Error";
 			} else {
