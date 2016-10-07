@@ -63,10 +63,14 @@ public class Spreadsheet {
 		if(isNegative) {
 			if(digitCount != (c.length - 1)) {
 				return "#Error";
+			} else {
+				return value;
 			}
 		} else {
 			if(digitCount != c.length) {
 				return "#Error";
+			} else {
+				return value;
 			}
 		}
 		
