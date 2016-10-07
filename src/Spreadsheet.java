@@ -70,7 +70,7 @@ public class Spreadsheet {
 				
 				// next character is negative sign.
 				if(c[i+1] == '-') {
-					startPos = i+2;
+					startPos = i+1;
 					isNegative = true;
 					continue;
 				
@@ -130,7 +130,7 @@ public class Spreadsheet {
 				if(digitCount != c.length - 2) {
 					return "#Error";
 				} else {
-					return value.substring(startPos, c.length - 1);
+					return value.substring(startPos, c.length);
 				}
 			}
 			
