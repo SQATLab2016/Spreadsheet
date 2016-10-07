@@ -39,9 +39,8 @@ public class Spreadsheet {
 			}
 		}
 		
-		// value has only digits
-		if(digitCount == cLenght) {
-			
+		if(digitCount != cLenght) {
+			return "#Error";
 		}
 		
 		return value;
