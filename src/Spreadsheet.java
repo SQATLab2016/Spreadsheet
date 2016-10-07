@@ -21,13 +21,19 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		
 		String value = "";
-		char[] c = '';
+		char[] c;
 		
 		if(map.containsKey(cell)) {
 			value = map.get(cell);
+		} else {
+			return "ValueNotFoundError";
 		}
 		
-		for(int i = 0; i < )
+		c = value.toCharArray();
+		
+		for(int i = 0; i < c.length; i++) {
+			
+		}
 		
 		return value;
 	}
