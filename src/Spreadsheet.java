@@ -49,6 +49,8 @@ public class Spreadsheet {
 			if(c[i] == '=') {
 				if(c[i+1] == '-' || c[i+1] == '\'' || Character.isDigit(c[i+1])) {
 					continue;
+				} else {
+					return "#Error";
 				}
 			}
 			
