@@ -6,10 +6,11 @@ import org.junit.Test;
 
 public class SpreadsheetTest {
 
+	Spreadsheet ss = new Spreadsheet();
+	
 	@Test
-	public void test() {
-		fail("Not yet implemented");
-		
+	public void spreadsheet_notnull() {
+		assertNotNull(ss);
 	}
 
 }
