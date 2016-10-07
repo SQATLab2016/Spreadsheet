@@ -113,7 +113,8 @@ public class Spreadsheet {
 				// -> cell reference
 				} else if(Character.isLetter(c[i+1])) { 
 					
-					return "asfdsaf";
+					String cellName = "";
+					return this.evaluate(cellName);
 					
 				} else {
 					return "#Error";
