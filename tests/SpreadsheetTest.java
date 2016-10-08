@@ -126,7 +126,7 @@ public class SpreadsheetTest {
 		assertEquals("3",spt.evaluate("A1"));
 	}	
 	
-	// test rule_15    string t15 = "=1+(1*2"
+	// test rule_16    string t16 = "=1+(1*2"
 	@Test
 	public void Test_set_evaluate_t16_3(){
 		String t16 = "=1+(1*2";
@@ -134,11 +134,19 @@ public class SpreadsheetTest {
 		assertEquals("#Error",spt.evaluate("A1"));
 	}		
 	
-	// test rule_15    string t15 = "=1+ (1      *   2    )"
+	// test rule_17    string t17 = "=1+ (1      *   2    )"
 	@Test
 	public void Test_set_evaluate_t17_3(){
 		String t17 = "=1+ (1      *   2    )";
 		spt.set("A1", t17);
 		assertEquals("3",spt.evaluate("A1"));
-	}		
+	}
+	
+	// other test      string t18 = "= 6+(3 4+5   *(6+7))   -3  "
+	@Test
+	public void Test_set_evaluate_t17_3(){
+		String t18 = "= 6+(3 4+5   *(6+7))   -3  ";
+		spt.set("A1", t18);
+		assertEquals("510",spt.evaluate("A1"));
+	}	
 }
