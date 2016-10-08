@@ -85,4 +85,60 @@ public class SpreadsheetTest {
 		spt.set("A5","=A1");
 		assertEquals("#Circular",spt.evaluate("A1"));
 	}
+	
+	// test rule_11   String t11 = "=1+1*2"
+	@Test
+	public void Test_set_evaluate_t11_4(){
+		String t11 = "=1+1*2";
+		spt.set("A1", t11);
+		assertEquals("4",spt.evaluate("A1"));
+	}
+	
+	// test rule_12    string t12 = "=1+1A"
+	@Test
+	public void Test_set_evaluate_t12_error(){
+		String t12 = "=1+1A";
+		spt.set("A1", t12);
+		assertEquals("#Error",spt.evaluate("A1"));
+	}
+	
+	// test rule_13    string t13 = "='a'&'string'"
+	@Test
+	public void Test_set_evaluate_t13_astring(){
+		String t13 = "='a'&'string'";
+		spt.set("A1", t13);
+		assertEquals("astring",spt.evaluate("A1"));
+	}
+	
+	// test rule_14    string t14 = "='a&'string'"
+	@Test
+	public void Test_set_evaluate_t14_error(){
+		String t14 = "='a&'string'";
+		spt.set("A1", t14);
+		assertEquals("#Error",spt.evaluate("A1"));
+	}	
+	
+	// test rule_15    string t15 = "=1+(1*2)"
+	@Test
+	public void Test_set_evaluate_t15_3(){
+		String t15 = "=1+(1*2)";
+		spt.set("A1", t15);
+		assertEquals("3",spt.evaluate("A1"));
+	}	
+	
+	// test rule_15    string t15 = "=1+(1*2"
+	@Test
+	public void Test_set_evaluate_t16_3(){
+		String t16 = "=1+(1*2";
+		spt.set("A1", t16);
+		assertEquals("#Error",spt.evaluate("A1"));
+	}		
+	
+	// test rule_15    string t15 = "=1+ (1      *   2    )"
+	@Test
+	public void Test_set_evaluate_t17_3(){
+		String t17 = "=1+ (1      *   2    )";
+		spt.set("A1", t17);
+		assertEquals("3",spt.evaluate("A1"));
+	}		
 }
