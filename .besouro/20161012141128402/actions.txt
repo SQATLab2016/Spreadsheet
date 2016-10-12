@@ -124,3 +124,8 @@ EditAction 1476273716612 Spreadsheet.java 2985 3 24 0
 UnitTestCaseAction 1476273720125 SpreadsheetTest.java OK
 UnitTestSessionAction 1476273720125 SpreadsheetTest.java OK
 EditAction 1476273834052 Spreadsheet.java 3240 3 24 0
+UnitTestCaseAction 1476273838095 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273838095 SpreadsheetTest.java OK
+RefactoringAction 1476274013659 SpreadsheetTest.java ADD void test_integer_operation_division_by_zero()/2 METHOD
+RefactoringAction 1476274018308 SpreadsheetTest.java RENAME test_integer_operation_division_by_zero()/2=>void test_integer_operation_with_parentheses() METHOD
+EditAction 1476274047823 SpreadsheetTest.java 4630 24 75 24
