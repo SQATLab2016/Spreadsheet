@@ -133,3 +133,4 @@ RefactoringAction 1476273558724 SpreadsheetTest.java RENAME test_simpleStringFor
 RefactoringAction 1476273560241 SpreadsheetTest.java RENAME test_simpleIntegerFormula()/2=>void test_simpleIntegerFormula_() METHOD
 RefactoringAction 1476273561255 SpreadsheetTest.java RENAME test_simpleIntegerFormula_()=>void test_simpleIntegerFormula_withError() METHOD
 EditAction 1476273567922 SpreadsheetTest.java 1399 9 18 9
+EditAction 1476273577459 SpreadsheetTest.java 1433 9 18 9
