@@ -115,8 +115,8 @@ public class Spreadsheet {
 					value.charAt(i) != '-' &&
 					value.charAt(i) != '*' &&
 					value.charAt(i) != '/') {
-						return false;
-					}
+					return false;
+				}
 			}
 		}
 		
