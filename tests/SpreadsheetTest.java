@@ -13,14 +13,14 @@ public class SpreadsheetTest {
 	}
 
 	@Test
-	public void testAssignment_A1_Neg_1() {
+	public void testAssignment_A1_Negative_1() {
 		sheet.set("A1", "-1");
 		String result = sheet.evaluate("A1");
 		assertEquals("-1", result);
 	}
 
 	@Test
-	public void testAssignment_A1_Pos_1() {
+	public void testAssignment_A1_Postive_1() {
 		sheet.set("A1", "1");
 		String result = sheet.evaluate("A1");
 		assertEquals("1", result);
@@ -59,5 +59,12 @@ public class SpreadsheetTest {
 		sheet.set("A1", "'a string");
 		String result = sheet.evaluate("A1");
 		assertEquals("#Error", result);
+	}
+
+	@Test
+	public void testAssignment_A1_Assign_String() {
+		sheet.set("A1", ""='a string'");
+		String result = sheet.evaluate("A1");
+		assertEquals("a string", result);
 	}
 }
