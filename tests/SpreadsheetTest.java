@@ -37,7 +37,7 @@ public class SpreadsheetTest {
 		Spreadsheet sh = new Spreadsheet(5,5);
 		sh.set("A1", "1A");
 		System.out.print(sh.get("A1"));
-		assertEquals(sh.get("A1"),"#Error");
+		assertEquals(sh.evaluate("A1"),"#Error");
 		
 	}
 }
