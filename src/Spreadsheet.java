@@ -57,7 +57,7 @@ public class Spreadsheet {
 			return Integer.toString(result);
 			
 		} else {
-			return scanner.next();
+			return scanner.nextInt();
 		}
 	}
 
