@@ -141,3 +141,6 @@ RefactoringAction 1476275236246 Spreadsheet.java RENAME doEquation(String)=>Stri
 RefactoringAction 1476275238399 Spreadsheet.java RENAME calculateEquation(String)=>String doEquation(String) METHOD
 RefactoringAction 1476275255871 Spreadsheet.java RENAME doEquation(String)=>String calculateEquation(String) METHOD
 EditAction 1476275335072 Spreadsheet.java 4312 4 30 0
+UnitTestCaseAction 1476275341534 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275341534 SpreadsheetTest.java FAIL
+EditAction 1476275423701 Spreadsheet.java 4351 4 30 0
