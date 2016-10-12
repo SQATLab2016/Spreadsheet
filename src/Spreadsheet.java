@@ -28,6 +28,7 @@ public class Spreadsheet {
 	
 	private String evaluateMathFormula(String value) {
 		Scanner scanner = new Scanner(value);
+		scanner.useDelimiter("+")
 
 		ArrayList<Integer> integers = new ArrayList<Integer>();
 		ArrayList<Character> operators = new ArrayList<Character>();
