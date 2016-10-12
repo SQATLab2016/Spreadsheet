@@ -20,9 +20,13 @@ public class Spreadsheet {
 	}
 	
 	public String evaluate(String cell) {
-		int tempValue = Integer.parseInt(this.value);
+		int tempValue;
+		try {
+		tempValue = Integer.parseInt(this.value);
+		}
 		
-		if (NumberFormatException == true) {
+		catch (NumberFormatException n) {
+			return "#Error";
 			
 		}
 		

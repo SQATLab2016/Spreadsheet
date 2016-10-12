@@ -246,3 +246,20 @@ RefactoringAction 1476274479149 SpreadsheetTest.java RENAME <initializer /1>=>vo
 EditAction 1476274482531 SpreadsheetTest.java 641 3 9 3
 EditAction 1476274491695 SpreadsheetTest.java 645 3 9 3
 EditAction 1476274498033 SpreadsheetTest.java 645 3 9 3
+CompilationAction 1476274501176 Spreadsheet.java
+CompilationAction 1476274501220 Spreadsheet.java
+CompilationAction 1476274501220 Spreadsheet.java
+CompilationAction 1476274501220 Spreadsheet.java
+UnitTestCaseAction 1476274502454 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274502454 SpreadsheetTest.java FAIL
+CompilationAction 1476274515899 Spreadsheet.java
+CompilationAction 1476274516080 Spreadsheet.java
+CompilationAction 1476274516082 Spreadsheet.java
+CompilationAction 1476274526305 Spreadsheet.java
+CompilationAction 1476274526307 Spreadsheet.java
+CompilationAction 1476274526463 Spreadsheet.java
+CompilationAction 1476274526464 Spreadsheet.java
+CompilationAction 1476274550103 Spreadsheet.java
+CompilationAction 1476274550103 Spreadsheet.java
+CompilationAction 1476274550247 Spreadsheet.java
+EditAction 1476274552457 Spreadsheet.java 492 3 7 0
