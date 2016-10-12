@@ -89,3 +89,6 @@ UnitTestSessionAction 1476272179902 SpreadsheetTest.java OK
 RefactoringAction 1476272215501 SpreadsheetTest.java ADD void test_integer_operation_division_by_zero()/2 METHOD
 RefactoringAction 1476272228902 SpreadsheetTest.java RENAME test_integer_operation_division_by_zero()/2=>void test_string_concatenation() METHOD
 EditAction 1476272243378 SpreadsheetTest.java 4263 22 69 22
+UnitTestCaseAction 1476272247016 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272247016 SpreadsheetTest.java FAIL
+EditAction 1476272535706 Spreadsheet.java 2861 3 24 0

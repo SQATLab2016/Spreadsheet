@@ -86,6 +86,17 @@ public class Spreadsheet {
 			return "#Error";
 		}
 		
+		// String concatenation
+		p = Pattern.compile("^=?'(.*)(?:'&'(.*))+'$");
+		m = p.matcher(value);
+		if (m.find()) {
+			StringBuilder str = new StringBuilder();
+			for (int i = 0; i < m.groupCount(); i++) {
+				str.append(m.group(i));
+			}
+			return str.toString();
+		}
+		
 		// A string
 		p = Pattern.compile("^=?'(.*)'$");
 		m = p.matcher(value);
