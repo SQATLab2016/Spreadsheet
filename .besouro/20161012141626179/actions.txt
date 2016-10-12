@@ -130,3 +130,6 @@ UnitTestSessionAction 1476272170616 SpreadsheetTest.testAssignment_A2_Reference_
 UnitTestCaseAction 1476272177296 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476272177296 SpreadsheetTest.java FAIL
 EditAction 1476272226192 Spreadsheet.java 1616 3 4 0
+CompilationAction 1476272226325 Spreadsheet.java
+CompilationAction 1476272505602 Spreadsheet.java
+EditAction 1476272558261 Spreadsheet.java 1910 3 6 0

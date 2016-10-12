@@ -18,8 +18,10 @@ public class Spreadsheet {
 						value = "#Error";
 					}
 					
-				} else if ( (c < '0' || c > '9')) {
-
+				} else if (!(value.charAt(1) < '0' || value.charAt(1) > '9')) {
+					// Reference / No-op, return possible errors when
+					// the cell is actually evaluated
+					
 				} else {
 					boolean isInteger = true;
 					for (int i = 1; i < value.length(); i++) {
@@ -67,7 +69,15 @@ public class Spreadsheet {
 	}
 	
 	public String evaluate(String cell) {
-		return (String) mValues.get(cell);
+		String value = (String) mValues.get(cell);
+		if (!(value.charAt(1) < '0' || value.charAt(1) > '9')) {
+			if (mValues.containsKey(value)) {
+				
+			} else {
+				return "#Error";
+			}
+		}
+		return value;
 	}
 	
 }
