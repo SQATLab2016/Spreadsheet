@@ -25,10 +25,11 @@ public class Spreadsheet {
 							break;
 						}
 					}
-					if (isInteger)
+					if (isInteger) {
 						value = value.substring(1, value.length());
-					else
+					} else {
 						value = "#Error";
+					}
 				}
 			} else if (value.charAt(0) == '\'') {
 				if (value.length() > 1 && value.charAt(value.length() - 1) == '\'') {
