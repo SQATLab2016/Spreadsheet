@@ -1,0 +1,382 @@
+FileOpenedAction 1476272217777 SpreadsheetTest.java 261 1 2 1
+EditAction 1476272238860 SpreadsheetTest.java 261 1 2 1
+UnitTestCaseAction 1476272241020 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272241021 SpreadsheetTest.java OK
+EditAction 1476272284299 Spreadsheet.java 383 3 4 0
+RefactoringAction 1476272297727 SpreadsheetTest.java ADD void test_evalueSetValue() METHOD
+EditAction 1476272307232 SpreadsheetTest.java 385 2 4 2
+RefactoringAction 1476272314270 SpreadsheetTest.java RENAME test_evalueSetValue()=>void test_evalueSetNegativesValue() METHOD
+EditAction 1476272314692 SpreadsheetTest.java 393 2 4 2
+UnitTestCaseAction 1476272316470 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272316472 SpreadsheetTest.test_evalueSetNegativeValue OK
+UnitTestCaseAction 1476272320677 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272320679 SpreadsheetTest.java OK
+EditAction 1476272359509 Spreadsheet.java 408 3 5 0
+RefactoringAction 1476272372299 Spreadsheet.java ADD String ERROR_VALUE FIELD
+CompilationAction 1476272376817 Spreadsheet.java
+CompilationAction 1476272382566 Spreadsheet.java
+CompilationAction 1476272382722 Spreadsheet.java
+RefactoringAction 1476272384926 Spreadsheet.java RENAME ERROR_VALUE=>read String FIELD
+RefactoringAction 1476272402478 Spreadsheet.java RENAME String=>String ERROR_VALUE FIELD
+CompilationAction 1476272403177 Spreadsheet.java
+EditAction 1476272525229 Spreadsheet.java 525 3 6 0
+CompilationAction 1476272525436 Spreadsheet.java
+EditAction 1476272541444 Spreadsheet.java 519 3 6 0
+RefactoringAction 1476272605288 Spreadsheet.java ADD boolean has FIELD
+RefactoringAction 1476272607326 Spreadsheet.java RENAME has=>boolean hasNu FIELD
+RefactoringAction 1476272608360 Spreadsheet.java RENAME hasNu=>boolean hasA FIELD
+RefactoringAction 1476272611892 Spreadsheet.java RENAME hasA=>boolean hasLetters() METHOD
+RefactoringAction 1476272614417 Spreadsheet.java RENAME hasLetters()=>boolean hasLetters(String) METHOD
+EditAction 1476272647300 Spreadsheet.java 699 4 5 0
+CompilationAction 1476272647602 Spreadsheet.java
+CompilationAction 1476272647603 Spreadsheet.java
+CompilationAction 1476272647603 Spreadsheet.java
+CompilationAction 1476272647604 Spreadsheet.java
+RefactoringAction 1476272652709 Spreadsheet.java ADD boolean hasLetters(String)/2 METHOD
+RefactoringAction 1476272653746 Spreadsheet.java RENAME hasLetters(String)/2=>boolean has(String) METHOD
+RefactoringAction 1476272655271 Spreadsheet.java RENAME has(String)=>boolean hasSymbols(String) METHOD
+RefactoringAction 1476272697366 Spreadsheet.java REMOVE hasSymbols(String) METHOD
+CompilationAction 1476272736110 Spreadsheet.java
+CompilationAction 1476272736111 Spreadsheet.java
+CompilationAction 1476272736112 Spreadsheet.java
+CompilationAction 1476272736112 Spreadsheet.java
+RefactoringAction 1476272742766 SpreadsheetTest.java ADD void test_ FIELD
+RefactoringAction 1476272744782 SpreadsheetTest.java RENAME test_evalueSetNegativeValue()=>void test_evaluateSetNegativeValue() METHOD
+RefactoringAction 1476272763817 SpreadsheetTest.java RENAME test_=>void test_wronglyFormattedInteger() METHOD
+EditAction 1476272772824 SpreadsheetTest.java 533 3 4 2
+CompilationAction 1476272773069 SpreadsheetTest.java
+CompilationAction 1476272773070 SpreadsheetTest.java
+CompilationAction 1476272777694 SpreadsheetTest.java
+CompilationAction 1476272777696 SpreadsheetTest.java
+CompilationAction 1476272777743 SpreadsheetTest.java
+CompilationAction 1476272783057 SpreadsheetTest.java
+UnitTestCaseAction 1476272784622 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272784623 SpreadsheetTest.java OK
+RefactoringAction 1476272831904 Spreadsheet.java ADD String STRING_IDENTIFIER FIELD
+EditAction 1476272842019 Spreadsheet.java 732 3 6 0
+CompilationAction 1476272842238 Spreadsheet.java
+CompilationAction 1476272850755 Spreadsheet.java
+CompilationAction 1476272850926 Spreadsheet.java
+CompilationAction 1476272867450 Spreadsheet.java
+CompilationAction 1476272867660 Spreadsheet.java
+EditAction 1476272889852 Spreadsheet.java 780 3 6 0
+CompilationAction 1476272890028 Spreadsheet.java
+EditAction 1476272893101 Spreadsheet.java 790 3 6 0
+CompilationAction 1476272893284 Spreadsheet.java
+EditAction 1476272897648 Spreadsheet.java 782 3 6 0
+CompilationAction 1476272897903 Spreadsheet.java
+EditAction 1476272904861 Spreadsheet.java 802 3 6 0
+CompilationAction 1476272905099 Spreadsheet.java
+EditAction 1476272911005 Spreadsheet.java 780 3 6 0
+CompilationAction 1476272911170 Spreadsheet.java
+RefactoringAction 1476272926999 Spreadsheet.java ADD boolean isStringCell(String) METHOD
+RefactoringAction 1476272960298 Spreadsheet.java RENAME isStringCell(String)=>boolean isStringCellValue(String) METHOD
+EditAction 1476272967805 Spreadsheet.java 963 4 9 0
+CompilationAction 1476272968047 Spreadsheet.java
+EditAction 1476272986336 Spreadsheet.java 1010 4 9 0
+CompilationAction 1476272986478 Spreadsheet.java
+EditAction 1476272993269 Spreadsheet.java 1007 4 9 0
+CompilationAction 1476272993405 Spreadsheet.java
+CompilationAction 1476273003233 Spreadsheet.java
+RefactoringAction 1476273020156 SpreadsheetTest.java ADD void test_evaluateStringCell() METHOD
+EditAction 1476273026031 SpreadsheetTest.java 633 4 7 3
+EditAction 1476273037342 SpreadsheetTest.java 682 4 8 4
+UnitTestCaseAction 1476273044359 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476273044361 SpreadsheetTest.java FAIL
+RefactoringAction 1476273079112 Spreadsheet.java ADD boolean is FIELD
+RefactoringAction 1476273081632 Spreadsheet.java RENAME is=>boolean isNumber FIELD
+RefactoringAction 1476273084157 Spreadsheet.java RENAME isNumber=>boolean isNumber(String) METHOD
+RefactoringAction 1476273091711 Spreadsheet.java RENAME isNumber(String)=>boolean isInteger(String) METHOD
+EditAction 1476273091757 Spreadsheet.java 1061 5 9 0
+CompilationAction 1476273091963 Spreadsheet.java
+RefactoringAction 1476273110303 Spreadsheet.java RENAME isInteger(String)=>boolean isIntegerCellValue(String) METHOD
+RefactoringAction 1476273114339 Spreadsheet.java REMOVE isIntegerCellValue(String) METHOD
+RefactoringAction 1476273115357 Spreadsheet.java ADD boolean isIntegerCellValue(String) METHOD
+CompilationAction 1476273124010 Spreadsheet.java
+CompilationAction 1476273124011 Spreadsheet.java
+CompilationAction 1476273133455 Spreadsheet.java
+CompilationAction 1476273133457 Spreadsheet.java
+CompilationAction 1476273133650 Spreadsheet.java
+CompilationAction 1476273133651 Spreadsheet.java
+CompilationAction 1476273188889 Spreadsheet.java
+EditAction 1476273204956 Spreadsheet.java 1089 5 11 0
+EditAction 1476273211272 Spreadsheet.java 1086 5 10 0
+UnitTestCaseAction 1476273228251 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273228251 SpreadsheetTest.java OK
+RefactoringAction 1476273249961 SpreadsheetTest.java ADD void test_evaluate FIELD
+RefactoringAction 1476273259984 SpreadsheetTest.java RENAME test_evaluate=>void test_evaluateUnquotedString() METHOD
+EditAction 1476273272808 SpreadsheetTest.java 838 5 10 5
+UnitTestCaseAction 1476273274740 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273274741 SpreadsheetTest.java OK
+RefactoringAction 1476273320486 Spreadsheet.java ADD boolean isFormula(String) METHOD
+EditAction 1476273329590 Spreadsheet.java 1205 6 12 0
+CompilationAction 1476273352808 Spreadsheet.java
+CompilationAction 1476273353201 Spreadsheet.java
+EditAction 1476273366251 Spreadsheet.java 1227 6 13 0
+RefactoringAction 1476273374699 SpreadsheetTest.java ADD void test_ FIELD
+RefactoringAction 1476273376213 SpreadsheetTest.java RENAME test_=>void test_stri FIELD
+RefactoringAction 1476273383731 SpreadsheetTest.java RENAME test_stri=>void test_simpleStringFormula() METHOD
+EditAction 1476273387777 SpreadsheetTest.java 929 6 11 5
+RefactoringAction 1476273411315 SpreadsheetTest.java ADD void test_simpleIntegerFormula() METHOD
+EditAction 1476273417054 SpreadsheetTest.java 1064 7 13 6
+EditAction 1476273429024 SpreadsheetTest.java 1109 7 14 7
+UnitTestCaseAction 1476273430746 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273430748 SpreadsheetTest.java OK
+EditAction 1476273494110 Spreadsheet.java 1239 6 13 0
+EditAction 1476273512446 Spreadsheet.java 1303 6 13 0
+EditAction 1476273517081 Spreadsheet.java 1364 6 14 0
+UnitTestCaseAction 1476273527797 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273527799 SpreadsheetTest.java OK
+RefactoringAction 1476273554702 SpreadsheetTest.java ADD void test_simpleStringFormula()/2 METHOD
+RefactoringAction 1476273554704 SpreadsheetTest.java ADD void test_simpleIntegerFormula()/2 METHOD
+RefactoringAction 1476273558724 SpreadsheetTest.java RENAME test_simpleStringFormula()/2=>void test_simpleStringFormula_withError() METHOD
+RefactoringAction 1476273560241 SpreadsheetTest.java RENAME test_simpleIntegerFormula()/2=>void test_simpleIntegerFormula_() METHOD
+RefactoringAction 1476273561255 SpreadsheetTest.java RENAME test_simpleIntegerFormula_()=>void test_simpleIntegerFormula_withError() METHOD
+EditAction 1476273567922 SpreadsheetTest.java 1399 9 18 9
+EditAction 1476273577459 SpreadsheetTest.java 1433 9 18 9
+UnitTestCaseAction 1476273578903 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273578904 SpreadsheetTest.java OK
+EditAction 1476273667807 Spreadsheet.java 1358 6 14 0
+RefactoringAction 1476273694326 Spreadsheet.java ADD boolean isReference(String) METHOD
+RefactoringAction 1476273742517 Spreadsheet.java ADD String getWhitespaceRemoved(String) METHOD
+EditAction 1476273786098 Spreadsheet.java 1649 8 14 0
+CompilationAction 1476273786241 Spreadsheet.java
+CompilationAction 1476273786241 Spreadsheet.java
+EditAction 1476273808709 Spreadsheet.java 1677 8 16 0
+CompilationAction 1476273808896 Spreadsheet.java
+CompilationAction 1476273808896 Spreadsheet.java
+EditAction 1476273813483 Spreadsheet.java 1701 8 17 0
+CompilationAction 1476273813634 Spreadsheet.java
+CompilationAction 1476273891417 Spreadsheet.java
+EditAction 1476273912211 Spreadsheet.java 1754 8 19 0
+CompilationAction 1476273912380 Spreadsheet.java
+EditAction 1476273927735 Spreadsheet.java 1812 8 19 0
+CompilationAction 1476273927919 Spreadsheet.java
+EditAction 1476273986236 Spreadsheet.java 1997 8 19 0
+CompilationAction 1476273986536 Spreadsheet.java
+EditAction 1476273996368 Spreadsheet.java 2007 8 19 0
+CompilationAction 1476273996547 Spreadsheet.java
+EditAction 1476274018901 Spreadsheet.java 2088 8 20 0
+EditAction 1476274051676 Spreadsheet.java 2093 8 20 0
+CompilationAction 1476274080935 Spreadsheet.java
+CompilationAction 1476274082052 Spreadsheet.java
+EditAction 1476274093979 Spreadsheet.java 2139 8 21 0
+EditAction 1476274111889 Spreadsheet.java 2164 8 21 0
+EditAction 1476274115951 Spreadsheet.java 2177 8 21 0
+EditAction 1476274129747 Spreadsheet.java 2226 8 21 0
+RefactoringAction 1476274150947 SpreadsheetTest.java ADD void test_simpleReference() METHOD
+EditAction 1476274161946 SpreadsheetTest.java 1540 10 21 9
+EditAction 1476274162486 SpreadsheetTest.java 1539 10 20 9
+EditAction 1476274213709 Spreadsheet.java 2318 8 21 0
+RefactoringAction 1476274221075 SpreadsheetTest.java ADD void test_simpleReference()/2 METHOD
+RefactoringAction 1476274221076 SpreadsheetTest.java ADD void test_simpleReference()/3 METHOD
+RefactoringAction 1476274224605 SpreadsheetTest.java RENAME test_simpleReference()/3=>void test_selfReference() METHOD
+RefactoringAction 1476274227622 SpreadsheetTest.java RENAME test_simpleReference()/2=>void test_sReference() METHOD
+RefactoringAction 1476274230140 SpreadsheetTest.java RENAME test_sReference()=>void test_invalidReference() METHOD
+EditAction 1476274237169 SpreadsheetTest.java 1700 12 22 9
+EditAction 1476274247629 SpreadsheetTest.java 1828 12 24 11
+RefactoringAction 1476274253763 SpreadsheetTest.java ADD void test_invalidReference()/2 METHOD
+RefactoringAction 1476274256280 SpreadsheetTest.java RENAME test_invalidReference()/2=>void test_l() METHOD
+RefactoringAction 1476274257312 SpreadsheetTest.java RENAME test_l()=>void test_longer() METHOD
+RefactoringAction 1476274262328 SpreadsheetTest.java RENAME test_longer()=>void test_longerInvalidReference() METHOD
+EditAction 1476274288162 SpreadsheetTest.java 2025 13 27 13
+UnitTestCaseAction 1476274290185 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274290186 SpreadsheetTest.java FAIL
+EditAction 1476274341970 Spreadsheet.java 2395 8 22 0
+UnitTestCaseAction 1476274345582 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274345583 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476274382640 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274382641 SpreadsheetTest.java FAIL
+EditAction 1476274425332 Spreadsheet.java 2397 8 22 0
+CompilationAction 1476274425551 Spreadsheet.java
+CompilationAction 1476274425551 Spreadsheet.java
+CompilationAction 1476274426582 Spreadsheet.java
+CompilationAction 1476274426583 Spreadsheet.java
+CompilationAction 1476274426757 Spreadsheet.java
+CompilationAction 1476274426758 Spreadsheet.java
+CompilationAction 1476274442231 Spreadsheet.java
+CompilationAction 1476274442233 Spreadsheet.java
+UnitTestCaseAction 1476274496929 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274496930 SpreadsheetTest.java FAIL
+CompilationAction 1476274503540 Spreadsheet.java
+CompilationAction 1476274503542 Spreadsheet.java
+CompilationAction 1476274506007 Spreadsheet.java
+CompilationAction 1476274506008 Spreadsheet.java
+EditAction 1476274542347 Spreadsheet.java 2441 8 23 0
+UnitTestCaseAction 1476274544770 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274544771 SpreadsheetTest.java FAIL
+EditAction 1476274586464 Spreadsheet.java 2480 8 24 0
+UnitTestCaseAction 1476274588855 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274588856 SpreadsheetTest.java FAIL
+EditAction 1476274686184 Spreadsheet.java 2605 8 23 0
+EditAction 1476274689281 Spreadsheet.java 2599 8 23 0
+UnitTestCaseAction 1476274691323 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274691324 SpreadsheetTest.java FAIL
+EditAction 1476274739602 Spreadsheet.java 2550 8 25 0
+UnitTestCaseAction 1476274742304 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274742305 SpreadsheetTest.java FAIL
+EditAction 1476274789627 Spreadsheet.java 2563 8 25 0
+EditAction 1476274798318 Spreadsheet.java 2567 8 25 0
+EditAction 1476274815198 Spreadsheet.java 2571 8 25 0
+EditAction 1476274816395 Spreadsheet.java 2570 8 25 0
+EditAction 1476274817489 Spreadsheet.java 2567 8 25 0
+UnitTestCaseAction 1476274820154 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274820155 SpreadsheetTest.java FAIL
+EditAction 1476274860895 Spreadsheet.java 2579 8 25 0
+UnitTestCaseAction 1476274863647 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274863648 SpreadsheetTest.java FAIL
+EditAction 1476274886566 Spreadsheet.java 2579 8 25 0
+EditAction 1476274916637 Spreadsheet.java 2650 8 22 0
+CompilationAction 1476274916770 Spreadsheet.java
+EditAction 1476275006236 Spreadsheet.java 2719 8 25 0
+EditAction 1476275079874 Spreadsheet.java 2827 8 25 0
+CompilationAction 1476275215053 Spreadsheet.java
+CompilationAction 1476275217079 Spreadsheet.java
+UnitTestCaseAction 1476275219793 SpreadsheetTest.java OK
+UnitTestSessionAction 1476275219794 SpreadsheetTest.java OK
+RefactoringAction 1476275246961 SpreadsheetTest.java ADD void test_inva FIELD
+RefactoringAction 1476275249511 SpreadsheetTest.java REMOVE test_inva FIELD
+RefactoringAction 1476275258058 SpreadsheetTest.java ADD void test_invalidReferenceFormat() METHOD
+RefactoringAction 1476275277137 SpreadsheetTest.java RENAME test_invalidReferenceFormat()=>void test_referenceTo() METHOD
+RefactoringAction 1476275285674 SpreadsheetTest.java RENAME test_referenceTo()=>void test_referenceToCellWithInvalidValue() METHOD
+EditAction 1476275314429 SpreadsheetTest.java 2211 14 30 14
+UnitTestCaseAction 1476275316539 SpreadsheetTest.java OK
+UnitTestSessionAction 1476275316540 SpreadsheetTest.java OK
+RefactoringAction 1476275337013 SpreadsheetTest.java ADD void test FIELD
+RefactoringAction 1476275345616 Spreadsheet.java ADD String ERROR_VALUE/2 FIELD
+RefactoringAction 1476275351650 Spreadsheet.java RENAME ERROR_VALUE/2=>String ERROR_C FIELD
+RefactoringAction 1476275352664 Spreadsheet.java RENAME ERROR_C=>String ERROR_CIRCULAR FIELD
+RefactoringAction 1476275359187 SpreadsheetTest.java RENAME test=>void test_circularReference() METHOD
+EditAction 1476275359224 SpreadsheetTest.java 2271 15 30 14
+EditAction 1476275374369 SpreadsheetTest.java 2321 15 32 14
+EditAction 1476275388400 SpreadsheetTest.java 2391 15 33 15
+EditAction 1476275420242 Spreadsheet.java 2922 8 26 0
+EditAction 1476275511655 Spreadsheet.java 3017 8 21 0
+CompilationAction 1476275511868 Spreadsheet.java
+CompilationAction 1476275511869 Spreadsheet.java
+EditAction 1476275512918 Spreadsheet.java 3018 8 26 0
+UnitTestCaseAction 1476275519882 SpreadsheetTest.java OK
+UnitTestSessionAction 1476275519883 SpreadsheetTest.java OK
+EditAction 1476275529831 Spreadsheet.java 2841 8 25 0
+RefactoringAction 1476275574565 SpreadsheetTest.java ADD void test_simple FIELD
+RefactoringAction 1476275578230 SpreadsheetTest.java RENAME test_simple=>void test_simpleIntegerOperations FIELD
+RefactoringAction 1476275584294 SpreadsheetTest.java RENAME test_simpleIntegerOperations=>void test_simpleIntegerOperations1() METHOD
+EditAction 1476275612014 SpreadsheetTest.java 2528 16 35 16
+RefactoringAction 1476275616658 SpreadsheetTest.java ADD void test_simpleIntegerOperations1()/2 METHOD
+RefactoringAction 1476275618692 SpreadsheetTest.java RENAME test_simpleIntegerOperations1()/2=>void test_simpleIntegerOperations2() METHOD
+EditAction 1476275630871 SpreadsheetTest.java 2665 17 37 17
+RefactoringAction 1476275699825 Spreadsheet.java ADD boolean isIntegerFormula FIELD
+RefactoringAction 1476275704975 Spreadsheet.java RENAME isIntegerFormula=>boolean isIntegerFormula(String) METHOD
+EditAction 1476275767263 Spreadsheet.java 3129 9 25 0
+CompilationAction 1476275767717 Spreadsheet.java
+CompilationAction 1476275795105 Spreadsheet.java
+EditAction 1476275834741 Spreadsheet.java 3269 9 29 0
+EditAction 1476275922595 Spreadsheet.java 3330 9 29 0
+CompilationAction 1476275922915 Spreadsheet.java
+CompilationAction 1476275928518 Spreadsheet.java
+EditAction 1476275986245 Spreadsheet.java 3400 9 29 0
+EditAction 1476276025509 Spreadsheet.java 3503 9 29 0
+EditAction 1476276038014 Spreadsheet.java 3522 9 29 0
+CompilationAction 1476276039216 Spreadsheet.java
+EditAction 1476276056938 Spreadsheet.java 3554 9 29 0
+CompilationAction 1476276057123 Spreadsheet.java
+EditAction 1476276067642 Spreadsheet.java 3556 9 24 0
+CompilationAction 1476276067977 Spreadsheet.java
+CompilationAction 1476276067978 Spreadsheet.java
+EditAction 1476276071894 Spreadsheet.java 3557 9 29 0
+CompilationAction 1476276072234 Spreadsheet.java
+CompilationAction 1476276108651 Spreadsheet.java
+EditAction 1476276159582 Spreadsheet.java 3708 9 29 0
+EditAction 1476276176833 Spreadsheet.java 3988 9 24 0
+CompilationAction 1476276177038 Spreadsheet.java
+CompilationAction 1476276179428 Spreadsheet.java
+CompilationAction 1476276179495 Spreadsheet.java
+EditAction 1476276180098 Spreadsheet.java 3987 9 29 0
+EditAction 1476276187571 Spreadsheet.java 3987 9 29 0
+EditAction 1476276200239 Spreadsheet.java 4024 9 29 0
+UnitTestCaseAction 1476276207483 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276207483 SpreadsheetTest.java FAIL
+EditAction 1476276254405 Spreadsheet.java 4058 9 30 0
+EditAction 1476276390903 Spreadsheet.java 4316 9 26 0
+CompilationAction 1476276391203 Spreadsheet.java
+EditAction 1476276401978 Spreadsheet.java 4379 9 32 0
+EditAction 1476276444027 Spreadsheet.java 4477 9 32 0
+CompilationAction 1476276444286 Spreadsheet.java
+EditAction 1476276450205 Spreadsheet.java 4475 9 32 0
+CompilationAction 1476276450899 Spreadsheet.java
+EditAction 1476276503521 Spreadsheet.java 4334 9 31 0
+EditAction 1476276517703 Spreadsheet.java 4160 9 31 0
+UnitTestCaseAction 1476276522173 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276522174 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476276538448 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276538449 SpreadsheetTest.java FAIL
+EditAction 1476276607531 Spreadsheet.java 4187 9 31 0
+UnitTestCaseAction 1476276611218 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276611219 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476276660254 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276660255 SpreadsheetTest.java FAIL
+EditAction 1476276755264 Spreadsheet.java 4227 9 31 0
+UnitTestCaseAction 1476276758163 SpreadsheetTest.java OK
+UnitTestSessionAction 1476276758164 SpreadsheetTest.java OK
+RefactoringAction 1476276786151 SpreadsheetTest.java ADD void test_ FIELD
+RefactoringAction 1476276793911 SpreadsheetTest.java RENAME test_=>void test_errorIntegerOperation1() METHOD
+EditAction 1476276807724 SpreadsheetTest.java 2755 18 38 17
+RefactoringAction 1476276820258 SpreadsheetTest.java ADD void test_errorIntegerOperation1()/2 METHOD
+RefactoringAction 1476276839915 SpreadsheetTest.java RENAME test_errorIntegerOperation1()/2=>void test_errorIntegerOperation() METHOD
+EditAction 1476276847861 SpreadsheetTest.java 2979 19 41 19
+EditAction 1476276851097 SpreadsheetTest.java 2978 19 41 19
+UnitTestCaseAction 1476276857677 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276857678 SpreadsheetTest.java FAIL
+EditAction 1476276903322 Spreadsheet.java 4340 9 31 0
+CompilationAction 1476276903513 Spreadsheet.java
+CompilationAction 1476276916861 Spreadsheet.java
+UnitTestCaseAction 1476276919790 SpreadsheetTest.java OK
+UnitTestSessionAction 1476276919791 SpreadsheetTest.java OK
+RefactoringAction 1476276938715 Spreadsheet.java ADD boolean isIntegerFormula(String)/2 METHOD
+EditAction 1476276942411 Spreadsheet.java 5027 10 36 0
+EditAction 1476276953147 Spreadsheet.java 5021 10 36 0
+EditAction 1476276959311 Spreadsheet.java 4935 10 35 0
+EditAction 1476276976118 Spreadsheet.java 4800 10 35 0
+EditAction 1476276983616 Spreadsheet.java 4674 10 35 0
+EditAction 1476277020895 Spreadsheet.java 4745 10 35 0
+EditAction 1476277065961 Spreadsheet.java 4939 10 35 0
+EditAction 1476277082295 Spreadsheet.java 4956 10 35 0
+EditAction 1476277088563 Spreadsheet.java 4978 10 35 0
+RefactoringAction 1476277101713 SpreadsheetTest.java ADD void test_stringOperation() METHOD
+EditAction 1476277108155 SpreadsheetTest.java 3065 20 42 19
+EditAction 1476277126848 SpreadsheetTest.java 3119 20 43 20
+EditAction 1476277165522 Spreadsheet.java 5057 10 35 0
+EditAction 1476277186902 Spreadsheet.java 5002 10 35 0
+UnitTestCaseAction 1476277190783 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476277190784 SpreadsheetTest.java FAIL
+EditAction 1476277216242 Spreadsheet.java 5036 10 36 0
+EditAction 1476277237248 Spreadsheet.java 5087 10 36 0
+UnitTestCaseAction 1476277240131 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476277240132 SpreadsheetTest.java FAIL
+EditAction 1476277260185 Spreadsheet.java 5130 10 36 0
+UnitTestCaseAction 1476277263942 SpreadsheetTest.java OK
+UnitTestSessionAction 1476277263943 SpreadsheetTest.java OK
+RefactoringAction 1476277280537 SpreadsheetTest.java ADD void test_ FIELD
+RefactoringAction 1476277287087 SpreadsheetTest.java RENAME test_=>void test_stringOperationError() METHOD
+EditAction 1476277304669 SpreadsheetTest.java 3278 21 45 21
+UnitTestCaseAction 1476277310041 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476277310042 SpreadsheetTest.java FAIL
+EditAction 1476277379536 Spreadsheet.java 5144 10 36 0
+EditAction 1476277419454 Spreadsheet.java 5241 10 36 0
+UnitTestCaseAction 1476277424057 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476277424058 SpreadsheetTest.java FAIL
+EditAction 1476277452168 Spreadsheet.java 5130 10 36 0
+EditAction 1476277513492 Spreadsheet.java 5154 10 36 0
+UnitTestCaseAction 1476277518709 SpreadsheetTest.java OK
+UnitTestSessionAction 1476277518709 SpreadsheetTest.java OK
+EditAction 1476277621155 Spreadsheet.java 5241 10 31 0
+CompilationAction 1476277621658 Spreadsheet.java
+CompilationAction 1476277646932 Spreadsheet.java
+EditAction 1476277730295 Spreadsheet.java 5242 10 36 0
+UnitTestCaseAction 1476277740018 SpreadsheetTest.java OK
+UnitTestSessionAction 1476277740019 SpreadsheetTest.test_errorIntegerOperation OK
+UnitTestCaseAction 1476277744782 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476277744783 SpreadsheetTest.test_simpleIntegerOperations2 FAIL
+UnitTestCaseAction 1476277749233 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476277749234 SpreadsheetTest.java FAIL
+EditAction 1476277766066 Spreadsheet.java 5154 10 36 0
