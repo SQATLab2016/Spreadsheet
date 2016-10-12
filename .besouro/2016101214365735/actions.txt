@@ -137,3 +137,6 @@ EditAction 1476273577459 SpreadsheetTest.java 1433 9 18 9
 UnitTestCaseAction 1476273578903 SpreadsheetTest.java OK
 UnitTestSessionAction 1476273578904 SpreadsheetTest.java OK
 EditAction 1476273667807 Spreadsheet.java 1358 6 14 0
+RefactoringAction 1476273694326 Spreadsheet.java ADD boolean isReference(String) METHOD
+RefactoringAction 1476273742517 Spreadsheet.java ADD String getWhitespaceRemoved(String) METHOD
+EditAction 1476273786098 Spreadsheet.java 1649 8 14 0

@@ -8,6 +8,7 @@ public class Spreadsheet {
 	HashMap<String, String> table = new HashMap<String, String>();
 	
 	public String get(String cell) {
+		
 		return table.get(cell);
 	}
 	
@@ -62,5 +63,18 @@ public class Spreadsheet {
 			return true;
 		
 		return false;
+	}
+	
+	private boolean isReference(String value) {
+		//if (isFormula(value) && value.)
+	}
+	
+	private String getWhitespaceRemoved(String value) {
+		String newValue = "";
+		
+		for (int i = 0; i < value.length(); i++) {
+			if (!Character.isWhitespace(value.charAt(i)))
+				
+		}
 	}
 }
