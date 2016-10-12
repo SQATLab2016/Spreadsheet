@@ -118,9 +118,11 @@ public class SpreadsheetTest {
 		String result = sheet.evaluate("A1");
 		assertEquals("#Error", result);
 	}
+	
 	@Test
 	public void testAssignment_Reference_Circular_Error() {
-		sheet.set("A2", "=A5");
+		sheet.set("A1", "=A2");
+		sheet.set("A2", "=A1");
 		String result = sheet.evaluate("A2");
 		assertEquals("#Circular", result);
 	}

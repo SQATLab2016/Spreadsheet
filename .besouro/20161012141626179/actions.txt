@@ -265,3 +265,4 @@ RefactoringAction 1476273921256 SpreadsheetTest.java RENAME testAssignment_A2_Re
 RefactoringAction 1476273932289 SpreadsheetTest.java RENAME testAssignment_A2_Reference_Circular_Error()=>void testAssignment_Reference_Circular_Error() METHOD
 RefactoringAction 1476273934302 SpreadsheetTest.java RENAME testAssignment_A2_Reference_Invalid_Error()=>void testAssignment_Reference_Invalid_Error() METHOD
 EditAction 1476273944127 SpreadsheetTest.java 3034 17 51 16
+EditAction 1476273959271 SpreadsheetTest.java 3062 17 52 16
