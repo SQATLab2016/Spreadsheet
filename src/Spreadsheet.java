@@ -16,6 +16,9 @@ public class Spreadsheet {
 
 	public String evaluate(String cell) {
 		String cellStored = sheet.get(cell);
+		if(cellStored.startsWith("=")){
+			cellStored=cellStored.substring(1);
+		}
 		if (cellStored.startsWith("'")) {
 			return evaluateString(cellStored);
 		} else {

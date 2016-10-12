@@ -133,3 +133,6 @@ RefactoringAction 1476273523448 SpreadsheetTest.java RENAME testSpreadsheetequal
 RefactoringAction 1476273524460 SpreadsheetTest.java RENAME testSpreadsheetequalSign_String_setA5_EqualsaString_evaluateB2_return_aSt()=>void testSpreadsheetequalSign_String_setA5_EqualsaString_evaluateB2_return_aString() METHOD
 EditAction 1476273525862 SpreadsheetTest.java 1314 7 14 7
 EditAction 1476273543978 SpreadsheetTest.java 1317 7 14 7
+UnitTestCaseAction 1476273550180 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476273550181 SpreadsheetTest.java FAIL
+EditAction 1476273623196 Spreadsheet.java 954 5 7 0
