@@ -863,3 +863,10 @@ EditAction 1476279036215 Spreadsheet.java 3983 15 25 0
 UnitTestCaseAction 1476279037520 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476279037520 SpreadsheetTest.java FAIL
 EditAction 1476279041195 Spreadsheet.java 3986 15 25 0
+CompilationAction 1476279041444 Spreadsheet.java
+CompilationAction 1476279048985 Spreadsheet.java
+CompilationAction 1476279049149 Spreadsheet.java
+CompilationAction 1476279059766 Spreadsheet.java
+UnitTestCaseAction 1476279061561 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476279061561 SpreadsheetTest.java FAIL
+EditAction 1476279071877 Spreadsheet.java 3974 15 25 0
