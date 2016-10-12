@@ -70,6 +70,9 @@ public class Spreadsheet {
 		
 		if (isFormula(v)) {
 			int i = 1;
+			while (Character.isLetter(v.charAt(i))) {
+				
+			}
 		}
 	}
 	
