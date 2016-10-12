@@ -46,6 +46,9 @@ public class Spreadsheet {
 	private int characterCount(String str, String target) {
 		int count = 0;
 		
+		if (target.length != 1)
+			throw new SpreadsheetException("Character count target length must be 1");
+		
 		for (int i = 0; i < str.length(); i++) {
 			if (charAsStringFromPos(str, i).equals(target))
 				count++;
