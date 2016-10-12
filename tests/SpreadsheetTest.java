@@ -60,5 +60,4 @@ public class SpreadsheetTest {
 		String result = sheet.evaluate("A1");
 		assertEquals("#Error", result);
 	}
-
 }
