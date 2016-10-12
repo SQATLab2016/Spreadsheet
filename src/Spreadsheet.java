@@ -46,6 +46,10 @@ public class Spreadsheet {
 				}
 			}
 		}
+		
+		for (int i = 0; i < operators.size(); i++) {
+			if 
+		}
 		/*
 		ArrayList<Integer> integers;
 		ArrayList<Character> operators;
