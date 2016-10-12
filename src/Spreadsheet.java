@@ -34,7 +34,6 @@ public class Spreadsheet {
 					if (isInteger) {
 						value = value.substring(1, value.length());
 					} else {
-						value = "#Error";
 					}
 				}
 			} else if (value.charAt(0) == '\'') {
