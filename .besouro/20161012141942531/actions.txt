@@ -158,3 +158,9 @@ RefactoringAction 1476274049297 SpreadsheetTest.java ADD void testSpreadSheet_ev
 RefactoringAction 1476274069855 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellReferenceCircular_Exception()/2=>void testSpreadSheet_evaluateArithmeticOperations() METHOD
 EditAction 1476274099451 SpreadsheetTest.java 2914 12 39 7
 EditAction 1476274109682 Spreadsheet.java 1184 3 3 0
+UnitTestCaseAction 1476274113628 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274113629 SpreadsheetTest.java FAIL
+RefactoringAction 1476274126781 Spreadsheet.java ADD static boolean isInteger(String) METHOD
+RefactoringAction 1476274138813 Spreadsheet.java REMOVE isInteger(String) METHOD
+RefactoringAction 1476274142331 Spreadsheet.java ADD static boolean isInteger(String) METHOD
+EditAction 1476274143772 Spreadsheet.java 1507 4 5 0

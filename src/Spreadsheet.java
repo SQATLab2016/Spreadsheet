@@ -27,8 +27,9 @@ public class Spreadsheet {
 						throw new SpreadSheetException();
 					} else
 						result = evaluate(sheet.get(cell).substring(1));
-				}
-				else {
+				} else if (Integer.parseInt(sheet.get(cell).substring(1, 2)) >= 0) {
+
+				} else {
 					throw new SpreadSheetException();
 				}
 			} else
@@ -39,4 +40,15 @@ public class Spreadsheet {
 		}
 	}
 
+	public static boolean isInteger(String s) {
+		try {
+			Integer.parseInt(s);
+		} catch (NumberFormatException e) {
+			return false;
+		} catch (NullPointerException e) {
+			return false;
+		}
+		// only got here if we didn't return false
+		return true;
+	}
 }
