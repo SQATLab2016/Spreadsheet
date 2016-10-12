@@ -49,7 +49,7 @@ public class Spreadsheet {
 		p = Pattern.compile("^=([\\d+\\-\\*/%]+)$");
 		m = p.matcher(value);
 		if (m.find()) {
-			String[] operationParts = m.group(1).split("(\\d+|[\\d]+)");
+			String[] operationParts = m.group(1).split("\\d+");
 			return operationParts[0];
 		}
 		
