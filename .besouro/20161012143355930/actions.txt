@@ -82,3 +82,5 @@ FileOpenedAction 1476277393253 Index.java 29 0 0 0
 RefactoringAction 1476277398749 Index.java ADD int i FIELD
 RefactoringAction 1476277404254 Index.java ADD int j FIELD
 EditAction 1476277407695 Index.java 45 0 0 0
+RefactoringAction 1476277440451 Index.java ADD Index(int, int) METHOD
+EditAction 1476277462787 Index.java 102 1 2 0
