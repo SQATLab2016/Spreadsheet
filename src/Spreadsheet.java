@@ -23,8 +23,8 @@ public class Spreadsheet {
 		int tempValue;
 		String tempString = this.value;
 		
-		if ((tempString.endsWith("'")) && (tempString.startsWith("'"))){
-			
+		if ((tempString.endsWith("\'")) && (tempString.startsWith("\'"))){
+			tempString.
 		}
 		
 		try {
