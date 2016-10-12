@@ -623,3 +623,11 @@ CompilationAction 1476276766952 Spreadsheet.java
 UnitTestCaseAction 1476276768584 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476276768584 SpreadsheetTest.java FAIL
 EditAction 1476276792427 Spreadsheet.java 3070 7 10 0
+UnitTestCaseAction 1476276794130 SpreadsheetTest.java OK
+UnitTestSessionAction 1476276794130 SpreadsheetTest.java OK
+RefactoringAction 1476276799727 Spreadsheet.java ADD boolean isReference(String)/2 METHOD
+RefactoringAction 1476276808268 Spreadsheet.java RENAME isReference(String)/2=>boolean is(String) METHOD
+RefactoringAction 1476276809783 Spreadsheet.java RENAME is(String)=>boolean isIn(String) METHOD
+RefactoringAction 1476276818297 Spreadsheet.java RENAME isIn(String)=>boolean isIns(String) METHOD
+RefactoringAction 1476276821313 Spreadsheet.java RENAME isIns(String)=>boolean isInsInteger(String) METHOD
+EditAction 1476276843772 Spreadsheet.java 3157 8 7 0

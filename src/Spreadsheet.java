@@ -24,6 +24,11 @@ public class Spreadsheet {
 		return value.length() > 0 && value.charAt(0) == '=';
 	}
 	
+	private boolean isInsInteger(String value) {
+		return value.length() > 0 &&
+				value.charAt(0) == '-' || (value.charAt(0) >= '0' && value.charAt(0) <= '9')
+	}
+	
 	private boolean isCircularRecursive(String value) {
 		if (isAssignment(value)) {
 			String key = value.substring(1, value.length());
@@ -72,7 +77,7 @@ public class Spreadsheet {
 						value = ERROR;
 					}
 					
-				} else if (value.charAt(0) == '-' || (value.charAt(0) >= '0' && value.charAt(0) <= '9')) {
+				} else if () {
 					boolean isInteger = true;
 					for (int i = 0; i < value.length(); i++) {
 						char c = value.charAt(i);
