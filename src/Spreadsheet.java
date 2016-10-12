@@ -33,6 +33,9 @@ public class Spreadsheet {
 		}
 	}
 	
+	private boolean isDigit(char c) {
+		return c >= '0' && c <= '9';
+	}
 	private boolean isReference(String value) {
 		return value.length() > 0 && value.charAt(0) >= 'A' && value.charAt(0) <= 'Z';
 	}

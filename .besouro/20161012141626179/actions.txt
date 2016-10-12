@@ -724,3 +724,9 @@ EditAction 1476277593268 Spreadsheet.java 3285 14 20 0
 UnitTestCaseAction 1476277594785 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476277594785 SpreadsheetTest.java FAIL
 EditAction 1476277633453 Spreadsheet.java 3373 14 20 0
+CompilationAction 1476277633597 Spreadsheet.java
+RefactoringAction 1476277673648 Spreadsheet.java ADD boolean isd FIELD
+RefactoringAction 1476277675163 Spreadsheet.java RENAME isd=>boolean is FIELD
+RefactoringAction 1476277677179 Spreadsheet.java RENAME is=>boolean isDigit() METHOD
+RefactoringAction 1476277680699 Spreadsheet.java RENAME isDigit()=>boolean isDigit(char) METHOD
+EditAction 1476277692472 Spreadsheet.java 3442 15 21 0
