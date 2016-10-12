@@ -14,18 +14,15 @@ public class Spreadsheet {
 		String v = value;
 		
 		if (Character.isDigit(v.charAt(0))) {
-			if (v.
+			for (int i = 0; i < v.length(); i++) {
+				if (!Character.isDigit(v.charAt(i))) {
+					v = ERROR_VALUE;
+					break;
+				}
+			}
 		}
 		
 		table.put(cell, v);
-	}
-	
-	private boolean hasLetters(String str) {
-		for (int i = 0; i < str.length(); i++)
-			if (Character.isAlphabetic(str.charAt(i)))
-				return true;
-		
-		return false;
 	}
 	
 	public String evaluate(String cell) {

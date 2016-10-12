@@ -28,3 +28,19 @@ RefactoringAction 1476272608360 Spreadsheet.java RENAME hasNu=>boolean hasA FIEL
 RefactoringAction 1476272611892 Spreadsheet.java RENAME hasA=>boolean hasLetters() METHOD
 RefactoringAction 1476272614417 Spreadsheet.java RENAME hasLetters()=>boolean hasLetters(String) METHOD
 EditAction 1476272647300 Spreadsheet.java 699 4 5 0
+CompilationAction 1476272647602 Spreadsheet.java
+CompilationAction 1476272647603 Spreadsheet.java
+CompilationAction 1476272647603 Spreadsheet.java
+CompilationAction 1476272647604 Spreadsheet.java
+RefactoringAction 1476272652709 Spreadsheet.java ADD boolean hasLetters(String)/2 METHOD
+RefactoringAction 1476272653746 Spreadsheet.java RENAME hasLetters(String)/2=>boolean has(String) METHOD
+RefactoringAction 1476272655271 Spreadsheet.java RENAME has(String)=>boolean hasSymbols(String) METHOD
+RefactoringAction 1476272697366 Spreadsheet.java REMOVE hasSymbols(String) METHOD
+CompilationAction 1476272736110 Spreadsheet.java
+CompilationAction 1476272736111 Spreadsheet.java
+CompilationAction 1476272736112 Spreadsheet.java
+CompilationAction 1476272736112 Spreadsheet.java
+RefactoringAction 1476272742766 SpreadsheetTest.java ADD void test_ FIELD
+RefactoringAction 1476272744782 SpreadsheetTest.java RENAME test_evalueSetNegativeValue()=>void test_evaluateSetNegativeValue() METHOD
+RefactoringAction 1476272763817 SpreadsheetTest.java RENAME test_=>void test_wronglyFormattedInteger() METHOD
+EditAction 1476272772824 SpreadsheetTest.java 533 3 4 2
