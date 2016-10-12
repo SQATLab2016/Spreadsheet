@@ -59,3 +59,8 @@ RefactoringAction 1476276347447 Spreadsheet.java RENAME characterCount()=>int ch
 RefactoringAction 1476276352474 Spreadsheet.java RENAME characterCount(String)=>int characterCount(String, char) METHOD
 RefactoringAction 1476276426652 Spreadsheet.java RENAME characterCount(String, char)=>int characterCount(String, String) METHOD
 EditAction 1476276485084 Spreadsheet.java 2251 10 21 0
+CompilationAction 1476276485197 Spreadsheet.java
+CompilationAction 1476276485198 Spreadsheet.java
+CompilationAction 1476276485198 Spreadsheet.java
+CompilationAction 1476276485198 Spreadsheet.java
+EditAction 1476276489850 Spreadsheet.java 2270 10 22 0

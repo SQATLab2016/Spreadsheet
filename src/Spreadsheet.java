@@ -50,6 +50,8 @@ public class Spreadsheet {
 			if (charAsStringFromPos(str, i).equals(target))
 				count++;
 		}
+		
+		return count;
 	}
 	
 	private String evaluatedString(String unevaluatedString) {
