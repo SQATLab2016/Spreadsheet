@@ -100,12 +100,12 @@ public class Spreadsheet {
 		
 		if (value.length() > 0) {
 			if (isAssignment(value)) {
-				value =  evaluateAssignment(value);
+				value = evaluateAssignment(value);
 				
 				if (isString(value)) {
 					
 				} else if (isInteger(value)) {
-					
+					value = evaluateInteger();
 				} else if (isReference(value)) {
 					if (mValues.containsKey(value)) {
 						if (isCircular(value)) {
