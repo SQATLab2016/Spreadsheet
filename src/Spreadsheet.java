@@ -78,6 +78,11 @@ public class Spreadsheet {
 				int y = Integer.parseInt(evaluateIntFormula(Arrays.copyOfRange(characters, i+1, characters.length)));
 				calculation = x - y;
 				return String.valueOf(calculation);
+			}else if (c == '*') {
+				int x = (int)operand -48;
+				int y = Integer.parseInt(evaluateIntFormula(Arrays.copyOfRange(characters, i+1, characters.length)));
+				calculation = x * y;
+				return String.valueOf(calculation);
 			} else {
 				return ERROR;
 			}

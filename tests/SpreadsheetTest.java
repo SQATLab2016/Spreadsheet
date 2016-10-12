@@ -139,5 +139,13 @@ public class SpreadsheetTest {
 		assertEquals(sheet.evaluate("A1"), "8");		
 		
 	}
+	
+	@Test
+	public void testSpreadsheetFormulaCalculation_evaluateDivisionFormula(){
+		sheet.set("A1", "=4/2");
+		
+		assertEquals(sheet.evaluate("A1"), "2");		
+		
+	}
 
 }
