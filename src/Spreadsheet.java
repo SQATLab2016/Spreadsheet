@@ -16,7 +16,7 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		String cellStored = sheet.get(cell);
 		if (cellStored.startsWith("'")) {
-			return cellStored.substring(1, cellStored.length() - 2);
+			return cellStored.substring(1, cellStored.length() - 1);
 		} else {
 			try {
 				Integer.parseInt(sheet.get(cell));
