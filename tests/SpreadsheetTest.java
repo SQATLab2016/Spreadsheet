@@ -21,6 +21,14 @@ public class SpreadsheetTest {
 		assertEquals(sheet.get("B2"), "-3");
 
 	}
+	
+	@Test
+	public void testSpreadsheetEvaluateNegInt_setB2_neg3_evaluateB2_returnneg3() {
+		sheet.set("B2", "-3");
+
+		assertEquals(sheet.evaluate("B2"), "-3");
+
+	}
 
 	@Test
 	public void testSpreadsheetInvalidInt_setB2_2A_evaluateB2_return_Error(){
@@ -30,13 +38,7 @@ public class SpreadsheetTest {
 		
 	}
 	
-	@Test
-	public void testSpreadsheetEvaluateNegInt_setB2_neg3_evaluateB2_returnneg3() {
-		sheet.set("B2", "-3");
 
-		assertEquals(sheet.evaluate("B2"), "-3");
-
-	}
 
 
 }
