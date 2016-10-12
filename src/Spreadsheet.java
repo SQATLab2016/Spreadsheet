@@ -16,8 +16,27 @@ public class Spreadsheet {
 		mValues.put(cell, value);
 	}
 	
+	private boolean isCircularRecursive(String value) {
+		if (value.length() > 0 && value.charAt(0) >= 'A' && value.charAt(0) <= 'Z') {
+			String key = value;
+			if (mVisited.contains(key)) {
+				return true;
+				
+			} else {
+				if (mValues.containsKey(key)) {
+					mVisited.add(key);
+					return isCircularRecursive(get(key));
+				} else {
+					return false;
+				}
+			}
+		} else {
+			return false;
+		}
+	}
 	private boolean isCircular(String key) {
-		ArrayList<String> visited;
+		mVisited.clear();
+		return isCircularRecursive(key);
 	}
 	
 	public String evaluate(String cell) {
@@ -61,7 +80,7 @@ public class Spreadsheet {
 				} else if (value.charAt(1) >= 'A' && value.charAt(1) <= 'Z') {
 					String key = value.substring(1, value.length());
 					if (mValues.containsKey(key)) {
-						if (mVisited.contains(key)) {
+						if (isCircular(key)) {
 							return CIRCULAR;
 						} else {
 							value = evaluate(key);
@@ -97,8 +116,6 @@ public class Spreadsheet {
 					value = ERROR;
 			}
 		}
-		
-		mVisited.clear();
 		
 		return value;
 	}

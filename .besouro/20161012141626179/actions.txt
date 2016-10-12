@@ -500,3 +500,40 @@ UnitTestSessionAction 1476275454064 SpreadsheetTest.java FAIL
 RefactoringAction 1476275520029 Spreadsheet.java ADD boolean isCircular() METHOD
 RefactoringAction 1476275524043 Spreadsheet.java RENAME isCircular()=>boolean isCircular(String) METHOD
 EditAction 1476275536598 Spreadsheet.java 2520 4 7 0
+CompilationAction 1476275536716 Spreadsheet.java
+RefactoringAction 1476275549623 Spreadsheet.java ADD boolean isCircularRecursive(String) METHOD
+RefactoringAction 1476275553639 Spreadsheet.java RENAME mValues=>ArrayList<String> mVisited/2 FIELD
+RefactoringAction 1476275556656 Spreadsheet.java RENAME mVisited/2=>HashMap<String,String> mValues FIELD
+CompilationAction 1476275584961 Spreadsheet.java
+CompilationAction 1476275585157 Spreadsheet.java
+CompilationAction 1476275585157 Spreadsheet.java
+CompilationAction 1476275585158 Spreadsheet.java
+CompilationAction 1476275585158 Spreadsheet.java
+CompilationAction 1476275591270 Spreadsheet.java
+CompilationAction 1476275591270 Spreadsheet.java
+CompilationAction 1476275591271 Spreadsheet.java
+CompilationAction 1476275591409 Spreadsheet.java
+CompilationAction 1476275591410 Spreadsheet.java
+CompilationAction 1476275591410 Spreadsheet.java
+CompilationAction 1476275591410 Spreadsheet.java
+CompilationAction 1476275729263 Spreadsheet.java
+CompilationAction 1476275729264 Spreadsheet.java
+CompilationAction 1476275729265 Spreadsheet.java
+CompilationAction 1476275729436 Spreadsheet.java
+CompilationAction 1476275729436 Spreadsheet.java
+CompilationAction 1476275729437 Spreadsheet.java
+CompilationAction 1476275729437 Spreadsheet.java
+CompilationAction 1476275766579 Spreadsheet.java
+CompilationAction 1476275766580 Spreadsheet.java
+CompilationAction 1476275766581 Spreadsheet.java
+CompilationAction 1476275766582 Spreadsheet.java
+CompilationAction 1476275766766 Spreadsheet.java
+CompilationAction 1476275766767 Spreadsheet.java
+CompilationAction 1476275808378 Spreadsheet.java
+CompilationAction 1476275808379 Spreadsheet.java
+CompilationAction 1476275808525 Spreadsheet.java
+CompilationAction 1476275808526 Spreadsheet.java
+CompilationAction 1476275821184 Spreadsheet.java
+CompilationAction 1476275821185 Spreadsheet.java
+CompilationAction 1476275821362 Spreadsheet.java
+EditAction 1476275899452 Spreadsheet.java 2920 5 8 0
