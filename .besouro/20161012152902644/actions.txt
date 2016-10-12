@@ -145,3 +145,6 @@ RefactoringAction 1476277797922 Spreadsheet.java RENAME removePrecedingAndTraili
 RefactoringAction 1476277799440 Spreadsheet.java RENAME removeFirstAndLast(String)=>String removeFirstAndLastChar(String) METHOD
 CompilationAction 1476277800604 Spreadsheet.java
 EditAction 1476277938363 Spreadsheet.java 3101 11 26 0
+CompilationAction 1476277938623 Spreadsheet.java
+CompilationAction 1476277938624 Spreadsheet.java
+EditAction 1476277962813 Spreadsheet.java 3150 11 26 0
