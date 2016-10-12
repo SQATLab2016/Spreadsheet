@@ -9,6 +9,8 @@ public class Spreadsheet {
 	}
 	
 	public void set(String cell, String value) {
+		String v = value;
+		
 		table.put(cell, value);
 	}
 	
