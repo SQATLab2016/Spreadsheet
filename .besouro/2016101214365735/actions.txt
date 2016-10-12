@@ -373,3 +373,10 @@ EditAction 1476277621155 Spreadsheet.java 5241 10 31 0
 CompilationAction 1476277621658 Spreadsheet.java
 CompilationAction 1476277646932 Spreadsheet.java
 EditAction 1476277730295 Spreadsheet.java 5242 10 36 0
+UnitTestCaseAction 1476277740018 SpreadsheetTest.java OK
+UnitTestSessionAction 1476277740019 SpreadsheetTest.test_errorIntegerOperation OK
+UnitTestCaseAction 1476277744782 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476277744783 SpreadsheetTest.test_simpleIntegerOperations2 FAIL
+UnitTestCaseAction 1476277749233 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476277749234 SpreadsheetTest.java FAIL
+EditAction 1476277766066 Spreadsheet.java 5154 10 36 0
