@@ -97,7 +97,7 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void testAssignment_A2_Reference_AA_String() {
+	public void testAssignment_A2_Reference_A1_String() {
 		sheet.set("A1", "'a string'");
 		sheet.set("A2", "=A1");
 		String result = sheet.evaluate("A2");
