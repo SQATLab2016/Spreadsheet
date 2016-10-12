@@ -30,3 +30,7 @@ RefactoringAction 1476271917547 SpreadsheetTest.java RENAME testSpreadsheet_setB
 RefactoringAction 1476271919563 SpreadsheetTest.java RENAME testSpreadsheet_setB2_neg3_getB2_return1()=>void testSpreadsheet_setB2_neg3_getB2_return() METHOD
 RefactoringAction 1476271921078 SpreadsheetTest.java RENAME testSpreadsheet_setB2_neg3_getB2_return()=>void testSpreadsheet_setB2_neg3_getB2_returnneg3() METHOD
 EditAction 1476271943353 SpreadsheetTest.java 448 2 6 2
+UnitTestCaseAction 1476271950605 SpreadsheetTest.java OK
+UnitTestSessionAction 1476271950606 SpreadsheetTest.java OK
+RefactoringAction 1476272009695 SpreadsheetTest.java ADD Spreadsheet sheet FIELD
+EditAction 1476272032065 SpreadsheetTest.java 408 2 4 2
