@@ -4,6 +4,7 @@ import org.junit.Test;
 
 public class SpreadsheetTest {
 	
+	private static final String ERROR = "#ERROR";
 	Spreadsheet sheet = new Spreadsheet();
 
 	@Test
@@ -34,7 +35,7 @@ public class SpreadsheetTest {
 	public void testSpreadsheetInvalidInt_setC3_2A_evaluateC3_return_Error(){
 		sheet.set("C3", "2A");
 		
-		assertEquals(sheet.evaluate("C3"), "#ERROR");		
+		assertEquals(sheet.evaluate("C3"), ERROR);		
 		
 	}
 	
@@ -50,7 +51,7 @@ public class SpreadsheetTest {
 	public void testSpreadsheetString_setC3_aString_withoutEndQuote_evaluateC3_return_ERROR(){
 		sheet.set("C3", "'a String");
 		
-		assertEquals(sheet.evaluate("C3"), "#ERROR");		
+		assertEquals(sheet.evaluate("C3"), ERROR);		
 		
 	}
 	
@@ -75,7 +76,7 @@ public class SpreadsheetTest {
 	public void testSpreadsheetequalSignWithError_Int_setC3_EqualsD3_evaluateC3_return_Error(){
 		sheet.set("C3", "=D3");
 		
-		assertEquals(sheet.evaluate("C3"), "#ERROR");		
+		assertEquals(sheet.evaluate("C3"), ERROR);		
 		
 	}
 

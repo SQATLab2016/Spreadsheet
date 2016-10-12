@@ -172,3 +172,7 @@ RefactoringAction 1476273947406 SpreadsheetTest.java RENAME testSpreadsheetequal
 RefactoringAction 1476273953418 SpreadsheetTest.java RENAME testSpreadsheetequalSign_Int_setC3_EqualsD3_evaluateC3_return_Error()=>void testSpreadsheetequalSign__Int_setC3_EqualsD3_evaluateC3_return_Error() METHOD
 RefactoringAction 1476273956436 SpreadsheetTest.java RENAME testSpreadsheetequalSign__Int_setC3_EqualsD3_evaluateC3_return_Error()=>void testSpreadsheetequalSignWithError_Int_setC3_EqualsD3_evaluateC3_return_Error() METHOD
 EditAction 1476273970963 SpreadsheetTest.java 1673 9 18 9
+UnitTestCaseAction 1476273977581 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273977582 SpreadsheetTest.java OK
+RefactoringAction 1476273987769 SpreadsheetTest.java ADD String ERROR FIELD
+EditAction 1476273987775 SpreadsheetTest.java 1711 9 18 9
