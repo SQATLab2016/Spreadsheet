@@ -50,6 +50,7 @@ public class SpreadsheetTest {
 	
 	@Test
 	public void evaluateString_TooManyStrMarks() {
+		boolean caughtException;
 		spreadsheet.set("A1", "'str with ' in the middle'");
 		
 		try {
