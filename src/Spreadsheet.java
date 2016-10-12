@@ -7,8 +7,7 @@ public class Spreadsheet {
 	final public static String CIRCULAR = "#Circular";
 	
 	public String get(String cell) {
-		// to be implemented
-		return null;
+		return (String) mValues.get(cell);;
 	}
 	
 	public void set(String cell, String value) {
@@ -80,7 +79,7 @@ public class Spreadsheet {
 	}
 	
 	public String evaluate(String cell) {
-		String value = (String) mValues.get(cell);
+		String value = 
 		
 		if (value.length() > 0 && value.charAt(0) == '&') {
 			String key = value.substring(1, value.length());
