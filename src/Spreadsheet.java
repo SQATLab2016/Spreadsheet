@@ -161,7 +161,7 @@ public class Spreadsheet {
 		if (isFormula(value))
 			value = value.substring(1);
 		
-		if (value.startsWith(STRING_IDENTIFIER) && value.endsWith(STRING_IDENTIFIER))
+		if (value.startsWith(STRING_IDENTIFIER) && value.endsWith(STRING_IDENTIFIER) && !value.contains("&"))
 			return true;
 		
 		return false;
