@@ -55,14 +55,18 @@ public class Spreadsheet {
 		int result = 0;
 		int stringIndex = 0;
 		String operator = "+";
-		boolean integerVlaue = false;
+		boolean integerValue = false;
+		int previousIntegerValue = 0;
 		while (stringIndex <= value.length()) {
 			if (isInteger(value.substring(stringIndex, stringIndex + 1))) {
 				if (integerVlaue = false) {
-					integerVlaue = true;
-					result = evaluateOperator(result, Integer.parseInt(value.substring(stringIndex, stringIndex + 1)),
+					integerValue = true;
+					previousIntegerValue = Integer.parseInt(value.substring(stringIndex, stringIndex + 1))
+					result = evaluateOperator(result, previousIntegerValue,
 							operator);
 				}
+				else
+					
 			}
 		}
 		return result;
