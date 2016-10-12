@@ -65,6 +65,6 @@ public class SpreadsheetTest {
 	@Test
 	public void test_simpleReference() {
 		sheet.set("A1", "5");
-		sheet.set("A2", "=A1");;
+		sheet.set("A2", "=A1");
 	}
 }
