@@ -35,11 +35,19 @@ public class Spreadsheet {
 				tempString = tempString.substring(1, tempString.length()-1);
 				return tempString;
 				}
-			
-			else if ()
-			
+						
 			else {
-			return "#Error";
+				try {
+					tempValue = Integer.parseInt(tempString);
+				}
+				
+				catch (NumberFormatException n){
+					return "#Error";	
+				}
+				
+				String returnString = Integer.toString(tempValue);
+				return returnString;
+				
 			}
 		}
 		
