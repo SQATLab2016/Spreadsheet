@@ -36,6 +36,8 @@ public class Spreadsheet {
 				return tempString;
 				}
 			
+			else if ()
+			
 			else {
 			return "#Error";
 			}

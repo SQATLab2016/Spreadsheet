@@ -376,3 +376,6 @@ RefactoringAction 1476276330222 SpreadsheetTest.java RENAME spreadsheetEvaluateA
 RefactoringAction 1476276332234 SpreadsheetTest.java RENAME spreadsheetEvaluateA4_Equale3_returns3()=>void spreadsheetEvaluateA4_Equals3_returns3() METHOD
 RefactoringAction 1476276333243 SpreadsheetTest.java RENAME spreadsheetEvaluateA4_Equals3_returns3()=>void spreadsheetEvaluateA4Equals3_returns3() METHOD
 EditAction 1476276340792 SpreadsheetTest.java 2083 10 30 10
+UnitTestCaseAction 1476276343952 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276343952 SpreadsheetTest.java FAIL
+EditAction 1476276367041 Spreadsheet.java 1004 3 3 0
