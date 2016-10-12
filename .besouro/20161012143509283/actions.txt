@@ -316,3 +316,6 @@ RefactoringAction 1476275676209 SpreadsheetTest.java RENAME spreadsheetEvaluateA
 RefactoringAction 1476275680719 SpreadsheetTest.java RENAME spreadsheetEvaluateA2EgualsArbitary_What_returnsError()=>void spreadsheetEvaluateA2EgualsArbitary_returnsArbitaryWhat_returnsError() METHOD
 RefactoringAction 1476275682729 SpreadsheetTest.java RENAME spreadsheetEvaluateA2EgualsArbitary_returnsArbitaryWhat_returnsError()=>void spreadsheetEvaluateA2EgualsArbitary_returnsArbitary() METHOD
 EditAction 1476275718714 SpreadsheetTest.java 1457 7 21 7
+UnitTestCaseAction 1476275721544 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275721545 SpreadsheetTest.java FAIL
+EditAction 1476275768207 Spreadsheet.java 743 3 3 0

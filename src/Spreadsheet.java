@@ -28,6 +28,10 @@ public class Spreadsheet {
 			return tempString;
 		}
 		
+		else if (tempString.startsWith("\=")){
+			
+		}
+		
 		try {
 		tempValue = Integer.parseInt(this.value);
 		}
