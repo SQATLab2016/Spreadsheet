@@ -23,4 +23,12 @@ public class SpreadsheetTest {
 		
 	}
 
+	@Test
+	public void testEvaluateCell() {
+		Spreadsheet sh = new Spreadsheet(5,5);
+		sh.set("A7", "6");
+		System.out.print(sh.get("A7"));
+		assertEquals(sh.get("A7"),null);
+		
+	}
 }

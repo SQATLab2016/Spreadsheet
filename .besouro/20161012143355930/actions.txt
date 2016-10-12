@@ -117,3 +117,9 @@ UnitTestSessionAction 1476278749270 SpreadsheetTest.java FAIL
 EditAction 1476278763036 SpreadsheetTest.java 422 2 7 2
 EditAction 1476278948429 Spreadsheet.java 1018 5 13 0
 EditAction 1476278957537 Spreadsheet.java 1021 5 13 0
+RefactoringAction 1476278983037 SpreadsheetTest.java ADD void testSetCell()/2 METHOD
+RefactoringAction 1476278990049 SpreadsheetTest.java RENAME testSetCell()/2=>void testCell() METHOD
+RefactoringAction 1476278994563 SpreadsheetTest.java RENAME testCell()=>void testEvaluationCell() METHOD
+RefactoringAction 1476278999575 SpreadsheetTest.java RENAME testEvaluationCell()=>void testEvaluatCell() METHOD
+RefactoringAction 1476279003088 SpreadsheetTest.java RENAME testEvaluatCell()=>void testEvaluateCell() METHOD
+EditAction 1476279006866 SpreadsheetTest.java 600 3 11 3
