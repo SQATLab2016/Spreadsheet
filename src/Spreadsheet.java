@@ -30,13 +30,12 @@ public class Spreadsheet {
 	}
 	
 	public void set(String cell, String value) {
-		String v = value;
-		
-		if (isReference(v)) {
-			table.put(cell, v);
+		if (isReference(value)) {
+			table.put(cell, value);
 			return;
 		}
 		
+		String v = value;
 		if (isFormula(v)) {
 			v = v.substring(1);
 		}
