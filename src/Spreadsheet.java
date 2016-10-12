@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class Spreadsheet {
 	HashMap<String, String> mValues = new HashMap<String, String>();
@@ -26,9 +27,38 @@ public class Spreadsheet {
 	}
 	
 	private String evaluateMathFormula(String value) {
+		Scanner scanner = new Scanner(value);
+
+		ArrayList<Integer> integers = new ArrayList<Integer>();
+		ArrayList<Character> operators = new ArrayList<Character>();
+		
+		while (true) {
+			if (scanner.hasNextInt()) {
+				integers.add(scanner.nextInt());
+
+				String next = scanner.next();
+				if (next.equals('+')) {
+					operators.add('+');
+					
+				} else {
+					break;
+				}
+			}
+		}
+		/*
 		ArrayList<Integer> integers;
 		ArrayList<Character> operators;
-		return null;
+		
+		for (int i = 0; i < value.length(); i++) {
+			
+			if (value.charAt(i) == '-' || isDigit(value.charAt(i)))
+			for (int d = i; d < value.length(); d++) {
+				if (value.charAt(i) == '-' || isDigit(value.charAt(i))) {
+					
+				}
+			}
+		}
+		*/
 	}
 
 	private boolean isDigit(char c) {

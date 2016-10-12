@@ -741,3 +741,28 @@ RefactoringAction 1476277805016 Spreadsheet.java RENAME evaluate=>String evaluat
 RefactoringAction 1476277812075 Spreadsheet.java RENAME evaluateMathFormula()=>String evaluateMathFormula(String) METHOD
 CompilationAction 1476277815723 Spreadsheet.java
 EditAction 1476277864426 Spreadsheet.java 3393 15 23 0
+RefactoringAction 1476278137237 Spreadsheet.java REMOVE isAssignment(String) METHOD
+RefactoringAction 1476278137237 Spreadsheet.java REMOVE isInteger(String) METHOD
+RefactoringAction 1476278137238 Spreadsheet.java REMOVE isReference(String) METHOD
+RefactoringAction 1476278137238 Spreadsheet.java REMOVE isCircularRecursive(String) METHOD
+RefactoringAction 1476278137238 Spreadsheet.java REMOVE evaluateMathFormula(String) METHOD
+RefactoringAction 1476278137238 Spreadsheet.java REMOVE isString(String) METHOD
+RefactoringAction 1476278137239 Spreadsheet.java REMOVE evaluateAssignment(String) METHOD
+RefactoringAction 1476278137239 Spreadsheet.java REMOVE isCircular(String) METHOD
+RefactoringAction 1476278137239 Spreadsheet.java REMOVE evaluateString(String) METHOD
+RefactoringAction 1476278137239 Spreadsheet.java REMOVE isDigit(char) METHOD
+RefactoringAction 1476278137240 Spreadsheet.java REMOVE evaluateInteger(String) METHOD
+RefactoringAction 1476278137240 Spreadsheet.java REMOVE evaluate(String) METHOD
+CompilationAction 1476278142081 Spreadsheet.java
+RefactoringAction 1476278148295 Spreadsheet.java ADD String evaluateMathFormula(String) METHOD
+CompilationAction 1476278152962 Spreadsheet.java
+CompilationAction 1476278153150 Spreadsheet.java
+RefactoringAction 1476278245448 Spreadsheet.java ADD import java.util.Scanner IMPORT
+CompilationAction 1476278283144 Spreadsheet.java
+CompilationAction 1476278283328 Spreadsheet.java
+CompilationAction 1476278307775 Spreadsheet.java
+CompilationAction 1476278307957 Spreadsheet.java
+CompilationAction 1476278531555 Spreadsheet.java
+CompilationAction 1476278531736 Spreadsheet.java
+CompilationAction 1476278579251 Spreadsheet.java
+EditAction 1476278580271 Spreadsheet.java 4038 15 24 0
