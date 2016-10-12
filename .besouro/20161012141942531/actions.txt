@@ -52,3 +52,12 @@ EditAction 1476271909077 SpreadSheetException.java 62 0 0 0
 UnitTestCaseAction 1476271926612 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476271926613 SpreadsheetTest.java FAIL
 EditAction 1476271969351 Spreadsheet.java 479 3 3 0
+CompilationAction 1476271971595 Spreadsheet.java
+CompilationAction 1476271975116 Spreadsheet.java
+CompilationAction 1476271975332 SpreadsheetTest.java
+UnitTestCaseAction 1476271980507 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271980508 SpreadsheetTest.java FAIL
+CompilationAction 1476271987690 SpreadsheetTest.java
+UnitTestCaseAction 1476271991292 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271991293 SpreadsheetTest.java FAIL
+EditAction 1476272032850 SpreadsheetTest.java 894 4 12 3

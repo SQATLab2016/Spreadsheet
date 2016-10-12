@@ -13,7 +13,7 @@ public class Spreadsheet {
 		sheet.put(cell, value);
 	}
 
-	public int evaluate(String cell) {
+	public int evaluate(String cell) throws SpreadSheetException {
 		try {
 			int result = 0;
 			result = Integer.parseInt(sheet.get(cell));
