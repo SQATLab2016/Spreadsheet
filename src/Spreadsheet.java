@@ -72,7 +72,7 @@ public class Spreadsheet {
 						value = ERROR;
 					}
 					
-				} else if (value.charAt(1) == '-' || (value.charAt(1) >= '0' && value.charAt(1) <= '9')) {
+				} else if (value.charAt(0) == '-' || (value.charAt(0) >= '0' && value.charAt(0) <= '9')) {
 					boolean isInteger = true;
 					for (int i = 0; i < value.length(); i++) {
 						char c = value.charAt(i);
@@ -89,12 +89,12 @@ public class Spreadsheet {
 						value = ERROR;
 					}
 					
-				} else if (value.charAt(1) >= 'A' && value.charAt(1) <= 'Z') {
+				} else if (isReference(value)) {
 					if (mValues.containsKey(value)) {
 						if (isCircular(value)) {
 							return CIRCULAR;
 						} else {
-							value = evaluate(key);
+							value = evaluate(value);
 						}
 					} else {
 						value = ERROR;
