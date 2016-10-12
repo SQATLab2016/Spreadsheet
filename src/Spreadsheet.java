@@ -17,14 +17,19 @@ public class Spreadsheet {
 	}
 
 	public String evaluate(String cell) {
-		String cellStored = sheet.get(cell);
-		if(cellStored.startsWith(EQUALS)){
-			cellStored=cellStored.substring(1);
+		String cellValue = sheet.get(cell);
+		
+		if(cellValue.startsWith(EQUALS)){
+			cellValue=cellValue.substring(1); //remove equal sign
+			if(sheet.containsKey(cellValue)){
+				return evaluate(cellValue);
+			}
 		}
-		if (cellStored.startsWith(STRING_CLASSIFIER)) {
-			return evaluateString(cellStored);
+		
+		if (cellValue.startsWith(STRING_CLASSIFIER)) {
+			return evaluateString(cellValue);
 		} else {
-			return evaluateInt(cellStored);
+			return evaluateInt(cellValue);
 		}
 	}
 

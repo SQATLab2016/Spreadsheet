@@ -88,5 +88,14 @@ public class SpreadsheetTest {
 		assertEquals(sheet.evaluate("C3"), "13");		
 		
 	}
+	
+	@Test
+	public void testSpreadsheetequalSignWithCellRefWithString_setA3_aString_setC3_EqualsA3_evaluateC3_return_aString(){
+		sheet.set("A3", "'a String'");
+		sheet.set("C3", "=A3");
+		
+		assertEquals(sheet.evaluate("C3"), "a String");		
+		
+	}
 
 }

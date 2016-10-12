@@ -13,3 +13,6 @@
 1476273881112 test-addition 1 173 false
 1476273977582 test-addition 1 48 true
 1476274107669 test-addition 1 119 true
+1476274409528 test-addition 2 287 false
+1476274462301 regression 1 0 false
+1476274766504 refactoring 2B 240 true
