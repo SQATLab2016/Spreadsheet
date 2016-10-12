@@ -82,7 +82,7 @@ public class Spreadsheet {
 		String value = (String) mValues.get(cell);
 		
 		if (!mValues.equals(ERROR) && mValues.containsKey(value)) {
-			return (String) mValues.get(cell);
+			return (String) mValues.get(value);
 		}
 		
 		return value;
