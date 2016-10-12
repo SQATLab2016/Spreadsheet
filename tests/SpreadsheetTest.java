@@ -76,10 +76,10 @@ public class SpreadsheetTest {
 	}
 
 	@Test
-	public void #Error() {
+	public void testAssignment_A1_Assign_String_Missing_SingleQuote_End_Error() {
 		sheet.set("A1", "='a string");
 		String result = sheet.evaluate("A1");
-		assertEquals("a string", result);
+		assertEquals("#Error", result);
 	}
 
 	@Test
@@ -88,9 +88,16 @@ public class SpreadsheetTest {
 		String result = sheet.evaluate("A1");
 		assertEquals("1", result);
 	}
-	
+
 	@Test
 	public void testAssignment_A1_Assign_Integer_Negative() {
+		sheet.set("A1", "=-1");
+		String result = sheet.evaluate("A1");
+		assertEquals("-1", result);
+	}
+	
+	@Test
+	public void testAssignment_A1_Reference_A2_Integer() {
 		sheet.set("A1", "=-1");
 		String result = sheet.evaluate("A1");
 		assertEquals("-1", result);

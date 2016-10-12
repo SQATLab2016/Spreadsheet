@@ -97,3 +97,15 @@ EditAction 1476272014191 Spreadsheet.java 1569 3 4 0
 UnitTestCaseAction 1476272019651 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476272019651 SpreadsheetTest.java FAIL
 EditAction 1476272033240 SpreadsheetTest.java 2253 13 37 12
+CompilationAction 1476272033348 SpreadsheetTest.java
+CompilationAction 1476272033348 SpreadsheetTest.java
+RefactoringAction 1476272034385 SpreadsheetTest.java RENAME Error()=>void testAssignment_A1_Assign_String_Missing_SingleQuote_End_Error() METHOD
+CompilationAction 1476272035720 SpreadsheetTest.java
+CompilationAction 1476272035721 SpreadsheetTest.java
+UnitTestCaseAction 1476272036857 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272036858 SpreadsheetTest.java OK
+RefactoringAction 1476272059909 SpreadsheetTest.java ADD void testAssignment_A1_Assign_Integer_Negative()/2 METHOD
+RefactoringAction 1476272067436 SpreadsheetTest.java RENAME testAssignment_A1_Assign_Integer_Negative()/2=>void testAssignment_A1_Reference_Integer_Negative() METHOD
+RefactoringAction 1476272069450 SpreadsheetTest.java RENAME testAssignment_A1_Reference_Integer_Negative()=>void testAssignment_A1_Reference_A2Integer_Negative() METHOD
+RefactoringAction 1476272070466 SpreadsheetTest.java RENAME testAssignment_A1_Reference_A2Integer_Negative()=>void testAssignment_A1_Reference_A2_Integer_Negative() METHOD
+EditAction 1476272072894 SpreadsheetTest.java 2469 14 40 13
