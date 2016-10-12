@@ -79,10 +79,10 @@ public class Spreadsheet {
 		}
 		
 		// Integer operations
-		p = Pattern.compile("^=([\\d+\\-\\*/%\\(\\)]+)$");
+		p = Pattern.compile("^=([\\d+\\-\\*/%\\(\\)\\s]+)$");
 		m = p.matcher(value);
 		if (m.find()) {
-			StringBuffer equation = new StringBuffer(m.group(1));
+			StringBuffer equation = new StringBuffer(m.group(1).replaceAll("\\s+", ""));
 			
 			// Look for parentheses
 			while (equation.indexOf(")") != -1) {
