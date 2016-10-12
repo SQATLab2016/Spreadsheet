@@ -115,7 +115,7 @@ public class Spreadsheet {
 					splitFormula[i].charAt(0) != '*' &&
 					splitFormula[i].charAt(0) != '/' &&
 					splitFormula[i].charAt(0) != '(' &&
-					splitFormula[i].charAt(0) != ')' {
+					splitFormula[i].charAt(0) != ')') {
 					return false;
 				}
 			}
