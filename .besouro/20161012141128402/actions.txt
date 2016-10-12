@@ -2,3 +2,9 @@ FileOpenedAction 1476270688683 SpreadsheetTest.java 3219 16 52 16
 UnitTestCaseAction 1476270694645 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476270694645 SpreadsheetTest.java FAIL
 EditAction 1476270805749 SpreadsheetTest.java 3181 16 51 16
+UnitTestCaseAction 1476270810807 SpreadsheetTest.java OK
+UnitTestSessionAction 1476270810807 SpreadsheetTest.java OK
+RefactoringAction 1476270817328 SpreadsheetTest.java ADD void test_integer_operation_plus()/2 METHOD
+RefactoringAction 1476270819418 SpreadsheetTest.java RENAME test_integer_operation_plus()/2=>void test_integer_operation_plus_1() METHOD
+RefactoringAction 1476270824051 SpreadsheetTest.java RENAME test_integer_operation_plus()=>void test_integer_operation_plus_2() METHOD
+EditAction 1476270852615 SpreadsheetTest.java 3352 17 54 17

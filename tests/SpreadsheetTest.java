@@ -117,10 +117,17 @@ public class SpreadsheetTest {
 	}
 
 	@Test
-	public void test_integer_operation_plus() {
+	public void test_integer_operation_plus_1() {
 		s.set("A1", "=1+1");
 		String evaluatedValue = s.evaluate("A1");
 		assertEquals("2", evaluatedValue);
+	}
+
+	@Test
+	public void test_integer_operation_plus_2() {
+		s.set("A1", "=1+2");
+		String evaluatedValue = s.evaluate("A1");
+		assertEquals("3", evaluatedValue);
 	}
 
 }
