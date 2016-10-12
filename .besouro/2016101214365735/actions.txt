@@ -110,3 +110,6 @@ UnitTestCaseAction 1476273274740 SpreadsheetTest.java OK
 UnitTestSessionAction 1476273274741 SpreadsheetTest.java OK
 RefactoringAction 1476273320486 Spreadsheet.java ADD boolean isFormula(String) METHOD
 EditAction 1476273329590 Spreadsheet.java 1205 6 12 0
+CompilationAction 1476273352808 Spreadsheet.java
+CompilationAction 1476273353201 Spreadsheet.java
+EditAction 1476273366251 Spreadsheet.java 1227 6 13 0

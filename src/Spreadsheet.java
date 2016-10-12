@@ -14,11 +14,11 @@ public class Spreadsheet {
 	public void set(String cell, String value) {
 		String v = value;
 		
-		if (isIntegerCellValue(v)) {
-			
-		} else if (isStringCellValue(v)) {
-			
-		} else {
+		if (isFormula(v)) {
+			v = v.substring(1);
+		}
+		
+		if (!isIntegerCellValue(v) && !isStringCellValue(v)) {
 			v = ERROR_VALUE;
 		}
 		
