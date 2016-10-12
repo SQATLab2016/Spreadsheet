@@ -28,7 +28,8 @@ public class Spreadsheet {
 					} else
 						result = evaluate(sheet.get(cell).substring(1));
 				} else if (isInteger(sheet.get(cell).substring(1, 2))) {
-
+					int evaluation = Integer.parseInt(sheet.get(cell).substring(1, 2));
+					
 				} else {
 					throw new SpreadSheetException();
 				}
