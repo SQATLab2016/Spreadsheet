@@ -59,7 +59,7 @@ public class SpreadsheetTest {
 			caughtException = true;
 			assertEquals("Caught different exception than expected",
 					e.getMessage(), spreadsheet.STR_MARK_IN_THE_MIDDLE_ERROR_MSG);
-		}*/
+		}
 		
 		if (!caughtException)
 			fail("String mark not found in the middle of a string");
