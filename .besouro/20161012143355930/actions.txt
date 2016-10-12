@@ -22,3 +22,7 @@ RefactoringAction 1476275323548 Cell.java ADD String value FIELD
 EditAction 1476275326796 Cell.java 61 0 0 0
 EditAction 1476275355095 Cell.java 67 0 0 0
 EditAction 1476275369587 Table.java 84 1 0 0
+RefactoringAction 1476275485235 Spreadsheet.java RENAME Spreadsheet()=>Spreadsheet(int) METHOD
+RefactoringAction 1476275498779 Spreadsheet.java RENAME Spreadsheet(int)=>Spreadsheet(int, int) METHOD
+RefactoringAction 1476276089498 Cell.java ADD Cell(String) METHOD
+EditAction 1476276122355 Cell.java 118 1 1 0
