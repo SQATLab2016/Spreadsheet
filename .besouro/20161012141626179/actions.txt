@@ -691,3 +691,17 @@ UnitTestSessionAction 1476277347214 SpreadsheetTest.java FAIL
 EditAction 1476277348572 Spreadsheet.java 3349 12 17 0
 EditAction 1476277369199 Spreadsheet.java 2959 12 17 0
 EditAction 1476277373943 Spreadsheet.java 2960 12 17 0
+UnitTestCaseAction 1476277376747 SpreadsheetTest.java OK
+UnitTestSessionAction 1476277376748 SpreadsheetTest.java OK
+RefactoringAction 1476277404460 Spreadsheet.java ADD boolean isReference(String)/2 METHOD
+RefactoringAction 1476277406474 Spreadsheet.java RENAME isReference(String)/2=>boolean isMath(String) METHOD
+RefactoringAction 1476277408488 Spreadsheet.java RENAME isMath(String)=>boolean isMathFormula(String) METHOD
+RefactoringAction 1476277445314 SpreadsheetTest.java ADD void testAssignment_Reference_Circular_Depth_2()/2 METHOD
+RefactoringAction 1476277451836 SpreadsheetTest.java RENAME testAssignment_Reference_Circular_Depth_2()/2=>void testAssignment_Integer() METHOD
+RefactoringAction 1476277455347 SpreadsheetTest.java RENAME testAssignment_Integer()=>void testAssignment_1() METHOD
+RefactoringAction 1476277458860 SpreadsheetTest.java RENAME testAssignment_1()=>void testAssignment_Add_1() METHOD
+RefactoringAction 1476277460371 SpreadsheetTest.java RENAME testAssignment_Add_1()=>void testAssignment_Add_1_2() METHOD
+RefactoringAction 1476277461382 SpreadsheetTest.java RENAME testAssignment_Add_1_2()=>void testAssignment_Add_1_2_() METHOD
+RefactoringAction 1476277462891 SpreadsheetTest.java RENAME testAssignment_Add_1_2_()=>void testAssignment_Add_1_2_Result() METHOD
+RefactoringAction 1476277463902 SpreadsheetTest.java RENAME testAssignment_Add_1_2_Result()=>void testAssignment_Add_1_2_Result_3() METHOD
+EditAction 1476277476593 SpreadsheetTest.java 3437 19 60 18

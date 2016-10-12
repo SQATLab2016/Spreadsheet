@@ -126,7 +126,7 @@ public class SpreadsheetTest {
 		String result = sheet.evaluate("A1");
 		assertEquals("#Circular", result);
 	}
-	
+
 	@Test
 	public void testAssignment_Reference_Circular_Depth_2() {
 		sheet.set("A1", "=A3");
@@ -134,5 +134,12 @@ public class SpreadsheetTest {
 		sheet.set("A3", "=A2");
 		String result = sheet.evaluate("A1");
 		assertEquals("#Circular", result);
+	}
+	
+	@Test
+	public void testAssignment_Add_1_2_Result_3() {
+		sheet.set("A1", "=1+2");
+		String result = sheet.evaluate("A1");
+		assertEquals("3", result);
 	}
 }
