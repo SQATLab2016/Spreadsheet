@@ -114,7 +114,14 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void test_errorIntegerOperation1() {
+	public void test_errorIntegerOperation() {
 		sheet.set("A1", "=1+1A");
+		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
+	}
+	
+	@Test
+	public void test_integerOperation_divideByZero() {
+		sheet.set("A1", "=1+1A");
+		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
 	}
 }

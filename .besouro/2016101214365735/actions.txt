@@ -321,3 +321,6 @@ UnitTestSessionAction 1476276758164 SpreadsheetTest.java OK
 RefactoringAction 1476276786151 SpreadsheetTest.java ADD void test_ FIELD
 RefactoringAction 1476276793911 SpreadsheetTest.java RENAME test_=>void test_errorIntegerOperation1() METHOD
 EditAction 1476276807724 SpreadsheetTest.java 2755 18 38 17
+RefactoringAction 1476276820258 SpreadsheetTest.java ADD void test_errorIntegerOperation1()/2 METHOD
+RefactoringAction 1476276839915 SpreadsheetTest.java RENAME test_errorIntegerOperation1()/2=>void test_errorIntegerOperation() METHOD
+EditAction 1476276847861 SpreadsheetTest.java 2979 19 41 19
