@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class Spreadsheet {
 	
 	public static final String ERROR_VALUE = "#Error";
-	public static final char STRING_IDENTIFIER = '\'';
+	public static final String STRING_IDENTIFIER = '\'';
 
 	HashMap<String, String> table = new HashMap<String, String>();
 	
@@ -14,9 +14,10 @@ public class Spreadsheet {
 	public void set(String cell, String value) {
 		String v = value;
 		
-		if (v.startsWith(prefix))
-		
-		if (Character.isDigit(v.charAt(0))) {
+		//String value
+		if (v.startsWith(STRING_IDENTIFIER) && v.endsWith(STRING_IDENTIFIER)) {
+			
+		} else { //Integer
 			for (int i = 0; i < v.length(); i++) {
 				if (!Character.isDigit(v.charAt(i))) {
 					v = ERROR_VALUE;

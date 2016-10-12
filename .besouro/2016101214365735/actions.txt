@@ -54,3 +54,9 @@ UnitTestCaseAction 1476272784622 SpreadsheetTest.java OK
 UnitTestSessionAction 1476272784623 SpreadsheetTest.java OK
 RefactoringAction 1476272831904 Spreadsheet.java ADD String STRING_IDENTIFIER FIELD
 EditAction 1476272842019 Spreadsheet.java 732 3 6 0
+CompilationAction 1476272842238 Spreadsheet.java
+CompilationAction 1476272850755 Spreadsheet.java
+CompilationAction 1476272850926 Spreadsheet.java
+CompilationAction 1476272867450 Spreadsheet.java
+CompilationAction 1476272867660 Spreadsheet.java
+EditAction 1476272889852 Spreadsheet.java 780 3 6 0
