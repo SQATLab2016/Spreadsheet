@@ -121,7 +121,7 @@ public class Spreadsheet {
 		if (!value.startsWith("="))
 			return false;
 		
-		String[] splitFormula = value.substring(1).split("(?<=[-+*/])|(?=[-+*/])");
+		String[] splitFormula = value.substring(1).split("(?<=[&])|(?=[&])");
 		
 		if (splitFormula.length < 3 || splitFormula.length % 2 != 1)
 			return false;
