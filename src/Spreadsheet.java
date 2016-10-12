@@ -48,7 +48,7 @@ public class Spreadsheet {
 		String value = get(cell);
 		
 		if (isIntegerFormula(value)) {
-			String[] splitFormula = value.split("(?<=[-+*/])|(?=[-+*/])");
+			String[] splitFormula = value.substring(1).split("(?<=[-+*/])|(?=[-+*/])");
 			
 			if (splitFormula.length < 3 || splitFormula.length % 2 != 1) {
 				return ERROR_VALUE;
@@ -103,6 +103,17 @@ public class Spreadsheet {
 				value.charAt(i) != '/') {
 					return false;
 				}
+		}
+		
+		String[] splitFormula = value.substring(1).split("(?<=[-+*/])|(?=[-+*/])");
+		for (int i = 0; i < splitFormula.length; i++) {
+			if (i % 2 == 0) {
+				try {
+					Integer.parseInt(splitFormula[i]);
+				}
+			} else {
+				
+			}
 		}
 		
 		return true;
