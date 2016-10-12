@@ -167,3 +167,12 @@ EditAction 1476274143772 Spreadsheet.java 1507 4 5 0
 EditAction 1476274173052 Spreadsheet.java 1495 4 5 0
 EditAction 1476274481956 Spreadsheet.java 1573 4 5 0
 EditAction 1476274523519 Spreadsheet.java 1604 4 5 0
+RefactoringAction 1476274909585 Spreadsheet.java ADD int E FIELD
+RefactoringAction 1476274910600 Spreadsheet.java REMOVE E FIELD
+RefactoringAction 1476274912115 Spreadsheet.java ADD int A FIELD
+RefactoringAction 1476274914630 Spreadsheet.java RENAME A=>int a FIELD
+RefactoringAction 1476274917647 Spreadsheet.java RENAME a=>int arithmetic FIELD
+RefactoringAction 1476274920663 Spreadsheet.java RENAME arithmetic=>int arithmeticOperation FIELD
+RefactoringAction 1476274921680 Spreadsheet.java RENAME arithmeticOperation=>int arithmeticOperation() METHOD
+RefactoringAction 1476274926712 Spreadsheet.java RENAME arithmeticOperation()=>int arithmeticOperation(String) METHOD
+EditAction 1476275024319 Spreadsheet.java 1709 5 5 0
