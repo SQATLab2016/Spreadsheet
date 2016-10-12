@@ -11,8 +11,7 @@ public class Spreadsheet {
 	public void set(String cell, String value) {
 		if (value.length() > 0) {
 			if (value.charAt(0) == '\'') {
-				
-				
+				value = substring
 			} else {
 				boolean isInteger = true;
 				for (int i = 1; i < value.length(); i++) {
