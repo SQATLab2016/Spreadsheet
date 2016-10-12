@@ -9,7 +9,8 @@ public class Spreadsheet {
 	}
 	
 	public void set(String cell, String value) {
-		
+		this.cell = cell;
+		this.value = value;
 	}
 	
 	public String evaluate(String cell) {
