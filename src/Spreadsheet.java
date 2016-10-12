@@ -17,8 +17,9 @@ public class Spreadsheet {
 		//if(value.matches("[0-9]") &&(!(value.contains("[a-zA-Z]")))) throw new SpreadsheetException("sjadasdajsd");
 		
 		//Put the cell and value to excell hashmap
+
+		excell.put(cell, value);	
 		System.out.println(excell);
-		excell.put(cell, value);		
 	}
 	
 	public String evaluate(String cell) throws SpreadsheetException{
