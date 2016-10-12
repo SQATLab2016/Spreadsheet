@@ -31,9 +31,9 @@ public class SpreadsheetTest {
 	@Test (expected = SpreadsheetException.class)
 	public void testSetNonNumber() throws SpreadsheetException {
 		Spreadsheet ss = new Spreadsheet();
-		ss.set("A1", "-1d");
+		ss.set("A1", "a-1d");
 		String x = ss.get("A1");
-		assertEquals("You were able to put -1d to a number slot", "-1d", x);
+		assertEquals("You were able to put -1d to a number slot", "a-1d", x);
 	}
 
 }
