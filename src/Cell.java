@@ -4,5 +4,5 @@ public class Cell {
 		location = loc;
 	}
 	String location="";
-	String value="";
+	String value="5";
 }
