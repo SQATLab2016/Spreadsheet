@@ -13,14 +13,18 @@ public class Spreadsheet {
 		
 		boolean selfChecked = false;
 		
-		String startingCell = cell;
+		String startCell = cell;
 		while (isReference(value)) {
-			if (!selfChecked && value.substring(1).equals(cell)) {
+			if (value.substring(1).equals(startCell)) {
+				value = ERROR_CIRCULAR;
+				brea;
+			}
+			/*if (!selfChecked && value.substring(1).equals(cell)) {
 				value = ERROR_VALUE;
 				break;
 			}
 			
-			selfChecked = true;
+			selfChecked = true;*/
 			
 			value = table.get(value.substring(1));
 			
