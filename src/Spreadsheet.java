@@ -31,12 +31,12 @@ public class Spreadsheet {
 				}
 			}
 		} else {
-			return true;
+			return false;
 		}
 	}
 	private boolean isCircular(String key) {
 		mVisited.clear();
-		return isCircularRecursive(key);
+		return isCircularRecursive(get(key));
 	}
 	
 	public String evaluate(String cell) {
