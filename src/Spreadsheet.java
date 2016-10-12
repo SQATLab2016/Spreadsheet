@@ -91,7 +91,7 @@ public class Spreadsheet {
 		m = p.matcher(value);
 		if (m.find()) {
 			StringBuilder str = new StringBuilder();
-			for (int i = 0; i < m.groupCount(); i++) {
+			for (int i = 1; i < m.groupCount(); i++) {
 				str.append(m.group(i));
 			}
 			return str.toString();
