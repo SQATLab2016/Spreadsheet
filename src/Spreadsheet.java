@@ -108,9 +108,9 @@ public class Spreadsheet {
 				}
 				
 				String subEquation = equation.substring(openingParenthesis + 1, closingParenthesis);
-				return subEquation;
-//				String calculatedSubEquation = calculateEquation(subEquation);
-//				
+				String calculatedSubEquation = calculateEquation(subEquation);
+				return calculatedSubEquation;
+				
 //				if (calculatedSubEquation.equals("#Error")) {
 //					return "#Error";
 //				}
