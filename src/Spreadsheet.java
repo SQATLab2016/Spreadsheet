@@ -162,11 +162,13 @@ public class Spreadsheet {
 			value = value.substring(1);
 		
 		if (value.startsWith(STRING_IDENTIFIER) && value.endsWith(STRING_IDENTIFIER)) {
-			
+			for (int i = 1; i < value.length() - 1; i++) {
+				if (!Character.isLetter(value.charAt(i)))
+					return false;
+			}
 		}
-			//return true;
-		
-		return false;
+
+		return true;
 	}
 	
 	private boolean isReference(String value) {
