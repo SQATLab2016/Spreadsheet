@@ -12,7 +12,7 @@ public class Spreadsheet {
 	}
 	
 	public void set(String cell, String value) {
-		String v = value;
+		String v;
 		
 		//String value
 		if (v.startsWith(STRING_IDENTIFIER) && v.endsWith(STRING_IDENTIFIER)) {
