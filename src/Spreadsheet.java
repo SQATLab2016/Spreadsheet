@@ -70,7 +70,7 @@ public class Spreadsheet {
 	}
 	
 	private String removeFirstAndLastChar(String target) {
-		String processedTarget = target.substring(1, target.length() - 2)
+		String processedTarget = target.substring(1, target.length() - 2);
 		
 		assert (target.length() - 2) == processedTarget.length();
 		
