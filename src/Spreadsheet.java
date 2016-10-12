@@ -5,7 +5,7 @@ public class Spreadsheet {
 			
 	public String get(String cell) {
 		
-		return null;
+		return this.value;
 	}
 	
 	public void set(String cell, String value) {
