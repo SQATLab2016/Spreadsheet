@@ -123,7 +123,7 @@ public class SpreadsheetTest {
 	public void testAssignment_Reference_Circular_Error() {
 		sheet.set("A1", "=A2");
 		sheet.set("A2", "=A1");
-		String result = sheet.evaluate("A2");
+		String result = sheet.evaluate("A1");
 		assertEquals("#Circular", result);
 	}
 }
