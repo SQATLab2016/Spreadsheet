@@ -45,7 +45,7 @@ public class Spreadsheet {
 			table.put(cell, ERROR_VALUE);
 		}
 		
-		table.put(cell, v);
+		table.put(cell, value);
 	}
 	
 	public String evaluate(String cell) {
