@@ -26,7 +26,13 @@ public class Spreadsheet {
 		String value = get(cell);
 		
 		while (isReference(value)) {
+			if (value.substring(1) == cell) {
+				value = ERROR_VALUE;
+				break;
+			}
+			
 			value = table.get(value.substring(1));
+			
 			if (value == null)
 				value = ERROR_VALUE;
 		}
