@@ -82,6 +82,8 @@ public class Spreadsheet {
 				digitFound = true;
 				i++;
 			}
+			
+			
 		}
 	}
 	
