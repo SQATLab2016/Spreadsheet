@@ -1,4 +1,5 @@
-1476272241021 regression 1 23 false
-1476272316472 test-addition 1 75 false
-1476272320679 regression 1 4 false
-1476272784623 refactoring 3 463 false
+1476272241021 regression 1 23 true
+1476272316472 test-addition 1 75 true
+1476272320679 regression 1 4 true
+1476272784623 refactoring 3 463 true
+1476273228251 test-first 3 443 true

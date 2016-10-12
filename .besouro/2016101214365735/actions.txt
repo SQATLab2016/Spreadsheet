@@ -101,3 +101,8 @@ CompilationAction 1476273133651 Spreadsheet.java
 CompilationAction 1476273188889 Spreadsheet.java
 EditAction 1476273204956 Spreadsheet.java 1089 5 11 0
 EditAction 1476273211272 Spreadsheet.java 1086 5 10 0
+UnitTestCaseAction 1476273228251 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273228251 SpreadsheetTest.java OK
+RefactoringAction 1476273249961 SpreadsheetTest.java ADD void test_evaluate FIELD
+RefactoringAction 1476273259984 SpreadsheetTest.java RENAME test_evaluate=>void test_evaluateUnquotedString() METHOD
+EditAction 1476273272808 SpreadsheetTest.java 838 5 10 5

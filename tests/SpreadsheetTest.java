@@ -31,4 +31,10 @@ public class SpreadsheetTest {
 		sheet.set("A1", "'string'");
 		assertEquals("string", sheet.evaluate("A1"));
 	}
+	
+	@Test
+	public void test_evaluateUnquotedString() {
+		sheet.set("A1", "'string");
+		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
+	}
 }
