@@ -115,3 +115,6 @@ RefactoringAction 1476273360677 Spreadsheet.java ADD import org.apache.commons.l
 RefactoringAction 1476273363707 Spreadsheet.java RENAME import org.apache.commons.lang=>import org.apache.commons.lang.StringUtils IMPORT
 RefactoringAction 1476273390732 Spreadsheet.java REMOVE import org.apache.commons.lang.StringUtils IMPORT
 EditAction 1476273573647 Spreadsheet.java 2980 3 24 0
+UnitTestCaseAction 1476273576739 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476273576739 SpreadsheetTest.java FAIL
+EditAction 1476273638999 Spreadsheet.java 2980 3 24 0

@@ -95,7 +95,7 @@ public class Spreadsheet {
 			p = Pattern.compile("^=?'(.*)('&'(.*))+'$");
 			m = p.matcher(value);
 			
-			if (m.find() || m.groupCount() != totalCount) {
+			if (m.find() && m.groupCount() != totalCount) {
 				return "#Error";
 			}
 			
