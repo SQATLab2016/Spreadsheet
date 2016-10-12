@@ -8,8 +8,9 @@ public class SpreadsheetTest {
 
 	@Test
 	public void testGetCell() {
-		fail("Not yet implemented");
+		Spreadsheet sh = new Spreadsheet(5,5);
 		
+		assertEquals(sh.get("A1"),"5");
 	}
 
 }
