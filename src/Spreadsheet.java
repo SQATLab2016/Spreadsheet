@@ -24,6 +24,8 @@ public class Spreadsheet {
 					break;
 				}
 			}
+			
+			v = value;
 		}
 		
 		table.put(cell, v);
