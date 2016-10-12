@@ -37,4 +37,9 @@ public class SpreadsheetTest {
 		sheet.set("A1", "'string");
 		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
 	}
+	
+	@Test
+	public void test_simpleStringFormula() {
+		sheet.set("A1", "='string'");
+	}
 }

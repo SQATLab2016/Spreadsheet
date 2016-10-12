@@ -113,3 +113,7 @@ EditAction 1476273329590 Spreadsheet.java 1205 6 12 0
 CompilationAction 1476273352808 Spreadsheet.java
 CompilationAction 1476273353201 Spreadsheet.java
 EditAction 1476273366251 Spreadsheet.java 1227 6 13 0
+RefactoringAction 1476273374699 SpreadsheetTest.java ADD void test_ FIELD
+RefactoringAction 1476273376213 SpreadsheetTest.java RENAME test_=>void test_stri FIELD
+RefactoringAction 1476273383731 SpreadsheetTest.java RENAME test_stri=>void test_simpleStringFormula() METHOD
+EditAction 1476273387777 SpreadsheetTest.java 929 6 11 5
