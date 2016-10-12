@@ -322,3 +322,7 @@ EditAction 1476275768207 Spreadsheet.java 743 3 3 0
 CompilationAction 1476275768481 Spreadsheet.java
 CompilationAction 1476275806899 Spreadsheet.java
 EditAction 1476275812830 Spreadsheet.java 824 3 9 0
+UnitTestCaseAction 1476275816292 SpreadsheetTest.java OK
+UnitTestSessionAction 1476275816292 SpreadsheetTest.java OK
+RefactoringAction 1476275824804 SpreadsheetTest.java ADD void spreadsheetEvaluateA2EgualsArbitary_returnsArbitary()/2 METHOD
+EditAction 1476275824838 SpreadsheetTest.java 1675 8 24 8
