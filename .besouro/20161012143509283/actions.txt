@@ -413,3 +413,7 @@ UnitTestCaseAction 1476276726493 SpreadsheetTest.java OK
 UnitTestSessionAction 1476276726493 SpreadsheetTest.java OK
 RefactoringAction 1476276752767 Spreadsheet.java ADD String ERROR FIELD
 EditAction 1476276752771 Spreadsheet.java 1234 3 9 0
+UnitTestCaseAction 1476276761868 SpreadsheetTest.java OK
+UnitTestSessionAction 1476276761868 SpreadsheetTest.java OK
+RefactoringAction 1476277002129 SpreadsheetTest.java ADD void spreadsheetEvaluateA5EqualsCUL8R_returnsError()/2 METHOD
+EditAction 1476277003775 SpreadsheetTest.java 2695 13 39 13
