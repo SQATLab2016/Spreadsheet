@@ -50,15 +50,8 @@ public class Spreadsheet {
 		if (isIntegerFormula(value)) {
 			String[] splitFormula = value.substring(1).split("(?<=[-+*/])|(?=[-+*/])");
 			
-			if (splitFormula.length < 3 || splitFormula.length % 2 != 1) {
-				return ERROR_VALUE;
-			}
-			
 			int val = Integer.parseInt(splitFormula[0]);
 			for (int i = 1; i < splitFormula.length; i += 2) {
-				if (i + 1 >= splitFormula.length)
-					return ERROR_VALUE;
-				
 				if (splitFormula[i].equals("+"))
 					val += Integer.parseInt(splitFormula[i+1]);
 				else if (splitFormula[i].equals("-"))
