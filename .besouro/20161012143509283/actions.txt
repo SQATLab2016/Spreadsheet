@@ -212,3 +212,12 @@ EditAction 1476273912165 Spreadsheet.java 342 3 5 0
 CompilationAction 1476273912402 Spreadsheet.java
 EditAction 1476273933065 Spreadsheet.java 342 3 5 0
 EditAction 1476273943875 Spreadsheet.java 341 3 5 0
+CompilationAction 1476273944068 Spreadsheet.java
+CompilationAction 1476274026369 Spreadsheet.java
+CompilationAction 1476274026508 Spreadsheet.java
+CompilationAction 1476274031775 Spreadsheet.java
+UnitTestCaseAction 1476274035233 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274035233 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476274041901 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274041901 SpreadsheetTest.java FAIL
+EditAction 1476274046957 SpreadsheetTest.java 453 2 3 1
