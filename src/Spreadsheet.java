@@ -13,7 +13,7 @@ public class Spreadsheet {
 	public void set(String cell, String value) {
 		String v = value;
 		
-		if (Character.isDigit(v.substring(0, 1))) {
+		if (Character.isDigit(v.charAt(0))) {
 			
 		}
 		

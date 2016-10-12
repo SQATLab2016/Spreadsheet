@@ -20,3 +20,5 @@ RefactoringAction 1476272384926 Spreadsheet.java RENAME ERROR_VALUE=>read String
 RefactoringAction 1476272402478 Spreadsheet.java RENAME String=>String ERROR_VALUE FIELD
 CompilationAction 1476272403177 Spreadsheet.java
 EditAction 1476272525229 Spreadsheet.java 525 3 6 0
+CompilationAction 1476272525436 Spreadsheet.java
+EditAction 1476272541444 Spreadsheet.java 519 3 6 0
