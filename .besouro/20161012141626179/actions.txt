@@ -644,3 +644,4 @@ RefactoringAction 1476276876512 Spreadsheet.java RENAME isInteger(String)/2=>boo
 EditAction 1476276918594 Spreadsheet.java 3326 9 12 0
 EditAction 1476276936084 Spreadsheet.java 3119 9 12 0
 EditAction 1476276966687 Spreadsheet.java 3131 9 12 0
+EditAction 1476276970175 Spreadsheet.java 3130 9 12 0
