@@ -52,7 +52,7 @@ public class Spreadsheet {
 		return true;
 	}
 
-	public int arithmeticOperation(String value) {
+	public int arithmeticOperation(String value) throws SpreadSheetException {
 		int result = 0;
 		int stringIndex = 0;
 		String operator = "+";
@@ -75,6 +75,9 @@ public class Spreadsheet {
 				operator = value.substring(stringIndex, stringIndex + 1);
 				integerValue = false;
 				previousIntegerValue = 0;
+			}
+			else {
+				throw new SpreadSheetException();
 			}
 			
 			stringIndex++;

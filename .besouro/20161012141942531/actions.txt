@@ -222,3 +222,12 @@ RefactoringAction 1476276904621 SpreadsheetTest.java ADD void testSpreadSheet_ev
 RefactoringAction 1476276913138 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellReferenceCircular_Exception()/2=>void testSpreadSheet_evaluateArithmatic_Exception() METHOD
 RefactoringAction 1476276915659 SpreadsheetTest.java RENAME testSpreadSheet_evaluateArithmatic_Exception()=>void testSpreadSheet_evaluateArithmaticOperation_Exception() METHOD
 EditAction 1476276933825 SpreadsheetTest.java 3167 13 42 7
+UnitTestCaseAction 1476276939293 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276939294 SpreadsheetTest.java FAIL
+CompilationAction 1476276976739 Spreadsheet.java
+CompilationAction 1476276982092 Spreadsheet.java
+UnitTestCaseAction 1476276987171 SpreadsheetTest.java OK
+UnitTestSessionAction 1476276987172 SpreadsheetTest.java OK
+RefactoringAction 1476277116743 SpreadsheetTest.java ADD void testSpreadSheet_evaluateArithmaticOperation_Exception()/2 METHOD
+RefactoringAction 1476277131268 SpreadsheetTest.java RENAME testSpreadSheet_evaluateArithmaticOperation_Exception()/2=>void testSpreadSheet_evaluateStringOperations() METHOD
+EditAction 1476277157589 SpreadsheetTest.java 3401 14 45 8

@@ -97,4 +97,11 @@ public class SpreadsheetTest {
 		oneSheet.set("A1", "=1*1A");
 		oneSheet.evaluate("A1");
 	}
+	
+	@Test
+	public void testSpreadSheet_evaluateStringOperations() throws SpreadSheetException {
+		Spreadsheet oneSheet = new Spreadsheet();
+		oneSheet.set("A1", "='a'&'string'");
+		assertEquals("a string", oneSheet.evaluate("A1"));
+	}
 }
