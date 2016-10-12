@@ -14,16 +14,12 @@ public class Spreadsheet {
 	public void set(String cell, String value) {
 		String v = value;
 		
-		//String value
-		if (isStringCellValue(v)) {
+		if (isIntegerCellValue(v)) {
 			
-		} else { //Integer
-			for (int i = 0; i < v.length(); i++) {
-				if (!Character.isDigit(v.charAt(i))) {
-					v = ERROR_VALUE;
-					break;
-				}
-			}
+		} else if (isStringCellValue(v)) {
+			
+		} else {
+			v = ERROR_VALUE;
 		}
 		
 		table.put(cell, v);
@@ -39,14 +35,20 @@ public class Spreadsheet {
 		return value;
 	}
 	
+	private boolean isIntegerCellValue(String value) {
+		try {
+			Integer.parseInt(value);
+		} catch (NumberFormatException nfe) {
+			return false;
+		}
+		
+		return true;
+	}
+	
 	private boolean isStringCellValue(String value) {
 		if (value.startsWith(STRING_IDENTIFIER) && value.endsWith(STRING_IDENTIFIER))
 			return true;
 		
 		return false;
-	}
-	
-	private boolean isInteger(String value) {
-		
 	}
 }

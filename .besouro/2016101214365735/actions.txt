@@ -88,3 +88,15 @@ RefactoringAction 1476273081632 Spreadsheet.java RENAME is=>boolean isNumber FIE
 RefactoringAction 1476273084157 Spreadsheet.java RENAME isNumber=>boolean isNumber(String) METHOD
 RefactoringAction 1476273091711 Spreadsheet.java RENAME isNumber(String)=>boolean isInteger(String) METHOD
 EditAction 1476273091757 Spreadsheet.java 1061 5 9 0
+CompilationAction 1476273091963 Spreadsheet.java
+RefactoringAction 1476273110303 Spreadsheet.java RENAME isInteger(String)=>boolean isIntegerCellValue(String) METHOD
+RefactoringAction 1476273114339 Spreadsheet.java REMOVE isIntegerCellValue(String) METHOD
+RefactoringAction 1476273115357 Spreadsheet.java ADD boolean isIntegerCellValue(String) METHOD
+CompilationAction 1476273124010 Spreadsheet.java
+CompilationAction 1476273124011 Spreadsheet.java
+CompilationAction 1476273133455 Spreadsheet.java
+CompilationAction 1476273133457 Spreadsheet.java
+CompilationAction 1476273133650 Spreadsheet.java
+CompilationAction 1476273133651 Spreadsheet.java
+CompilationAction 1476273188889 Spreadsheet.java
+EditAction 1476273204956 Spreadsheet.java 1089 5 11 0
