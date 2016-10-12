@@ -30,5 +30,12 @@ public class SpreadsheetTest {
 		
 	}
 	
+	@Test public void spreadsheetEvaluateA2_What_returnsWhat() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A3", "'What'");
+		assertEquals("'What'", spready.evaluate("A3"));	
+		
+	}
 }
 

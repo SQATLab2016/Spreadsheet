@@ -263,3 +263,15 @@ CompilationAction 1476274550103 Spreadsheet.java
 CompilationAction 1476274550103 Spreadsheet.java
 CompilationAction 1476274550247 Spreadsheet.java
 EditAction 1476274552457 Spreadsheet.java 492 3 7 0
+UnitTestCaseAction 1476274557009 SpreadsheetTest.java OK
+UnitTestSessionAction 1476274557010 SpreadsheetTest.java OK
+RefactoringAction 1476274584233 SpreadsheetTest.java ADD void spreadsheetEvaluateA2_D4_returnsError()/2 METHOD
+RefactoringAction 1476274588244 SpreadsheetTest.java RENAME spreadsheetEvaluateA2_D4_returnsError()/2=>void spreadsheetEvaluateA2__returnsError() METHOD
+RefactoringAction 1476274589256 SpreadsheetTest.java RENAME spreadsheetEvaluateA2__returnsError()=>void returnsError() METHOD
+RefactoringAction 1476274592266 SpreadsheetTest.java RENAME returnsError()=>void _returnsError() METHOD
+RefactoringAction 1476274594277 SpreadsheetTest.java RENAME _returnsError()=>void hat_returnsError() METHOD
+RefactoringAction 1476274595787 SpreadsheetTest.java RENAME hat_returnsError()=>void spreadsheetEvaluateA2_what_returnsError() METHOD
+RefactoringAction 1476274598298 SpreadsheetTest.java RENAME spreadsheetEvaluateA2_what_returnsError()=>void spreadsheetEvaluateA2_what_returns() METHOD
+RefactoringAction 1476274601810 SpreadsheetTest.java RENAME spreadsheetEvaluateA2_what_returns()=>void spreadsheetEvaluateA2_What_returns() METHOD
+RefactoringAction 1476274604322 SpreadsheetTest.java RENAME spreadsheetEvaluateA2_What_returns()=>void spreadsheetEvaluateA2_What_returnsWhat() METHOD
+EditAction 1476274625681 SpreadsheetTest.java 841 4 12 4
