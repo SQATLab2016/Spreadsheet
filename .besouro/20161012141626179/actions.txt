@@ -317,3 +317,147 @@ RefactoringAction 1476274471688 Spreadsheet.java ADD ValueType type FIELD
 CompilationAction 1476274474622 Spreadsheet.java
 CompilationAction 1476274474623 Spreadsheet.java
 EditAction 1476274529761 Spreadsheet.java 2610 3 6 0
+CompilationAction 1476274529904 Spreadsheet.java
+CompilationAction 1476274529904 Spreadsheet.java
+CompilationAction 1476274529905 Spreadsheet.java
+RefactoringAction 1476274562035 Spreadsheet.java REMOVE evaluate(String) METHOD
+RefactoringAction 1476274570075 Spreadsheet.java ADD String evaluate(String) METHOD
+RefactoringAction 1476274594244 Spreadsheet.java REMOVE evaluate(String) METHOD
+RefactoringAction 1476274597261 Spreadsheet.java ADD String evaluate(String) METHOD
+RefactoringAction 1476274646112 Spreadsheet.java ADD Value() METHOD
+RefactoringAction 1476274646113 Spreadsheet.java ADD HashMap<String,Value> mValues FIELD
+RefactoringAction 1476274646113 Spreadsheet.java ADD String ERROR FIELD
+RefactoringAction 1476274646115 Spreadsheet.java ADD String CIRCULAR FIELD
+RefactoringAction 1476274646115 Spreadsheet.java ADD Value get(String) METHOD
+RefactoringAction 1476274646116 Spreadsheet.java ADD void set(String, String) METHOD
+RefactoringAction 1476274646117 Spreadsheet.java ADD String evaluate(String) METHOD
+RefactoringAction 1476274647628 Spreadsheet.java RENAME Value()=>Value(String) METHOD
+RefactoringAction 1476274654149 Spreadsheet.java RENAME Value(String)=>Value(String, ValueType) METHOD
+CompilationAction 1476274661994 Spreadsheet.java
+CompilationAction 1476274661995 Spreadsheet.java
+CompilationAction 1476274661996 Spreadsheet.java
+CompilationAction 1476274662186 Spreadsheet.java
+CompilationAction 1476274662187 Spreadsheet.java
+CompilationAction 1476274662187 Spreadsheet.java
+CompilationAction 1476274662187 Spreadsheet.java
+CompilationAction 1476274662187 Spreadsheet.java
+CompilationAction 1476274662188 Spreadsheet.java
+CompilationAction 1476274662188 Spreadsheet.java
+CompilationAction 1476274662188 Spreadsheet.java
+CompilationAction 1476274662188 Spreadsheet.java
+CompilationAction 1476274662189 Spreadsheet.java
+CompilationAction 1476274662189 Spreadsheet.java
+CompilationAction 1476274662189 Spreadsheet.java
+CompilationAction 1476274663677 Spreadsheet.java
+CompilationAction 1476274663678 Spreadsheet.java
+CompilationAction 1476274663679 Spreadsheet.java
+CompilationAction 1476274663679 Spreadsheet.java
+CompilationAction 1476274663680 Spreadsheet.java
+CompilationAction 1476274663680 Spreadsheet.java
+CompilationAction 1476274663681 Spreadsheet.java
+CompilationAction 1476274663681 Spreadsheet.java
+CompilationAction 1476274663682 Spreadsheet.java
+CompilationAction 1476274663682 Spreadsheet.java
+CompilationAction 1476274663683 Spreadsheet.java
+CompilationAction 1476274663840 Spreadsheet.java
+CompilationAction 1476274663841 Spreadsheet.java
+CompilationAction 1476274663841 Spreadsheet.java
+CompilationAction 1476274663841 Spreadsheet.java
+CompilationAction 1476274663841 Spreadsheet.java
+CompilationAction 1476274663841 Spreadsheet.java
+CompilationAction 1476274663841 Spreadsheet.java
+CompilationAction 1476274663841 Spreadsheet.java
+CompilationAction 1476274663842 Spreadsheet.java
+CompilationAction 1476274663842 Spreadsheet.java
+CompilationAction 1476274663842 Spreadsheet.java
+CompilationAction 1476274663842 Spreadsheet.java
+CompilationAction 1476274721292 Spreadsheet.java
+CompilationAction 1476274721293 Spreadsheet.java
+CompilationAction 1476274721294 Spreadsheet.java
+CompilationAction 1476274721295 Spreadsheet.java
+CompilationAction 1476274721296 Spreadsheet.java
+CompilationAction 1476274721296 Spreadsheet.java
+CompilationAction 1476274721297 Spreadsheet.java
+CompilationAction 1476274721298 Spreadsheet.java
+CompilationAction 1476274721299 Spreadsheet.java
+CompilationAction 1476274721300 Spreadsheet.java
+CompilationAction 1476274721300 Spreadsheet.java
+CompilationAction 1476274721302 Spreadsheet.java
+CompilationAction 1476274721482 Spreadsheet.java
+CompilationAction 1476274721482 Spreadsheet.java
+CompilationAction 1476274721482 Spreadsheet.java
+CompilationAction 1476274721482 Spreadsheet.java
+CompilationAction 1476274721483 Spreadsheet.java
+CompilationAction 1476274721483 Spreadsheet.java
+CompilationAction 1476274721483 Spreadsheet.java
+CompilationAction 1476274721483 Spreadsheet.java
+CompilationAction 1476274721483 Spreadsheet.java
+RefactoringAction 1476274756958 Spreadsheet.java ADD ValueType VALUE/2 FIELD
+RefactoringAction 1476274760479 Spreadsheet.java RENAME VALUE/2=>ValueType VALUE_VALID FIELD
+RefactoringAction 1476274763500 Spreadsheet.java RENAME VALUE_VALID=>ValueType VALID FIELD
+RefactoringAction 1476274770042 Spreadsheet.java ADD HashMap<String,Value> mValues FIELD
+RefactoringAction 1476274770043 Spreadsheet.java ADD String ERROR FIELD
+RefactoringAction 1476274770044 Spreadsheet.java ADD String CIRCULAR FIELD
+RefactoringAction 1476274770045 Spreadsheet.java ADD Value get(String) METHOD
+RefactoringAction 1476274770046 Spreadsheet.java ADD void set(String, String) METHOD
+RefactoringAction 1476274770047 Spreadsheet.java ADD String evaluate(String) METHOD
+RefactoringAction 1476274772569 Spreadsheet.java REMOVE VALID FIELD
+RefactoringAction 1476274785682 Spreadsheet.java ADD String value FIELD
+RefactoringAction 1476274785683 Spreadsheet.java ADD ValueType type FIELD
+RefactoringAction 1476274785684 Spreadsheet.java ADD HashMap<String,Value> mValues FIELD
+RefactoringAction 1476274785685 Spreadsheet.java ADD String ERROR FIELD
+RefactoringAction 1476274785685 Spreadsheet.java ADD String CIRCULAR FIELD
+RefactoringAction 1476274785686 Spreadsheet.java ADD Value get(String) METHOD
+RefactoringAction 1476274785687 Spreadsheet.java ADD void set(String, String) METHOD
+RefactoringAction 1476274785687 Spreadsheet.java ADD String evaluate(String) METHOD
+CompilationAction 1476274795670 Spreadsheet.java
+CompilationAction 1476274795670 Spreadsheet.java
+CompilationAction 1476274795671 Spreadsheet.java
+CompilationAction 1476274795672 Spreadsheet.java
+CompilationAction 1476274795672 Spreadsheet.java
+CompilationAction 1476274795673 Spreadsheet.java
+CompilationAction 1476274795673 Spreadsheet.java
+CompilationAction 1476274795673 Spreadsheet.java
+CompilationAction 1476274795674 Spreadsheet.java
+CompilationAction 1476274795857 Spreadsheet.java
+CompilationAction 1476274795858 Spreadsheet.java
+CompilationAction 1476274795858 Spreadsheet.java
+CompilationAction 1476274795858 Spreadsheet.java
+CompilationAction 1476274795858 Spreadsheet.java
+CompilationAction 1476274795859 Spreadsheet.java
+CompilationAction 1476274795859 Spreadsheet.java
+CompilationAction 1476274795859 Spreadsheet.java
+CompilationAction 1476274795859 Spreadsheet.java
+RefactoringAction 1476274864275 Spreadsheet.java ADD ValueType VALUE/2 FIELD
+RefactoringAction 1476274866293 Spreadsheet.java REMOVE VALUE/2 FIELD
+RefactoringAction 1476274867311 Spreadsheet.java ADD ValueType VALUE/2 FIELD
+CompilationAction 1476274868644 Spreadsheet.java
+CompilationAction 1476274868644 Spreadsheet.java
+CompilationAction 1476274868645 Spreadsheet.java
+CompilationAction 1476274868645 Spreadsheet.java
+CompilationAction 1476274868646 Spreadsheet.java
+CompilationAction 1476274868646 Spreadsheet.java
+CompilationAction 1476274868647 Spreadsheet.java
+CompilationAction 1476274868647 Spreadsheet.java
+CompilationAction 1476274868648 Spreadsheet.java
+CompilationAction 1476274868831 Spreadsheet.java
+CompilationAction 1476274868831 Spreadsheet.java
+CompilationAction 1476274868831 Spreadsheet.java
+CompilationAction 1476274868832 Spreadsheet.java
+CompilationAction 1476274868832 Spreadsheet.java
+CompilationAction 1476274868832 Spreadsheet.java
+CompilationAction 1476274868833 Spreadsheet.java
+CompilationAction 1476274868833 Spreadsheet.java
+CompilationAction 1476274868833 Spreadsheet.java
+RefactoringAction 1476274934971 Spreadsheet.java REMOVE ERROR FIELD
+RefactoringAction 1476274942987 Spreadsheet.java REMOVE Value(String, ValueType) METHOD
+CompilationAction 1476274947318 Spreadsheet.java
+CompilationAction 1476274947319 Spreadsheet.java
+CompilationAction 1476274947320 Spreadsheet.java
+CompilationAction 1476274947321 Spreadsheet.java
+CompilationAction 1476274947322 Spreadsheet.java
+CompilationAction 1476274947322 Spreadsheet.java
+CompilationAction 1476274947323 Spreadsheet.java
+CompilationAction 1476274947323 Spreadsheet.java
+CompilationAction 1476274947323 Spreadsheet.java
+EditAction 1476274963066 Spreadsheet.java 2617 3 6 0
