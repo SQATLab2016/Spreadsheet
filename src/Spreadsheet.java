@@ -26,7 +26,7 @@ public class Spreadsheet {
 	}
 	
 	private String evaluateMathFormula(String value) {
-		
+		return ERROR;
 	}
 	
 	private boolean isReference(String value) {
