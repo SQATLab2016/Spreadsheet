@@ -39,7 +39,7 @@ public class Spreadsheet {
 		if (isFormula(v)) {
 			v = v.substring(1);
 		}
-		
+	
 		if (!isIntegerCellValue(v) && !isStringCellValue(v)) {
 			table.put(cell, ERROR_VALUE);
 		}
