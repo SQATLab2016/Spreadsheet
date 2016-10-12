@@ -301,3 +301,8 @@ EditAction 1476274225571 Spreadsheet.java 2495 3 6 0
 UnitTestCaseAction 1476274226787 SpreadsheetTest.java OK
 UnitTestSessionAction 1476274226787 SpreadsheetTest.java OK
 EditAction 1476274277483 Spreadsheet.java 2468 3 4 0
+CompilationAction 1476274277602 Spreadsheet.java
+CompilationAction 1476274277602 Spreadsheet.java
+CompilationAction 1476274290640 Spreadsheet.java
+CompilationAction 1476274290641 Spreadsheet.java
+EditAction 1476274431229 Spreadsheet.java 2542 3 6 0

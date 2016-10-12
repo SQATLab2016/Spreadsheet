@@ -1,13 +1,16 @@
 import java.util.HashMap;
 
 public class Spreadsheet {
+	private class Value {
+		String value;
+	}
 	HashMap<String, String> mValues = new HashMap<String, String>();
 	
 	final public static String ERROR = "#Error";
 	final public static String CIRCULAR = "#Circular";
 	
 	public String get(String cell) {
-		return (String) mValues.get(cell);;
+		return (String) mValues.get(cell);
 	}
 	
 	public void set(String cell, String value) {
@@ -48,6 +51,7 @@ public class Spreadsheet {
 					
 				} else if (value.charAt(1) != '\'') {
 					value = "&" + value.substring(1, value.length());
+					
 				} else {
 					value = ERROR;
 				}
@@ -79,9 +83,9 @@ public class Spreadsheet {
 	}
 	
 	public String evaluate(String cell) {
-		String value = 
+		String value = get(cell);
 		
-		if (value.length() > 0 && value.charAt(0) == '&') {
+		if (value != null && value.length() > 0 && value.charAt(0) == '&') {
 			String key = value.substring(1, value.length());
 			if (mValues.containsKey(key)) {
 				String refValue = (String) mValues.get(key);
