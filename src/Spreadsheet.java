@@ -15,7 +15,7 @@ public class Spreadsheet {
 	
 	public int evaluate(String cell) {
 		int result = 0;
-		result = Integer.parseInt(cell);
+		result = Integer.parseInt(sheet.get(cell));
 		return result;
 	}
 	
