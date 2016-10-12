@@ -120,3 +120,6 @@ EditAction 1476273387777 SpreadsheetTest.java 929 6 11 5
 RefactoringAction 1476273411315 SpreadsheetTest.java ADD void test_simpleIntegerFormula() METHOD
 EditAction 1476273417054 SpreadsheetTest.java 1064 7 13 6
 EditAction 1476273429024 SpreadsheetTest.java 1109 7 14 7
+UnitTestCaseAction 1476273430746 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273430748 SpreadsheetTest.java OK
+EditAction 1476273494110 Spreadsheet.java 1239 6 13 0

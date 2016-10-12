@@ -14,10 +14,6 @@ public class Spreadsheet {
 	public void set(String cell, String value) {
 		String v = value;
 		
-		if (isFormula(v)) {
-			v = v.substring(1);
-		}
-		
 		if (!isIntegerCellValue(v) && !isStringCellValue(v)) {
 			v = ERROR_VALUE;
 		}
@@ -27,6 +23,10 @@ public class Spreadsheet {
 	
 	public String evaluate(String cell) {
 		String value = table.get(cell);
+		
+		if (isFormula(value)) {
+			value = value.substring(1);
+		}
 		
 		if (isStringCellValue(value)) {
 			value = value.substring(1, value.length() - 1);
