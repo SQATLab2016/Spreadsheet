@@ -137,4 +137,11 @@ public class SpreadsheetTest {
 		assertEquals("6", evaluatedValue);
 	}
 
+	@Test
+	public void test_integer_operation_all_operands() {
+		s.set("A1", "=20*2-5+20/5%10");
+		String evaluatedValue = s.evaluate("A1");
+		assertEquals("1", evaluatedValue);
+	}
+
 }
