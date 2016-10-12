@@ -64,10 +64,10 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void testSpreadsheetequalSign_Int_setC3_EqualsInt_evaluateC3_return_aString(){
-		sheet.set("C3", "='a String'");
+	public void testSpreadsheetequalSign_Int_setC3_Equals4_evaluateC3_return_4(){
+		sheet.set("C3", "=4");
 		
-		assertEquals(sheet.evaluate("C3"), "a String");		
+		assertEquals(sheet.evaluate("C3"), "4");		
 		
 	}
 
