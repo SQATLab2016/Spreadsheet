@@ -47,4 +47,9 @@ public class SpreadsheetTest {
 		
 		assertEquals("String not evaluated correctly", "a string", spreadsheet.evaluate("A1"));
 	}
+	
+	@Test
+	public void evaluateString_TooManyStrMarks() {
+		spreadsheet.set("A1", "'str with ' in the middle'");
+	}
 }

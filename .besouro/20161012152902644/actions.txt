@@ -156,3 +156,11 @@ CompilationAction 1476278005633 Spreadsheet.java
 UnitTestCaseAction 1476278047247 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476278047247 SpreadsheetTest.java FAIL
 EditAction 1476278077008 Spreadsheet.java 3179 11 29 0
+UnitTestCaseAction 1476278081246 SpreadsheetTest.java OK
+UnitTestSessionAction 1476278081246 SpreadsheetTest.java OK
+RefactoringAction 1476278107574 SpreadsheetTest.java ADD void evaluateString_ FIELD
+RefactoringAction 1476278111086 SpreadsheetTest.java RENAME evaluateString_=>void evaluateString_Too FIELD
+RefactoringAction 1476278118598 SpreadsheetTest.java RENAME evaluateString_Too=>void evaluateString_TooManyStr FIELD
+RefactoringAction 1476278120109 SpreadsheetTest.java RENAME evaluateString_TooManyStr=>void evaluateString_TooManyStrMarks FIELD
+RefactoringAction 1476278127122 SpreadsheetTest.java RENAME evaluateString_TooManyStrMarks=>void evaluateString_TooManyStrMarks() METHOD
+EditAction 1476278213264 SpreadsheetTest.java 1547 6 16 5
