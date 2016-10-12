@@ -87,14 +87,21 @@ public class Spreadsheet {
 		}
 		
 		// String concatenation
+		// Find all concatenations, i.e.
+		// '&' (valid)
+		// '&  (invalid)
+		//  &' (invalid)
 		p = Pattern.compile("^=?'(.*)(?:'?&'?(.*))+'$");
 		m = p.matcher(value);
 		if (m.find()) {
 			int totalCount = m.groupCount();
 			
+			// Find only valid concatenations
 			p = Pattern.compile("^=?'(.*)(?:'&'(.*))+'$");
 			m = p.matcher(value);
 			
+			// If the two findings are not of equal size, it means
+			// that the first finding found also invalid concatenations
 			if (!m.find() || m.groupCount() != totalCount) {
 				return "#Error";
 			}
