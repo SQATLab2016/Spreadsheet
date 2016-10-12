@@ -16,7 +16,7 @@ public class Spreadsheet {
 		mValues.put(cell, value);
 	}
 	
-	private boolean isVariable(String value) {
+	private boolean isReference(String value) {
 		return value.length() > 0 && value.charAt(1) >= 'A' && value.charAt(1) <= 'Z';
 	}
 	
@@ -26,9 +26,8 @@ public class Spreadsheet {
 	
 	private boolean isCircularRecursive(String value) {
 		if (isAssignment(value)) {
-			String assignment = value.substring(1, value.length());
-			if (isVariable(assignment)) {
-				String key = value.substring(1, value.length());
+			String key = value.substring(1, value.length());
+			if (isReference(key)) {
 				if (mVisited.contains(key)) {
 					return true;
 					

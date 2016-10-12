@@ -585,3 +585,6 @@ RefactoringAction 1476276283026 Spreadsheet.java RENAME isAssignment()=>boolean 
 RefactoringAction 1476276321651 Spreadsheet.java ADD String get FIELD
 RefactoringAction 1476276326167 Spreadsheet.java REMOVE get FIELD
 EditAction 1476276401484 Spreadsheet.java 3252 7 10 0
+UnitTestCaseAction 1476276404212 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276404212 SpreadsheetTest.java FAIL
+EditAction 1476276457670 Spreadsheet.java 3187 7 10 0
