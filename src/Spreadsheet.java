@@ -33,7 +33,7 @@ public class Spreadsheet {
 		String value = table.get(cell);
 		
 		if (isStringCellValue(value)) {
-			
+			value = value.substring(1, value.length() - 1);
 		}
 		
 		return value;
