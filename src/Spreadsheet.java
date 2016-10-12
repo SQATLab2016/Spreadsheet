@@ -26,10 +26,10 @@ public class Spreadsheet {
 						}
 					}
 					
-					if (!isInteger)
-						value = "#Error";
-					else
+					if (isInteger)
 						value.substring(1, value.length() - 1);
+					else
+						value = "#Error";
 				}
 			} else if (value.charAt(0) == '\'') {
 				if (value.length() > 1 && value.charAt(value.length() - 1) == '\'') {
