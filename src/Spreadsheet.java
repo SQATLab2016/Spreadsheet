@@ -62,7 +62,7 @@ public class Spreadsheet {
 						value = ERROR;
 					}
 					
-				} else if (value.charAt(1) != '\'') {
+				} else if (value.charAt(1) >= 'A' && value.charAt(1) <= 'Z') {
 					value = "&" + value.substring(1, value.length());
 					
 				} else {
