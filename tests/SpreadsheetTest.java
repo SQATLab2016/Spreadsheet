@@ -38,6 +38,6 @@ public class SpreadsheetTest {
 		spreadsheet.set("A6", "-99378914327");
 		
 		assertFalse("Correctly formatted integer is mistaken as incorrectly formatted",
-						spreadsheet.evaluate("A4").equals("#Error"));
+						spreadsheet.evaluate("A5").equals("#Error"));
 	}
 }
