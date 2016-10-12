@@ -3,14 +3,14 @@ import java.util.Map;
 
 public class Spreadsheet {
 	
-	Map<String, String> sheet = new HashMap<>();
+	Map<String, Integer> sheet = new HashMap<>();
 
 	public String get(String cell) {
-		return sheet.get(cell);
+		return sheet.get(cell).toString();
 	}
 	
 	public void set(String cell, String value) {
-		sheet.put(cell, value);
+		sheet.put(cell, Integer.parseInt(value));
 	}
 	
 	public String evaluate(String cell) {

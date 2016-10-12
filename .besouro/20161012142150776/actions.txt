@@ -45,3 +45,8 @@ RefactoringAction 1476272100926 SpreadsheetTest.java RENAME testSpreadsheet_setB
 RefactoringAction 1476272103440 SpreadsheetTest.java RENAME testSpreadsheetNegative_setB2_neg3_getB2_returnneg3()=>void testSpreadsheetNegativeInt_setB2_neg3_getB2_returnneg3() METHOD
 RefactoringAction 1476272109456 SpreadsheetTest.java RENAME testSpreadsheet_setB2_2A_getB2_return_Error()=>void testSpreadsheetInvalidInt_setB2_2A_getB2_return_Error() METHOD
 EditAction 1476272179612 SpreadsheetTest.java 573 3 6 3
+UnitTestCaseAction 1476272185518 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272185519 SpreadsheetTest.java FAIL
+RefactoringAction 1476272202946 Spreadsheet.java REMOVE sheet FIELD
+RefactoringAction 1476272205971 Spreadsheet.java ADD Map<String,Integer> sheet FIELD
+EditAction 1476272321183 Spreadsheet.java 381 3 3 0
