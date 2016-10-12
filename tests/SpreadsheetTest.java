@@ -41,5 +41,11 @@ public class SpreadsheetTest {
 	@Test
 	public void test_simpleStringFormula() {
 		sheet.set("A1", "='string'");
+		assertEquals("string", sheet.evaluate("A1"));
+	}
+	
+	@Test
+	public void test_simpleIntegerFormula() {
+		sheet.set("A1", "=-2");
 	}
 }
