@@ -110,6 +110,8 @@ public class Spreadsheet {
 			if (i % 2 == 0) {
 				try {
 					Integer.parseInt(splitFormula[i]);
+				} catch (NumberFormatException nfe) {
+					return false;
 				}
 			} else {
 				
