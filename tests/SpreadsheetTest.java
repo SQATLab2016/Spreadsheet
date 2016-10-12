@@ -80,7 +80,13 @@ public class SpreadsheetTest {
 		
 	}
 	
-	
-
+	@Test
+	public void testSpreadsheetequalSignWithCellRef_setA3_13_setC3_EqualsA3_evaluateC3_return_13(){
+		sheet.set("A3", "13");
+		sheet.set("C3", "=A3");
+		
+		assertEquals(sheet.evaluate("C3"), "13");		
+		
+	}
 
 }
