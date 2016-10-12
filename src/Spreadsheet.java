@@ -18,11 +18,7 @@ public class Spreadsheet {
 						value = "#Error";
 					}
 					
-				} else if (!(value.charAt(1) < '0' || value.charAt(1) > '9') && value.charAt(1) != '-') {
-					// Reference / No-op, return possible errors when
-					// the cell is actually evaluated
-					
-				} else {
+				}else {
 					boolean isInteger = true;
 					for (int i = 1; i < value.length(); i++) {
 						char c = value.charAt(i);
