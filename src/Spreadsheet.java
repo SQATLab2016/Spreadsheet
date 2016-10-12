@@ -13,9 +13,10 @@ public class Spreadsheet {
 		sheet.put(cell, value);
 	}
 	
-	public String evaluate(String cell) {
-		// to be implemented
-		return null;
+	public int evaluate(String cell) {
+		int result = 0;
+		result = Integer.parseInt(cell);
+		return result;
 	}
 	
 }
