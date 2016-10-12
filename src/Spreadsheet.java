@@ -36,6 +36,11 @@ public class Spreadsheet {
 					} else {
 						value = "#Error";
 					}
+					
+				} else if (value.charAt(1) != '\'') {
+					
+				} else {
+					value = "#Error";
 				}
 			} else if (value.charAt(0) == '\'') {
 				if (value.length() > 1 && value.charAt(value.length() - 1) == '\'') {
@@ -67,9 +72,6 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		String value = (String) mValues.get(cell);
 		
-		if (value.equals("#Error")) {
-			if (mValues.containsKey(value))
-		}
 		
 		return value;
 	}
