@@ -24,3 +24,6 @@ EditAction 1476272354614 Cell.java 111 1 0 0
 CompilationAction 1476272354718 Cell.java
 CompilationAction 1476272354719 Cell.java
 EditAction 1476272355780 Cell.java 116 1 1 0
+CompilationAction 1476272355870 Cell.java
+RefactoringAction 1476272367358 Cell.java ADD void setName(String) METHOD
+EditAction 1476272383183 Cell.java 164 2 1 0

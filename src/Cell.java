@@ -6,4 +6,8 @@ public class Cell {
 		this.setName(cell);
 		
 	}
+
+	private void setName(String cell) {
+		
+	}
 }
