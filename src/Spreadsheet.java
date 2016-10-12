@@ -27,11 +27,11 @@ public class Spreadsheet {
 					mVisited.add(key);
 					return isCircularRecursive(get(key));
 				} else {
-					return true;
+					return false;
 				}
 			}
 		} else {
-			return false;
+			return true;
 		}
 	}
 	private boolean isCircular(String key) {
