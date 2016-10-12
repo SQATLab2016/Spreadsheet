@@ -125,3 +125,8 @@ EditAction 1476272162079 SpreadsheetTest.java 2697 15 45 14
 UnitTestCaseAction 1476272163788 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476272163789 SpreadsheetTest.java FAIL
 EditAction 1476272169442 SpreadsheetTest.java 2697 15 45 14
+UnitTestCaseAction 1476272170616 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272170616 SpreadsheetTest.testAssignment_A2_Reference_A1_String FAIL
+UnitTestCaseAction 1476272177296 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272177296 SpreadsheetTest.java FAIL
+EditAction 1476272226192 Spreadsheet.java 1616 3 4 0

@@ -17,6 +17,9 @@ public class Spreadsheet {
 					} else {
 						value = "#Error";
 					}
+					
+				} else if ( (c < '0' || c > '9')) {
+
 				} else {
 					boolean isInteger = true;
 					for (int i = 1; i < value.length(); i++) {
