@@ -76,5 +76,7 @@ public class Spreadsheet {
 			if (!Character.isWhitespace(value.charAt(i)))
 				newValue += value.charAt(i);
 		}
+		
+		return newValue;
 	}
 }
