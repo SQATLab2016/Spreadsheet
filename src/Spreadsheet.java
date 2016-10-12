@@ -44,6 +44,9 @@ public class Spreadsheet {
 	
 	private boolean isIntegerCellValue(String value) {
 		try {
+			if (isFormula(value))
+				value = value.substring(1);
+			
 			Integer.parseInt(value);
 			return true;
 		} catch (NumberFormatException nfe) {
