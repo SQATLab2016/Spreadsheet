@@ -50,7 +50,8 @@ public class Spreadsheet {
 		m = p.matcher(value);
 		if (m.find()) {
 			String[] operands = m.group(1).replaceAll("\\d", "").split("\\s*");
-			return operands[0];
+			String[] numbers = m.group(1).split("\\d+");
+			return numbers[0];
 		}
 		
 		// An invalid integer
