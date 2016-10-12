@@ -39,7 +39,8 @@ public class Spreadsheet {
 				} else {
 					throw new SpreadSheetException();
 				}
-			} else
+			}
+			else
 				result = "" + Integer.parseInt(sheet.get(cell));
 			return result;
 		} catch (Exception e) {
@@ -74,6 +75,7 @@ public class Spreadsheet {
 		String operator = "+";
 		boolean integerValue = false;
 		int previousIntegerValue = 0;
+		value= value.trim();
 		while (stringIndex < value.length()) {
 			if (isInteger(value.substring(stringIndex, stringIndex + 1))) {
 				if (integerValue == false) {
@@ -91,7 +93,11 @@ public class Spreadsheet {
 				operator = value.substring(stringIndex, stringIndex + 1);
 				integerValue = false;
 				previousIntegerValue = 0;
-			} else {
+			}
+			else if(Character.isWhitespace(value.charAt(stringIndex))){
+				
+			}
+			else {
 				throw new SpreadSheetException();
 			}
 

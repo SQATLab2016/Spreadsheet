@@ -115,7 +115,7 @@ public class SpreadsheetTest {
 	@Test
 	public void testSpreadSheet_evaluateWithSpaces() throws SpreadSheetException {
 		Spreadsheet oneSheet = new Spreadsheet();
-		oneSheet.set("A1", "='1+  2");
+		oneSheet.set("A1", "=1+  2");
 		assertEquals("3", oneSheet.evaluate("A1"));
 	}
 }
