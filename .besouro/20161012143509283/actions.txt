@@ -72,3 +72,10 @@ EditAction 1476272868842 Spreadsheet.java 295 3 3 0
 EditAction 1476272916975 Spreadsheet.java 326 3 4 0
 CompilationAction 1476272917241 Spreadsheet.java
 EditAction 1476272947976 Spreadsheet.java 256 3 3 0
+UnitTestCaseAction 1476272968207 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272968208 SpreadsheetTest.java FAIL
+RefactoringAction 1476273105813 Cell.java REMOVE Cell.java CLASS
+CompilationAction 1476273106112 Spreadsheet.java
+CompilationAction 1476273123033 Spreadsheet.java
+RefactoringAction 1476273136907 Spreadsheet.java ADD String cell FIELD
+EditAction 1476273141361 Spreadsheet.java 258 3 2 0

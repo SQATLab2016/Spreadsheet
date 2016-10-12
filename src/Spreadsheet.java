@@ -1,6 +1,7 @@
 
 public class Spreadsheet {
-	
+	String cell;
+	String value;
 	
 	
 	
@@ -10,7 +11,6 @@ public class Spreadsheet {
 	}
 	
 	public void set(String cell, String value) {
-		new Cell(cell, value);
 		
 	}
 	
