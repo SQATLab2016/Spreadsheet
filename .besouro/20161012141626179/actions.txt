@@ -732,3 +732,12 @@ RefactoringAction 1476277680699 Spreadsheet.java RENAME isDigit()=>boolean isDig
 EditAction 1476277692472 Spreadsheet.java 3442 15 21 0
 CompilationAction 1476277692586 Spreadsheet.java
 EditAction 1476277693578 Spreadsheet.java 3444 15 21 0
+CompilationAction 1476277693694 Spreadsheet.java
+CompilationAction 1476277725127 Spreadsheet.java
+CompilationAction 1476277725305 Spreadsheet.java
+CompilationAction 1476277746484 Spreadsheet.java
+RefactoringAction 1476277801501 Spreadsheet.java ADD String evaluate FIELD
+RefactoringAction 1476277805016 Spreadsheet.java RENAME evaluate=>String evaluateMathFormula() METHOD
+RefactoringAction 1476277812075 Spreadsheet.java RENAME evaluateMathFormula()=>String evaluateMathFormula(String) METHOD
+CompilationAction 1476277815723 Spreadsheet.java
+EditAction 1476277864426 Spreadsheet.java 3393 15 23 0

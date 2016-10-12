@@ -26,13 +26,11 @@ public class Spreadsheet {
 	}
 	
 	private String evaluateMathFormula(String value) {
-		for (int i = 0; i < value.length(); i++) {
-			if (value.charAt(i) == '+') {
-				return true;
-			}
-		}
+		ArrayList<Integer> integers;
+		ArrayList<Character> operators;
+		return null;
 	}
-	
+
 	private boolean isDigit(char c) {
 		return c >= '0' && c <= '9';
 	}
@@ -51,7 +49,7 @@ public class Spreadsheet {
 
 	private boolean isInteger(String value) {
 		return value.length() > 0 && (
-				value.charAt(0) == '-' || (value.charAt(0) >= '0' && value.charAt(0) <= '9'));
+				value.charAt(0) == '-' || isDigit(value.charAt(0)));
 	}
 	
 	private String evaluateInteger(String value) {
