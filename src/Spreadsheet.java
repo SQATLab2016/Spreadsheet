@@ -19,7 +19,11 @@ public class Spreadsheet {
 			if (sheet.get(cell).startsWith("'") && sheet.get(cell).endsWith("'")) {
 				result = sheet.get(cell).replaceAll("'", "");
 			} else if (sheet.get(cell).startsWith("=")) {
-
+				if(sheet.get(cell).startsWith("'", 1))
+				{
+					result = sheet.get(cell).replaceAll("=", "");
+					result = result.replaceAll("'", "");
+				}
 			} else
 				result = "" + Integer.parseInt(sheet.get(cell));
 			return result;

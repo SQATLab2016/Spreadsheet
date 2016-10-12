@@ -111,3 +111,4 @@ CompilationAction 1476272656894 SpreadsheetTest.java
 UnitTestCaseAction 1476272665504 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476272665505 SpreadsheetTest.testSpreadSheet_evaluateSimpleFormula FAIL
 EditAction 1476272719990 Spreadsheet.java 705 3 3 0
+EditAction 1476272861221 Spreadsheet.java 852 3 3 0
