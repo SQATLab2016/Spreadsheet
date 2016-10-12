@@ -8,7 +8,10 @@ public class Spreadsheet {
 	HashMap<String, String> table = new HashMap<String, String>();
 	
 	public String get(String cell) {
+		String value = table.get(cell);
+		
 		boolean selfChecked = false;
+		
 		while (isReference(value)) {
 			if (!selfChecked && value.substring(1) == cell) {
 				value = ERROR_VALUE;
@@ -23,13 +26,13 @@ public class Spreadsheet {
 				value = ERROR_VALUE;
 		}
 		
-		return table.get(cell);
+		return value;
 	}
 	
 	public void set(String cell, String value) {
 		String v = value;
 		
-		if (!isIntegerCellValue(v) && !isStringCellValue(v)) {
+		if (!isFormula(v) && !isIntegerCellValue(v) && !isStringCellValue(v)) {
 			v = ERROR_VALUE;
 		}
 		
@@ -38,8 +41,6 @@ public class Spreadsheet {
 	
 	public String evaluate(String cell) {
 		String value = get(cell);
-		
-
 		
 		if (isFormula(value)) {
 			value = value.substring(1);

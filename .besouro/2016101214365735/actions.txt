@@ -188,3 +188,18 @@ UnitTestSessionAction 1476274345583 SpreadsheetTest.java FAIL
 UnitTestCaseAction 1476274382640 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476274382641 SpreadsheetTest.java FAIL
 EditAction 1476274425332 Spreadsheet.java 2397 8 22 0
+CompilationAction 1476274425551 Spreadsheet.java
+CompilationAction 1476274425551 Spreadsheet.java
+CompilationAction 1476274426582 Spreadsheet.java
+CompilationAction 1476274426583 Spreadsheet.java
+CompilationAction 1476274426757 Spreadsheet.java
+CompilationAction 1476274426758 Spreadsheet.java
+CompilationAction 1476274442231 Spreadsheet.java
+CompilationAction 1476274442233 Spreadsheet.java
+UnitTestCaseAction 1476274496929 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274496930 SpreadsheetTest.java FAIL
+CompilationAction 1476274503540 Spreadsheet.java
+CompilationAction 1476274503542 Spreadsheet.java
+CompilationAction 1476274506007 Spreadsheet.java
+CompilationAction 1476274506008 Spreadsheet.java
+EditAction 1476274542347 Spreadsheet.java 2441 8 23 0
