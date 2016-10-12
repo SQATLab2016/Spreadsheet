@@ -1,13 +1,15 @@
+import java.util.HashMap;
 
 public class Spreadsheet {
 
+	HashMap<String, String> table = new HashMap<String, String>();
+	
 	public String get(String cell) {
-		// to be implemented
-		return null;
+		return table.get(cell);
 	}
 	
 	public void set(String cell, String value) {
-		// to be implemented
+		table.put(cell, value);
 	}
 	
 	public String evaluate(String cell) {
