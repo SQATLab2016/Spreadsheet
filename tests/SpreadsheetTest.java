@@ -93,5 +93,13 @@ public class SpreadsheetTest {
 		assertEquals("-31", spready.evaluate("A3"));	
 		
 	}
+	
+	@Test public void spreadsheetEvaluateA5EqualsCUL8R_returnsError() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A3", "CUL8R");
+		assertEquals("#Error", spready.evaluate("A3"));	
+		
+	}
 }
 
