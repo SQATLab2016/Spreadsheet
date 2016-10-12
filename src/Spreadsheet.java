@@ -33,18 +33,16 @@ public class Spreadsheet {
 		ArrayList<Character> operators = new ArrayList<Character>();
 		
 		while (scanner.hasNextInt()) {
-				integers.add(scanner.nextInt());
+			integers.add(scanner.nextInt());
 
-				String next = scanner.next();
-				
-				if (next.equals('+')) {
-					operators.add('+');
-					
-				} else {
-					break;
-				}
-			}
+			String next = scanner.next();
 			
+			if (next.equals('+')) {
+				operators.add('+');
+				
+			} else {
+				break;
+			}
 		}
 		
 		if (integers.size() > 0) {
