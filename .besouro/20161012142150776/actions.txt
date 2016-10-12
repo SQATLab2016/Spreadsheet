@@ -50,3 +50,8 @@ UnitTestSessionAction 1476272185519 SpreadsheetTest.java FAIL
 RefactoringAction 1476272202946 Spreadsheet.java REMOVE sheet FIELD
 RefactoringAction 1476272205971 Spreadsheet.java ADD Map<String,Integer> sheet FIELD
 EditAction 1476272321183 Spreadsheet.java 381 3 3 0
+UnitTestCaseAction 1476272327414 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272327415 SpreadsheetTest.java FAIL
+RefactoringAction 1476272414546 Spreadsheet.java ADD NumberFormatException ex FIELD
+RefactoringAction 1476272416563 Spreadsheet.java REMOVE ex FIELD
+EditAction 1476272447894 Spreadsheet.java 351 3 3 0
