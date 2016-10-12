@@ -25,4 +25,9 @@ public class SpreadsheetTest {
 		sheet.set("A1", "5A");
 		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
 	}
+	
+	@Test
+	public void test_evaluateStringCell() {
+		sheet.set("A1", "'string'");
+	}
 }

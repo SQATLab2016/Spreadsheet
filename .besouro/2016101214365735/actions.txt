@@ -76,3 +76,7 @@ CompilationAction 1476272968047 Spreadsheet.java
 EditAction 1476272986336 Spreadsheet.java 1010 4 9 0
 CompilationAction 1476272986478 Spreadsheet.java
 EditAction 1476272993269 Spreadsheet.java 1007 4 9 0
+CompilationAction 1476272993405 Spreadsheet.java
+CompilationAction 1476273003233 Spreadsheet.java
+RefactoringAction 1476273020156 SpreadsheetTest.java ADD void test_evaluateStringCell() METHOD
+EditAction 1476273026031 SpreadsheetTest.java 633 4 7 3

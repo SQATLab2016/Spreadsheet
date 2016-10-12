@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class Spreadsheet {
 	
 	public static final String ERROR_VALUE = "#Error";
-	public static final String STRING_IDENTIFIER = '\'';
+	public static final String STRING_IDENTIFIER = "'";
 
 	HashMap<String, String> table = new HashMap<String, String>();
 	
