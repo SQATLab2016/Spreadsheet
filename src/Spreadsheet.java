@@ -47,6 +47,10 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		String value = get(cell);
 		
+		if (isIntegerFormula(value)) {
+			
+		}
+		
 		if (isFormula(value)) {
 			value = value.substring(1);
 		}
@@ -70,8 +74,11 @@ public class Spreadsheet {
 			return false;
 		
 		for (int i = 1; i < value.length(); i++) {
-			if (!Character.isDigit(value.charAt(i)) &&)
-				value.charAt(i) != '+') {
+			if (!Character.isDigit(value.charAt(i)) &&
+				value.charAt(i) != '+' &&
+				value.charAt(i) != '-' &&
+				value.charAt(i) != '*' &&
+				value.charAt(i) != '/') {
 					return false;
 				}
 		}

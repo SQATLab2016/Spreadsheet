@@ -268,3 +268,6 @@ EditAction 1476275630871 SpreadsheetTest.java 2665 17 37 17
 RefactoringAction 1476275699825 Spreadsheet.java ADD boolean isIntegerFormula FIELD
 RefactoringAction 1476275704975 Spreadsheet.java RENAME isIntegerFormula=>boolean isIntegerFormula(String) METHOD
 EditAction 1476275767263 Spreadsheet.java 3129 9 25 0
+CompilationAction 1476275767717 Spreadsheet.java
+CompilationAction 1476275795105 Spreadsheet.java
+EditAction 1476275834741 Spreadsheet.java 3269 9 29 0
