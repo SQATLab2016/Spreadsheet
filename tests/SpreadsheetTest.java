@@ -62,7 +62,7 @@ public class SpreadsheetTest {
 					e.getMessage(), spreadsheet.STR_MARK_IN_THE_MIDDLE_ERROR_MSG);
 		}
 		
-		if ()
+		if (!caughtException)
 			fail("String mark not found in the middle of a string");
 	}
 }
