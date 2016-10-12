@@ -100,6 +100,9 @@ public class Spreadsheet {
 					intermidiateResult = arithmeticOperation(value.substring(stringIndex + 1, (nextIndex - 1)));
 					value.replace("(" + value.substring(stringIndex + 1, (nextIndex - 1)) + ")",
 							"" + intermidiateResult);
+					integerValue = true;
+					previousIntegerValue = intermidiateResult;
+					result = evaluateOperator(result, previousIntegerValue, operator);
 				}
 			} else {
 				throw new SpreadSheetException();
