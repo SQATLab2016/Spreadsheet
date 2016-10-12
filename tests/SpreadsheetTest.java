@@ -17,7 +17,7 @@ public class SpreadsheetTest {
 	@Test
 	public void testSetCell() {
 		Spreadsheet sh = new Spreadsheet(5,5);
-		sh.set("A3", "6");
+		//sh.set("A3", "6");
 		System.out.print(sh.get("A3"));
 		assertEquals(sh.get("A3"),"6");
 		
