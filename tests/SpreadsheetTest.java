@@ -31,7 +31,7 @@ public class SpreadsheetTest {
 	}
 
 	@Test
-	public void testSpreadsheetInvalidInt_setB2_2A_evaluateB2_return_Error(){
+	public void testSpreadsheetInvalidInt_setC3_2A_evaluateC3_return_Error(){
 		sheet.set("C3", "2A");
 		
 		assertEquals(sheet.evaluate("C3"), "#ERROR");		
@@ -39,7 +39,7 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void testSpreadsheetString_setA5_aString_evaluateB2_return_aString(){
+	public void testSpreadsheetString_setC3_aString_evaluateC3_return_aString(){
 		sheet.set("C3", "'a String'");
 		
 		assertEquals(sheet.evaluate("C3"), "a String");		
@@ -47,7 +47,7 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void testSpreadsheetString_setA5_aString_withoutEndQuote_evaluateB2_return_ERROR(){
+	public void testSpreadsheetString_setC3_aString_withoutEndQuote_evaluateC3_return_ERROR(){
 		sheet.set("C3", "'a String");
 		
 		assertEquals(sheet.evaluate("C3"), "#ERROR");		
@@ -56,7 +56,15 @@ public class SpreadsheetTest {
 	
 
 	@Test
-	public void testSpreadsheetequalSign_String_setA5_EqualsaString_evaluateB2_return_aString(){
+	public void testSpreadsheetequalSign_String_setC3_EqualsaString_evaluateC3_return_aString(){
+		sheet.set("C3", "='a String'");
+		
+		assertEquals(sheet.evaluate("C3"), "a String");		
+		
+	}
+	
+	@Test
+	public void testSpreadsheetequalSign_Int_setC3_EqualsInt_evaluateC3_return_aString(){
 		sheet.set("C3", "='a String'");
 		
 		assertEquals(sheet.evaluate("C3"), "a String");		
