@@ -47,23 +47,20 @@ public class Spreadsheet {
 			}
 		}
 		
-		for (int i = 0; i < operators.size(); i++) {
-			if 
-		}
-		/*
-		ArrayList<Integer> integers;
-		ArrayList<Character> operators;
-		
-		for (int i = 0; i < value.length(); i++) {
+		if (integers.size() > 0) {
+			int result = integers.get(0);
 			
-			if (value.charAt(i) == '-' || isDigit(value.charAt(i)))
-			for (int d = i; d < value.length(); d++) {
-				if (value.charAt(i) == '-' || isDigit(value.charAt(i))) {
-					
+			for (int i = 0; i < operators.size(); i++) {
+				if (operators.get(i) == '+') {
+					result += integers.get(i * 2);
 				}
 			}
+			
+			return Integer.toString(result);
+			
+		} else {
+			return ERROR;
 		}
-		*/
 	}
 
 	private boolean isDigit(char c) {
