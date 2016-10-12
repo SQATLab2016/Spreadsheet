@@ -10,3 +10,6 @@ EditAction 1476275545771 SpreadsheetException.java 123 1 1 0
 UnitTestCaseAction 1476275546112 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476275546112 SpreadsheetTest.java FAIL
 EditAction 1476275601581 Spreadsheet.java 656 3 4 0
+UnitTestCaseAction 1476275601866 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275601866 SpreadsheetTest.java FAIL
+EditAction 1476275637233 Spreadsheet.java 654 3 4 0
