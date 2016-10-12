@@ -108,7 +108,8 @@ public class SpreadsheetTest {
 		
 		spready.set("A5", "14");
 		spready2.set("A3", "313");
-		assertEquals("#Error", spready.evaluate("A3"));	
+		spready.set("A5", "=A5");
+		assertEquals("313", spready.evaluate("A5"));	
 		
 	}
 }
