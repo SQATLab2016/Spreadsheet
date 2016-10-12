@@ -7,9 +7,110 @@ import org.junit.Test;
 public class SpreadsheetTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void setMethodA1_2_works() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A1", "2");
+		assertEquals("2", spready.get("A1"));	
+	}
+	
+	@Test public void spreadsheetEvaluateA2_minus5_returnsminus5() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A2", "-5");
+		assertEquals("-5", spready.evaluate("A2"));	
 		
 	}
-
+	
+	@Test public void spreadsheetEvaluateA3_D4_returnsError() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A3", "D4");
+		assertEquals("#Error", spready.evaluate("A3"));	
+		
+	}
+	
+	@Test public void spreadsheetEvaluateA3_What_returnsWhat() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A3", "'What'");
+		assertEquals("What", spready.evaluate("A3"));	
+		
+	}
+	
+	@Test public void spreadsheetEvaluateA3_What2_returnsError() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A3", "'What2");
+		assertEquals("#Error", spready.evaluate("A3"));	
+		
+	}
+	
+	@Test public void spreadsheetEvaluateA3_3What_returnsError() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A3", "3What'");
+		assertEquals("#Error", spready.evaluate("A3"));	
+		
+	}
+	
+	@Test public void spreadsheetEvaluateA3EgualsArbitary_returnsArbitary() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A3", "='Arbitary'");
+		assertEquals("Arbitary", spready.evaluate("A3"));	
+		
+	}
+	
+	@Test public void spreadsheetEvaluateA3EgualsElbaWrongFormatEnd_returnsError() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A3", "='Elba");
+		assertEquals("#Error", spready.evaluate("A3"));	
+		
+	}
+	
+	@Test public void spreadsheetEvaluateA3EgualsElbaWrongFormatStart_returnsError() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A3", "=Elba'");
+		assertEquals("#Error", spready.evaluate("A3"));	
+		
+	}
+	
+	@Test public void spreadsheetEvaluateA4Equals3_returns3() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A4", "=3");
+		assertEquals("3", spready.evaluate("A4"));	
+		
+	}
+	
+	@Test public void spreadsheetEvaluateA5EqualsMinus31_returnsMinus31() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A5", "=-31");
+		assertEquals("-31", spready.evaluate("A5"));	
+		
+	}
+	
+	@Test public void spreadsheetEvaluateA5EqualsCUL8R_returnsError() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A5", "CUL8R");
+		assertEquals("#Error", spready.evaluate("A5"));	
+		
+	}
+	
+	@Test public void spreadsheetEvaluateA5EqualsA3_returnsValueOfA3() {
+		Spreadsheet spready = new Spreadsheet();
+		Spreadsheet spready2 = new Spreadsheet();
+		
+		spready.set("A5", "14");
+		spready2.set("A3", "313");
+		spready.set("A5", "=A5");
+		assertEquals("313", spready.evaluate("A5"));	
+		
+	}
 }
+
