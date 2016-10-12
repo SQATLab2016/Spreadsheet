@@ -102,3 +102,12 @@ UnitTestCaseAction 1476272562644 SpreadsheetTest.java OK
 UnitTestSessionAction 1476272562645 SpreadsheetTest.java OK
 RefactoringAction 1476272623049 SpreadsheetTest.java ADD void testSpreadSheet_evaluateCellHandlingString_Exception()/2 METHOD
 EditAction 1476272642171 SpreadsheetTest.java 1657 7 21 5
+CompilationAction 1476272645141 SpreadsheetTest.java
+RefactoringAction 1476272651111 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellHandlingString_Exception()/2=>void testSpreadSheet_evaluateS() METHOD
+RefactoringAction 1476272652123 SpreadsheetTest.java RENAME testSpreadSheet_evaluateS()=>void testSpreadSheet_evaluateSin() METHOD
+RefactoringAction 1476272654138 SpreadsheetTest.java RENAME testSpreadSheet_evaluateSin()=>void testSpreadSheet_evaluateSimple() METHOD
+RefactoringAction 1476272656652 SpreadsheetTest.java RENAME testSpreadSheet_evaluateSimple()=>void testSpreadSheet_evaluateSimpleFormula() METHOD
+CompilationAction 1476272656894 SpreadsheetTest.java
+UnitTestCaseAction 1476272665504 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272665505 SpreadsheetTest.testSpreadSheet_evaluateSimpleFormula FAIL
+EditAction 1476272719990 Spreadsheet.java 705 3 3 0

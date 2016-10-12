@@ -18,6 +18,8 @@ public class Spreadsheet {
 			String result = "";
 			if (sheet.get(cell).startsWith("'") && sheet.get(cell).endsWith("'")) {
 				result = sheet.get(cell).replaceAll("'", "");
+			} else if (sheet.get(cell).startsWith("=")) {
+
 			} else
 				result = "" + Integer.parseInt(sheet.get(cell));
 			return result;

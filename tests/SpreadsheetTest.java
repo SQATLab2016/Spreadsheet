@@ -47,7 +47,7 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void testSpreadSheet_evaluateCellHandlingString_Exception() throws SpreadSheetException {
+	public void testSpreadSheet_evaluateSimpleFormula() throws SpreadSheetException {
 		Spreadsheet oneSheet = new Spreadsheet();
 		oneSheet.set("A1", "='a string'");
 		assertEquals("a string", oneSheet.evaluate("A1"));
