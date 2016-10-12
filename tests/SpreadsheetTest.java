@@ -49,4 +49,16 @@ public class SpreadsheetTest {
 		sheet.set("A1", "=-2");
 		assertEquals("-2", sheet.evaluate("A1"));
 	}
+	
+	@Test
+	public void test_simpleStringFormula_withError() {
+		sheet.set("A1", "='string");
+		assertEquals("string", sheet.evaluate("A1"));
+	}
+	
+	@Test
+	public void test_simpleIntegerFormula_withError() {
+		sheet.set("A1", "=5A");
+		assertEquals("-2", sheet.evaluate("A1"));
+	}
 }

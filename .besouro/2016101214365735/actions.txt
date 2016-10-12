@@ -125,3 +125,11 @@ UnitTestSessionAction 1476273430748 SpreadsheetTest.java OK
 EditAction 1476273494110 Spreadsheet.java 1239 6 13 0
 EditAction 1476273512446 Spreadsheet.java 1303 6 13 0
 EditAction 1476273517081 Spreadsheet.java 1364 6 14 0
+UnitTestCaseAction 1476273527797 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273527799 SpreadsheetTest.java OK
+RefactoringAction 1476273554702 SpreadsheetTest.java ADD void test_simpleStringFormula()/2 METHOD
+RefactoringAction 1476273554704 SpreadsheetTest.java ADD void test_simpleIntegerFormula()/2 METHOD
+RefactoringAction 1476273558724 SpreadsheetTest.java RENAME test_simpleStringFormula()/2=>void test_simpleStringFormula_withError() METHOD
+RefactoringAction 1476273560241 SpreadsheetTest.java RENAME test_simpleIntegerFormula()/2=>void test_simpleIntegerFormula_() METHOD
+RefactoringAction 1476273561255 SpreadsheetTest.java RENAME test_simpleIntegerFormula_()=>void test_simpleIntegerFormula_withError() METHOD
+EditAction 1476273567922 SpreadsheetTest.java 1399 9 18 9
