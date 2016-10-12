@@ -40,17 +40,20 @@ public class Spreadsheet {
 		if (!(value.charAt(0).equals("'") && value.charAt(value.length()).equals("'")))
 			return false;
 		
+		if (2 == characterCount(value, "'"))
+			return true; 
 		
+		throw new SpreadsheetException("String contains ' characters that are not the first or last characters");
 	}
 	
-	private int characterCount(String str, String target) {
+	private int characterCount(String str, String targetChar) throws SpreadsheetException {
 		int count = 0;
 		
-		if (target.length() != 1)
+		if (targetChar.length() != 1)
 			throw new SpreadsheetException("Character count target length must be 1");
 		
 		for (int i = 0; i < str.length(); i++) {
-			if (charAsStringFromPos(str, i).equals(target))
+			if (charAsStringFromPos(str, i).equals(targetChar))
 				count++;
 		}
 		
