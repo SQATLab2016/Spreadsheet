@@ -45,4 +45,8 @@ public class Spreadsheet {
 		
 		return false;
 	}
+	
+	private boolean isInteger(String value) {
+		
+	}
 }

@@ -81,3 +81,10 @@ CompilationAction 1476273003233 Spreadsheet.java
 RefactoringAction 1476273020156 SpreadsheetTest.java ADD void test_evaluateStringCell() METHOD
 EditAction 1476273026031 SpreadsheetTest.java 633 4 7 3
 EditAction 1476273037342 SpreadsheetTest.java 682 4 8 4
+UnitTestCaseAction 1476273044359 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476273044361 SpreadsheetTest.java FAIL
+RefactoringAction 1476273079112 Spreadsheet.java ADD boolean is FIELD
+RefactoringAction 1476273081632 Spreadsheet.java RENAME is=>boolean isNumber FIELD
+RefactoringAction 1476273084157 Spreadsheet.java RENAME isNumber=>boolean isNumber(String) METHOD
+RefactoringAction 1476273091711 Spreadsheet.java RENAME isNumber(String)=>boolean isInteger(String) METHOD
+EditAction 1476273091757 Spreadsheet.java 1061 5 9 0
