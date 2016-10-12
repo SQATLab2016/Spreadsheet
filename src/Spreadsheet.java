@@ -34,6 +34,10 @@ public class Spreadsheet {
 				value.charAt(value.length() - 1) == '\'');
 	}
 	
+	private String evaluateString(String value) {value.charAt(0) == '\'' &&
+			value.charAt(value.length() - 1) == '\'')
+	}
+	
 	private boolean isCircularRecursive(String value) {
 		if (isAssignment(value)) {
 			String key = value.substring(1, value.length());
@@ -68,6 +72,7 @@ public class Spreadsheet {
 		if (value.length() > 0) {
 			if (isAssignment(value)) {
 				value = value.substring(1, value.length());
+				
 				if (isString(value)) {
 					if (value.charAt(0) == '\'' &&
 						value.charAt(value.length() - 1) == '\'') {
