@@ -17,8 +17,9 @@ public class Spreadsheet {
 		//if(value.matches("[0-9]+") &&(!(value.contains("[a-zA-Z]+")))) throw new SpreadsheetException("sjadasdajsd");
 		
 	    for (int i = 0; i < value.length(); i++) {
-	        if (!Character.isDigit(value.charAt(i)) || !(value.charAt(i) == '-'))
-	        	throw new SpreadsheetException("sjadasdajsd");
+	        if (!Character.isDigit(value.charAt(i)))
+	        	if(!(value.charAt(i) == '-'))
+	        		throw new SpreadsheetException("sjadasdajsd");
 	      }
 		//Put the cell and value to excell hashmap
 
