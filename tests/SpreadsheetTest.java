@@ -30,6 +30,11 @@ public class SpreadsheetTest {
 	
 	@Test
 	public void testWronglyFormattedInteger_expectSuccess() {
-		fail("not implemented yet");
+		spreadsheet.set("A1", "4327");
+		spreadsheet.set("A2", "437813");
+		spreadsheet.set("A3", "2305843570");
+		spreadsheet.set("A4", "574139578490");
+		spreadsheet.set("A5", "-4719472819");
+		spreadsheet.set("A6", "-99378914327");
 	}
 }

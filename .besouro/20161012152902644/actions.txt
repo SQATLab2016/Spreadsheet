@@ -2,3 +2,6 @@ FileOpenedAction 1476275342933 SpreadsheetTest.java 803 4 7 3
 CompilationAction 1476275503008 SpreadsheetTest.java
 CompilationAction 1476275503164 SpreadsheetTest.java
 EditAction 1476275519071 SpreadsheetTest.java 859 4 7 3
+UnitTestCaseAction 1476275522266 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275522267 SpreadsheetTest.java FAIL
+EditAction 1476275603353 SpreadsheetTest.java 1057 4 12 3
