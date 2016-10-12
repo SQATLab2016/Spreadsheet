@@ -74,9 +74,9 @@ public class Spreadsheet {
 					
 				} else if (value.charAt(1) == '-' || (value.charAt(1) >= '0' && value.charAt(1) <= '9')) {
 					boolean isInteger = true;
-					for (int i = 1; i < value.length(); i++) {
+					for (int i = 0; i < value.length(); i++) {
 						char c = value.charAt(i);
-						if (i == 1 && c == '-')
+						if (i == 0 && c == '-')
 							continue;
 						
 						if (c < '0' || c > '9') {
@@ -85,9 +85,7 @@ public class Spreadsheet {
 						}
 					}
 					
-					if (isInteger) {
-						value = value.substring(1, value.length());
-					} else {
+					if (!isInteger) {
 						value = ERROR;
 					}
 					
