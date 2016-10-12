@@ -41,9 +41,9 @@ public class Spreadsheet {
 		if (!(charAsStringFromPos(value, 0).equals("'") && charAsStringFromPos(value, value.length() - 1).equals("'")))
 			return false;
 		
-		
+		if (false == STR_MARKS_ALLOWED_INSIDE_STRING)
 		if (2 == characterCount(value, "'"))
-			return true; 
+			return true;
 		
 		throw new SpreadsheetException("String contains ' character(s) that is not at the beginning or end of string");
 	}
