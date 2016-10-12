@@ -467,3 +467,7 @@ UnitTestSessionAction 1476274991476 SpreadsheetTest.java FAIL
 EditAction 1476275027775 Spreadsheet.java 2640 3 6 0
 EditAction 1476275033538 Spreadsheet.java 2634 3 6 0
 EditAction 1476275065332 Spreadsheet.java 2725 3 2 0
+CompilationAction 1476275065458 Spreadsheet.java
+CompilationAction 1476275065458 Spreadsheet.java
+CompilationAction 1476275084736 Spreadsheet.java
+EditAction 1476275089825 Spreadsheet.java 2320 3 5 0

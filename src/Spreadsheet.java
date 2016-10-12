@@ -64,8 +64,11 @@ public class Spreadsheet {
 					
 				} else if (value.charAt(1) >= 'A' && value.charAt(1) <= 'Z') {
 					String key = value.substring(1, value.length());
-					if (mValues.containsKey()
-					value = "&" + value.substring(1, value.length());
+					if (mValues.containsKey(key)) {
+						
+					} else {
+						value = ERROR;
+					}
 					
 				} else {
 					value = ERROR;
@@ -91,20 +94,6 @@ public class Spreadsheet {
 				
 				if (!isInteger)
 					value = ERROR;
-			}
-		}
-		
-		if (value != null && value.length() > 0 && value.charAt(0) == '&') {
-			String key = value.substring(1, value.length());
-			if (mValues.containsKey(key)) {
-				String refValue = (String) mValues.get(key);
-				if (refValue.length() > 0 && refValue.charAt(0) == '&' && refValue.equals("&" + cell)) {
-					return CIRCULAR;
-				} else {
-					return refValue;
-				}
-			} else {
-				return ERROR;
 			}
 		}
 		
