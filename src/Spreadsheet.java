@@ -107,6 +107,7 @@ public class Spreadsheet {
 				} else {
 					value = ERROR;
 				}
+				
 			} else if (value.charAt(0) == '\'') {
 				if (value.length() > 1 && value.charAt(value.length() - 1) == '\'') {
 					value = value.substring(1, value.length() - 1);

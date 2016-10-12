@@ -645,3 +645,12 @@ EditAction 1476276918594 Spreadsheet.java 3326 9 12 0
 EditAction 1476276936084 Spreadsheet.java 3119 9 12 0
 EditAction 1476276966687 Spreadsheet.java 3131 9 12 0
 EditAction 1476276970175 Spreadsheet.java 3130 9 12 0
+UnitTestCaseAction 1476276971476 SpreadsheetTest.java OK
+UnitTestSessionAction 1476276971477 SpreadsheetTest.java OK
+UnitTestCaseAction 1476277028088 SpreadsheetTest.java OK
+UnitTestSessionAction 1476277028088 SpreadsheetTest.java OK
+RefactoringAction 1476277058552 Spreadsheet.java RENAME isInteger(String)=>boolean isIntegerLiteral(String) METHOD
+RefactoringAction 1476277063567 Spreadsheet.java RENAME isString(String)=>boolean isStringLiteral(String) METHOD
+RefactoringAction 1476277068581 Spreadsheet.java ADD boolean isInteger(String) METHOD
+RefactoringAction 1476277068582 Spreadsheet.java ADD boolean isString(String) METHOD
+EditAction 1476277069073 Spreadsheet.java 3135 9 12 0
