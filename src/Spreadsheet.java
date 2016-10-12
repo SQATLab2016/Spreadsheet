@@ -13,6 +13,7 @@ public class Spreadsheet {
 		
 		boolean selfChecked = false;
 		
+		String startingCell = cell;
 		while (isReference(value)) {
 			if (!selfChecked && value.substring(1).equals(cell)) {
 				value = ERROR_VALUE;
