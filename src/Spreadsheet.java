@@ -43,7 +43,7 @@ public class Spreadsheet {
 		if (2 == characterCount(value, "'"))
 			return true; 
 		
-		throw new SpreadsheetException("String contains ' characters that are not the first or last characters");
+		throw new SpreadsheetException("String contains ' character(s) that is not at the beginning or end of string");
 	}
 	
 	private int characterCount(String str, String targetChar) throws SpreadsheetException {
