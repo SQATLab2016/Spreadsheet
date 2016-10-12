@@ -65,6 +65,20 @@ public class Spreadsheet {
 		return false;
 	}
 	
+	private boolean isIntegerFormula(String value) {
+		if (!value.startsWith("="))
+			return false;
+		
+		for (int i = 1; i < value.length(); i++) {
+			if (!Character.isDigit(value.charAt(i)) &&)
+				value.charAt(i) != '+') {
+					return false;
+				}
+		}
+		
+		return true;
+	}
+	
 	private boolean isIntegerCellValue(String value) {
 		try {
 			if (isFormula(value))
