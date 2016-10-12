@@ -23,7 +23,9 @@ public class Spreadsheet {
 		int tempValue;
 		String tempString = this.value;
 		
-		if ((tempString.endsWith("'")) && (tempString.startsWith("'"))
+		if ((tempString.endsWith("'")) && (tempString.startsWith("'"))){
+			
+		}
 		
 		try {
 		tempValue = Integer.parseInt(this.value);
