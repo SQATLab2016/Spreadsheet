@@ -18,6 +18,12 @@ public class Spreadsheet {
 						value = "#Error";
 					}
 					
+				} else if ((value.charAt(value.length() - 1) == '\'')) {
+					if (value.charAt(value.length() - 1) == '\'' && value.length() > 2) {
+						value = value.substring(2, value.length() - 1);
+					} else {
+						value = "#Error";
+					}
 				} else if (value.charAt(1) == '-' || (value.charAt(1) >= '0' && value.charAt(1) <= '9')) {
 					boolean isInteger = true;
 					for (int i = 1; i < value.length(); i++) {
