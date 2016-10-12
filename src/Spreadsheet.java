@@ -54,6 +54,7 @@ public class Spreadsheet {
 				return ERROR_VALUE;
 			}
 			
+			int value = 0;
 			for (int i = 0; i < splitFormula.length; i++) {
 				
 			}
