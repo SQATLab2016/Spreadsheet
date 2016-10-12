@@ -94,22 +94,18 @@ public class Spreadsheet {
 		if (!value.startsWith("="))
 			return false;
 		
-		boolean operatorFound = false;
-		for (int i = 1; i < value.length(); i++) {
-			if (!Character.isDigit(value.charAt(i)) &&
-				value.charAt(i) != '+' &&
-				value.charAt(i) != '-' &&
-				value.charAt(i) != '*' &&
-				value.charAt(i) != '/') {
-					return false;
-				}
-		}
-		
 		String[] splitFormula = value.substring(1).split("(?<=[-+*/])|(?=[-+*/])");
+		
+		if (splitFormula.length < 3 || splitFormula.length % 2 != 1)
+			return false;
+		
 		for (int i = 0; i < splitFormula.length; i++) {
 			if (i % 2 == 0) {
-				if (!Character.isDigit(splitFormula[i]))
+				try {
+					Integer.parseInt(splitFormula[i]);
+				} catch (NumberFormatException nfe) {
 					return false;
+				}
 			} else {
 				if (value.charAt(i) != '+' &&
 					value.charAt(i) != '-' &&
