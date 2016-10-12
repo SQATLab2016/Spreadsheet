@@ -55,6 +55,13 @@ public class Spreadsheet {
 	}
 	
 	public String evaluate(String cell) {
+		String errorMessg = "#Error";
+		int op1;
+		try {
+		    op1 = Integer.parseInt(get(cell));
+		} catch (NumberFormatException e) {
+		    return errorMessg;
+		}
 		
 		return get(cell);
 		
