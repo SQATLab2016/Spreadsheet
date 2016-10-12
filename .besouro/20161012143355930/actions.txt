@@ -63,3 +63,9 @@ EditAction 1476276828232 SpreadsheetTest.java 247 1 3 1
 UnitTestCaseAction 1476276830731 SpreadsheetTest.java OK
 UnitTestSessionAction 1476276830732 SpreadsheetTest.java OK
 EditAction 1476276856484 SpreadsheetTest.java 247 1 3 1
+UnitTestCaseAction 1476276858747 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276858748 SpreadsheetTest.java FAIL
+RefactoringAction 1476276880592 SpreadsheetTest.java ADD void testGetCell()/2 METHOD
+RefactoringAction 1476276886106 SpreadsheetTest.java RENAME testGetCell()/2=>void testSetGetCell() METHOD
+RefactoringAction 1476276888118 SpreadsheetTest.java RENAME testSetGetCell()=>void testSetCell() METHOD
+EditAction 1476276893097 SpreadsheetTest.java 400 2 6 2
