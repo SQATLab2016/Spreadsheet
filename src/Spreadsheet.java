@@ -27,6 +27,8 @@ public class Spreadsheet {
 		
 		while (isReference(value)) {
 			value = table.get(value.substring(1));
+			if (value == null)
+				value = ERROR_VALUE;
 		}
 		
 		if (isFormula(value)) {
