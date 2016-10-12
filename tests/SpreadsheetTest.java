@@ -8,9 +8,11 @@ public class SpreadsheetTest {
 
 	@Test
 	public void setMethodA1_2_works() {
-		Spreadsheet cell = new Spreadsheet();
-		cell.set("A1", "2");
+		Spreadsheet spready = new Spreadsheet();
 		
+		spready.set("A1", "2");
+		
+		.assertEquals
 		fail("Not yet implemented");
 		
 	}

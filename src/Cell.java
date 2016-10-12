@@ -1,4 +1,3 @@
-import static java.lang.*;
 
 public class Cell {
 	private String cellName;

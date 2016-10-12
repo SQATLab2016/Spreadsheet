@@ -51,3 +51,5 @@ RefactoringAction 1476272582791 Cell.java ADD Cell(String, String) METHOD
 EditAction 1476272608248 Cell.java 517 5 6 0
 CompilationAction 1476272608355 Cell.java
 EditAction 1476272613857 Cell.java 502 5 6 0
+CompilationAction 1476272613971 Cell.java
+EditAction 1476272688060 SpreadsheetTest.java 336 2 1 0
