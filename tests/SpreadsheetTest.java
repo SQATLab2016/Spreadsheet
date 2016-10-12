@@ -27,7 +27,7 @@ public class SpreadsheetTest {
 	public void testEvaluateNunmberHandlingCell() {
 		Spreadsheet sh = new Spreadsheet(5,5);
 		sh.set("A1", "-1");
-		System.out.print(sh.get("A1"));
+		//System.out.print(sh.get("A1"));
 		assertEquals(sh.get("A1"),"-1");
 		
 	}
