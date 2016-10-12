@@ -588,3 +588,12 @@ EditAction 1476276401484 Spreadsheet.java 3252 7 10 0
 UnitTestCaseAction 1476276404212 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476276404212 SpreadsheetTest.java FAIL
 EditAction 1476276457670 Spreadsheet.java 3187 7 10 0
+UnitTestCaseAction 1476276459366 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276459366 SpreadsheetTest.java FAIL
+RefactoringAction 1476276476492 Spreadsheet.java RENAME isReference(String)=>boolean isVariable(String) METHOD
+RefactoringAction 1476276480006 Spreadsheet.java RENAME isVariable(String)=>boolean isReference(String) METHOD
+RefactoringAction 1476276488023 Spreadsheet.java REMOVE isAssignment(String) METHOD
+RefactoringAction 1476276488024 Spreadsheet.java REMOVE isReference(String) METHOD
+RefactoringAction 1476276491038 Spreadsheet.java ADD boolean isReference(String) METHOD
+RefactoringAction 1476276491039 Spreadsheet.java ADD boolean isAssignment(String) METHOD
+EditAction 1476276491341 Spreadsheet.java 3194 7 10 0
