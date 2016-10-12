@@ -342,3 +342,5 @@ EditAction 1476277020895 Spreadsheet.java 4745 10 35 0
 EditAction 1476277065961 Spreadsheet.java 4939 10 35 0
 EditAction 1476277082295 Spreadsheet.java 4956 10 35 0
 EditAction 1476277088563 Spreadsheet.java 4978 10 35 0
+RefactoringAction 1476277101713 SpreadsheetTest.java ADD void test_stringOperation() METHOD
+EditAction 1476277108155 SpreadsheetTest.java 3065 20 42 19

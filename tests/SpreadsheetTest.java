@@ -124,4 +124,9 @@ public class SpreadsheetTest {
 		sheet.set("A1", "=2/0");
 		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
 	}
+	
+	@Test
+	public void test_stringOperation() {
+		sheet.set("A1", "=a&string");
+	}
 }
