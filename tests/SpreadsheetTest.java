@@ -186,4 +186,11 @@ public class SpreadsheetTest {
 		assertEquals("#Error", evaluatedValue);
 	}
 
+	@Test
+	public void test_integer_operation_with_parentheses_unbalanced_2() {
+		s.set("A1", "=1+1*2)");
+		String evaluatedValue = s.evaluate("A1");
+		assertEquals("#Error", evaluatedValue);
+	}
+
 }
