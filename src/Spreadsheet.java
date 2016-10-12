@@ -70,12 +70,18 @@ public class Spreadsheet {
 					result = evaluateOperator(result, previousIntegerValue, operator);
 
 				}
-			}
-			else if(isOperator(value.substring(stringIndex, stringIndex + 1))){
-				
+			} else if (isOperator(value.substring(stringIndex, stringIndex + 1))) {
+				operator = value.substring(stringIndex, stringIndex + 1);
 			}
 		}
 		return result;
+	}
+
+	private boolean isOperator(String substring) {
+		if (substring.equals("+") || substring.equals("-") || substring.equals("*") || substring.equals("/")
+				|| substring.equals("%"))
+			return true;
+		return false;
 	}
 
 	private int evaluateOperator(int result, int parseInt, String operator) {
