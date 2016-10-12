@@ -86,7 +86,7 @@ public class Spreadsheet {
 			String key = value.substring(1, value.length());
 			if (mValues.containsKey(key)) {
 				String refValue = (String) mValues.get(key);
-				if (refValue.length() > 0 && refValue.charAt(0) == '&' && refValue.equals(mValues)) {
+				if (refValue.length() > 0 && refValue.charAt(0) == '&' && refValue.equals(cell)) {
 					return CIRCULAR;
 				} else {
 					return refValue;
