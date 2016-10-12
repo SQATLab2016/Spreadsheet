@@ -125,4 +125,11 @@ public class SpreadsheetTest {
 		oneSheet.set("A1", "=1+(2*2)");
 		assertEquals("5", oneSheet.evaluate("A1"));
 	}
+	
+	@Test (expected = SpreadSheetException.class)
+	public void testSpreadSheet_evaluateParentheses_Exception() throws SpreadSheetException {
+		Spreadsheet oneSheet = new Spreadsheet();
+		oneSheet.set("A1", "=1+(2*2");
+		oneSheet.evaluate("A1");
+	}
 }

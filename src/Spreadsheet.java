@@ -97,12 +97,12 @@ public class Spreadsheet {
 			} else if (value.charAt(stringIndex) == '(') {
 				int nextIndex = value.indexOf(")");
 				if (nextIndex >= 0) {
-					intermidiateResult = arithmeticOperation(value.substring(stringIndex + 1, (nextIndex - 1)));
-					value.replace("(" + value.substring(stringIndex + 1, (nextIndex - 1)) + ")",
-							"" + intermidiateResult);
+					String intermidiateString = value.substring((stringIndex+1), nextIndex);
+					intermidiateResult = arithmeticOperation(intermidiateString);
 					integerValue = true;
 					previousIntegerValue = intermidiateResult;
 					result = evaluateOperator(result, previousIntegerValue, operator);
+					stringIndex = nextIndex;
 				}
 			} else {
 				throw new SpreadSheetException();
