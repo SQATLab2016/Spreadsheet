@@ -1,0 +1,9 @@
+FileOpenedAction 1476272109604 Spreadsheet.java 271 3 2 0
+RefactoringAction 1476272123148 Cell.java ADD Cell.java CLASS
+FileOpenedAction 1476272123273 Cell.java 28 0 0 0
+RefactoringAction 1476272156319 Cell.java ADD import java IMPORT
+RefactoringAction 1476272157825 Cell.java RENAME import java=>import java.lan IMPORT
+RefactoringAction 1476272160330 Cell.java RENAME import java.lan=>import java.lanmg IMPORT
+RefactoringAction 1476272161339 Cell.java RENAME import java.lanmg=>import java.lang IMPORT
+RefactoringAction 1476272162848 Cell.java RENAME import java.lang=>import java.lang.* IMPORT
+EditAction 1476272163426 Cell.java 64 0 0 0
