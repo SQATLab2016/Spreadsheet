@@ -9,9 +9,9 @@ public class SpreadsheetTest {
 	@Test
 	public void testGetCell() {
 		Spreadsheet sh = new Spreadsheet(5,5);
-		
-		assertEquals(sh.get("A1"),"5");
 		System.out.print(sh.get("A1"));
+		assertEquals(sh.get("A1"),"5");
+		
 	}
 
 }
