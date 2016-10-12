@@ -90,7 +90,12 @@ public class Spreadsheet {
 		p = Pattern.compile("^=?'(.*)('?&'?(.*))+'$");
 		m = p.matcher(value);
 		if (m.find()) {
-			if (m.group(2).split("'&'").length != m.group(2).split("&").length) {
+			int totalCount = m.groupCount();
+			
+			p = Pattern.compile("^=?'(.*)('&'(.*))+'$");
+			m = p.matcher(value);
+			
+			if (m.find() || m.groupCount() != totalCount) {
 				return "#Error";
 			}
 			
