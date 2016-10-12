@@ -18,12 +18,16 @@ public class Spreadsheet {
 		if (cellStored.startsWith("'")) {
 			return cellStored.substring(1, cellStored.length() - 1);
 		} else {
-			try {
-				Integer.parseInt(sheet.get(cell));
-				return sheet.get(cell);
-			} catch (NumberFormatException ex) {
-				return "#ERROR";
-			}
+			return evaluateInt(cell);
+		}
+	}
+
+	private String evaluateInt(String cell) {
+		try {
+			Integer.parseInt(sheet.get(cell));
+			return sheet.get(cell);
+		} catch (NumberFormatException ex) {
+			return "#ERROR";
 		}
 	}
 

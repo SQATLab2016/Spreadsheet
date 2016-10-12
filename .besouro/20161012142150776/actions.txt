@@ -88,3 +88,7 @@ EditAction 1476272987163 Spreadsheet.java 601 3 4 0
 UnitTestCaseAction 1476272993013 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476272993014 SpreadsheetTest.java FAIL
 EditAction 1476273002580 Spreadsheet.java 601 3 4 0
+UnitTestCaseAction 1476273007370 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273007371 SpreadsheetTest.java OK
+RefactoringAction 1476273033096 Spreadsheet.java ADD String evaluateInt(String) METHOD
+EditAction 1476273033103 Spreadsheet.java 671 4 5 0
