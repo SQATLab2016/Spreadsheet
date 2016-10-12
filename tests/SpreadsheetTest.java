@@ -130,4 +130,11 @@ public class SpreadsheetTest {
 		assertEquals("3", evaluatedValue);
 	}
 
+	@Test
+	public void test_integer_operation_plus_minus() {
+		s.set("A1", "=5+8-7");
+		String evaluatedValue = s.evaluate("A1");
+		assertEquals("6", evaluatedValue);
+	}
+
 }

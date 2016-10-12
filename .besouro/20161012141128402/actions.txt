@@ -49,3 +49,8 @@ CompilationAction 1476271647848 Spreadsheet.java
 UnitTestCaseAction 1476271650035 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476271650035 SpreadsheetTest.java FAIL
 EditAction 1476271669801 Spreadsheet.java 2193 3 21 0
+UnitTestCaseAction 1476271673797 SpreadsheetTest.java OK
+UnitTestSessionAction 1476271673797 SpreadsheetTest.java OK
+RefactoringAction 1476271688898 SpreadsheetTest.java ADD void test_integer_operation_plus_1()/2 METHOD
+RefactoringAction 1476271691472 SpreadsheetTest.java RENAME test_integer_operation_plus_1()/2=>void test_integer_operation_plus_minus() METHOD
+EditAction 1476271702517 SpreadsheetTest.java 3527 18 57 18
