@@ -70,6 +70,15 @@ public class SpreadsheetTest {
 		assertEquals(sheet.evaluate("C3"), "4");		
 		
 	}
+	
+	@Test
+	public void testSpreadsheetequalSignWithError_Int_setC3_EqualsD3_evaluateC3_return_Error(){
+		sheet.set("C3", "=D3");
+		
+		assertEquals(sheet.evaluate("C3"), "#ERROR");		
+		
+	}
+
 
 
 }
