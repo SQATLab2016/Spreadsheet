@@ -22,5 +22,13 @@ public class SpreadsheetTest {
 		
 	}
 	
+	@Test public void spreadsheetEvaluateA2_D4_returnsError() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A2", "-5");
+		assertEquals("-5", spready.evaluate("A2"));	
+		
+	}
+	
 }
 
