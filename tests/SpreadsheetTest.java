@@ -34,7 +34,7 @@ public class SpreadsheetTest {
 		Spreadsheet spready = new Spreadsheet();
 		
 		spready.set("A3", "'What'");
-		assertEquals("'What'", spready.evaluate("A3"));	
+		assertEquals("What", spready.evaluate("A3"));	
 		
 	}
 }
