@@ -28,17 +28,17 @@ public class Spreadsheet {
 		if (isAssignment(value)) {
 			String key = value.substring(1, value.length());
 			if (isReference(key)) {
-			if (mVisited.contains(key)) {
-				return true;
-				
-			} else {
-				if (mValues.containsKey(key)) {
-					mVisited.add(key);
-					return isCircularRecursive(get(key));
+				if (mVisited.contains(key)) {
+					return true;
+					
 				} else {
-					return false;
+					if (mValues.containsKey(key)) {
+						mVisited.add(key);
+						return isCircularRecursive(get(key));
+					} else {
+						return false;
+					}
 				}
-			}
 			} else {
 				return false;
 			}
