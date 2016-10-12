@@ -333,3 +333,6 @@ UnitTestSessionAction 1476279135285 SpreadsheetTest.java OK
 RefactoringAction 1476279146909 SpreadsheetTest.java ADD void testSpreadsheetFormulaCalculation_evaluateModFormula()/2 METHOD
 RefactoringAction 1476279156422 SpreadsheetTest.java RENAME testSpreadsheetFormulaCalculation_evaluateModFormula()/2=>void testSpreadsheetFormulaCalculation_evaluateadditionMultiplicationFormula() METHOD
 EditAction 1476279178983 SpreadsheetTest.java 3613 19 42 19
+UnitTestCaseAction 1476279185359 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476279185360 SpreadsheetTest.java FAIL
+EditAction 1476279359268 SpreadsheetTest.java 3614 19 42 19
