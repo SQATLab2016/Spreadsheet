@@ -45,5 +45,13 @@ public class SpreadsheetTest {
 		assertEquals("#Error", spready.evaluate("A3"));	
 		
 	}
+	
+	@Test public void spreadsheetEvaluateA2_3What_returnsError() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A3", "3What'");
+		assertEquals("#Error", spready.evaluate("A3"));	
+		
+	}
 }
 

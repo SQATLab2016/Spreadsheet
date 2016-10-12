@@ -296,3 +296,9 @@ RefactoringAction 1476275462467 SpreadsheetTest.java ADD void spreadsheetEvaluat
 RefactoringAction 1476275481496 SpreadsheetTest.java RENAME spreadsheetEvaluateA2_What_returnsWhat()/2=>void spreadsheetEvaluateA2_What2_returnsWhat() METHOD
 RefactoringAction 1476275484506 SpreadsheetTest.java RENAME spreadsheetEvaluateA2_What2_returnsWhat()=>void spreadsheetEvaluateA2_What2_returnsError() METHOD
 EditAction 1476275487108 SpreadsheetTest.java 1039 5 15 5
+UnitTestCaseAction 1476275489560 SpreadsheetTest.java OK
+UnitTestSessionAction 1476275489560 SpreadsheetTest.java OK
+RefactoringAction 1476275540527 SpreadsheetTest.java ADD void spreadsheetEvaluateA2_What2_returnsError()/2 METHOD
+RefactoringAction 1476275544551 SpreadsheetTest.java RENAME spreadsheetEvaluateA2_What2_returnsError()/2=>void spreadsheetEvaluateA2_What_returnsError() METHOD
+RefactoringAction 1476275545563 SpreadsheetTest.java RENAME spreadsheetEvaluateA2_What_returnsError()=>void spreadsheetEvaluateA2_3What_returnsError() METHOD
+EditAction 1476275551028 SpreadsheetTest.java 1239 6 18 6
