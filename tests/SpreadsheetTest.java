@@ -29,5 +29,6 @@ public class SpreadsheetTest {
 	@Test
 	public void test_evaluateStringCell() {
 		sheet.set("A1", "'string'");
+		assertEquals("string", sheet.evaluate("A1"));
 	}
 }
