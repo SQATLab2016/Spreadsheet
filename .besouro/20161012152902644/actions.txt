@@ -43,3 +43,7 @@ RefactoringAction 1476275940128 Spreadsheet.java RENAME contain()=>void contains
 RefactoringAction 1476275954205 Spreadsheet.java RENAME containsString()=>boolean containsString(String) METHOD
 RefactoringAction 1476276061831 Spreadsheet.java ADD String evaluatedString() METHOD
 EditAction 1476276067251 Spreadsheet.java 1944 9 17 0
+CompilationAction 1476276067479 Spreadsheet.java
+CompilationAction 1476276067480 Spreadsheet.java
+CompilationAction 1476276067480 Spreadsheet.java
+EditAction 1476276072115 Spreadsheet.java 1956 9 18 0

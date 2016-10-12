@@ -41,7 +41,7 @@ public class Spreadsheet {
 	}
 	
 	private String evaluatedString(String unevaluatedString) {
-		
+		return null;
 	}
 	
 	private String charAsStringFromPos(String str, int pos) throws SpreadsheetException {
