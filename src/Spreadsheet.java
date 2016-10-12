@@ -21,32 +21,24 @@ public class Spreadsheet {
 	
 	public String get(String cell) {
 		
-		for(int i=0; i<row;++i) {
-			for(int j=0; j<column;++j) {
-				
-				if(cells[i][j].location.equals(cell)) 
-					return cells[i][j].value;
-				
-			}
-		}
+		Index index = this.getCellIndex(cell);
+		
+		if(index != null) 
+			return cells[index.i][index.j].value;
 		
 		return null;
+		
 	}
 	
 	public void set(String cell, String value) {
 		
-		for(int i=0; i<row;++i) {
-			for(int j=0; j<column;++j) {
-				
-				if(cells[i][j].location.equals(cell)) { 
-					cells[i][j].value = value;
-					return;
-				}	
-				
-			}
-		}
+		Index index = this.getCellIndex(cell);
+		
+		if(index != null) 
+			cells[index.i][index.j].value = value;
 		
 	}
+	
 	Index getCellIndex(String cell){
 		Index index = null;
 		for(int i=0; i<row;++i) {
@@ -59,6 +51,7 @@ public class Spreadsheet {
 				
 			}
 		}
+		return index;
 	}
 	
 	public String evaluate(String cell) {
