@@ -48,6 +48,7 @@ public class Spreadsheet {
 		String value = get(cell);
 		
 		if (isIntegerFormula(value)) {
+			String[] splitFormula = split("(?<=[-+*/])|(?=[-+*/])");
 			
 		}
 		
