@@ -130,3 +130,6 @@ UnitTestSessionAction 1476273006480 SpreadsheetTest.java OK
 RefactoringAction 1476273019842 SpreadsheetTest.java ADD void testSpreadSheet_evaluateSimpleFormula()/2 METHOD
 RefactoringAction 1476273060358 SpreadsheetTest.java RENAME testSpreadSheet_evaluateSimpleFormula()/2=>void testSpreadSheet_evaluateCellReference() METHOD
 EditAction 1476273092135 SpreadsheetTest.java 2135 9 28 6
+UnitTestCaseAction 1476273100733 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476273100734 SpreadsheetTest.java FAIL
+EditAction 1476273307644 Spreadsheet.java 1063 3 3 0
