@@ -576,3 +576,6 @@ EditAction 1476276129499 SpreadsheetTest.java 3281 18 57 17
 UnitTestCaseAction 1476276131158 SpreadsheetTest.java OK
 UnitTestSessionAction 1476276131158 SpreadsheetTest.java OK
 EditAction 1476276140511 Spreadsheet.java 2958 5 8 0
+RefactoringAction 1476276215254 Spreadsheet.java ADD void isVariable() METHOD
+RefactoringAction 1476276219770 Spreadsheet.java RENAME isVariable()=>void isVariable(String) METHOD
+EditAction 1476276244425 Spreadsheet.java 3088 6 9 0

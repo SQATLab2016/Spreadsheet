@@ -16,6 +16,10 @@ public class Spreadsheet {
 		mValues.put(cell, value);
 	}
 	
+	private boolean isVariable(String value) {
+		return value.length() > 0 && value.charAt(1) >= 'A' && value.charAt(1) <= 'Z';
+	}
+	
 	private boolean isCircularRecursive(String value) {
 		if (value.length() > 1 && value.charAt(0) == '='
 				&& value.charAt(1) >= 'A' && value.charAt(1) <= 'Z') {
