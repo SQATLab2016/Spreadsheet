@@ -165,3 +165,20 @@ RefactoringAction 1476278120109 SpreadsheetTest.java RENAME evaluateString_TooMa
 RefactoringAction 1476278127122 SpreadsheetTest.java RENAME evaluateString_TooManyStrMarks=>void evaluateString_TooManyStrMarks() METHOD
 EditAction 1476278213264 SpreadsheetTest.java 1547 6 16 5
 EditAction 1476278274348 SpreadsheetTest.java 1692 6 15 5
+CompilationAction 1476278274604 SpreadsheetTest.java
+CompilationAction 1476278274604 SpreadsheetTest.java
+CompilationAction 1476278278300 SpreadsheetTest.java
+CompilationAction 1476278278302 SpreadsheetTest.java
+CompilationAction 1476278278453 SpreadsheetTest.java
+CompilationAction 1476278278453 SpreadsheetTest.java
+RefactoringAction 1476278348534 Spreadsheet.java ADD String STR_MARK_IN_T FIELD
+RefactoringAction 1476278352050 Spreadsheet.java RENAME STR_MARK_IN_T=>String STR_MARK_IN_THE_MIDDLE_ERROR_MSG FIELD
+RefactoringAction 1476278384637 Spreadsheet.java ADD void character() METHOD
+RefactoringAction 1476278387152 Spreadsheet.java REMOVE character() METHOD
+CompilationAction 1476278387741 Spreadsheet.java
+CompilationAction 1476278387741 SpreadsheetTest.java
+CompilationAction 1476278387741 SpreadsheetTest.java
+CompilationAction 1476278400607 Spreadsheet.java
+CompilationAction 1476278400788 SpreadsheetTest.java
+CompilationAction 1476278400788 SpreadsheetTest.java
+EditAction 1476278467859 SpreadsheetTest.java 1818 6 17 5

@@ -53,10 +53,10 @@ public class SpreadsheetTest {
 		spreadsheet.set("A1", "'str with ' in the middle'");
 		
 		try {
-			
+			spreadsheet.evaluate(cell);
 		} catch (SpreadsheetException e) {
-			System.out.println("Caught too many str marks: " + e.getMessage());
-			assertEquals()
+			System.out.println("Caught too many str marks exmsg: " + e.getMessage());
+			assertEquals("Caught different exception than expected", e.getMessage(), STR_MARK_IN_THE_MIDDLE_ERROR_MSG);
 		}
 	}
 }

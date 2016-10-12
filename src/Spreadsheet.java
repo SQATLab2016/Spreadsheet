@@ -4,8 +4,10 @@ public class Spreadsheet {
 	Hashtable<String, String> cells;
 	
 	private String[] allowedIntegerChars = {"1","2","3","4","5","6","7","8","9","-" };
+	public final String STR_MARK_IN_THE_MIDDLE_ERROR_MSG =
+			"String contains ' character(s) that is not at the beginning or end of string";
 	public final String ERROR_MESSAGE = "#Error";
-	public final boolean STR_MARKS_ALLOWED_INSIDE_STRING = false; 
+	public final boolean STR_MARKS_ALLOWED_INSIDE_STRING = false;
 	
 	public Spreadsheet() {
 		cells = new Hashtable<String,String>();
@@ -45,7 +47,7 @@ public class Spreadsheet {
 			if (2 == characterCount(value, "'"))
 				return true;
 		
-		throw new SpreadsheetException("String contains ' character(s) that is not at the beginning or end of string");
+		throw new SpreadsheetException(STR_MARK_IN_THE_MIDDLE_ERROR_MSG);
 	}
 	
 	private int characterCount(String str, String targetChar) throws SpreadsheetException {
