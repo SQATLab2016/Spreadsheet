@@ -90,13 +90,7 @@ public class Spreadsheet {
 		p = Pattern.compile("^=?'(.*)('&'(.*))+'$");
 		m = p.matcher(value);
 		if (m.find()) {
-			StringBuilder str = new StringBuilder();
-			str.append(m.group(1));
-			str.append(String.join("", m.group(2).split("'&'")));
-//			for (int i = 1; i < m.groupCount(); i++) {
-//				str.append(m.group(i));
-//			}
-			return str.toString();
+			return m.group(1) + String.join("", m.group(2).split("'&'"));
 		}
 		
 		// A string
