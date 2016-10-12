@@ -24,7 +24,8 @@ public class Spreadsheet {
 		String tempString = this.value;
 		
 		if ((tempString.endsWith("\'")) && (tempString.startsWith("\'"))){
-			tempString.
+			tempString = tempString.substring(1, tempString.length()-1);
+			return tempString;
 		}
 		
 		try {
