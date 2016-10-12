@@ -147,5 +147,14 @@ public class SpreadsheetTest {
 		assertEquals(sheet.evaluate("A1"), "2");		
 		
 	}
+	
+	@Test
+	public void testSpreadsheetFormulaCalculation_evaluateModFormula(){
+		sheet.set("A1", "=4%3");
+		
+		assertEquals(sheet.evaluate("A1"), "1");		
+		
+	}
+
 
 }

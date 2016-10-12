@@ -97,3 +97,7 @@
 1476279027990 test-addition 1 51 true
 1476279027991 test-addition 2 51 true
 1476279027992 test-addition 1 51 true
+1476279075080 test-addition 2 39 true
+1476279075081 test-addition 1 39 true
+1476279075082 test-addition 2 39 true
+1476279075083 test-addition 1 39 true

@@ -319,3 +319,10 @@ UnitTestSessionAction 1476279027989 SpreadsheetTest.java OK
 RefactoringAction 1476279035763 SpreadsheetTest.java ADD void testSpreadsheetFormulaCalculation_evaluateMultiplyFormula()/2 METHOD
 RefactoringAction 1476279040774 SpreadsheetTest.java RENAME testSpreadsheetFormulaCalculation_evaluateMultiplyFormula()/2=>void testSpreadsheetFormulaCalculation_evaluateDivisionFormula() METHOD
 EditAction 1476279049075 SpreadsheetTest.java 3273 17 38 17
+UnitTestCaseAction 1476279054147 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476279054148 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476279075079 SpreadsheetTest.java OK
+UnitTestSessionAction 1476279075080 SpreadsheetTest.java OK
+RefactoringAction 1476279086321 SpreadsheetTest.java ADD void testSpreadsheetFormulaCalculation_evaluateDivisionFormula()/2 METHOD
+RefactoringAction 1476279091333 SpreadsheetTest.java RENAME testSpreadsheetFormulaCalculation_evaluateDivisionFormula()/2=>void testSpreadsheetFormulaCalculation_evaluateModFormula() METHOD
+EditAction 1476279105112 SpreadsheetTest.java 3433 18 40 18
