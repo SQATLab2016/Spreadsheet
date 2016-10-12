@@ -148,3 +148,6 @@ RefactoringAction 1476273507184 SpreadsheetTest.java ADD void testSpreadSheet_ev
 RefactoringAction 1476273513699 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellReference_Exception()/2=>void testSpreadSheet_evaluateCellReferenceC_Exception() METHOD
 RefactoringAction 1476273516717 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellReferenceC_Exception()=>void testSpreadSheet_evaluateCellReferenceCircular_Exception() METHOD
 EditAction 1476273524414 SpreadsheetTest.java 2690 11 36 6
+UnitTestCaseAction 1476273532120 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476273532121 SpreadsheetTest.java FAIL
+EditAction 1476273762635 Spreadsheet.java 1180 3 3 0

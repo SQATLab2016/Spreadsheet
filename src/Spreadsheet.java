@@ -19,15 +19,15 @@ public class Spreadsheet {
 			if (sheet.get(cell).startsWith("'") && sheet.get(cell).endsWith("'")) {
 				result = sheet.get(cell).replaceAll("'", "");
 			} else if (sheet.get(cell).startsWith("=")) {
-				if(sheet.get(cell).startsWith("'", 1) && sheet.get(cell).endsWith("'"))
-				{
+				if (sheet.get(cell).startsWith("'", 1) && sheet.get(cell).endsWith("'")) {
 					result = sheet.get(cell).replaceAll("=", "");
 					result = result.replaceAll("'", "");
-				}
-				else if(sheet.containsKey(sheet.get(cell).substring(1))){
-					result = evaluate(sheet.get(cell).substring(1));
-				}
-				else{
+				} else if (sheet.containsKey(sheet.get(cell).substring(1))) {
+					if (sheet.get(sheet.get(cell).substring(1)).contains("=" + cell)) {
+						throw new SpreadSheetException();
+					} else
+						result = evaluate(sheet.get(cell).substring(1));
+				} else {
 					throw new SpreadSheetException();
 				}
 			} else
