@@ -1,16 +1,23 @@
 import java.util.HashMap;
 
 public class Spreadsheet {
+	private enum ValueType {
+		VALUE,
+		REFERENCE
+	}
+	
 	private class Value {
 		String value;
+		ValueType type;
 	}
-	HashMap<String, String> mValues = new HashMap<String, String>();
+	
+	HashMap<String, Value> mValues = new HashMap<String, Value>();
 	
 	final public static String ERROR = "#Error";
 	final public static String CIRCULAR = "#Circular";
 	
-	public String get(String cell) {
-		return (String) mValues.get(cell);
+	public Value get(String cell) {
+		return (Value) mValues.get(cell);
 	}
 	
 	public void set(String cell, String value) {

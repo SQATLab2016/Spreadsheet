@@ -306,3 +306,14 @@ CompilationAction 1476274277602 Spreadsheet.java
 CompilationAction 1476274290640 Spreadsheet.java
 CompilationAction 1476274290641 Spreadsheet.java
 EditAction 1476274431229 Spreadsheet.java 2542 3 6 0
+RefactoringAction 1476274435081 Spreadsheet.java ADD int type FIELD
+RefactoringAction 1476274445105 Spreadsheet.java ADD ValueType ENUm FIELD
+RefactoringAction 1476274459123 Spreadsheet.java REMOVE ENUm FIELD
+RefactoringAction 1476274461646 Spreadsheet.java ADD ValueType VALUE FIELD
+RefactoringAction 1476274464664 Spreadsheet.java ADD ValueType REFERENCE FIELD
+CompilationAction 1476274469635 Spreadsheet.java
+CompilationAction 1476274469635 Spreadsheet.java
+RefactoringAction 1476274471688 Spreadsheet.java ADD ValueType type FIELD
+CompilationAction 1476274474622 Spreadsheet.java
+CompilationAction 1476274474623 Spreadsheet.java
+EditAction 1476274529761 Spreadsheet.java 2610 3 6 0
