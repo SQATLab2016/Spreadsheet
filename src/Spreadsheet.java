@@ -29,7 +29,7 @@ public class Spreadsheet {
 					if (!isInteger)
 						value = "#Error";
 					
-					 value.substring(1, value.length() - 1);
+					value.substring(1, value.length() - 1);
 				}
 			} else if (value.charAt(0) == '\'') {
 				if (value.length() > 1 && value.charAt(value.length() - 1) == '\'') {
