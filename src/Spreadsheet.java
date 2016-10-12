@@ -38,11 +38,10 @@ public class Spreadsheet {
 	private boolean isIntegerCellValue(String value) {
 		try {
 			Integer.parseInt(value);
+			return true;
 		} catch (NumberFormatException nfe) {
 			return false;
 		}
-		
-		return true;
 	}
 	
 	private boolean isStringCellValue(String value) {
