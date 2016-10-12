@@ -161,14 +161,10 @@ public class Spreadsheet {
 		if (isFormula(value))
 			value = value.substring(1);
 		
-		if (value.startsWith(STRING_IDENTIFIER) && value.endsWith(STRING_IDENTIFIER)) {
-			for (int i = 1; i < value.length() - 1; i++) {
-				if (!Character.isLetter(value.charAt(i)))
-					return false;
-			}
-		}
-
-		return true;
+		if (value.startsWith(STRING_IDENTIFIER) && value.endsWith(STRING_IDENTIFIER))
+			return true;
+		
+		return false;
 	}
 	
 	private boolean isReference(String value) {
