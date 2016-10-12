@@ -191,3 +191,14 @@ CompilationAction 1476278485291 SpreadsheetTest.java
 CompilationAction 1476278485446 SpreadsheetTest.java
 CompilationAction 1476278502191 SpreadsheetTest.java
 EditAction 1476278530275 SpreadsheetTest.java 1820 6 18 5
+UnitTestCaseAction 1476278531726 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278531727 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476278705070 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278705070 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476278744486 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278744487 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476278922861 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278922861 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476278981035 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278981035 SpreadsheetTest.java FAIL
+EditAction 1476279016164 SpreadsheetTest.java 1872 6 18 5

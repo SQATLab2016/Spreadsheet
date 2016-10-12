@@ -55,6 +55,7 @@ public class SpreadsheetTest {
 		try {
 			spreadsheet.evaluate("A1");
 		} catch (SpreadsheetException e) {
+			System.out.println("caught the eval exception");
 			assertEquals("Caught different exception than expected",
 					e.getMessage(), spreadsheet.STR_MARK_IN_THE_MIDDLE_ERROR_MSG);
 		}
