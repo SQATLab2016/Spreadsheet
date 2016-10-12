@@ -106,4 +106,10 @@ public class SpreadsheetTest {
 		sheet.set("A1", "=1+1*2");
 		assertEquals("4", sheet.evaluate("A1"));
 	}
+	
+	@Test
+	public void test_simpleIntegerOperations2() {
+		sheet.set("A1", "=4-2/2");
+		assertEquals("1", sheet.evaluate("A1"));
+	}
 }

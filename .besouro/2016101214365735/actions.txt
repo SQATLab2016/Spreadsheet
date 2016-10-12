@@ -262,3 +262,6 @@ RefactoringAction 1476275574565 SpreadsheetTest.java ADD void test_simple FIELD
 RefactoringAction 1476275578230 SpreadsheetTest.java RENAME test_simple=>void test_simpleIntegerOperations FIELD
 RefactoringAction 1476275584294 SpreadsheetTest.java RENAME test_simpleIntegerOperations=>void test_simpleIntegerOperations1() METHOD
 EditAction 1476275612014 SpreadsheetTest.java 2528 16 35 16
+RefactoringAction 1476275616658 SpreadsheetTest.java ADD void test_simpleIntegerOperations1()/2 METHOD
+RefactoringAction 1476275618692 SpreadsheetTest.java RENAME test_simpleIntegerOperations1()/2=>void test_simpleIntegerOperations2() METHOD
+EditAction 1476275630871 SpreadsheetTest.java 2665 17 37 17
