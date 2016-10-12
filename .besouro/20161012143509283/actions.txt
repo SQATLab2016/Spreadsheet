@@ -244,3 +244,4 @@ RefactoringAction 1476274474621 SpreadsheetTest.java RENAME spreadsheetEvaluateA
 RefactoringAction 1476274476635 SpreadsheetTest.java RENAME spreadsheetEvaluateA2_D4_returns()=>void spreadsheetEvaluateA2_D4_returns FIELD
 RefactoringAction 1476274479149 SpreadsheetTest.java RENAME <initializer /1>=>void Error() METHOD
 EditAction 1476274482531 SpreadsheetTest.java 641 3 9 3
+EditAction 1476274491695 SpreadsheetTest.java 645 3 9 3
