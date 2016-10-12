@@ -19,7 +19,7 @@ public class Spreadsheet {
 		if (cellStored.startsWith("'")) {
 			return evaluateString(cellStored);
 		} else {
-			return evaluateInt(cell);
+			return evaluateInt(cellStored);
 		}
 	}
 
@@ -31,10 +31,10 @@ public class Spreadsheet {
 		}
 	}
 
-	private String evaluateInt(String cell) {
+	private String evaluateInt(String cellStored) {
 		try {
-			Integer.parseInt(sheet.get(cell));
-			return sheet.get(cell);
+			Integer.parseInt(cellStored);
+			return cellStored;
 		} catch (NumberFormatException ex) {
 			return ERROR;
 		}

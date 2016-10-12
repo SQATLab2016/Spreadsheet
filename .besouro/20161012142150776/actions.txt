@@ -114,3 +114,6 @@ UnitTestCaseAction 1476273233712 SpreadsheetTest.java OK
 UnitTestSessionAction 1476273233713 SpreadsheetTest.java OK
 RefactoringAction 1476273253740 Spreadsheet.java ADD String evaluateString(String) METHOD
 EditAction 1476273253745 Spreadsheet.java 875 5 6 0
+UnitTestCaseAction 1476273261059 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273261060 SpreadsheetTest.java OK
+EditAction 1476273302652 Spreadsheet.java 877 5 6 0
