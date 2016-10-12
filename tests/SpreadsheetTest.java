@@ -97,5 +97,14 @@ public class SpreadsheetTest {
 		assertEquals(sheet.evaluate("C3"), "a String");		
 		
 	}
+	
+	@Test
+	public void testSpreadsheetequalSignWithCellRefWithwrongInt_setA3_4G_setC3_EqualsA3_evaluateC3_return_Error(){
+		sheet.set("A3", "4G");
+		sheet.set("C3", "=A3");
+		
+		assertEquals(sheet.evaluate("C3"), ERROR);		
+		
+	}
 
 }
