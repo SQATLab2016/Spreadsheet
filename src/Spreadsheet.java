@@ -69,7 +69,12 @@ public class Spreadsheet {
 			
 			return String.valueOf(val);
 		} else if (isStringFormula(value)) {
+			String[] splitFormula = value.substring(1).split("(?<=[&])|(?=[&])");
 			
+			String newString = "";
+			
+			for (int i = 0; i < splitFormula.length; i += 2)
+				newString += splitFormula[i];
 		}
 		
 		if (isFormula(value)) {
