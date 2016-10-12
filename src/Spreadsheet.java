@@ -50,7 +50,7 @@ public class Spreadsheet {
 		m = p.matcher(value);
 		if (m.find()) {
 			String[] operands = m.group(1).replaceAll("\\d", "").split("\\s*");
-			String[] numbers = m.group(1).split("\\d+");
+			String[] numbers = m.group(1).replaceAll("[^\\d]", " ").split("\\s+");
 			return numbers[0];
 		}
 		
