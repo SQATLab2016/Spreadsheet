@@ -37,7 +37,7 @@ public class Spreadsheet {
 	}
 	
 	private boolean containsString(String value) {
-		if (!(value.charAt(0).equals("'") && value.charAt(value.length()).equals("'")))
+		if (!(charAsStringFromPos(value, 0).equals("'") && charAsStringFromPos(value, value.length()).equals("'")))
 			return false;
 		
 		if (2 == characterCount(value, "'"))
