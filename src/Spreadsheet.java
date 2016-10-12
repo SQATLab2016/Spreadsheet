@@ -14,11 +14,16 @@ public class Spreadsheet {
 	}
 
 	public String evaluate(String cell) {
-		try {
-			Integer.parseInt(sheet.get(cell));
-			return sheet.get(cell);
-		} catch (NumberFormatException ex) {
-			return "#ERROR";
+		String cellStored = sheet.get(cell);
+		if (cellStored.startsWith("'")) {
+			return cellStored.substring(1, cellStored.length() - 2);
+		} else {
+			try {
+				Integer.parseInt(sheet.get(cell));
+				return sheet.get(cell);
+			} catch (NumberFormatException ex) {
+				return "#ERROR";
+			}
 		}
 	}
 

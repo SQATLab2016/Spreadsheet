@@ -82,3 +82,6 @@ RefactoringAction 1476272826556 SpreadsheetTest.java RENAME testSpreadsheetStrin
 RefactoringAction 1476272829569 SpreadsheetTest.java RENAME testSpreadsheetString_setA5__evaluateB2_return_Error()=>void testSpreadsheetString_setA5_aString_evaluateB2_return_Error() METHOD
 RefactoringAction 1476272836081 SpreadsheetTest.java RENAME testSpreadsheetString_setA5_aString_evaluateB2_return_Error()=>void testSpreadsheetString_setA5_aString_evaluateB2_return_aString() METHOD
 EditAction 1476272855290 SpreadsheetTest.java 930 5 10 5
+UnitTestCaseAction 1476272861748 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272861749 SpreadsheetTest.java FAIL
+EditAction 1476272987163 Spreadsheet.java 601 3 4 0
