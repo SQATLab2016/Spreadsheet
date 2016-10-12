@@ -27,7 +27,7 @@ public class Spreadsheet {
 					mVisited.add(key);
 					return isCircularRecursive(get(key));
 				} else {
-					return false;
+					return true;
 				}
 			}
 		} else {
