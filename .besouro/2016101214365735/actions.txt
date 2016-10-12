@@ -74,3 +74,5 @@ RefactoringAction 1476272960298 Spreadsheet.java RENAME isStringCell(String)=>bo
 EditAction 1476272967805 Spreadsheet.java 963 4 9 0
 CompilationAction 1476272968047 Spreadsheet.java
 EditAction 1476272986336 Spreadsheet.java 1010 4 9 0
+CompilationAction 1476272986478 Spreadsheet.java
+EditAction 1476272993269 Spreadsheet.java 1007 4 9 0

@@ -39,7 +39,6 @@ public class Spreadsheet {
 		return value;
 	}
 	
-	
 	private boolean isStringCellValue(String value) {
 		if (value.startsWith(STRING_IDENTIFIER) && value.endsWith(STRING_IDENTIFIER))
 			return true;
