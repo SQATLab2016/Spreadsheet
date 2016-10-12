@@ -11,6 +11,7 @@ public class SpreadsheetTest {
 		Spreadsheet sh = new Spreadsheet(5,5);
 		
 		assertEquals(sh.get("A1"),"5");
+		System.out.print(sh.get("A1"));
 	}
 
 }
