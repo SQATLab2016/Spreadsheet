@@ -32,7 +32,7 @@ public class Spreadsheet {
 					}
 					
 					if (isInteger) {
-						if (value.charAt(1) != '-') {
+						if (value.charAt(2) != '-') {
 							value = value.substring(2, value.length());
 						} else {
 							value = value.substring(1, value.length());
