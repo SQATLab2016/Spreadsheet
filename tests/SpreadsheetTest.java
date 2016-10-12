@@ -165,4 +165,11 @@ public class SpreadsheetTest {
 		assertEquals("astring", evaluatedValue);
 	}
 
+	@Test
+	public void test_string_concatenation_error() {
+		s.set("A1", "='a&'string'");
+		String evaluatedValue = s.evaluate("A1");
+		assertEquals("#Error", evaluatedValue);
+	}
+
 }
