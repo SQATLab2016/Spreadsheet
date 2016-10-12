@@ -484,3 +484,8 @@ EditAction 1476275208392 Spreadsheet.java 2334 3 5 0
 CompilationAction 1476275208492 Spreadsheet.java
 CompilationAction 1476275211673 Spreadsheet.java
 EditAction 1476275221265 Spreadsheet.java 2342 3 5 0
+UnitTestCaseAction 1476275223743 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275223743 SpreadsheetTest.java FAIL
+RefactoringAction 1476275276108 Spreadsheet.java ADD HashMap<String,String> mValues/2 FIELD
+RefactoringAction 1476275277622 Spreadsheet.java RENAME mValues/2=>HashMap<String,String> m FIELD
+EditAction 1476275279468 Spreadsheet.java 2295 3 5 0

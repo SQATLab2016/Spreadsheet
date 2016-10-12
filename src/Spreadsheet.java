@@ -1,17 +1,8 @@
 import java.util.HashMap;
 
 public class Spreadsheet {
-	private enum ValueType {
-		VALUE,
-		REFERENCE
-	}
-	
-	private class Value {
-		String value;
-		ValueType type;
-	}
-	
 	HashMap<String, String> mValues = new HashMap<String, String>();
+	HashMap<String, String> mVisited = new HashMap<String, String>();
 	
 	final public static String ERROR = "#Error";
 	final public static String CIRCULAR = "#Circular";
