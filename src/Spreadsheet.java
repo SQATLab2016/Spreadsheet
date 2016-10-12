@@ -41,6 +41,7 @@ public class Spreadsheet {
 		}
 		if (!isIntegerCellValue(v) && !isStringCellValue(v)) {
 			table.put(cell, ERROR_VALUE);
+			return;
 		}
 		
 		table.put(cell, value);
