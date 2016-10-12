@@ -109,3 +109,6 @@ EditAction 1476278683945 SpreadsheetTest.java 421 2 7 2
 UnitTestCaseAction 1476278685944 SpreadsheetTest.java OK
 UnitTestSessionAction 1476278685945 SpreadsheetTest.java OK
 EditAction 1476278727891 SpreadsheetTest.java 422 2 7 2
+UnitTestCaseAction 1476278730193 SpreadsheetTest.java OK
+UnitTestSessionAction 1476278730195 SpreadsheetTest.java OK
+EditAction 1476278746277 SpreadsheetTest.java 421 2 7 2
