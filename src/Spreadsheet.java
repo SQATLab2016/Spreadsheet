@@ -15,9 +15,12 @@ public class Spreadsheet {
 
 	public String evaluate(String cell) throws SpreadSheetException {
 		try {
-			int result = 0;
-			result = Integer.parseInt(sheet.get(cell));
-			return ""+result;
+			String result = "";
+			if (cell.startsWith("'")) {
+
+			} else
+				result = "" + Integer.parseInt(sheet.get(cell));
+			return result;
 		} catch (Exception e) {
 			throw new SpreadSheetException();
 		}
