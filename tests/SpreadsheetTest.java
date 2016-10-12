@@ -11,6 +11,7 @@ public class SpreadsheetTest {
 		assertEquals("1", oneSheet.get("A1"));
 	}
 
+	
 	@Test
 	public void testSpreadSheet_getCellA1AfterSet_negative1() {
 		Spreadsheet oneSheet = new Spreadsheet();

@@ -19,5 +19,4 @@ public class Cell {
 	public void setValue(int value) {
 		this.value = value;
 	}
-
 }
