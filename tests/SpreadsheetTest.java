@@ -55,6 +55,13 @@ public class SpreadsheetTest {
 	}
 	
 
+	@Test
+	public void testSpreadsheetequalSign_String_setA5_EqualsaString_evaluateB2_return_aString(){
+		sheet.set("C3", "'a String");
+		
+		assertEquals(sheet.evaluate("C3"), "#ERROR");		
+		
+	}
 
 
 }
