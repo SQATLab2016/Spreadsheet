@@ -50,17 +50,19 @@ public class SpreadsheetTest {
 	
 	@Test
 	public void evaluateString_TooManyStrMarks() {
-		boolean caughtException;
+		boolean caughtException = false;
 		spreadsheet.set("A1", "'str with ' in the middle'");
 		
 		try {
 			spreadsheet.evaluate("A1");
 		} catch (SpreadsheetException e) {
+			caughtException = true;
 			System.out.println("caught the eval exception");
 			assertEquals("Caught different exception than expected",
 					e.getMessage(), spreadsheet.STR_MARK_IN_THE_MIDDLE_ERROR_MSG);
 		}
 		
-		fail("String mark not found in the middle of a string");
+		if ()
+			fail("String mark not found in the middle of a string");
 	}
 }
