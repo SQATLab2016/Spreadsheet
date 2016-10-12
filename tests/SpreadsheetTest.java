@@ -18,7 +18,7 @@ public class SpreadsheetTest {
 		Spreadsheet spready = new Spreadsheet();
 		
 		spready.set("A2", "-5");
-		assertEquals("-5", spready.evaluate("A2"));	
+		assertEquals(-5, spready.evaluate("A2"));	
 		
 	}
 	
