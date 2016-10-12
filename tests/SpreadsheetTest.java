@@ -193,4 +193,11 @@ public class SpreadsheetTest {
 		assertEquals("#Error", evaluatedValue);
 	}
 
+	@Test
+	public void test_integer_operation_with_parentheses_and_spaces() {
+		s.set("A1", "=2+ (3*	45  )");
+		String evaluatedValue = s.evaluate("A1");
+		assertEquals("137", evaluatedValue);
+	}
+
 }

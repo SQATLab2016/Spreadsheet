@@ -196,3 +196,8 @@ UnitTestSessionAction 1476275784837 SpreadsheetTest.java OK
 RefactoringAction 1476275790531 SpreadsheetTest.java ADD void test_integer_operation_with_parentheses_unbalanced_1()/2 METHOD
 RefactoringAction 1476275792637 SpreadsheetTest.java RENAME test_integer_operation_with_parentheses_unbalanced_1()/2=>void test_integer_operation_with_parentheses_unbalanced_2() METHOD
 EditAction 1476275795008 SpreadsheetTest.java 5030 26 81 26
+UnitTestCaseAction 1476275798475 SpreadsheetTest.java OK
+UnitTestSessionAction 1476275798475 SpreadsheetTest.java OK
+RefactoringAction 1476275826601 SpreadsheetTest.java ADD void test_integer_operation_with_parentheses()/2 METHOD
+RefactoringAction 1476275830221 SpreadsheetTest.java RENAME test_integer_operation_with_parentheses()/2=>void test_integer_operation_with_parentheses_and_spaces() METHOD
+EditAction 1476275868005 SpreadsheetTest.java 5231 27 84 27
