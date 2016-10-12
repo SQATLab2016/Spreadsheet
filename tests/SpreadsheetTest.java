@@ -23,10 +23,10 @@ public class SpreadsheetTest {
 	}
 
 	@Test
-	public void testSpreadsheetInvalidInt_setB2_2A_getB2_return_Error(){
+	public void testSpreadsheetInvalidInt_setB2_2A_evaluateB2_return_Error(){
 		sheet.set("C3", "2A");
 		
-		assertEquals(sheet.get("C3"), "#ERROR");		
+		assertEquals(sheet.evaluate("C3"), "#ERROR");		
 		
 	}
 

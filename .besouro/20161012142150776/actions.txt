@@ -55,3 +55,5 @@ UnitTestSessionAction 1476272327415 SpreadsheetTest.java FAIL
 RefactoringAction 1476272414546 Spreadsheet.java ADD NumberFormatException ex FIELD
 RefactoringAction 1476272416563 Spreadsheet.java REMOVE ex FIELD
 EditAction 1476272447894 Spreadsheet.java 351 3 3 0
+RefactoringAction 1476272484291 SpreadsheetTest.java RENAME testSpreadsheetInvalidInt_setB2_2A_getB2_return_Error()=>void testSpreadsheetInvalidInt_setB2_2A_evaluateB2_return_Error() METHOD
+EditAction 1476272496122 SpreadsheetTest.java 583 3 6 3
