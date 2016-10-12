@@ -10,22 +10,13 @@ public class Spreadsheet {
 	
 	public String get(String cell) {
 		String value = table.get(cell);
-		
-		boolean selfChecked = false;
-		
 		String startCell = cell;
+		
 		while (isReference(value)) {
 			if (value.substring(1).equals(startCell)) {
 				value = ERROR_CIRCULAR;
 				break;
 			}
-			/*if (!selfChecked && value.substring(1).equals(cell)) {
-				value = ERROR_VALUE;
-				break;
-			}
-			
-			selfChecked = true;*/
-			
 			value = table.get(value.substring(1));
 			
 			if (value == null)
