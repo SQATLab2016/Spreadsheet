@@ -258,3 +258,7 @@ EditAction 1476275512918 Spreadsheet.java 3018 8 26 0
 UnitTestCaseAction 1476275519882 SpreadsheetTest.java OK
 UnitTestSessionAction 1476275519883 SpreadsheetTest.java OK
 EditAction 1476275529831 Spreadsheet.java 2841 8 25 0
+RefactoringAction 1476275574565 SpreadsheetTest.java ADD void test_simple FIELD
+RefactoringAction 1476275578230 SpreadsheetTest.java RENAME test_simple=>void test_simpleIntegerOperations FIELD
+RefactoringAction 1476275584294 SpreadsheetTest.java RENAME test_simpleIntegerOperations=>void test_simpleIntegerOperations1() METHOD
+EditAction 1476275612014 SpreadsheetTest.java 2528 16 35 16

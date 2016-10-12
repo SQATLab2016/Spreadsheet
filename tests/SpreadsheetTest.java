@@ -100,4 +100,10 @@ public class SpreadsheetTest {
 		sheet.set("A1", "=A5");
 		assertEquals(Spreadsheet.ERROR_CIRCULAR, sheet.evaluate("A1"));
 	}
+	
+	@Test
+	public void test_simpleIntegerOperations1() {
+		sheet.set("A1", "=1+1*2");
+		assertEquals("4", sheet.evaluate("A1"));
+	}
 }
