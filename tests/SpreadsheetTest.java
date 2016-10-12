@@ -46,6 +46,14 @@ public class SpreadsheetTest {
 		
 	}
 	
+	@Test
+	public void testSpreadsheetString_setA5_aString_withoutEndQuote_evaluateB2_return_ERROR(){
+		sheet.set("C3", "'a String");
+		
+		assertEquals(sheet.evaluate("C3"), "#ERROR");		
+		
+	}
+	
 
 
 
