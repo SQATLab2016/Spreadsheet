@@ -10,8 +10,8 @@ public class Spreadsheet {
 	
 	public String get(String cell) {
 		String value = table.get(cell);
-		String startCell = cell;
 		
+		String startCell = cell;
 		while (isReference(value)) {
 			if (value.substring(1).equals(startCell)) {
 				value = ERROR_CIRCULAR;
@@ -27,7 +27,7 @@ public class Spreadsheet {
 	}
 	
 	public void set(String cell, String value) {
-		if (isReference(value)) {
+		if (isReference(value) || isIntegerFormula(value)) {
 			table.put(cell, value);
 			return;
 		}
