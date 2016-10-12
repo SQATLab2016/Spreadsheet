@@ -87,15 +87,15 @@ public class Spreadsheet {
 		}
 		
 		// String concatenation
-		p = Pattern.compile("^=?'(.*)('?&'?(.*))+'$");
+		p = Pattern.compile("^=?'(.*)(?:'?&'?(.*))+'$");
 		m = p.matcher(value);
 		if (m.find()) {
 			int totalCount = m.groupCount();
 			
-			p = Pattern.compile("^=?'(.*)('&'(.*))+'$");
+			p = Pattern.compile("^=?'(.*)(?:'&'(.*))+'$");
 			m = p.matcher(value);
 			
-			if (m.find() && m.groupCount() != totalCount) {
+			if (!m.find() || m.groupCount() != totalCount) {
 				return "#Error";
 			}
 			
