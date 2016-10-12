@@ -229,3 +229,5 @@ RefactoringAction 1476279260095 SpreadsheetTest.java RENAME detectStringIncorrec
 EditAction 1476279284473 SpreadsheetTest.java 2007 7 20 5
 EditAction 1476279293836 SpreadsheetTest.java 2006 7 20 5
 EditAction 1476279337902 SpreadsheetTest.java 2073 7 19 5
+CompilationAction 1476279338124 SpreadsheetTest.java
+EditAction 1476279354817 SpreadsheetTest.java 2109 7 21 6
