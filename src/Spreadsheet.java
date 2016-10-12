@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class Spreadsheet {
 	HashMap<String, String> mValues = new HashMap<String, String>();
 	
-	final public static ERROR = "#Error";
+	final public static String ERROR = "#Error";
 	
 	public String get(String cell) {
 		// to be implemented
@@ -81,7 +81,7 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		String value = (String) mValues.get(cell);
 		
-		if (mValues.containsKey(value)) {
+		if (!mValues.equals(ERROR) && mValues.containsKey(value)) {
 			return (String) mValues.get(cell);
 		}
 		
