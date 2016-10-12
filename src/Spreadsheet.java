@@ -35,6 +35,13 @@ public class Spreadsheet {
 		return value;
 	}
 	
+	private boolean isFormula(String value) {
+		if (value.startsWith("="))
+			return true;
+		
+		return false;
+	}
+	
 	private boolean isIntegerCellValue(String value) {
 		try {
 			Integer.parseInt(value);
