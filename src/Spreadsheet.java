@@ -2,9 +2,7 @@
 public class Spreadsheet {
 	String cell;
 	String value;
-	
-	
-	
+			
 	public String get(String cell) {
 		
 		return null;
