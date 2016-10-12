@@ -121,7 +121,7 @@ public class SpreadsheetTest {
 	
 	@Test
 	public void test_integerOperation_divideByZero() {
-		sheet.set("A1", "=1+1A");
+		sheet.set("A1", "=2/0");
 		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
 	}
 }
