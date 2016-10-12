@@ -18,7 +18,7 @@ public class Spreadsheet {
 						value = "#Error";
 					}
 					
-				} else {
+				} else if (value.charAt(1) == '-' || (value.charAt(1) >= '0' && value.charAt(1) <= '9')) {
 					boolean isInteger = true;
 					for (int i = 1; i < value.length(); i++) {
 						char c = value.charAt(i);
@@ -67,6 +67,9 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		String value = (String) mValues.get(cell);
 		
+		if (value.equals("#Error")) {
+			if (mValues.containsKey(value))
+		}
 		
 		return value;
 	}
