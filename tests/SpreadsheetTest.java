@@ -67,6 +67,6 @@ public class SpreadsheetTest {
 	
 	@Test
 	public void detectStringIncorrectFormatting() {
-		spreadsheet.set("A1", "' a string");
+		spreadsheet.set("A1", "'a string");
 	}
 }
