@@ -48,14 +48,33 @@ public class Spreadsheet {
 		} catch (NullPointerException e) {
 			return false;
 		}
-		// only got here if we didn't return false
 		return true;
 	}
 	
 	public int arithmeticOperation(String value){
+		int result = 0;
 		int stringIndex = 0;
+		String operator = "+";
 		while(stringIndex <= value.length()){
-			
+			if(isInteger(value.substring(stringIndex, stringIndex+1))){
+				result = evaluateOperator(result, Integer.parseInt(value.substring(stringIndex, stringIndex+1)), operator);
+			}
 		}
+		return result;
+	}
+
+	private int evaluateOperator(int result, int parseInt, String operator) {
+		if(operator.equals("+"))
+			result = result + parseInt;
+		else if (operator.equals("-"))
+			result = result - parseInt;
+		else if (operator.equals("*"))
+			result = result * parseInt;
+		else if (operator.equals("/"))
+			result = result / parseInt;
+		else if (operator.equals("%"))
+			result = result % parseInt;
+		
+		return result;
 	}
 }

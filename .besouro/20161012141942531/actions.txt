@@ -185,3 +185,9 @@ CompilationAction 1476275031970 Spreadsheet.java
 CompilationAction 1476275153947 Spreadsheet.java
 CompilationAction 1476275154161 Spreadsheet.java
 EditAction 1476275163205 Spreadsheet.java 1686 5 7 0
+CompilationAction 1476275165726 Spreadsheet.java
+CompilationAction 1476275234115 Spreadsheet.java
+RefactoringAction 1476275397376 Spreadsheet.java RENAME arithmeticOperation(String)=>int arithmeticOperation(String, int) METHOD
+RefactoringAction 1476275509930 Spreadsheet.java RENAME arithmeticOperation(String, int)=>int arithmeticOperation(String) METHOD
+RefactoringAction 1476275703815 Spreadsheet.java ADD int evaluateOperator(int, int, String) METHOD
+EditAction 1476275887475 Spreadsheet.java 2290 6 12 0
