@@ -98,3 +98,7 @@ EditAction 1476272528576 SpreadsheetTest.java 1413 6 18 4
 UnitTestCaseAction 1476272533094 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476272533095 SpreadsheetTest.java FAIL
 EditAction 1476272555097 Spreadsheet.java 655 3 3 0
+UnitTestCaseAction 1476272562644 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272562645 SpreadsheetTest.java OK
+RefactoringAction 1476272623049 SpreadsheetTest.java ADD void testSpreadSheet_evaluateCellHandlingString_Exception()/2 METHOD
+EditAction 1476272642171 SpreadsheetTest.java 1657 7 21 5
