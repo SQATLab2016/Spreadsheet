@@ -42,7 +42,7 @@ public class SpreadsheetTest {
 	@Test (expected = SpreadSheetException.class)
 	public void testSpreadSheet_evaluateCellHandlingString_Exception() throws SpreadSheetException {
 		Spreadsheet oneSheet = new Spreadsheet();
-		oneSheet.set("A1", "5A");
+		oneSheet.set("A1", "'a string");
 		oneSheet.evaluate("A1");
 	}
 }
