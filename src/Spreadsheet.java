@@ -83,10 +83,8 @@ public class Spreadsheet {
 				i++;
 			}
 			
-			if (v.length() > i)
-				return false;
-			
-			return true;
+			if (charFound && digitFound && v.length() == i)
+				return true;
 		}
 		
 		return false;
