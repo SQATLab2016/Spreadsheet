@@ -16,7 +16,7 @@ public class Spreadsheet {
 	public String evaluate(String cell) throws SpreadSheetException {
 		try {
 			String result = "";
-			if (cell.startsWith("'")) {
+			if (sheet.get(cell).startsWith("'")) {
 				result = sheet.get(cell).replaceAll("'", "");
 			} else
 				result = "" + Integer.parseInt(sheet.get(cell));
