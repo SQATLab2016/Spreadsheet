@@ -107,11 +107,8 @@ public class Spreadsheet {
 		
 		for (int i = 0; i < splitFormula.length; i++) {
 			if (i % 2 == 0) {
-				try {
-					Integer.parseInt(splitFormula[i]);
-				} catch (NumberFormatException nfe) {
+				if (!isIntegerCellValue(splitFormula[i]))
 					return false;
-				}
 			} else {
 				if (splitFormula[i].charAt(0) != '+' &&
 					splitFormula[i].charAt(0) != '-' &&
