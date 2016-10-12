@@ -294,3 +294,6 @@ CompilationAction 1476276179495 Spreadsheet.java
 EditAction 1476276180098 Spreadsheet.java 3987 9 29 0
 EditAction 1476276187571 Spreadsheet.java 3987 9 29 0
 EditAction 1476276200239 Spreadsheet.java 4024 9 29 0
+UnitTestCaseAction 1476276207483 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276207483 SpreadsheetTest.java FAIL
+EditAction 1476276254405 Spreadsheet.java 4058 9 30 0

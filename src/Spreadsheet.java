@@ -94,6 +94,7 @@ public class Spreadsheet {
 		if (!value.startsWith("="))
 			return false;
 		
+		boolean operatorFound = false;
 		for (int i = 1; i < value.length(); i++) {
 			if (!Character.isDigit(value.charAt(i)) &&
 				value.charAt(i) != '+' &&
