@@ -175,3 +175,8 @@ RefactoringAction 1476274227622 SpreadsheetTest.java RENAME test_simpleReference
 RefactoringAction 1476274230140 SpreadsheetTest.java RENAME test_sReference()=>void test_invalidReference() METHOD
 EditAction 1476274237169 SpreadsheetTest.java 1700 12 22 9
 EditAction 1476274247629 SpreadsheetTest.java 1828 12 24 11
+RefactoringAction 1476274253763 SpreadsheetTest.java ADD void test_invalidReference()/2 METHOD
+RefactoringAction 1476274256280 SpreadsheetTest.java RENAME test_invalidReference()/2=>void test_l() METHOD
+RefactoringAction 1476274257312 SpreadsheetTest.java RENAME test_l()=>void test_longer() METHOD
+RefactoringAction 1476274262328 SpreadsheetTest.java RENAME test_longer()=>void test_longerInvalidReference() METHOD
+EditAction 1476274288162 SpreadsheetTest.java 2025 13 27 13

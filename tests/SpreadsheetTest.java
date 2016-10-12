@@ -66,6 +66,7 @@ public class SpreadsheetTest {
 	public void test_simpleReference() {
 		sheet.set("A1", "5");
 		sheet.set("A2", "=A1");
+		assertEquals("5", sheet.evaluate("A2"));
 	}
 	
 	@Test
@@ -77,6 +78,12 @@ public class SpreadsheetTest {
 	@Test
 	public void test_invalidReference() {
 		sheet.set("A1", "=A2");
+		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
+	}
+	
+	@Test
+	public void test_longerInvalidReference() {
+		sheet.set("A1", "=A2d");
 		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
 	}
 }
