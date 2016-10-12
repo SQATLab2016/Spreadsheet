@@ -103,7 +103,7 @@ public class Spreadsheet {
 				value = evaluateAssignment(value);
 				
 				if (isString(value)) {
-					value = evaluateInteger(value);
+					value = evaluateString(value);
 				} else if (isInteger(value)) {
 					value = evaluateInteger(value);
 				} else if (isReference(value)) {
