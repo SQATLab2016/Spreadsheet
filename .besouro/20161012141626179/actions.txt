@@ -239,3 +239,4 @@ RefactoringAction 1476273673578 SpreadsheetTest.java RENAME testAssignment_A2_Re
 RefactoringAction 1476273676091 SpreadsheetTest.java RENAME testAssignment_A2_InvalidReference_A1_Integer()=>void testAssignment_A2_InvalidReference_A1_Integer_Error() METHOD
 RefactoringAction 1476273679605 SpreadsheetTest.java RENAME testAssignment_A2_InvalidReference_A1_Integer_Error()=>void testAssignment_A2_InvalidReference_Error() METHOD
 EditAction 1476273690677 SpreadsheetTest.java 2889 16 49 15
+EditAction 1476273694631 SpreadsheetTest.java 2892 16 49 15

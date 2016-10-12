@@ -117,6 +117,6 @@ public class SpreadsheetTest {
 		sheet.set("A1", "123");
 		sheet.set("A2", "=A5");
 		String result = sheet.evaluate("A2");
-		assertEquals("123", result);
+		assertEquals("#Error", result);
 	}
 }
