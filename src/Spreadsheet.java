@@ -90,9 +90,8 @@ public class Spreadsheet {
 					}
 					
 				} else if (value.charAt(1) >= 'A' && value.charAt(1) <= 'Z') {
-					String key = value.substring(1, value.length());
-					if (mValues.containsKey(key)) {
-						if (isCircular(key)) {
+					if (mValues.containsKey(value)) {
+						if (isCircular(value)) {
 							return CIRCULAR;
 						} else {
 							value = evaluate(key);
