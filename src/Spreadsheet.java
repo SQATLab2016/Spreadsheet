@@ -18,7 +18,7 @@ public class Spreadsheet {
 						value = "#Error";
 					}
 					
-				}else {
+				} else {
 					boolean isInteger = true;
 					for (int i = 1; i < value.length(); i++) {
 						char c = value.charAt(i);
