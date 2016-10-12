@@ -42,8 +42,8 @@ public class Spreadsheet {
 			return false;
 		
 		if (false == STR_MARKS_ALLOWED_INSIDE_STRING)
-		if (2 == characterCount(value, "'"))
-			return true;
+			if (2 == characterCount(value, "'"))
+				return true;
 		
 		throw new SpreadsheetException("String contains ' character(s) that is not at the beginning or end of string");
 	}
