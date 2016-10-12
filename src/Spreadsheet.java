@@ -32,8 +32,8 @@ public class Spreadsheet {
 		ArrayList<Integer> integers = new ArrayList<Integer>();
 		ArrayList<Character> operators = new ArrayList<Character>();
 		
-		while (scanner.hasNextShort()) {
-			integers.add(scanner.hasNextShort());
+		while (scanner.hasNextInt()) {
+			integers.add(scanner.nextInt());
 
 			String next = scanner.next();
 			
@@ -57,7 +57,7 @@ public class Spreadsheet {
 			return Integer.toString(result);
 			
 		} else {
-			return ERROR;
+			return scanner.next();
 		}
 	}
 
