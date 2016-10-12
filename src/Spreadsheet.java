@@ -18,7 +18,7 @@ public class Spreadsheet {
 	
 	private boolean isCircularRecursive(String value) {
 		if (value.length() > 1 && value.charAt(0) == '=' && value.charAt(1) >= 'A' && value.charAt(1) <= 'Z') {
-			String key = value;
+			String key = value.substring(1, value.length());
 			if (mVisited.contains(key)) {
 				return true;
 				
