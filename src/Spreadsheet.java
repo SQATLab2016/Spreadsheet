@@ -18,17 +18,17 @@ public class Spreadsheet {
 
 	public String evaluate(String cell) {
 		String cellValue = sheet.get(cell);
-		
-		if(cellValue.startsWith(EQUALS)){
-			cellValue=cellValue.substring(1); //remove equal sign
-			if(sheet.containsKey(cellValue)){
-				if(sheet.get(cellValue).substring(1).equals(cell)){
+
+		if (cellValue.startsWith(EQUALS)) {
+			cellValue = cellValue.substring(1); // remove equal sign
+			if (sheet.containsKey(cellValue)) {
+				if (sheet.get(cellValue).substring(1).equals(cell)) {
 					return "#CIRCULAR";
 				}
 				return evaluate(cellValue);
 			}
 		}
-		
+
 		if (cellValue.startsWith(STRING_CLASSIFIER)) {
 			return evaluateString(cellValue);
 		} else {
@@ -46,9 +46,16 @@ public class Spreadsheet {
 
 	private String evaluateInt(String cellStored) {
 		try {
-			Integer.parseInt(cellStored);
-			return cellStored;
+			String[] characters = cellStored.split("[+]");
+			int total = 0;
+			for (String s : characters) {
+				int i = Integer.parseInt(s);
+				total = total + i;
+			}
+			return String.valueOf(total);
+
 		} catch (NumberFormatException ex) {
+
 			return ERROR;
 		}
 	}

@@ -123,5 +123,13 @@ public class SpreadsheetTest {
 		assertEquals(sheet.evaluate("A1"), "2");		
 		
 	}
+	
+	@Test
+	public void testSpreadsheetFormulaCalculation_evaluatesubstractionFormula(){
+		sheet.set("A1", "=4-1");
+		
+		assertEquals(sheet.evaluate("A1"), "3");		
+		
+	}
 
 }
