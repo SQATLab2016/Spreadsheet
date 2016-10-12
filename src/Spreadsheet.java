@@ -59,15 +59,17 @@ public class Spreadsheet {
 		int previousIntegerValue = 0;
 		while (stringIndex <= value.length()) {
 			if (isInteger(value.substring(stringIndex, stringIndex + 1))) {
-				if (integerValue = false) {
+				if (integerValue == false) {
 					integerValue = true;
-					previousIntegerValue = Integer.parseInt(value.substring(stringIndex, stringIndex + 1))
-					result = evaluateOperator(result, previousIntegerValue,
-							operator);
+					previousIntegerValue = Integer.parseInt(value.substring(stringIndex, stringIndex + 1));
+					result = evaluateOperator(result, previousIntegerValue, operator);
+				} else {
+					integerValue = true;
+					previousIntegerValue = Integer.parseInt("" + previousIntegerValue
+							+ Integer.parseInt(value.substring(stringIndex, stringIndex + 1)));
+
 				}
-				else
-					
-					
+
 			}
 		}
 		return result;
