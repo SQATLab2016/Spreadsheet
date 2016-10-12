@@ -290,3 +290,9 @@ EditAction 1476275392299 Spreadsheet.java 691 3 9 0
 UnitTestCaseAction 1476275398478 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476275398478 SpreadsheetTest.java FAIL
 EditAction 1476275411280 SpreadsheetTest.java 839 4 12 4
+UnitTestCaseAction 1476275412922 SpreadsheetTest.java OK
+UnitTestSessionAction 1476275412923 SpreadsheetTest.java OK
+RefactoringAction 1476275462467 SpreadsheetTest.java ADD void spreadsheetEvaluateA2_What_returnsWhat()/2 METHOD
+RefactoringAction 1476275481496 SpreadsheetTest.java RENAME spreadsheetEvaluateA2_What_returnsWhat()/2=>void spreadsheetEvaluateA2_What2_returnsWhat() METHOD
+RefactoringAction 1476275484506 SpreadsheetTest.java RENAME spreadsheetEvaluateA2_What2_returnsWhat()=>void spreadsheetEvaluateA2_What2_returnsError() METHOD
+EditAction 1476275487108 SpreadsheetTest.java 1039 5 15 5
