@@ -1,8 +1,9 @@
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Spreadsheet {
 	HashMap<String, String> mValues = new HashMap<String, String>();
-	HashMap<String, String> mVisited = new HashMap<String, String>();
+	ArrayList<String> mVisited = new ArrayList<String>();
 	
 	final public static String ERROR = "#Error";
 	final public static String CIRCULAR = "#Circular";
@@ -13,6 +14,10 @@ public class Spreadsheet {
 	
 	public void set(String cell, String value) {
 		mValues.put(cell, value);
+	}
+	
+	private boolean isCircular(String key) {
+		ArrayList<String> visited;
 	}
 	
 	public String evaluate(String cell) {
@@ -56,8 +61,12 @@ public class Spreadsheet {
 				} else if (value.charAt(1) >= 'A' && value.charAt(1) <= 'Z') {
 					String key = value.substring(1, value.length());
 					if (mValues.containsKey(key)) {
-						if ()
-						value = evaluate(key);
+						if (mVisited.contains(key)) {
+							return CIRCULAR;
+						} else {
+							value = evaluate(key);
+							mVisited.add(key);
+						}
 					} else {
 						value = ERROR;
 					}

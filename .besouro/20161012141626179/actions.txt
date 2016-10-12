@@ -492,3 +492,11 @@ EditAction 1476275279468 Spreadsheet.java 2295 3 5 0
 RefactoringAction 1476275297632 Spreadsheet.java REMOVE mVisited FIELD
 RefactoringAction 1476275299615 Spreadsheet.java ADD HashMap<String,String> mVisited FIELD
 EditAction 1476275385740 Spreadsheet.java 2330 3 2 0
+CompilationAction 1476275386240 Spreadsheet.java
+RefactoringAction 1476275435199 Spreadsheet.java ADD import java.util.ArrayList IMPORT
+CompilationAction 1476275450430 Spreadsheet.java
+UnitTestCaseAction 1476275454063 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275454064 SpreadsheetTest.java FAIL
+RefactoringAction 1476275520029 Spreadsheet.java ADD boolean isCircular() METHOD
+RefactoringAction 1476275524043 Spreadsheet.java RENAME isCircular()=>boolean isCircular(String) METHOD
+EditAction 1476275536598 Spreadsheet.java 2520 4 7 0
