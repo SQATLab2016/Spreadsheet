@@ -248,3 +248,4 @@ RefactoringAction 1476275351650 Spreadsheet.java RENAME ERROR_VALUE/2=>String ER
 RefactoringAction 1476275352664 Spreadsheet.java RENAME ERROR_C=>String ERROR_CIRCULAR FIELD
 RefactoringAction 1476275359187 SpreadsheetTest.java RENAME test=>void test_circularReference() METHOD
 EditAction 1476275359224 SpreadsheetTest.java 2271 15 30 14
+EditAction 1476275374369 SpreadsheetTest.java 2321 15 32 14

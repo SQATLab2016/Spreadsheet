@@ -96,6 +96,7 @@ public class SpreadsheetTest {
 	
 	@Test
 	public void test_circularReference() {
-		
+		sheet.set("A5", "=A1");
+		sheet.set("A1", "=A5");
 	}
 }
