@@ -11,8 +11,7 @@ public class SpreadsheetTest {
 		Spreadsheet spready = new Spreadsheet();
 		
 		spready.set("A1", "2");
-		
-		.assertEquals
+		.assertEquals(2, spready.get("A1"));
 		fail("Not yet implemented");
 		
 	}

@@ -84,3 +84,34 @@ CompilationAction 1476273141623 SpreadsheetTest.java
 EditAction 1476273150924 Spreadsheet.java 256 3 2 0
 EditAction 1476273214622 Spreadsheet.java 295 3 4 0
 EditAction 1476273251430 Spreadsheet.java 301 3 4 0
+CompilationAction 1476273267570 SpreadsheetTest.java
+CompilationAction 1476273267571 SpreadsheetTest.java
+CompilationAction 1476273267728 SpreadsheetTest.java
+CompilationAction 1476273267728 SpreadsheetTest.java
+CompilationAction 1476273292711 SpreadsheetTest.java
+CompilationAction 1476273292712 SpreadsheetTest.java
+CompilationAction 1476273292876 SpreadsheetTest.java
+CompilationAction 1476273292876 SpreadsheetTest.java
+CompilationAction 1476273292876 SpreadsheetTest.java
+CompilationAction 1476273292877 SpreadsheetTest.java
+CompilationAction 1476273292877 SpreadsheetTest.java
+CompilationAction 1476273303319 SpreadsheetTest.java
+CompilationAction 1476273303319 SpreadsheetTest.java
+CompilationAction 1476273303319 SpreadsheetTest.java
+CompilationAction 1476273303320 SpreadsheetTest.java
+CompilationAction 1476273303320 SpreadsheetTest.java
+CompilationAction 1476273303444 SpreadsheetTest.java
+CompilationAction 1476273303445 SpreadsheetTest.java
+CompilationAction 1476273303445 SpreadsheetTest.java
+CompilationAction 1476273303445 SpreadsheetTest.java
+CompilationAction 1476273315651 SpreadsheetTest.java
+CompilationAction 1476273315652 SpreadsheetTest.java
+CompilationAction 1476273315653 SpreadsheetTest.java
+CompilationAction 1476273315654 SpreadsheetTest.java
+CompilationAction 1476273315806 SpreadsheetTest.java
+CompilationAction 1476273315807 SpreadsheetTest.java
+CompilationAction 1476273319152 SpreadsheetTest.java
+CompilationAction 1476273319153 SpreadsheetTest.java
+CompilationAction 1476273319299 SpreadsheetTest.java
+CompilationAction 1476273319299 SpreadsheetTest.java
+EditAction 1476273321768 SpreadsheetTest.java 356 2 1 0
