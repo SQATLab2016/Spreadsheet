@@ -11,3 +11,13 @@ RefactoringAction 1476271117605 Spreadsheet.java RENAME consumeStringLiteral=>in
 RefactoringAction 1476271241223 Spreadsheet.java RENAME consumeStringLiteral(int)=>String consumeStringLiteral(String, int) METHOD
 EditAction 1476271330224 Spreadsheet.java 1113 3 4 0
 EditAction 1476271351511 Spreadsheet.java 1393 3 4 0
+UnitTestCaseAction 1476271355212 SpreadsheetTest.java OK
+UnitTestSessionAction 1476271355212 SpreadsheetTest.java OK
+RefactoringAction 1476271363360 SpreadsheetTest.java ADD void testAssignment_A1_Assign_String()/2 METHOD
+RefactoringAction 1476271366887 SpreadsheetTest.java RENAME testAssignment_A1_Assign_String()/2=>void testAssignment_A1_Assign_() METHOD
+RefactoringAction 1476271368404 SpreadsheetTest.java RENAME testAssignment_A1_Assign_()=>void testAssignment_A1_Assign_Integer() METHOD
+RefactoringAction 1476271373926 SpreadsheetTest.java RENAME testAssignment_A1_Assign_Integer()=>void testAssignment_A1_Assign_Integer_Positive() METHOD
+RefactoringAction 1476271383472 SpreadsheetTest.java ADD void testAssignment_A1_Assign_Integer_Positive()/2 METHOD
+RefactoringAction 1476271384488 SpreadsheetTest.java RENAME testAssignment_A1_Assign_Integer_Positive()/2=>void testAssignment_A1_Assign_Integer_Positie() METHOD
+RefactoringAction 1476271387003 SpreadsheetTest.java RENAME testAssignment_A1_Assign_Integer_Positie()=>void testAssignment_A1_Assign_Integer_Negative() METHOD
+EditAction 1476271392139 SpreadsheetTest.java 1910 11 31 10

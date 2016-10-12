@@ -67,4 +67,18 @@ public class SpreadsheetTest {
 		String result = sheet.evaluate("A1");
 		assertEquals("a string", result);
 	}
+
+	@Test
+	public void testAssignment_A1_Assign_Integer_Positive() {
+		sheet.set("A1", "=1");
+		String result = sheet.evaluate("A1");
+		assertEquals("1", result);
+	}
+	
+	@Test
+	public void testAssignment_A1_Assign_Integer_Negative() {
+		sheet.set("A1", "=-1");
+		String result = sheet.evaluate("A1");
+		assertEquals("-1", result);
+	}
 }
