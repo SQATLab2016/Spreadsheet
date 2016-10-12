@@ -97,9 +97,18 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void testAssignment_A1_Reference_A2_Integer() {
-		sheet.set("A1", "=-1");
-		String result = sheet.evaluate("A1");
-		assertEquals("-1", result);
+	public void testAssignment_A2_Reference_AA_String() {
+		sheet.set("A1", "'a string'");
+		sheet.set("A2", "=A1");
+		String result = sheet.evaluate("A2");
+		assertEquals("a string", result);
+	}
+
+	@Test
+	public void testAssignment_A2_Reference_A1_Integer() {
+		sheet.set("A1", "123");
+		sheet.set("A2", "=A1");
+		String result = sheet.evaluate("A2");
+		assertEquals("123", result);
 	}
 }

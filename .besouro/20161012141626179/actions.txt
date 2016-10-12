@@ -109,3 +109,16 @@ RefactoringAction 1476272067436 SpreadsheetTest.java RENAME testAssignment_A1_As
 RefactoringAction 1476272069450 SpreadsheetTest.java RENAME testAssignment_A1_Reference_Integer_Negative()=>void testAssignment_A1_Reference_A2Integer_Negative() METHOD
 RefactoringAction 1476272070466 SpreadsheetTest.java RENAME testAssignment_A1_Reference_A2Integer_Negative()=>void testAssignment_A1_Reference_A2_Integer_Negative() METHOD
 EditAction 1476272072894 SpreadsheetTest.java 2469 14 40 13
+RefactoringAction 1476272080499 SpreadsheetTest.java ADD void testAssignment_A1_Reference_A2_Integer()/2 METHOD
+RefactoringAction 1476272083507 SpreadsheetTest.java RENAME testAssignment_A1_Reference_A2_Integer()/2=>void testAssignment_A1_Reference_A2_String() METHOD
+RefactoringAction 1476272086520 SpreadsheetTest.java REMOVE testAssignment_A1_Reference_A2_String() METHOD
+RefactoringAction 1476272087532 SpreadsheetTest.java ADD void testAssignment_A1_Reference_A2_String() METHOD
+RefactoringAction 1476272101583 SpreadsheetTest.java RENAME testAssignment_A1_Reference_A2_String()=>void testAssignment_A2_Reference_A2_String() METHOD
+RefactoringAction 1476272103090 SpreadsheetTest.java RENAME testAssignment_A2_Reference_A2_String()=>void testAssignment_A1_Reference_A2_String() METHOD
+RefactoringAction 1476272108611 SpreadsheetTest.java RENAME testAssignment_A1_Reference_A2_String()=>void testAssignment_A2_Reference_A2_String() METHOD
+RefactoringAction 1476272112126 SpreadsheetTest.java RENAME testAssignment_A2_Reference_A2_String()=>void testAssignment_A1_Reference_A2_String() METHOD
+RefactoringAction 1476272117638 SpreadsheetTest.java RENAME testAssignment_A1_Reference_A2_String()=>void testAssignment_A2_Reference_A2_String() METHOD
+RefactoringAction 1476272119650 SpreadsheetTest.java RENAME testAssignment_A2_Reference_A2_String()=>void testAssignment_A2_Reference_AA_String() METHOD
+RefactoringAction 1476272122167 SpreadsheetTest.java RENAME testAssignment_A1_Reference_A2_Integer()=>void testAssignment_A2_Reference_A2_Integer() METHOD
+RefactoringAction 1476272123679 SpreadsheetTest.java RENAME testAssignment_A2_Reference_A2_Integer()=>void testAssignment_A2_Reference_A1_Integer() METHOD
+EditAction 1476272162079 SpreadsheetTest.java 2697 15 45 14
