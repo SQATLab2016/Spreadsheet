@@ -8,6 +8,20 @@ public class Spreadsheet {
 	HashMap<String, String> table = new HashMap<String, String>();
 	
 	public String get(String cell) {
+		boolean selfChecked = false;
+		while (isReference(value)) {
+			if (!selfChecked && value.substring(1) == cell) {
+				value = ERROR_VALUE;
+				break;
+			}
+			
+			selfChecked = true;
+			
+			value = table.get(value.substring(1));
+			
+			if (value == null)
+				value = ERROR_VALUE;
+		}
 		
 		return table.get(cell);
 	}
@@ -25,20 +39,7 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		String value = get(cell);
 		
-		boolean selfChecked = false;
-		while (isReference(value)) {
-			if (!selfChecked && value.substring(1) == cell) {
-				value = ERROR_VALUE;
-				break;
-			}
-			
-			selfChecked = true;
-			
-			value = table.get(value.substring(1));
-			
-			if (value == null)
-				value = ERROR_VALUE;
-		}
+
 		
 		if (isFormula(value)) {
 			value = value.substring(1);
