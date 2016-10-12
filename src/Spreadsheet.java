@@ -14,7 +14,7 @@ public class Spreadsheet {
 	public void set(String cell, String value) throws SpreadsheetException{
 		// to be implemented
 		//Test if contains only numbers 0-9
-		//if(value.matches("[0-9]") &&(!(value.contains("[a-zA-Z]")))) throw new SpreadsheetException("sjadasdajsd");
+		if(value.matches("[0-9]") &&(!(value.contains("[a-zA-Z]")))) throw new SpreadsheetException("sjadasdajsd");
 		
 		//Put the cell and value to excell hashmap
 
