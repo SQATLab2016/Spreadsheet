@@ -22,3 +22,9 @@ CompilationAction 1476272403177 Spreadsheet.java
 EditAction 1476272525229 Spreadsheet.java 525 3 6 0
 CompilationAction 1476272525436 Spreadsheet.java
 EditAction 1476272541444 Spreadsheet.java 519 3 6 0
+RefactoringAction 1476272605288 Spreadsheet.java ADD boolean has FIELD
+RefactoringAction 1476272607326 Spreadsheet.java RENAME has=>boolean hasNu FIELD
+RefactoringAction 1476272608360 Spreadsheet.java RENAME hasNu=>boolean hasA FIELD
+RefactoringAction 1476272611892 Spreadsheet.java RENAME hasA=>boolean hasLetters() METHOD
+RefactoringAction 1476272614417 Spreadsheet.java RENAME hasLetters()=>boolean hasLetters(String) METHOD
+EditAction 1476272647300 Spreadsheet.java 699 4 5 0
