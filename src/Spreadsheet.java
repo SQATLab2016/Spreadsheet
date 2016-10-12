@@ -58,8 +58,11 @@ public class Spreadsheet {
 			
 			int sum = Integer.parseInt(numbers[0]);
 			for (int i = 0; i < operands.length; i++) {
+				int number = Integer.parseInt(numbers[i + 1]); 
 				if (operands[i].equals("+")) {
-					sum += Integer.parseInt(numbers[i + 1]);
+					sum += number;
+				} else if (operands[i].equals("-")) {
+					sum -= number;
 				}
 			}
 			
