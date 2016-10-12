@@ -30,6 +30,7 @@ public class Spreadsheet {
 				} else if (isInteger(sheet.get(cell).substring(1, 2))) {
 					int evaluation = Integer.parseInt(sheet.get(cell).substring(1, 2));
 					
+					result = "" + evaluation;
 				} else {
 					throw new SpreadSheetException();
 				}

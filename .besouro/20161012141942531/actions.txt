@@ -166,3 +166,4 @@ RefactoringAction 1476274142331 Spreadsheet.java ADD static boolean isInteger(St
 EditAction 1476274143772 Spreadsheet.java 1507 4 5 0
 EditAction 1476274173052 Spreadsheet.java 1495 4 5 0
 EditAction 1476274481956 Spreadsheet.java 1573 4 5 0
+EditAction 1476274523519 Spreadsheet.java 1604 4 5 0
