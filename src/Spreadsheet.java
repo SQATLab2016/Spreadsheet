@@ -1,6 +1,8 @@
 import java.util.HashMap;
 
 public class Spreadsheet {
+	
+	public static final String ERROR_VALUE = "#Error";
 
 	HashMap<String, String> table = new HashMap<String, String>();
 	
@@ -10,6 +12,10 @@ public class Spreadsheet {
 	
 	public void set(String cell, String value) {
 		String v = value;
+		
+		if (Character.isDigit(v.substring(0, 1))) {
+			
+		}
 		
 		table.put(cell, value);
 	}

@@ -12,3 +12,11 @@ UnitTestSessionAction 1476272316472 SpreadsheetTest.test_evalueSetNegativeValue 
 UnitTestCaseAction 1476272320677 SpreadsheetTest.java OK
 UnitTestSessionAction 1476272320679 SpreadsheetTest.java OK
 EditAction 1476272359509 Spreadsheet.java 408 3 5 0
+RefactoringAction 1476272372299 Spreadsheet.java ADD String ERROR_VALUE FIELD
+CompilationAction 1476272376817 Spreadsheet.java
+CompilationAction 1476272382566 Spreadsheet.java
+CompilationAction 1476272382722 Spreadsheet.java
+RefactoringAction 1476272384926 Spreadsheet.java RENAME ERROR_VALUE=>read String FIELD
+RefactoringAction 1476272402478 Spreadsheet.java RENAME String=>String ERROR_VALUE FIELD
+CompilationAction 1476272403177 Spreadsheet.java
+EditAction 1476272525229 Spreadsheet.java 525 3 6 0
