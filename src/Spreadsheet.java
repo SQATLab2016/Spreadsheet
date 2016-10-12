@@ -57,6 +57,7 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		
 		return get(cell);
+		
 	}
 	
 }
