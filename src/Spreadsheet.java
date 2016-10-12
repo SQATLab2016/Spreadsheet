@@ -37,7 +37,8 @@ public class Spreadsheet {
 	}
 	
 	private boolean containsString(String value) {
-		
+		if (!(value.charAt(0).equals("'") && value.charAt(value.length()).equals("'")))
+			return false;
 	}
 	
 	private String evaluatedString(String unevaluatedString) {
