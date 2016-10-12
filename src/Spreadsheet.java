@@ -124,13 +124,7 @@ public class Spreadsheet {
 		String[] splitFormula = value.substring(1).split("(?<=[&])|(?=[&])");
 		
 		for (int i = 0; i < splitFormula.length; i++) {
-			if (i % 2 == 0) {
-				try {
-					Integer.parseInt(splitFormula[i]);
-				} catch (NumberFormatException nfe) {
-					return false;
-				}
-			} else {
+			if (i % 2 == 1) {
 				if (splitFormula[i].charAt(0) != '+' &&
 					splitFormula[i].charAt(0) != '-' &&
 					splitFormula[i].charAt(0) != '*' &&
