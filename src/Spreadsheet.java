@@ -109,12 +109,12 @@ public class Spreadsheet {
 				
 				String subEquation = equation.substring(openingParenthesis + 1, closingParenthesis);
 				String calculatedSubEquation = calculateEquation(subEquation);
-				return calculatedSubEquation;
 				
-//				if (calculatedSubEquation.equals("#Error")) {
-//					return "#Error";
-//				}
-//				
+				if (calculatedSubEquation.equals("#Error")) {
+					return "#Error";
+				}
+
+				return calculatedSubEquation;
 //				equation = equation.replace(openingParenthesis, closingParenthesis, calculatedSubEquation);
 			}
 			
