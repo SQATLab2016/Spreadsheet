@@ -80,3 +80,12 @@ UnitTestCaseAction 1476271828706 SpreadsheetTest.java OK
 UnitTestSessionAction 1476271828706 SpreadsheetTest.java OK
 EditAction 1476271832090 Spreadsheet.java 1446 3 4 0
 EditAction 1476271841506 Spreadsheet.java 1459 3 4 0
+RefactoringAction 1476271897178 SpreadsheetTest.java ADD void testAssignment_A1_Assign_Integer_Positive()/2 METHOD
+RefactoringAction 1476271901717 SpreadsheetTest.java REMOVE testAssignment_A1_Assign_Integer_Positive()/2 METHOD
+RefactoringAction 1476271903729 SpreadsheetTest.java ADD void testAssignment_A1_Assign_String()/2 METHOD
+RefactoringAction 1476271906747 SpreadsheetTest.java RENAME testAssignment_A1_Assign_String()/2=>void testAssignment_A1_Assign_String_Error() METHOD
+RefactoringAction 1476271916265 SpreadsheetTest.java RENAME testAssignment_A1_Assign_String_Error()=>void testAssignment_A1_Assign_String_Missing_SingleQuote_End_Error() METHOD
+RefactoringAction 1476271918778 SpreadsheetTest.java RENAME testAssignment_A1_Assign_String_Missing_SingleQuote_End_Error()=>void testAssignment_A1_Assign_String_Missing_SingleQuote_Begin_Error() METHOD
+RefactoringAction 1476271921796 SpreadsheetTest.java ADD void testAssignment_A1_Assign_String_Missing_SingleQuote_Begin_Error()/2 METHOD
+RefactoringAction 1476271925809 SpreadsheetTest.java RENAME testAssignment_A1_Assign_String_Missing_SingleQuote_Begin_Error()/2=>void testAssignment_A1_Assign_String_Missing_SingleQuote_End_Error() METHOD
+EditAction 1476271930435 SpreadsheetTest.java 2310 13 37 12
