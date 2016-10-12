@@ -176,3 +176,12 @@ RefactoringAction 1476274920663 Spreadsheet.java RENAME arithmetic=>int arithmet
 RefactoringAction 1476274921680 Spreadsheet.java RENAME arithmeticOperation=>int arithmeticOperation() METHOD
 RefactoringAction 1476274926712 Spreadsheet.java RENAME arithmeticOperation()=>int arithmeticOperation(String) METHOD
 EditAction 1476275024319 Spreadsheet.java 1709 5 5 0
+CompilationAction 1476275026370 Spreadsheet.java
+CompilationAction 1476275026371 Spreadsheet.java
+CompilationAction 1476275031734 Spreadsheet.java
+CompilationAction 1476275031735 Spreadsheet.java
+CompilationAction 1476275031969 Spreadsheet.java
+CompilationAction 1476275031970 Spreadsheet.java
+CompilationAction 1476275153947 Spreadsheet.java
+CompilationAction 1476275154161 Spreadsheet.java
+EditAction 1476275163205 Spreadsheet.java 1686 5 7 0

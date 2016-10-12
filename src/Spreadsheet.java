@@ -28,13 +28,9 @@ public class Spreadsheet {
 					} else
 						result = evaluate(sheet.get(cell).substring(1));
 				} else if (isInteger(sheet.get(cell).substring(1, 2))) {
-
+					result = ""+ arithmeticOperation(sheet.get(cell).substring(1));
 				} else {
-					try {
-
-					} catch (Exception e) {
-						throw new SpreadSheetException();
-					}
+					throw new SpreadSheetException();
 				}
 			} else
 				result = "" + Integer.parseInt(sheet.get(cell));
@@ -55,10 +51,11 @@ public class Spreadsheet {
 		// only got here if we didn't return false
 		return true;
 	}
-
+	
 	public int arithmeticOperation(String value){
-		int evaluation = Integer.parseInt(sheet.get(cell).substring(1, 2));
 		int stringIndex = 0;
-		while(stringIndex)
+		while(stringIndex <= value.length()){
+			
+		}
 	}
 }
