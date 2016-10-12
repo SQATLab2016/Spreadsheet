@@ -59,4 +59,12 @@ public class SpreadsheetTest {
 		oneSheet.set("A1", "='a string");
 		oneSheet.evaluate("A1");
 	}
+	
+	@Test
+	public void testSpreadSheet_evaluateCellReference() throws SpreadSheetException {
+		Spreadsheet oneSheet = new Spreadsheet();
+		oneSheet.set("A5", "4");
+		oneSheet.set("A1", "=A5");
+		assertEquals("4", oneSheet.evaluate("A1"));
+	}
 }
