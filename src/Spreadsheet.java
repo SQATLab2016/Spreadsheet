@@ -25,7 +25,7 @@ public class Spreadsheet {
 					result = result.replaceAll("'", "");
 				}
 				else if(sheet.containsKey(sheet.get(cell).substring(1))){
-					result = sheet.get(sheet.get(cell).substring(1));
+					result = evaluate(sheet.get(cell).substring(1));
 				}
 				else{
 					throw new SpreadSheetException();
