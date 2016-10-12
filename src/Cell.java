@@ -10,11 +10,6 @@ public class Cell {
 		
 	}
 	
-	
-	
-	
-	
-	
 	public String getCellName() {
 		return cellName;
 	}
