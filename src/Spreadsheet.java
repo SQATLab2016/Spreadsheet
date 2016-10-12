@@ -18,7 +18,7 @@ public class Spreadsheet {
 						value = "#Error";
 					}
 					
-				} else if (!(value.charAt(1) < '0' || value.charAt(1) > '9')) {
+				} else if (!(value.charAt(1) < '0' || value.charAt(1) > '9') && value.charAt(1) != '-') {
 					// Reference / No-op, return possible errors when
 					// the cell is actually evaluated
 					
