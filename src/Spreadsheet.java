@@ -42,8 +42,6 @@ public class Spreadsheet {
 			}
 		}
 		
-
-		
 		table.put(cell, v);
 	}
 	
