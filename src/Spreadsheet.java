@@ -16,7 +16,7 @@ public class Spreadsheet {
 		
 		//String value
 		if (v.startsWith(STRING_IDENTIFIER) && v.endsWith(STRING_IDENTIFIER)) {
-			
+			v = value;
 		} else { //Integer
 			for (int i = 0; i < v.length(); i++) {
 				if (!Character.isDigit(v.charAt(i))) {
