@@ -70,13 +70,16 @@ public class Spreadsheet {
 	
 	public String evaluate(String cell) {
 		String value = (String) mValues.get(cell);
+		
 		if (!(value.charAt(1) < '0' || value.charAt(1) > '9')) {
 			if (mValues.containsKey(value)) {
+				return (String) mValues.get(value);
 				
 			} else {
 				return "#Error";
 			}
 		}
+		
 		return value;
 	}
 	
