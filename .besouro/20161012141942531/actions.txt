@@ -69,3 +69,9 @@ EditAction 1476272123532 Spreadsheet.java 513 3 3 0
 UnitTestCaseAction 1476272127595 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476272127596 SpreadsheetTest.java FAIL
 EditAction 1476272143292 SpreadsheetTest.java 924 4 12 3
+UnitTestCaseAction 1476272148165 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272148166 SpreadsheetTest.java OK
+RefactoringAction 1476272162689 SpreadsheetTest.java ADD void testSpreadSheet_evaluateCellWrongFormatedInteger_Exception()/2 METHOD
+RefactoringAction 1476272175719 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellWrongFormatedInteger_Exception()/2=>void testSpreadSheet_evaluateCellHandling_Exception() METHOD
+RefactoringAction 1476272178234 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellHandling_Exception()=>void testSpreadSheet_evaluateCellHandlingString_Exception() METHOD
+EditAction 1476272199025 SpreadsheetTest.java 1168 5 15 4

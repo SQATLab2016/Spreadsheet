@@ -31,4 +31,11 @@ public class SpreadsheetTest {
 		oneSheet.set("A1", "5A");
 		oneSheet.evaluate("A1");
 	}
+	
+	@Test
+	public void testSpreadSheet_evaluateCellHandlingString_Exception() throws SpreadSheetException {
+		Spreadsheet oneSheet = new Spreadsheet();
+		oneSheet.set("A1", "'a string'");
+		assertEquals("a sttring", oneSheet.evaluate("A1"));
+	}
 }
