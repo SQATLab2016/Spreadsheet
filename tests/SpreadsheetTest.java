@@ -39,12 +39,25 @@ public class SpreadsheetTest {
 		String result = sheet.evaluate("A1");
 		assertEquals("#Error", result);
 	}
-	
+
 	@Test
 	public void testAssignment_A1_ValidString() {
 		sheet.set("A1", "'a string'");
 		String result = sheet.evaluate("A1");
 		assertEquals("a string", result);
+	}
+
+	@Test
+	public void testAssignment_A1_String_Missing_SingleQuote_Begin_Error() {
+		sheet.set("A1", "a string'");
+		String result = sheet.evaluate("A1");
+		assertEquals("#Error", result);
+	}
+	@Test
+	public void testAssignment_A1_String_Missing_SingleQuote_End_Error() {
+		sheet.set("A1", "a string'");
+		String result = sheet.evaluate("A1");
+		assertEquals("#Error", result);
 	}
 
 }

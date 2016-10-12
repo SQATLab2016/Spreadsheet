@@ -1,2 +1,21 @@
 FileOpenedAction 1476269695411 SpreadsheetTest.java 1022 6 16 5
 EditAction 1476269797530 Spreadsheet.java 757 3 2 0
+CompilationAction 1476269801858 Spreadsheet.java
+CompilationAction 1476269801861 Spreadsheet.java
+CompilationAction 1476269801861 Spreadsheet.java
+CompilationAction 1476269841129 Spreadsheet.java
+CompilationAction 1476269841131 Spreadsheet.java
+CompilationAction 1476269841132 Spreadsheet.java
+UnitTestCaseAction 1476269845212 SpreadsheetTest.java OK
+UnitTestSessionAction 1476269845218 SpreadsheetTest.java OK
+RefactoringAction 1476269849759 SpreadsheetTest.java ADD void testAssignment_A1_ValidString()/2 METHOD
+RefactoringAction 1476269857804 SpreadsheetTest.java RENAME testAssignment_A1_ValidString()/2=>void testAssignment_A1_String_Missing() METHOD
+RefactoringAction 1476269890344 SpreadsheetTest.java RENAME testAssignment_A1_String_Missing()=>void testAssignment_A1_String_Missing_Single_Quote() METHOD
+RefactoringAction 1476269896868 SpreadsheetTest.java RENAME testAssignment_A1_String_Missing_Single_Quote()=>void testAssignment_A1_String_Missing_SingleQuote() METHOD
+RefactoringAction 1476269899389 SpreadsheetTest.java RENAME testAssignment_A1_String_Missing_SingleQuote()=>void testAssignment_A1_String_Missing_SingleQuote_Begin() METHOD
+RefactoringAction 1476269902429 SpreadsheetTest.java ADD void testAssignment_A1_String_Missing_SingleQuote_Begin()/2 METHOD
+RefactoringAction 1476269904950 SpreadsheetTest.java RENAME testAssignment_A1_String_Missing_SingleQuote_Begin()/2=>void testAssignment_A1_String_Missing_SingleQuote_EN() METHOD
+RefactoringAction 1476269905968 SpreadsheetTest.java RENAME testAssignment_A1_String_Missing_SingleQuote_EN()=>void testAssignment_A1_String_Missing_SingleQuote_End() METHOD
+RefactoringAction 1476269908486 SpreadsheetTest.java RENAME testAssignment_A1_String_Missing_SingleQuote_End()=>void testAssignment_A1_String_Missing_SingleQuote_End_Error() METHOD
+RefactoringAction 1476269912518 SpreadsheetTest.java RENAME testAssignment_A1_String_Missing_SingleQuote_Begin()=>void testAssignment_A1_String_Missing_SingleQuote_Begin_Error() METHOD
+EditAction 1476269922901 SpreadsheetTest.java 1400 8 22 7
