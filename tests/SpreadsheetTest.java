@@ -127,6 +127,7 @@ public class SpreadsheetTest {
 	
 	@Test
 	public void test_stringOperation() {
-		sheet.set("A1", "=a&string");
+		sheet.set("A1", "='a'&'string'");
+		assertEquals("astring", sheet.evaluate("A1"));
 	}
 }
