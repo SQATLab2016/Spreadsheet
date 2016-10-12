@@ -93,4 +93,9 @@ public class SpreadsheetTest {
 		sheet.set("A1", "A5");
 		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
 	}
+	
+	@Test
+	public void test_circularReference() {
+		
+	}
 }
