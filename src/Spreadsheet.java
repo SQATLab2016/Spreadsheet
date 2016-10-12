@@ -58,16 +58,16 @@ public class Spreadsheet {
 		if (value.length() > 0) {
 			if (isAssignment(value)) {
 				value = value.substring(1, value.length());
-				if (value.charAt(1) == '\'') {
+				if (value.charAt(0) == '\'') {
 					if (value.charAt(value.length() - 1) == '\'' && value.length() > 2) {
-						value = value.substring(2, value.length() - 1);
+						value = value.substring(1, value.length() - 1);
 					} else {
 						value = ERROR;
 					}
 					
 				} else if ((value.charAt(value.length() - 1) == '\'')) {
-					if (value.charAt(1) == '\'') {
-						value = value.substring(2, value.length() - 1);
+					if (value.charAt(0) == '\'') {
+						value = value.substring(1, value.length() - 1);
 					} else {
 						value = ERROR;
 					}

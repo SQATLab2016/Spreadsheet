@@ -607,3 +607,6 @@ RefactoringAction 1476276630805 Spreadsheet.java ADD boolean isStringLiteral FIE
 RefactoringAction 1476276634320 Spreadsheet.java RENAME isStringLiteral=>boolean isStringLiteral(String) METHOD
 EditAction 1476276641122 Spreadsheet.java 3188 7 10 0
 EditAction 1476276679486 Spreadsheet.java 3211 7 10 0
+UnitTestCaseAction 1476276681178 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276681178 SpreadsheetTest.java FAIL
+EditAction 1476276702735 Spreadsheet.java 3211 7 10 0
