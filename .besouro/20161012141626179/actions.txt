@@ -642,3 +642,4 @@ CompilationAction 1476276865360 Spreadsheet.java
 RefactoringAction 1476276873997 Spreadsheet.java ADD boolean isInteger(String)/2 METHOD
 RefactoringAction 1476276876512 Spreadsheet.java RENAME isInteger(String)/2=>boolean isString(String) METHOD
 EditAction 1476276918594 Spreadsheet.java 3326 9 12 0
+EditAction 1476276936084 Spreadsheet.java 3119 9 12 0
