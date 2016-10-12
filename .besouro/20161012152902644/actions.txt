@@ -228,3 +228,4 @@ RefactoringAction 1476279256583 SpreadsheetTest.java RENAME detectStringIncorrec
 RefactoringAction 1476279260095 SpreadsheetTest.java RENAME detectStringIncorrectFormatting=>void detectStringIncorrectFormatting() METHOD
 EditAction 1476279284473 SpreadsheetTest.java 2007 7 20 5
 EditAction 1476279293836 SpreadsheetTest.java 2006 7 20 5
+EditAction 1476279337902 SpreadsheetTest.java 2073 7 19 5
