@@ -112,4 +112,9 @@ public class SpreadsheetTest {
 		sheet.set("A1", "=4-2/2");
 		assertEquals("1", sheet.evaluate("A1"));
 	}
+	
+	@Test
+	public void test_errorIntegerOperation1() {
+		sheet.set("A1", "=1+1A");
+	}
 }
