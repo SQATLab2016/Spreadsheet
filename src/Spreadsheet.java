@@ -89,7 +89,7 @@ public class Spreadsheet {
 				if (value.length() > 0 && value.charAt(0) == '&' && refValue.equals(value)) {
 					return CIRCULAR;
 				} else {
-					return (String) mValues.get(refValue);
+					return refValue;
 				}
 			} else {
 				return ERROR;

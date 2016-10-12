@@ -283,3 +283,6 @@ UnitTestSessionAction 1476274104216 SpreadsheetTest.java FAIL
 RefactoringAction 1476274110911 SpreadsheetTest.java RENAME testAssignment_Reference_Circular_Error()=>void testAssignment_Reference_Circular() METHOD
 EditAction 1476274111450 SpreadsheetTest.java 3056 17 52 16
 EditAction 1476274121234 Spreadsheet.java 2506 3 6 0
+UnitTestCaseAction 1476274123534 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274123535 SpreadsheetTest.java FAIL
+EditAction 1476274140201 Spreadsheet.java 2484 3 6 0
