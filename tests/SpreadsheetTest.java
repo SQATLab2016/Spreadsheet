@@ -76,5 +76,8 @@ public class SpreadsheetTest {
 	@Test
 	public void formulaTestCorrectString() {
 		spreadsheet.set("A1", "='a string'");
+		
+		assertEquals("Did not produce processed string from a formula expression",
+				"a string", spreadsheet.evaluate("A1"));
 	}
 }
