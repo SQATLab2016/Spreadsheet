@@ -130,4 +130,10 @@ public class SpreadsheetTest {
 		sheet.set("A1", "='a'&'string'");
 		assertEquals("astring", sheet.evaluate("A1"));
 	}
+	
+	@Test
+	public void test_stringOperationError() {
+		sheet.set("A1", "='a&'string'");
+		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
+	}
 }
