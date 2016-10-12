@@ -11,7 +11,7 @@ public class Spreadsheet {
 	
 	public void set(String cell, String value) {
 		Cell tempCell = new Cell(cell, value);
-		
+		tempCell.setCellName(cellName);
 		
 	}
 	
