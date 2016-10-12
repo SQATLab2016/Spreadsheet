@@ -29,6 +29,12 @@ public class Spreadsheet {
 		}
 		
 		else if (tempString.startsWith("=")){
+			tempString = tempString.substring(1);
+			
+			if ((tempString.endsWith("\'")) && (tempString.startsWith("\'"))){
+				tempString = tempString.substring(1, tempString.length()-1);
+				return tempString;}
+			
 			tempString = tempString.substring(2, tempString.length()-1);
 			return tempString;
 		}
