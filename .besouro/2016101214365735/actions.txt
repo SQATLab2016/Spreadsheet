@@ -3,3 +3,5 @@ EditAction 1476272238860 SpreadsheetTest.java 261 1 2 1
 UnitTestCaseAction 1476272241020 SpreadsheetTest.java OK
 UnitTestSessionAction 1476272241021 SpreadsheetTest.java OK
 EditAction 1476272284299 Spreadsheet.java 383 3 4 0
+RefactoringAction 1476272297727 SpreadsheetTest.java ADD void test_evalueSetValue() METHOD
+EditAction 1476272307232 SpreadsheetTest.java 385 2 4 2

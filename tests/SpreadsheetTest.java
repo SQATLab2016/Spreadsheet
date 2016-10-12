@@ -13,5 +13,11 @@ public class SpreadsheetTest {
 		sheet.set("A1", "1");
 		assertEquals("1", sheet.get("A1"));
 	}
+	
+	@Test
+	public void test_evalueSetValue() {
+		sheet.set("A1", "-1");
+		assertEquals("-1", sheet.evaluate("A1"));
+	}
 
 }
