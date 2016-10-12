@@ -40,7 +40,6 @@ public class Spreadsheet {
 			
 			if (next.equals('+')) {
 				operators.add('+');
-				
 			}
 		}
 		
