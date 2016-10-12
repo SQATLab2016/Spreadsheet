@@ -254,3 +254,14 @@ UnitTestCaseAction 1476273849218 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476273849218 SpreadsheetTest.java FAIL
 EditAction 1476273865544 Spreadsheet.java 2309 3 6 0
 EditAction 1476273874612 Spreadsheet.java 2276 3 6 0
+UnitTestCaseAction 1476273876065 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273876066 SpreadsheetTest.java OK
+RefactoringAction 1476273901190 SpreadsheetTest.java ADD void testAssignment_A2_InvalidReference_Error()/2 METHOD
+RefactoringAction 1476273905203 SpreadsheetTest.java RENAME testAssignment_A2_InvalidReference_Error()/2=>void testAssignment_A2_Reference_Error() METHOD
+RefactoringAction 1476273907716 SpreadsheetTest.java RENAME testAssignment_A2_InvalidReference_Error()=>void testAssignment_A2_Reference_Error()/2 METHOD
+RefactoringAction 1476273911229 SpreadsheetTest.java RENAME testAssignment_A2_Reference_Error()/2=>void testAssignment_A2_Reference_Invalid_Error() METHOD
+RefactoringAction 1476273915743 SpreadsheetTest.java RENAME testAssignment_A2_Reference_Error()=>void testAssignment_A2_Reference_Circlular_Error() METHOD
+RefactoringAction 1476273921256 SpreadsheetTest.java RENAME testAssignment_A2_Reference_Circlular_Error()=>void testAssignment_A2_Reference_Circular_Error() METHOD
+RefactoringAction 1476273932289 SpreadsheetTest.java RENAME testAssignment_A2_Reference_Circular_Error()=>void testAssignment_Reference_Circular_Error() METHOD
+RefactoringAction 1476273934302 SpreadsheetTest.java RENAME testAssignment_A2_Reference_Invalid_Error()=>void testAssignment_Reference_Invalid_Error() METHOD
+EditAction 1476273944127 SpreadsheetTest.java 3034 17 51 16
