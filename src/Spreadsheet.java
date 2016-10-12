@@ -15,9 +15,9 @@ public class Spreadsheet {
 					value = value.substring(2, value.length() - 1);
 				} else {
 					boolean isInteger = true;
-					for (int i = 1; i < value.length(); i++) {
+					for (int i = 0; i < value.length(); i++) {
 						char c = value.charAt(i);
-						if (i == 1 && c == '-')
+						if (i == 0 && c == '-')
 							continue;
 						
 						if (c < '0' || c > '9') {
