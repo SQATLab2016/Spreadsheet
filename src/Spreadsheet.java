@@ -20,7 +20,7 @@ public class Spreadsheet {
 	}
 	
 	public String evaluate(String cell) {
-		int tempValue = Integer.parseInt(cell.value);
+		int tempValue = Integer.parseInt(this.value);
 		return this.value;
 	}
 	
