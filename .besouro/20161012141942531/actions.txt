@@ -154,3 +154,6 @@ EditAction 1476273762635 Spreadsheet.java 1180 3 3 0
 UnitTestCaseAction 1476273770697 SpreadsheetTest.java OK
 UnitTestSessionAction 1476273770697 SpreadsheetTest.java OK
 EditAction 1476274035751 Spreadsheet.java 1258 3 3 0
+RefactoringAction 1476274049297 SpreadsheetTest.java ADD void testSpreadSheet_evaluateCellReferenceCircular_Exception()/2 METHOD
+RefactoringAction 1476274069855 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellReferenceCircular_Exception()/2=>void testSpreadSheet_evaluateArithmeticOperations() METHOD
+EditAction 1476274099451 SpreadsheetTest.java 2914 12 39 7

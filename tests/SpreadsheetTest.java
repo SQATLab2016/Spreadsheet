@@ -83,4 +83,11 @@ public class SpreadsheetTest {
 		oneSheet.set("A1", "=A5");
 		oneSheet.evaluate("A1");
 	}
+	
+	@Test
+	public void testSpreadSheet_evaluateArithmeticOperations() throws SpreadSheetException {
+		Spreadsheet oneSheet = new Spreadsheet();
+		oneSheet.set("A1", "=1*1+2");
+		assertEquals("3", oneSheet.evaluate("A1"));
+	}
 }
