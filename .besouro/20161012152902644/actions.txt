@@ -35,3 +35,11 @@ EditAction 1476275778532 SpreadsheetTest.java 1228 4 13 4
 UnitTestCaseAction 1476275779118 SpreadsheetTest.java OK
 UnitTestSessionAction 1476275779118 SpreadsheetTest.java OK
 EditAction 1476275782389 SpreadsheetTest.java 1228 4 13 4
+UnitTestCaseAction 1476275783927 SpreadsheetTest.java OK
+UnitTestSessionAction 1476275783928 SpreadsheetTest.java OK
+RefactoringAction 1476275931097 Spreadsheet.java ADD void isString() METHOD
+RefactoringAction 1476275937614 Spreadsheet.java RENAME isString()=>void contain() METHOD
+RefactoringAction 1476275940128 Spreadsheet.java RENAME contain()=>void containsString() METHOD
+RefactoringAction 1476275954205 Spreadsheet.java RENAME containsString()=>boolean containsString(String) METHOD
+RefactoringAction 1476276061831 Spreadsheet.java ADD String evaluatedString() METHOD
+EditAction 1476276067251 Spreadsheet.java 1944 9 17 0

@@ -27,10 +27,21 @@ public class Spreadsheet {
 		
 		String rawVal = cells.get(cell);
 		
+		if (isString(rawVal))
+			return evaluatedString(rawVal);
+		
 		if (!containsAllowedIntegers(rawVal))
 			return ERROR_MESSAGE;
 		
 		return rawVal;
+	}
+	
+	private boolean containsString(String value) {
+		
+	}
+	
+	private String evaluatedString(String unevaluatedString) {
+		
 	}
 	
 	private String charAsStringFromPos(String str, int pos) throws SpreadsheetException {
