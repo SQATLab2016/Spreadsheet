@@ -1,5 +1,6 @@
 
 public class Spreadsheet {
+	private static final String ERROR = "#Error";
 	String cell;
 	String value;
 		
@@ -42,7 +43,7 @@ public class Spreadsheet {
 				}
 				
 				catch (NumberFormatException n){
-					return "#Error";	
+					return ERROR;	
 				}
 				
 				String returnString = Integer.toString(tempValue);
@@ -56,7 +57,7 @@ public class Spreadsheet {
 		}
 		
 		catch (NumberFormatException n) {
-			return "#Error";
+			return ERROR;
 			
 		}
 		

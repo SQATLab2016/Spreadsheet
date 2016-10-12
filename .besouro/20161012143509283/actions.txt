@@ -409,3 +409,7 @@ RefactoringAction 1476276706027 SpreadsheetTest.java RENAME spreadsheetEvaluateA
 RefactoringAction 1476276709539 SpreadsheetTest.java RENAME spreadsheetEvaluateA5EqualsCUL8R_returnsMinus31()=>void spreadsheetEvaluateA5EqualsCUL8R_returns() METHOD
 RefactoringAction 1476276711050 SpreadsheetTest.java RENAME spreadsheetEvaluateA5EqualsCUL8R_returns()=>void spreadsheetEvaluateA5EqualsCUL8R_returnsError() METHOD
 EditAction 1476276724005 SpreadsheetTest.java 2491 12 36 12
+UnitTestCaseAction 1476276726493 SpreadsheetTest.java OK
+UnitTestSessionAction 1476276726493 SpreadsheetTest.java OK
+RefactoringAction 1476276752767 Spreadsheet.java ADD String ERROR FIELD
+EditAction 1476276752771 Spreadsheet.java 1234 3 9 0
