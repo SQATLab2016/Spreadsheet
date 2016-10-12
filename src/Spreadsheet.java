@@ -32,7 +32,7 @@ public class Spreadsheet {
 		ArrayList<Integer> integers = new ArrayList<Integer>();
 		ArrayList<Character> operators = new ArrayList<Character>();
 		
-		while (true) {
+		while (scanner.hasNextInt()) {
 			if (scanner.hasNextInt()) {
 				integers.add(scanner.nextInt());
 
@@ -45,6 +45,7 @@ public class Spreadsheet {
 					break;
 				}
 			}
+			
 		}
 		
 		if (integers.size() > 0) {
