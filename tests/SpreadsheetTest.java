@@ -85,5 +85,13 @@ public class SpreadsheetTest {
 		assertEquals("3", spready.evaluate("A3"));	
 		
 	}
+	
+	@Test public void spreadsheetEvaluateA5EqualsMinus31_returnsMinus31() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A3", "=3");
+		assertEquals("3", spready.evaluate("A3"));	
+		
+	}
 }
 

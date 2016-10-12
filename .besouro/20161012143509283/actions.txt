@@ -384,3 +384,15 @@ CompilationAction 1476276512070 Spreadsheet.java
 CompilationAction 1476276512225 Spreadsheet.java
 CompilationAction 1476276560930 Spreadsheet.java
 EditAction 1476276603311 Spreadsheet.java 1193 3 9 0
+UnitTestCaseAction 1476276607647 SpreadsheetTest.java OK
+UnitTestSessionAction 1476276607647 SpreadsheetTest.java OK
+RefactoringAction 1476276620827 SpreadsheetTest.java ADD void spreadsheetEvaluateA4Equals3_returns3()/2 METHOD
+RefactoringAction 1476276625339 SpreadsheetTest.java RENAME spreadsheetEvaluateA4Equals3_returns3()/2=>void spreadsheetEvaluateA5Equals3_returns3() METHOD
+RefactoringAction 1476276628850 SpreadsheetTest.java RENAME spreadsheetEvaluateA5Equals3_returns3()=>void spreadsheetEvaluateA5Equalsmiun3_returns3() METHOD
+RefactoringAction 1476276630360 SpreadsheetTest.java RENAME spreadsheetEvaluateA5Equalsmiun3_returns3()=>void spreadsheetEvaluateA5Equalsminus3_returns3() METHOD
+RefactoringAction 1476276631372 SpreadsheetTest.java RENAME spreadsheetEvaluateA5Equalsminus3_returns3()=>void spreadsheetEvaluateA5Equalsminus31_returns3() METHOD
+RefactoringAction 1476276634382 SpreadsheetTest.java RENAME spreadsheetEvaluateA5Equalsminus31_returns3()=>void spreadsheetEvaluateA5Equalsminus31_returnsminus3() METHOD
+RefactoringAction 1476276635393 SpreadsheetTest.java RENAME spreadsheetEvaluateA5Equalsminus31_returnsminus3()=>void spreadsheetEvaluateA5Equalsminus31_returnsminus31() METHOD
+RefactoringAction 1476276638400 SpreadsheetTest.java RENAME spreadsheetEvaluateA5Equalsminus31_returnsminus31()=>void spreadsheetEvaluateA5Equalsminus31_returnsMinus31() METHOD
+RefactoringAction 1476276641411 SpreadsheetTest.java RENAME spreadsheetEvaluateA5Equalsminus31_returnsMinus31()=>void spreadsheetEvaluateA5EqualsMinus31_returnsMinus31() METHOD
+EditAction 1476276641446 SpreadsheetTest.java 2283 11 33 11
