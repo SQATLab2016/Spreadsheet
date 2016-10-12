@@ -107,15 +107,14 @@ public class Spreadsheet {
 					return "#Error";
 				}
 				
-				String subEquation = equation.substring(openingParenthesis, closingParenthesis);
-				return subEquation;
-//				String calculatedSubEquation = calculateEquation(subEquation);
-//				
-//				if (calculatedSubEquation.equals("#Error")) {
-//					return "#Error";
-//				}
-//				
-//				equation.replace(openingParenthesis, closingParenthesis, calculatedSubEquation);
+				String subEquation = equation.substring(openingParenthesis + 1, closingParenthesis);
+				String calculatedSubEquation = calculateEquation(subEquation);
+				
+				if (calculatedSubEquation.equals("#Error")) {
+					return "#Error";
+				}
+				
+				equation.replace(openingParenthesis, closingParenthesis, calculatedSubEquation);
 			}
 			
 			return calculateEquation(equation.toString());
