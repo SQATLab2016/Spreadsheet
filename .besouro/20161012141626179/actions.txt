@@ -730,3 +730,5 @@ RefactoringAction 1476277675163 Spreadsheet.java RENAME isd=>boolean is FIELD
 RefactoringAction 1476277677179 Spreadsheet.java RENAME is=>boolean isDigit() METHOD
 RefactoringAction 1476277680699 Spreadsheet.java RENAME isDigit()=>boolean isDigit(char) METHOD
 EditAction 1476277692472 Spreadsheet.java 3442 15 21 0
+CompilationAction 1476277692586 Spreadsheet.java
+EditAction 1476277693578 Spreadsheet.java 3444 15 21 0
