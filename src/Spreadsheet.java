@@ -25,11 +25,14 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		String value = get(cell);
 		
+		boolean selfChecked = false;
 		while (isReference(value)) {
-			if (value.substring(1) == cell) {
+			if (!selfChecked && value.substring(1) == cell) {
 				value = ERROR_VALUE;
 				break;
 			}
+			
+			selfChecked = true;
 			
 			value = table.get(value.substring(1));
 			

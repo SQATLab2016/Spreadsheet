@@ -180,3 +180,6 @@ RefactoringAction 1476274256280 SpreadsheetTest.java RENAME test_invalidReferenc
 RefactoringAction 1476274257312 SpreadsheetTest.java RENAME test_l()=>void test_longer() METHOD
 RefactoringAction 1476274262328 SpreadsheetTest.java RENAME test_longer()=>void test_longerInvalidReference() METHOD
 EditAction 1476274288162 SpreadsheetTest.java 2025 13 27 13
+UnitTestCaseAction 1476274290185 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274290186 SpreadsheetTest.java FAIL
+EditAction 1476274341970 Spreadsheet.java 2395 8 22 0
