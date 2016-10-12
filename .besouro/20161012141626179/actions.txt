@@ -270,3 +270,15 @@ EditAction 1476273965763 SpreadsheetTest.java 3062 17 52 16
 UnitTestCaseAction 1476273967822 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476273967823 SpreadsheetTest.java FAIL
 EditAction 1476274043348 Spreadsheet.java 2357 3 6 0
+CompilationAction 1476274043459 Spreadsheet.java
+RefactoringAction 1476274060140 Spreadsheet.java ADD String ERROR/2 FIELD
+RefactoringAction 1476274062156 Spreadsheet.java RENAME ERROR/2=>String CIRCULAR FIELD
+CompilationAction 1476274088659 Spreadsheet.java
+CompilationAction 1476274088808 Spreadsheet.java
+CompilationAction 1476274088808 Spreadsheet.java
+CompilationAction 1476274102405 Spreadsheet.java
+CompilationAction 1476274102406 Spreadsheet.java
+UnitTestCaseAction 1476274104216 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274104216 SpreadsheetTest.java FAIL
+RefactoringAction 1476274110911 SpreadsheetTest.java RENAME testAssignment_Reference_Circular_Error()=>void testAssignment_Reference_Circular() METHOD
+EditAction 1476274111450 SpreadsheetTest.java 3056 17 52 16
