@@ -57,13 +57,14 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		String errorMessg = "#Error";
 		int op1;
+		String value = get(cell);
 		try {
-		    op1 = Integer.parseInt(get(cell));
+		    op1 = Integer.parseInt(value);
 		} catch (NumberFormatException e) {
 		    return errorMessg;
 		}
 		
-		return get(cell);
+		return value;
 		
 	}
 	
