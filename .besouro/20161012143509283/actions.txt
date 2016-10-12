@@ -30,3 +30,22 @@ EditAction 1476272383183 Cell.java 164 2 1 0
 CompilationAction 1476272407109 Cell.java
 RefactoringAction 1476272413522 Cell.java REMOVE setName(String) METHOD
 EditAction 1476272415350 Cell.java 123 1 1 0
+CompilationAction 1476272415600 Cell.java
+CompilationAction 1476272415601 Cell.java
+CompilationAction 1476272487638 Cell.java
+CompilationAction 1476272487638 Cell.java
+CompilationAction 1476272487639 Cell.java
+RefactoringAction 1476272518635 Cell.java ADD String cellName FIELD
+RefactoringAction 1476272518636 Cell.java ADD String cellValue FIELD
+CompilationAction 1476272519559 Cell.java
+RefactoringAction 1476272538156 Cell.java ADD String getCellName() METHOD
+RefactoringAction 1476272538157 Cell.java ADD void setCellName(String) METHOD
+RefactoringAction 1476272538157 Cell.java ADD String getCellValue() METHOD
+RefactoringAction 1476272538158 Cell.java ADD void setCellValue(String) METHOD
+RefactoringAction 1476272565183 Cell.java REMOVE cellValue FIELD
+CompilationAction 1476272566116 Cell.java
+RefactoringAction 1476272575753 Cell.java REMOVE Cell(String, String) METHOD
+RefactoringAction 1476272576766 Cell.java ADD Cell(String, String) METHOD
+RefactoringAction 1476272580778 Cell.java REMOVE Cell(String, String) METHOD
+RefactoringAction 1476272582791 Cell.java ADD Cell(String, String) METHOD
+EditAction 1476272608248 Cell.java 517 5 6 0
