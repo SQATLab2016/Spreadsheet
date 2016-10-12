@@ -27,8 +27,6 @@ public class Spreadsheet {
 						throw new SpreadSheetException();
 					} else
 						result = evaluate(sheet.get(cell).substring(1));
-				}else if(Integer.parseInt(sheet.get(cell).substring(1, 2))>=0){
-					
 				}
 				else {
 					throw new SpreadSheetException();
