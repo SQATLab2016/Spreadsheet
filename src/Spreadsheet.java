@@ -69,8 +69,6 @@ public class Spreadsheet {
 					sum /= number;
 				} else if (operands[i].equals("%")) {
 					sum %= number;
-				} else {
-					return "#Error";
 				}
 			}
 			
