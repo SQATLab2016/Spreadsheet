@@ -89,3 +89,4 @@ RefactoringAction 1476271918778 SpreadsheetTest.java RENAME testAssignment_A1_As
 RefactoringAction 1476271921796 SpreadsheetTest.java ADD void testAssignment_A1_Assign_String_Missing_SingleQuote_Begin_Error()/2 METHOD
 RefactoringAction 1476271925809 SpreadsheetTest.java RENAME testAssignment_A1_Assign_String_Missing_SingleQuote_Begin_Error()/2=>void testAssignment_A1_Assign_String_Missing_SingleQuote_End_Error() METHOD
 EditAction 1476271930435 SpreadsheetTest.java 2310 13 37 12
+EditAction 1476271935451 Spreadsheet.java 1465 3 4 0
