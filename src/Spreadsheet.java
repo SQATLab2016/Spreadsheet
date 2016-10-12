@@ -63,7 +63,9 @@ public class Spreadsheet {
 					}
 					
 				} else if (value.charAt(1) >= 'A' && value.charAt(1) <= 'Z') {
-					value = value.substring(1, value.length());
+					String key = value.substring(1, value.length());
+					if (mValues.containsKey()
+					value = "&" + value.substring(1, value.length());
 					
 				} else {
 					value = ERROR;
