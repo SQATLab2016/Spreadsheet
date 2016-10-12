@@ -95,3 +95,6 @@ RefactoringAction 1476272497941 SpreadsheetTest.java RENAME testSpreadSheet_eval
 RefactoringAction 1476272507455 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellHandlingString_Exception()/2=>void testSpreadSheet_evaluateCellHandlingString() METHOD
 EditAction 1476272508502 SpreadsheetTest.java 1406 6 18 4
 EditAction 1476272528576 SpreadsheetTest.java 1413 6 18 4
+UnitTestCaseAction 1476272533094 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272533095 SpreadsheetTest.java FAIL
+EditAction 1476272555097 Spreadsheet.java 655 3 3 0
