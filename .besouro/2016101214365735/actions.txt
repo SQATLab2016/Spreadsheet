@@ -359,3 +359,6 @@ UnitTestSessionAction 1476277263943 SpreadsheetTest.java OK
 RefactoringAction 1476277280537 SpreadsheetTest.java ADD void test_ FIELD
 RefactoringAction 1476277287087 SpreadsheetTest.java RENAME test_=>void test_stringOperationError() METHOD
 EditAction 1476277304669 SpreadsheetTest.java 3278 21 45 21
+UnitTestCaseAction 1476277310041 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476277310042 SpreadsheetTest.java FAIL
+EditAction 1476277379536 Spreadsheet.java 5144 10 36 0

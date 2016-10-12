@@ -161,8 +161,10 @@ public class Spreadsheet {
 		if (isFormula(value))
 			value = value.substring(1);
 		
-		if (value.startsWith(STRING_IDENTIFIER) && value.endsWith(STRING_IDENTIFIER))
-			return true;
+		if (value.startsWith(STRING_IDENTIFIER) && value.endsWith(STRING_IDENTIFIER)) {
+			
+		}
+			//return true;
 		
 		return false;
 	}
