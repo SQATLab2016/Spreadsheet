@@ -49,6 +49,9 @@ public class Spreadsheet {
 	private String evaluateInt(String cellStored) {
 		try {
 			char[] characters = cellStored.toCharArray();
+			if(characters[0] == '-'){
+				return cellStored;
+			}
 			return evaluateIntFormula(characters);	
 
 		} catch (NumberFormatException ex) {
@@ -66,14 +69,20 @@ public class Spreadsheet {
 			if (c >= '0' && c <= '9') {
 				operand = c;
 			} else if (c == '+') {
-				int x = operand;
-				int y = Integer.parseInt(evaluateIntFormula(Arrays.copyOfRange(characters, i, characters.length)));
+				int x = (int)operand -48;
+				int y = Integer.parseInt(evaluateIntFormula(Arrays.copyOfRange(characters, i+1, characters.length)));
 				calculation = x + y;
+				return String.valueOf(calculation);
+			} else if (c == '-') {
+				int x = (int)operand -48;
+				int y = Integer.parseInt(evaluateIntFormula(Arrays.copyOfRange(characters, i+1, characters.length)));
+				calculation = x - y;
 				return String.valueOf(calculation);
 			} else {
 				return ERROR;
 			}
 			number = number + String.valueOf(operand);
+			i++;
 		}
 		return number;
 	}

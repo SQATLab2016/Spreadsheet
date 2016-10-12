@@ -131,5 +131,13 @@ public class SpreadsheetTest {
 		assertEquals(sheet.evaluate("A1"), "3");		
 		
 	}
+	
+	@Test
+	public void testSpreadsheetFormulaCalculation_evaluateMultiplyFormula(){
+		sheet.set("A1", "=4*2");
+		
+		assertEquals(sheet.evaluate("A1"), "8");		
+		
+	}
 
 }
