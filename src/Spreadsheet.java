@@ -46,7 +46,7 @@ public class Spreadsheet {
 		}
 		
 		// Integer operations
-		p = Pattern.compile("^=([\\d+\\-\\*/%]+)$");
+		p = Pattern.compile("^=([\\d+\\-\\*/%\\(\\)]+)$");
 		m = p.matcher(value);
 		if (m.find()) {
 			String[] operands = m.group(1).replaceAll("\\d", "").split("\\s*");
