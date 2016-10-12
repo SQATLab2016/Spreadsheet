@@ -81,7 +81,7 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		String value = (String) mValues.get(cell);
 		
-		if (value.length() > 0 && value.charAt(0) == '&' && mValues.containsKey(value.substring(1, value.length() - 1))) {
+		if (value.length() > 0 && value.charAt(0) == '&' && mValues.containsKey(value.substring(1, value.length()))) {
 			return (String) mValues.get(value);
 		}
 		
