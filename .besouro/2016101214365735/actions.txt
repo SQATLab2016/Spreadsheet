@@ -119,3 +119,4 @@ RefactoringAction 1476273383731 SpreadsheetTest.java RENAME test_stri=>void test
 EditAction 1476273387777 SpreadsheetTest.java 929 6 11 5
 RefactoringAction 1476273411315 SpreadsheetTest.java ADD void test_simpleIntegerFormula() METHOD
 EditAction 1476273417054 SpreadsheetTest.java 1064 7 13 6
+EditAction 1476273429024 SpreadsheetTest.java 1109 7 14 7

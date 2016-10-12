@@ -47,5 +47,6 @@ public class SpreadsheetTest {
 	@Test
 	public void test_simpleIntegerFormula() {
 		sheet.set("A1", "=-2");
+		assertEquals("-2", sheet.evaluate("A1"));
 	}
 }
