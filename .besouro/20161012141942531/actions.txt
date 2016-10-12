@@ -1,0 +1,6 @@
+FileOpenedAction 1476271183117 Cell.java 286 4 4 0
+RefactoringAction 1476271196371 SpreadsheetTest.java ADD void testSpreadSheet_getCellA1AfterSet_1()/2 METHOD
+RefactoringAction 1476271207436 SpreadsheetTest.java RENAME testSpreadSheet_getCellA1AfterSet_1()/2=>void testSpreadSheet_getCellA1AfterSet_ FIELD
+RefactoringAction 1476271215983 SpreadsheetTest.java RENAME testSpreadSheet_getCellA1AfterSet_1()/2=>void testSpreadSheet_getCellA1AfterSet_ne1() METHOD
+RefactoringAction 1476271218512 SpreadsheetTest.java RENAME testSpreadSheet_getCellA1AfterSet_ne1()=>void testSpreadSheet_getCellA1AfterSet_negative1() METHOD
+EditAction 1476271229129 SpreadsheetTest.java 454 2 6 2
