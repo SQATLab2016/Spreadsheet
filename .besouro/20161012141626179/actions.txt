@@ -573,3 +573,6 @@ RefactoringAction 1476276110608 SpreadsheetTest.java ADD void testAssignment_Ref
 RefactoringAction 1476276114120 SpreadsheetTest.java RENAME testAssignment_Reference_Circular()/2=>void testAssignment_Reference_Circular_Depth() METHOD
 RefactoringAction 1476276115631 SpreadsheetTest.java RENAME testAssignment_Reference_Circular_Depth()=>void testAssignment_Reference_Circular_Depth_2() METHOD
 EditAction 1476276129499 SpreadsheetTest.java 3281 18 57 17
+UnitTestCaseAction 1476276131158 SpreadsheetTest.java OK
+UnitTestSessionAction 1476276131158 SpreadsheetTest.java OK
+EditAction 1476276140511 Spreadsheet.java 2958 5 8 0
