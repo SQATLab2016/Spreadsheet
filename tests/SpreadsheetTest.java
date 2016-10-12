@@ -33,9 +33,16 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void testSpreadSheet_evaluateCellHandlingString_Exception() throws SpreadSheetException {
+	public void testSpreadSheet_evaluateCellHandlingString() throws SpreadSheetException {
 		Spreadsheet oneSheet = new Spreadsheet();
 		oneSheet.set("A1", "'a string'");
 		assertEquals("a string", oneSheet.evaluate("A1"));
+	}
+	
+	@Test (expected = SpreadSheetException.class)
+	public void testSpreadSheet_evaluateCellHandlingString_Exception() throws SpreadSheetException {
+		Spreadsheet oneSheet = new Spreadsheet();
+		oneSheet.set("A1", "5A");
+		oneSheet.evaluate("A1");
 	}
 }
