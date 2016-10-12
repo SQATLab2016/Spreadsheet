@@ -69,7 +69,8 @@ public class Spreadsheet {
 			if (isAssignment(value)) {
 				value = value.substring(1, value.length());
 				if (isString(value)) {
-					if (value.charAt(value.length() - 1) == '\'' && value.length() > 2) {
+					if (value.charAt(0) == '\'' &&
+							value.charAt(value.length() - 1) == '\'') {
 						value = value.substring(1, value.length() - 1);
 					} else {
 						value = ERROR;
