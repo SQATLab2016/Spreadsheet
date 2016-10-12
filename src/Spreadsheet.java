@@ -21,6 +21,7 @@ public class Spreadsheet {
 			} else if (sheet.get(cell).startsWith("=")) {
 				if (sheet.get(cell).startsWith("'", 1) && sheet.get(cell).endsWith("'")) {
 					if (sheet.get(cell).contains("&")) {
+						checkIndividualStrings(sheet.get(cell).replaceAll("=", ""));
 						result = sheet.get(cell).replaceAll("=", "");
 						result = result.replaceAll("'", "");
 						result = result.replaceAll("&", "");
@@ -44,6 +45,15 @@ public class Spreadsheet {
 		} catch (Exception e) {
 			e.printStackTrace();
 			throw new SpreadSheetException();
+		}
+	}
+
+	private void checkIndividualStrings(String cell) throws SpreadSheetException {
+		String[] splitString = cell.split("&");
+		for (int loop = 0; loop < splitString.length; loop++) {
+			if (!(splitString[loop].startsWith("'") && splitString[loop].endsWith("'")))
+				throw new SpreadSheetException();
+
 		}
 	}
 

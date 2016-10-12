@@ -111,4 +111,11 @@ public class SpreadsheetTest {
 		oneSheet.set("A1", "='a&'string'");
 		oneSheet.evaluate("A1");
 	}
+	
+	@Test
+	public void testSpreadSheet_evaluateWithSpaces() throws SpreadSheetException {
+		Spreadsheet oneSheet = new Spreadsheet();
+		oneSheet.set("A1", "='1+  2");
+		assertEquals("3", oneSheet.evaluate("A1"));
+	}
 }

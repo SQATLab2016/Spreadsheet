@@ -246,3 +246,20 @@ RefactoringAction 1476277816893 SpreadsheetTest.java ADD void testSpreadSheet_ev
 RefactoringAction 1476277820405 SpreadsheetTest.java RENAME testSpreadSheet_evaluateStringOperations()/2=>void testSpreadSheet_evaluateStringOperations_() METHOD
 RefactoringAction 1476277823418 SpreadsheetTest.java RENAME testSpreadSheet_evaluateStringOperations_()=>void testSpreadSheet_evaluateStringOperations_Exception() METHOD
 EditAction 1476277849438 SpreadsheetTest.java 3657 15 48 8
+UnitTestCaseAction 1476277856812 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476277856813 SpreadsheetTest.java FAIL
+CompilationAction 1476278200096 Spreadsheet.java
+RefactoringAction 1476278201843 Spreadsheet.java ADD void checkIndividualStrings(Map<String,String>) METHOD
+RefactoringAction 1476278215056 Spreadsheet.java RENAME checkIndividualStrings(Map<String,String>)=>void checkIndividualStrings(Cell) METHOD
+CompilationAction 1476278221095 Spreadsheet.java
+CompilationAction 1476278221096 Spreadsheet.java
+CompilationAction 1476278226878 Spreadsheet.java
+CompilationAction 1476278227086 Spreadsheet.java
+RefactoringAction 1476278235436 Spreadsheet.java RENAME checkIndividualStrings(Cell)=>void checkIndividualStrings(String) METHOD
+UnitTestCaseAction 1476278242869 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278242870 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476278333130 SpreadsheetTest.java OK
+UnitTestSessionAction 1476278333131 SpreadsheetTest.java OK
+RefactoringAction 1476278363073 SpreadsheetTest.java ADD void testSpreadSheet_evaluateStringOperations()/2 METHOD
+RefactoringAction 1476278376093 SpreadsheetTest.java RENAME testSpreadSheet_evaluateStringOperations()/2=>void testSpreadSheet_evaluateWithSpaces() METHOD
+EditAction 1476278391281 SpreadsheetTest.java 3872 16 51 9
