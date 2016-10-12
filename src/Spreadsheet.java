@@ -33,7 +33,7 @@ public class Spreadsheet {
 		ArrayList<Character> operators = new ArrayList<Character>();
 		
 		while (scanner.hasNextShort()) {
-			integers.add(scanner.getNextShort());
+			integers.add(scanner.hasNextShort());
 
 			String next = scanner.next();
 			
