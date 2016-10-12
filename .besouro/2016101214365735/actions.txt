@@ -230,3 +230,13 @@ EditAction 1476274916637 Spreadsheet.java 2650 8 22 0
 CompilationAction 1476274916770 Spreadsheet.java
 EditAction 1476275006236 Spreadsheet.java 2719 8 25 0
 EditAction 1476275079874 Spreadsheet.java 2827 8 25 0
+CompilationAction 1476275215053 Spreadsheet.java
+CompilationAction 1476275217079 Spreadsheet.java
+UnitTestCaseAction 1476275219793 SpreadsheetTest.java OK
+UnitTestSessionAction 1476275219794 SpreadsheetTest.java OK
+RefactoringAction 1476275246961 SpreadsheetTest.java ADD void test_inva FIELD
+RefactoringAction 1476275249511 SpreadsheetTest.java REMOVE test_inva FIELD
+RefactoringAction 1476275258058 SpreadsheetTest.java ADD void test_invalidReferenceFormat() METHOD
+RefactoringAction 1476275277137 SpreadsheetTest.java RENAME test_invalidReferenceFormat()=>void test_referenceTo() METHOD
+RefactoringAction 1476275285674 SpreadsheetTest.java RENAME test_referenceTo()=>void test_referenceToCellWithInvalidValue() METHOD
+EditAction 1476275314429 SpreadsheetTest.java 2211 14 30 14

@@ -13,7 +13,7 @@ public class Spreadsheet {
 		boolean selfChecked = false;
 		
 		while (isReference(value)) {
-			if (!selfChecked && value.substring(1) == cell) {
+			if (!selfChecked && value.substring(1).equals(cell)) {
 				value = ERROR_VALUE;
 				break;
 			}

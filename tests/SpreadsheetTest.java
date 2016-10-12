@@ -86,4 +86,11 @@ public class SpreadsheetTest {
 		sheet.set("A1", "=A2d");
 		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
 	}
+	
+	@Test
+	public void test_referenceToCellWithInvalidValue() {
+		sheet.set("A5", "5A");
+		sheet.set("A1", "A5");
+		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
+	}
 }
