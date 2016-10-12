@@ -1,5 +1,5 @@
 
 public class Cell {
-	String location;
-	String value;
+	String location="";
+	String value="";
 }
