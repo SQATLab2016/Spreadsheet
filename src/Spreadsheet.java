@@ -27,7 +27,7 @@ public class Spreadsheet {
 	}
 	
 	public void set(String cell, String value) {
-		if (isReference(value) || isIntegerFormula(value)) {
+		if (isReference(value) || isIntegerFormula(value) || isStringFormula(value)) {
 			table.put(cell, value);
 			return;
 		}
@@ -68,6 +68,8 @@ public class Spreadsheet {
 			}
 			
 			return String.valueOf(val);
+		} else if (isStringFormula(value)) {
+			
 		}
 		
 		if (isFormula(value)) {
