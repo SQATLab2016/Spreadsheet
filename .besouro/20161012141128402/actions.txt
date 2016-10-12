@@ -81,3 +81,6 @@ UnitTestSessionAction 1476272081850 SpreadsheetTest.java OK
 RefactoringAction 1476272089369 SpreadsheetTest.java ADD void test_integer_operation_incorrect_integer()/2 METHOD
 RefactoringAction 1476272095562 SpreadsheetTest.java RENAME test_integer_operation_incorrect_integer()/2=>void test_integer_operation_division_by_zero() METHOD
 EditAction 1476272098885 SpreadsheetTest.java 4083 21 66 21
+UnitTestCaseAction 1476272102304 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272102304 SpreadsheetTest.java FAIL
+EditAction 1476272172161 Spreadsheet.java 2577 3 21 0

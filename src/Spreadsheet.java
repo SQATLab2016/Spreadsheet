@@ -66,6 +66,10 @@ public class Spreadsheet {
 				} else if (operands[i].equals("*")) {
 					sum *= number;
 				} else if (operands[i].equals("/")) {
+					if (number == 0) {
+						return "#Error";
+					}
+					
 					sum /= number;
 				} else if (operands[i].equals("%")) {
 					sum %= number;
