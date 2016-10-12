@@ -5,13 +5,12 @@ public class Spreadsheet {
 	
 	
 	public String get(String cell) {
-		// to be implemented
+		
 		return null;
 	}
 	
 	public void set(String cell, String value) {
-		Cell tempCell = new Cell(cell, value);
-		tempCell.setCellName(cellName);
+		new Cell(cell, value);
 		
 	}
 	
