@@ -42,9 +42,9 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void evaluateString() {
+	public void evaluateString() throws SpreadsheetException {
 		spreadsheet.set("A1", "'a string'");
 		
-		assertEquals("", spreadsheet.evaluate("A1"))
+		assertEquals("String not evaluated correctly", "a string", spreadsheet.evaluate("A1"));
 	}
 }

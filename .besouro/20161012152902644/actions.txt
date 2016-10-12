@@ -113,3 +113,9 @@ RefactoringAction 1476277030677 SpreadsheetTest.java RENAME a=>void a_ FIELD
 RefactoringAction 1476277033689 SpreadsheetTest.java REMOVE a_ FIELD
 RefactoringAction 1476277040701 SpreadsheetTest.java ADD void evaluateString() METHOD
 EditAction 1476277080961 SpreadsheetTest.java 1361 5 13 4
+CompilationAction 1476277081208 SpreadsheetTest.java
+CompilationAction 1476277100514 SpreadsheetTest.java
+CompilationAction 1476277100674 SpreadsheetTest.java
+CompilationAction 1476277115236 SpreadsheetTest.java
+CompilationAction 1476277115395 SpreadsheetTest.java
+EditAction 1476277121606 SpreadsheetTest.java 1432 5 15 5
