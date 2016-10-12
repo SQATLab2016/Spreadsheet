@@ -136,3 +136,12 @@ EditAction 1476277315022 Spreadsheet.java 2728 10 25 0
 EditAction 1476277374017 Spreadsheet.java 2772 10 25 0
 EditAction 1476277380207 Spreadsheet.java 2774 10 25 0
 EditAction 1476277554292 Spreadsheet.java 2924 10 26 0
+CompilationAction 1476277554539 Spreadsheet.java
+RefactoringAction 1476277643206 Spreadsheet.java ADD String removePrecedingAndTrailingStringMark FIELD
+RefactoringAction 1476277645721 Spreadsheet.java RENAME removePrecedingAndTrailingStringMark=>String removePrecedingAndTrailingStringMark() METHOD
+RefactoringAction 1476277654736 Spreadsheet.java RENAME removePrecedingAndTrailingStringMark()=>String removePrecedingAndTrailingStringMark(String) METHOD
+CompilationAction 1476277791148 Spreadsheet.java
+RefactoringAction 1476277797922 Spreadsheet.java RENAME removePrecedingAndTrailingStringMark(String)=>String removeFirstAndLast(String) METHOD
+RefactoringAction 1476277799440 Spreadsheet.java RENAME removeFirstAndLast(String)=>String removeFirstAndLastChar(String) METHOD
+CompilationAction 1476277800604 Spreadsheet.java
+EditAction 1476277938363 Spreadsheet.java 3101 11 26 0
