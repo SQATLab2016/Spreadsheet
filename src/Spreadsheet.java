@@ -83,8 +83,8 @@ public class Spreadsheet {
 		
 		if (value.length() > 0 && value.charAt(0) == '&') {
 			String key = value.substring(1, value.length());
-			if (mValues.containsKey(value.substring(1, value.length()))) {
-				return (String) mValues.get(value);
+			if (mValues.containsKey(key)) {
+				return (String) mValues.get(key);
 			} else {
 				return ERROR;
 			}
