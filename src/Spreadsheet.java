@@ -31,8 +31,8 @@ public class Spreadsheet {
 
 		ArrayList<Integer> integers = new ArrayList<Integer>();
 		ArrayList<Character> operators = new ArrayList<Character>();
-
-		integers.add(scanner.nextInt());
+		
+		return value;
 		while (scanner.hasNextInt()) {
 			integers.add(scanner.nextInt());
 
