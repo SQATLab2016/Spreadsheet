@@ -36,5 +36,8 @@ public class SpreadsheetTest {
 		spreadsheet.set("A4", "574f139578490");
 		spreadsheet.set("A5", "-4719472819");
 		spreadsheet.set("A6", "-99378914327");
+		
+		assertFalse("", spreadsheet.evaluate("A5").equals("#Error"));
+		assertEquals("Wrongly formatted integer not detected", "#Error", spreadsheet.evaluate("A1"));
 	}
 }
