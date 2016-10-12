@@ -32,14 +32,17 @@ public class Spreadsheet {
 	public void set(String cell, String value) {
 		String v = value;
 		
+		if (isReference(v)) {
+			table.put(cell, v);
+			return;
+		}
+		
 		if (isFormula(v)) {
-			if (!isReference(v) && !isIntegerCellValue(v.substring(1)) && !isStringCellValue(v.substring(1))) {
-				v = ERROR_VALUE;
-			}
-		} else {
-			if (!isIntegerCellValue(v) && !isStringCellValue(v)) {
-				v = ERROR_VALUE;
-			}
+			v = v.substring(1);
+		}
+		
+		if (!isIntegerCellValue(v) && !isStringCellValue(v)) {
+			v = ERROR_VALUE;
 		}
 		
 		table.put(cell, v);
