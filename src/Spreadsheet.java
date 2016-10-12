@@ -35,7 +35,7 @@ public class Spreadsheet {
 						if (value.charAt(1) != '-') {
 							value = value.substring(2, value.length());
 						} else {
-							value = value.substring(1, value.length());
+							value = value.substring(0, value.length());
 						}
 					} else {
 						value = "#Error";
