@@ -18,6 +18,10 @@ public class Spreadsheet {
 						value = "#Error";
 					}
 					
+				} else if (!(value.charAt(1) < '0' || value.charAt(1) > '9') && value.charAt(1) != '-') {
+					// Reference / No-op, return possible errors when
+					// the cell is actually evaluated
+					
 				} else {
 					boolean isInteger = true;
 					for (int i = 1; i < value.length(); i++) {
@@ -34,6 +38,7 @@ public class Spreadsheet {
 					if (isInteger) {
 						value = value.substring(1, value.length());
 					} else {
+						value = "#Error";
 					}
 				}
 			} else if (value.charAt(0) == '\'') {
@@ -65,15 +70,7 @@ public class Spreadsheet {
 	
 	public String evaluate(String cell) {
 		String value = (String) mValues.get(cell);
-
-		if (!value.equals("#Error")) {
-			if (mValues.containsKey(value)) {
-				return (String) mValues.get(value);
-				
-			} else {
-				return "#Error";
-			}
-		}
+		
 		
 		return value;
 	}
