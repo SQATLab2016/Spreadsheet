@@ -25,6 +25,10 @@ public class Spreadsheet {
 		return false;
 	}
 	
+	private String evaluateMathFormula(String value) {
+		
+	}
+	
 	private boolean isReference(String value) {
 		return value.length() > 0 && value.charAt(0) >= 'A' && value.charAt(0) <= 'Z';
 	}
@@ -111,7 +115,9 @@ public class Spreadsheet {
 			if (isAssignment(value)) {
 				value = evaluateAssignment(value);
 				
-				if (isString(value)) {
+				if (isMathFormula(value)) {
+					value = evaluateMathFormula(value);
+				} else if (isString(value)) {
 					value = evaluateString(value);
 				} else if (isInteger(value)) {
 					value = evaluateInteger(value);

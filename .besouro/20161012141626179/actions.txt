@@ -718,3 +718,4 @@ RefactoringAction 1476277525340 Spreadsheet.java RENAME evaluateMathFormula()=>S
 RefactoringAction 1476277544461 SpreadsheetTest.java ADD void testAssignment_Add_1_2_Result_3()/2 METHOD
 RefactoringAction 1476277546472 SpreadsheetTest.java REMOVE testAssignment_Add_1_2_Result_3()/2 METHOD
 EditAction 1476277547032 SpreadsheetTest.java 3437 19 60 18
+EditAction 1476277582457 Spreadsheet.java 3272 14 19 0
