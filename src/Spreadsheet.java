@@ -29,7 +29,6 @@ public class Spreadsheet {
 					if (!isInteger)
 						value = "#Error";
 					else
-
 						value.substring(1, value.length() - 1);
 				}
 			} else if (value.charAt(0) == '\'') {
