@@ -1,0 +1,119 @@
+FileOpenedAction 1475845820648 Spreadsheet.java 264 3 2 0
+RefactoringAction 1475845883282 SpreadsheetTest.java RENAME test()=>void testSpreadsheetAppCreated_NotNull() METHOD
+RefactoringAction 1475845930659 SpreadsheetTest.java ADD SpreadsheetTest test FIELD
+EditAction 1475845958864 SpreadsheetTest.java 222 1 0 0
+CompilationAction 1475845961064 SpreadsheetTest.java
+CompilationAction 1475845961064 SpreadsheetTest.java
+RefactoringAction 1475845965962 SpreadsheetTest.java ADD void assertNotNull() METHOD
+RefactoringAction 1475845968770 SpreadsheetTest.java REMOVE assertNotNull() METHOD
+CompilationAction 1475845979971 SpreadsheetTest.java
+UnitTestCaseAction 1475845983624 SpreadsheetTest.java OK
+UnitTestSessionAction 1475845983624 SpreadsheetTest.java OK
+RefactoringAction 1475845993983 SpreadsheetTest.java ADD void test/2 FIELD
+RefactoringAction 1475845995527 SpreadsheetTest.java RENAME test/2=>void testGet FIELD
+RefactoringAction 1475846002220 SpreadsheetTest.java RENAME testGet=>void testGetOper FIELD
+RefactoringAction 1475846005823 SpreadsheetTest.java RENAME testGetOper=>void testGetOperation FIELD
+RefactoringAction 1475846007882 SpreadsheetTest.java RENAME testGetOperation=>void testGetOperationDefinition FIELD
+RefactoringAction 1475846011486 SpreadsheetTest.java RENAME testGetOperationDefinition=>void testGetOperationDefinition() METHOD
+EditAction 1475846034699 SpreadsheetTest.java 324 2 2 2
+CompilationAction 1475846036618 SpreadsheetTest.java
+CompilationAction 1475846036618 SpreadsheetTest.java
+CompilationAction 1475846052467 SpreadsheetTest.java
+CompilationAction 1475846052592 SpreadsheetTest.java
+CompilationAction 1475846061469 SpreadsheetTest.java
+UnitTestCaseAction 1475846063578 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846063578 SpreadsheetTest.java FAIL
+EditAction 1475846081892 SpreadsheetTest.java 328 2 2 2
+UnitTestCaseAction 1475846084843 SpreadsheetTest.java OK
+UnitTestSessionAction 1475846084843 SpreadsheetTest.java OK
+RefactoringAction 1475846089227 SpreadsheetTest.java ADD void testGetOperationDefinition()/2 METHOD
+EditAction 1475846091052 SpreadsheetTest.java 429 3 3 3
+EditAction 1475846095451 SpreadsheetTest.java 429 3 3 3
+CompilationAction 1475846097308 SpreadsheetTest.java
+CompilationAction 1475846289219 SpreadsheetTest.java
+CompilationAction 1475846289393 SpreadsheetTest.java
+CompilationAction 1475846289394 SpreadsheetTest.java
+CompilationAction 1475846295668 SpreadsheetTest.java
+CompilationAction 1475846295670 SpreadsheetTest.java
+CompilationAction 1475846295805 SpreadsheetTest.java
+CompilationAction 1475846309399 SpreadsheetTest.java
+UnitTestCaseAction 1475846314089 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846314090 SpreadsheetTest.java FAIL
+RefactoringAction 1475846595809 Spreadsheet.java ADD Dictionary spreadsheet FIELD
+RefactoringAction 1475846651355 Spreadsheet.java RENAME spreadsheet=>void dictionary() METHOD
+RefactoringAction 1475846725411 Spreadsheet.java REMOVE dictionary() METHOD
+RefactoringAction 1475846736471 Spreadsheet.java ADD Map<String,String> spreadsheet FIELD
+EditAction 1475846800920 Spreadsheet.java 327 3 2 0
+CompilationAction 1475846802737 Spreadsheet.java
+RefactoringAction 1475846834536 Spreadsheet.java REMOVE spreadsheet FIELD
+RefactoringAction 1475846840563 Spreadsheet.java ADD Map<String,String> spreadsheet FIELD
+RefactoringAction 1475846861576 Spreadsheet.java RENAME spreadsheet=>Map<String,String> sheet FIELD
+CompilationAction 1475846876589 Spreadsheet.java
+RefactoringAction 1475846888803 Spreadsheet.java ADD Map<String,String> dictionary FIELD
+RefactoringAction 1475846891377 Spreadsheet.java REMOVE dictionary FIELD
+RefactoringAction 1475846913514 Spreadsheet.java ADD import java.util.Dictionary IMPORT
+CompilationAction 1475846915667 Spreadsheet.java
+CompilationAction 1475846915807 Spreadsheet.java
+RefactoringAction 1475846926633 Spreadsheet.java ADD import java.util.Map IMPORT
+CompilationAction 1475846945604 Spreadsheet.java
+CompilationAction 1475846945760 Spreadsheet.java
+UnitTestCaseAction 1475846958945 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846958945 SpreadsheetTest.java FAIL
+RefactoringAction 1475847018568 Spreadsheet.java REMOVE sheet FIELD
+RefactoringAction 1475847060159 Spreadsheet.java ADD Map<String,String> map FIELD
+RefactoringAction 1475847070680 Spreadsheet.java REMOVE map FIELD
+RefactoringAction 1475847074191 Spreadsheet.java ADD Map<String,String> map FIELD
+CompilationAction 1475847081594 Spreadsheet.java
+UnitTestCaseAction 1475847085840 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847085840 SpreadsheetTest.java FAIL
+RefactoringAction 1475847115309 Spreadsheet.java REMOVE map FIELD
+RefactoringAction 1475847129208 Spreadsheet.java ADD HashMap<String,String> map FIELD
+RefactoringAction 1475847136930 Spreadsheet.java REMOVE set(String, String) METHOD
+RefactoringAction 1475847136930 Spreadsheet.java REMOVE get(String) METHOD
+RefactoringAction 1475847136930 Spreadsheet.java REMOVE evaluate(String) METHOD
+CompilationAction 1475847145479 Spreadsheet.java
+CompilationAction 1475847145635 Spreadsheet.java
+CompilationAction 1475847145635 Spreadsheet.java
+CompilationAction 1475847145635 Spreadsheet.java
+CompilationAction 1475847145635 SpreadsheetTest.java
+CompilationAction 1475847145635 SpreadsheetTest.java
+RefactoringAction 1475847152655 Spreadsheet.java ADD import java.util.HashMap IMPORT
+CompilationAction 1475847154808 Spreadsheet.java
+CompilationAction 1475847154808 Spreadsheet.java
+CompilationAction 1475847154808 Spreadsheet.java
+CompilationAction 1475847154948 Spreadsheet.java
+CompilationAction 1475847154948 Spreadsheet.java
+CompilationAction 1475847154948 SpreadsheetTest.java
+CompilationAction 1475847154948 SpreadsheetTest.java
+UnitTestCaseAction 1475847157978 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847157978 SpreadsheetTest.java FAIL
+RefactoringAction 1475847161644 Spreadsheet.java ADD String get(String) METHOD
+RefactoringAction 1475847161644 Spreadsheet.java ADD void set(String, String) METHOD
+RefactoringAction 1475847161644 Spreadsheet.java ADD String evaluate(String) METHOD
+CompilationAction 1475847161862 Spreadsheet.java
+CompilationAction 1475847161862 Spreadsheet.java
+CompilationAction 1475847162018 Spreadsheet.java
+CompilationAction 1475847166043 Spreadsheet.java
+RefactoringAction 1475847178648 Spreadsheet.java RENAME map=>HashMap<String,String> mymap FIELD
+EditAction 1475847179522 Spreadsheet.java 463 3 2 0
+EditAction 1475847209146 Spreadsheet.java 486 3 3 0
+EditAction 1475847239909 Spreadsheet.java 497 3 3 0
+UnitTestCaseAction 1475847245965 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847245965 SpreadsheetTest.java OK
+RefactoringAction 1475847293914 SpreadsheetTest.java ADD void testSetOperationDefinition()/2 METHOD
+RefactoringAction 1475847303926 SpreadsheetTest.java RENAME testSetOperationDefinition()/2=>void testSetOperation_GetOperation() METHOD
+EditAction 1475847304420 SpreadsheetTest.java 573 4 6 4
+RefactoringAction 1475847310439 SpreadsheetTest.java RENAME testSetOperationDefinition()=>void test() METHOD
+RefactoringAction 1475847313949 SpreadsheetTest.java RENAME test()=>void testReturn() METHOD
+EditAction 1475847322674 SpreadsheetTest.java 564 4 6 4
+EditAction 1475847333908 SpreadsheetTest.java 566 4 6 4
+UnitTestCaseAction 1475847336328 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847336329 SpreadsheetTest.java OK
+EditAction 1475847393511 SpreadsheetTest.java 571 4 6 4
+UnitTestCaseAction 1475847399396 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847399396 SpreadsheetTest.java FAIL
+EditAction 1475847510953 Spreadsheet.java 531 3 4 0
+CompilationAction 1475847513117 Spreadsheet.java
+CompilationAction 1475847608547 Spreadsheet.java
+UnitTestCaseAction 1475847610846 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847610847 SpreadsheetTest.java FAIL
