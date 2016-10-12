@@ -21,7 +21,7 @@ public class Spreadsheet {
 	
 	public String evaluate(String cell) {
 		int tempValue;
-		String tempString = "";
+		String tempString = this.value;
 		
 		try {
 		tempValue = Integer.parseInt(this.value);
