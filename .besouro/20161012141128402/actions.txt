@@ -186,3 +186,8 @@ UnitTestSessionAction 1476275662355 SpreadsheetTest.java OK
 RefactoringAction 1476275733679 Spreadsheet.java REMOVE calculateEquation(String) METHOD
 RefactoringAction 1476275734724 Spreadsheet.java ADD String calculateEquation(String) METHOD
 EditAction 1476275755269 Spreadsheet.java 4205 4 30 0
+UnitTestCaseAction 1476275758767 SpreadsheetTest.java OK
+UnitTestSessionAction 1476275758767 SpreadsheetTest.java OK
+RefactoringAction 1476275768376 SpreadsheetTest.java ADD void test_integer_operation_with_parentheses()/2 METHOD
+RefactoringAction 1476275772510 SpreadsheetTest.java RENAME test_integer_operation_with_parentheses()/2=>void test_integer_operation_with_parentheses_unbalanced_1() METHOD
+EditAction 1476275781465 SpreadsheetTest.java 4830 25 78 25
