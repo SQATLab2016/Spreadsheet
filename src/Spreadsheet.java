@@ -22,7 +22,7 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		int tempValue = Integer.parseInt(this.value);
 		
-		if (NumberFormatException) {
+		if (NumberFormatException == true) {
 			
 		}
 		
