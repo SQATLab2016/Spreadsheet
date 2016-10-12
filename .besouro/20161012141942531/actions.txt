@@ -279,3 +279,6 @@ EditAction 1476278764946 SpreadsheetTest.java 3871 16 51 9
 UnitTestCaseAction 1476278771592 SpreadsheetTest.java OK
 UnitTestSessionAction 1476278771593 SpreadsheetTest.java OK
 EditAction 1476278817172 Spreadsheet.java 3944 8 19 0
+RefactoringAction 1476278903693 SpreadsheetTest.java ADD void testSpreadSheet_evaluateWithSpaces()/2 METHOD
+RefactoringAction 1476278911706 SpreadsheetTest.java RENAME testSpreadSheet_evaluateWithSpaces()/2=>void testSpreadSheet_evaluateWithParantheses() METHOD
+EditAction 1476278933942 SpreadsheetTest.java 4092 17 54 10
