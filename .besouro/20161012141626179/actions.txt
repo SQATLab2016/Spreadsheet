@@ -631,3 +631,14 @@ RefactoringAction 1476276809783 Spreadsheet.java RENAME is(String)=>boolean isIn
 RefactoringAction 1476276818297 Spreadsheet.java RENAME isIn(String)=>boolean isIns(String) METHOD
 RefactoringAction 1476276821313 Spreadsheet.java RENAME isIns(String)=>boolean isInsInteger(String) METHOD
 EditAction 1476276843772 Spreadsheet.java 3157 8 7 0
+CompilationAction 1476276843912 Spreadsheet.java
+CompilationAction 1476276843913 Spreadsheet.java
+CompilationAction 1476276847272 Spreadsheet.java
+CompilationAction 1476276847413 Spreadsheet.java
+CompilationAction 1476276854600 Spreadsheet.java
+CompilationAction 1476276854782 Spreadsheet.java
+RefactoringAction 1476276857956 Spreadsheet.java RENAME isInsInteger(String)=>boolean isInteger(String) METHOD
+CompilationAction 1476276865360 Spreadsheet.java
+RefactoringAction 1476276873997 Spreadsheet.java ADD boolean isInteger(String)/2 METHOD
+RefactoringAction 1476276876512 Spreadsheet.java RENAME isInteger(String)/2=>boolean isString(String) METHOD
+EditAction 1476276918594 Spreadsheet.java 3326 9 12 0

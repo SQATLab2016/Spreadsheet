@@ -23,10 +23,15 @@ public class Spreadsheet {
 	private boolean isAssignment(String value) {
 		return value.length() > 0 && value.charAt(0) == '=';
 	}
+
+	private boolean isInteger(String value) {
+		return value.length() > 0 && (
+				value.charAt(0) == '-' || (value.charAt(0) >= '0' && value.charAt(0) <= '9'));
+	}
 	
-	private boolean isInsInteger(String value) {
-		return value.length() > 0 &&
-				value.charAt(0) == '-' || (value.charAt(0) >= '0' && value.charAt(0) <= '9')
+	private boolean isString(String value) {
+		return value.length() > 0 && (value.charAt(0) == '\'' ||
+				value.charAt(value.length() - 1) == '\'');
 	}
 	
 	private boolean isCircularRecursive(String value) {
@@ -77,7 +82,7 @@ public class Spreadsheet {
 						value = ERROR;
 					}
 					
-				} else if () {
+				} else if (isInteger(value)) {
 					boolean isInteger = true;
 					for (int i = 0; i < value.length(); i++) {
 						char c = value.charAt(i);
