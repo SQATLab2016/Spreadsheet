@@ -217,3 +217,13 @@ CompilationAction 1476279120651 SpreadsheetTest.java
 UnitTestCaseAction 1476279122132 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476279122133 SpreadsheetTest.java FAIL
 EditAction 1476279136025 SpreadsheetTest.java 1907 6 19 5
+UnitTestCaseAction 1476279180667 SpreadsheetTest.java OK
+UnitTestSessionAction 1476279180667 SpreadsheetTest.java OK
+UnitTestCaseAction 1476279198452 SpreadsheetTest.java OK
+UnitTestSessionAction 1476279198452 SpreadsheetTest.java OK
+RefactoringAction 1476279249045 SpreadsheetTest.java ADD void dete FIELD
+RefactoringAction 1476279250557 SpreadsheetTest.java RENAME dete=>void detect FIELD
+RefactoringAction 1476279254570 SpreadsheetTest.java RENAME detect=>void detectStringIncorrectFomr FIELD
+RefactoringAction 1476279256583 SpreadsheetTest.java RENAME detectStringIncorrectFomr=>void detectStringIncorrectFormatting FIELD
+RefactoringAction 1476279260095 SpreadsheetTest.java RENAME detectStringIncorrectFormatting=>void detectStringIncorrectFormatting() METHOD
+EditAction 1476279284473 SpreadsheetTest.java 2007 7 20 5

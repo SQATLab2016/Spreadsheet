@@ -64,4 +64,9 @@ public class SpreadsheetTest {
 		if (!caughtException)
 			fail("String mark not found in the middle of a string");
 	}
+	
+	@Test
+	public void detectStringIncorrectFormatting() {
+		spreadsheet.set("A1", "' a string");
+	}
 }

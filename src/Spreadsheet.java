@@ -44,11 +44,9 @@ public class Spreadsheet {
 			return false;
 		
 		if (false == STR_MARKS_ALLOWED_INSIDE_STRING)
-			if (2 == characterCount(value, "'")) {
-				System.out.println("Returning true");
+			if (2 == characterCount(value, "'"))
 				return true;
-			}
-		System.out.println("now throwing");
+
 		throw new SpreadsheetException(STR_MARK_IN_THE_MIDDLE_ERROR_MSG);
 	}
 	
@@ -59,14 +57,10 @@ public class Spreadsheet {
 			throw new SpreadsheetException("Character count target length must be 1");
 		
 		for (int i = 0; i < str.length(); i++) {
-			System.out.println("trying " + charAsStringFromPos(str, i));
 			if (charAsStringFromPos(str, i).equals(targetChar)) {
-				System.out.println("found at index: " + i);
 				count++;
 			}
 		}
-		
-		System.out.println("returning count: " + count);
 		
 		return count;
 	}

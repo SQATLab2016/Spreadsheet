@@ -3,3 +3,5 @@
 1476275783928 regression 1 1 true
 1476278081246 test-first 1 2150 true
 1476279098216 refactoring 1A 990 true
+1476279180667 refactoring 1A 71 false
+1476279198452 regression 1 0 false
