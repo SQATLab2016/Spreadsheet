@@ -164,3 +164,4 @@ RefactoringAction 1476278118598 SpreadsheetTest.java RENAME evaluateString_Too=>
 RefactoringAction 1476278120109 SpreadsheetTest.java RENAME evaluateString_TooManyStr=>void evaluateString_TooManyStrMarks FIELD
 RefactoringAction 1476278127122 SpreadsheetTest.java RENAME evaluateString_TooManyStrMarks=>void evaluateString_TooManyStrMarks() METHOD
 EditAction 1476278213264 SpreadsheetTest.java 1547 6 16 5
+EditAction 1476278274348 SpreadsheetTest.java 1692 6 15 5
