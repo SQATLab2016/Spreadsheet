@@ -117,7 +117,8 @@ public class Spreadsheet {
 				equation = equation.replace(openingParenthesis, closingParenthesis, calculatedSubEquation);
 			}
 			
-			return calculateEquation(equation.toString());
+			return equation.toString();
+//			return calculateEquation(equation.toString());
 		}
 		
 		// An invalid integer
