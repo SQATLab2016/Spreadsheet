@@ -53,3 +53,6 @@ CompilationAction 1476272608355 Cell.java
 EditAction 1476272613857 Cell.java 502 5 6 0
 CompilationAction 1476272613971 Cell.java
 EditAction 1476272688060 SpreadsheetTest.java 336 2 1 0
+CompilationAction 1476272688313 SpreadsheetTest.java
+CompilationAction 1476272688314 SpreadsheetTest.java
+EditAction 1476272763540 Spreadsheet.java 294 3 2 0
