@@ -37,6 +37,7 @@ public class Spreadsheet {
 				integers.add(scanner.nextInt());
 
 				String next = scanner.next();
+				
 				if (next.equals('+')) {
 					operators.add('+');
 					
