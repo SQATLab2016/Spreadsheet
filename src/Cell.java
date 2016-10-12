@@ -1,6 +1,8 @@
-import java.lang.*
+import java.lang.*;
 
 public class Cell {
 	
-	this.setName
+	Cell(String cell, String value){
+		
+	}
 }
