@@ -51,7 +51,7 @@ public class Spreadsheet {
 		if (m.find()) {
 			String[] operands = m.group(1).replaceAll("\\d", "").split("\\s*");
 			String[] numbers = m.group(1).replaceAll("[^\\d]", " ").split("\\s+");
-			return numbers[0];
+			return numbers[1];
 		}
 		
 		// An invalid integer
