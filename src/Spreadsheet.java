@@ -19,6 +19,39 @@ public class Spreadsheet {
 		cells.put(cell, value);
 	}
 	
+	private String calculateEquation(String equation) {
+		String[] operands = equation.replaceAll("\\d", "").split("\\s*");
+		String[] numbers = equation.replaceAll("[^\\d]", " ").split("\\s+");
+		
+		if (numbers.length != operands.length + 1) {
+			return "#Error";
+		}
+		
+		int sum = Integer.parseInt(numbers[0]);
+		for (int i = 0; i < operands.length; i++) {
+			int number = Integer.parseInt(numbers[i + 1]); 
+			if (operands[i].equals("+")) {
+				sum += number;
+			} else if (operands[i].equals("-")) {
+				sum -= number;
+			} else if (operands[i].equals("*")) {
+				sum *= number;
+			} else if (operands[i].equals("/")) {
+				if (number == 0) {
+					return "#Error";
+				}
+				
+				sum /= number;
+			} else if (operands[i].equals("%")) {
+				sum %= number;
+			} else {
+				return "#Error";
+			}
+		}
+		
+		return Integer.toString(sum);
+	}
+	
 	public String evaluate(String cell) {
 		String value = this.get(cell);
 		
@@ -49,36 +82,42 @@ public class Spreadsheet {
 		p = Pattern.compile("^=([\\d+\\-\\*/%\\(\\)]+)$");
 		m = p.matcher(value);
 		if (m.find()) {
-			String[] operands = m.group(1).replaceAll("\\d", "").split("\\s*");
-			String[] numbers = m.group(1).replaceAll("[^\\d]", " ").split("\\s+");
+			StringBuffer equation = new StringBuffer(m.group(1));
 			
-			if (numbers.length != operands.length + 1) {
-				return "#Error";
-			}
+//			p = Pattern.compile("\\((.+)\\)");
+//			m = p.matcher(equation);
+//			
+//			if (m.find()) {
+//				for (int i = 0; i < m.groupCount(); i++) {
+//					
+//				}
+//			}
 			
-			int sum = Integer.parseInt(numbers[0]);
-			for (int i = 0; i < operands.length; i++) {
-				int number = Integer.parseInt(numbers[i + 1]); 
-				if (operands[i].equals("+")) {
-					sum += number;
-				} else if (operands[i].equals("-")) {
-					sum -= number;
-				} else if (operands[i].equals("*")) {
-					sum *= number;
-				} else if (operands[i].equals("/")) {
-					if (number == 0) {
-						return "#Error";
-					}
-					
-					sum /= number;
-				} else if (operands[i].equals("%")) {
-					sum %= number;
-				} else {
+//			for (int i = 0; i < equation.length(); i++) {
+//				
+//			}
+			
+			// Look for parentheses
+			while (equation.indexOf(")") != -1) {
+				int closingParenthesis = equation.indexOf(")");
+				
+				int openingParenthesis = equation.lastIndexOf("(", closingParenthesis);
+				if (openingParenthesis == -1) {
+					// No matching opening parenthesis found
 					return "#Error";
 				}
+				
+				String subEquation = equation.substring(openingParenthesis, closingParenthesis);
+				String calculatedSubEquation = calculateEquation(subEquation);
+				
+				if (calculatedSubEquation.equals("#Error")) {
+					return "#Error";
+				}
+				
+				equation.replace(openingParenthesis, closingParenthesis, calculatedSubEquation);
 			}
 			
-			return Integer.toString(sum);
+			return calculateEquation(equation.toString());
 		}
 		
 		// An invalid integer
