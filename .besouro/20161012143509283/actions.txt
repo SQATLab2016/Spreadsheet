@@ -20,3 +20,4 @@ RefactoringAction 1476272331413 Cell.java ADD Cell() METHOD
 RefactoringAction 1476272336436 Cell.java RENAME Cell()=>Cell(String) METHOD
 RefactoringAction 1476272340445 Cell.java RENAME Cell(String)=>Cell(String, String) METHOD
 EditAction 1476272342393 Cell.java 93 1 0 0
+EditAction 1476272354614 Cell.java 111 1 0 0
