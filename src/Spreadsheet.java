@@ -22,6 +22,9 @@ public class Spreadsheet {
 		if(cellValue.startsWith(EQUALS)){
 			cellValue=cellValue.substring(1); //remove equal sign
 			if(sheet.containsKey(cellValue)){
+				if(sheet.get(cellValue).substring(1).equals(cell)){
+					return "#CIRCULAR";
+				}
 				return evaluate(cellValue);
 			}
 		}

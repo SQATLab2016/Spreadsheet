@@ -115,5 +115,13 @@ public class SpreadsheetTest {
 		assertEquals(sheet.evaluate("A5"), "#CIRCULAR");		
 		
 	}
+	
+	@Test
+	public void testSpreadsheetFormulaCalculation_evaluateAdditionFormula(){
+		sheet.set("A1", "=1+1");
+		
+		assertEquals(sheet.evaluate("A1"), "2");		
+		
+	}
 
 }
