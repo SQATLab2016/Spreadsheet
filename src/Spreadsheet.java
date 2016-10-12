@@ -67,9 +67,12 @@ public class Spreadsheet {
 					integerValue = true;
 					previousIntegerValue = Integer.parseInt("" + previousIntegerValue
 							+ Integer.parseInt(value.substring(stringIndex, stringIndex + 1)));
+					result = evaluateOperator(result, previousIntegerValue, operator);
 
 				}
-
+			}
+			else if(isOperator(value.substring(stringIndex, stringIndex + 1))){
+				
 			}
 		}
 		return result;
