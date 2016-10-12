@@ -108,11 +108,18 @@ public class Spreadsheet {
 				
 				if (v.length() < i)
 					character = v.charAt(i);
+				else
+					break;
 			}
 			
 			while (Character.isDigit(v.charAt(i))) {
 				digitFound = true;
 				i++;
+				
+				if (v.length() < i)
+					character = v.charAt(i);
+				else
+					break;
 			}
 			
 			if (charFound && digitFound && v.length() == i)
