@@ -23,6 +23,6 @@ public class SpreadsheetTest {
 	@Test
 	public void test_wronglyFormattedInteger() {
 		sheet.set("A1", "5A");
-		assertEquals(ERROR_VALUE, sheet.evaluate("A1"));)
+		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
 	}
 }

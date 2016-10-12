@@ -44,3 +44,13 @@ RefactoringAction 1476272742766 SpreadsheetTest.java ADD void test_ FIELD
 RefactoringAction 1476272744782 SpreadsheetTest.java RENAME test_evalueSetNegativeValue()=>void test_evaluateSetNegativeValue() METHOD
 RefactoringAction 1476272763817 SpreadsheetTest.java RENAME test_=>void test_wronglyFormattedInteger() METHOD
 EditAction 1476272772824 SpreadsheetTest.java 533 3 4 2
+CompilationAction 1476272773069 SpreadsheetTest.java
+CompilationAction 1476272773070 SpreadsheetTest.java
+CompilationAction 1476272777694 SpreadsheetTest.java
+CompilationAction 1476272777696 SpreadsheetTest.java
+CompilationAction 1476272777743 SpreadsheetTest.java
+CompilationAction 1476272783057 SpreadsheetTest.java
+UnitTestCaseAction 1476272784622 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272784623 SpreadsheetTest.java OK
+RefactoringAction 1476272831904 Spreadsheet.java ADD String STRING_IDENTIFIER FIELD
+EditAction 1476272842019 Spreadsheet.java 732 3 6 0
