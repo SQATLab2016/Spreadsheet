@@ -3,6 +3,8 @@ import java.util.HashMap;
 public class Spreadsheet {
 	HashMap<String, String> mValues = new HashMap<String, String>();
 	
+	final public static ERROR = "#Error";
+	
 	public String get(String cell) {
 		// to be implemented
 		return null;
@@ -15,14 +17,14 @@ public class Spreadsheet {
 					if (value.charAt(value.length() - 1) == '\'' && value.length() > 2) {
 						value = value.substring(2, value.length() - 1);
 					} else {
-						value = "#Error";
+						value = ERROR;
 					}
 					
 				} else if ((value.charAt(value.length() - 1) == '\'')) {
 					if (value.charAt(1) == '\'') {
 						value = value.substring(2, value.length() - 1);
 					} else {
-						value = "#Error";
+						value = ERROR;
 					}
 					
 				} else if (value.charAt(1) == '-' || (value.charAt(1) >= '0' && value.charAt(1) <= '9')) {
@@ -41,19 +43,19 @@ public class Spreadsheet {
 					if (isInteger) {
 						value = value.substring(1, value.length());
 					} else {
-						value = "#Error";
+						value = ERROR;
 					}
 					
 				} else if (value.charAt(1) != '\'') {
 					
 				} else {
-					value = "#Error";
+					value = ERROR;
 				}
 			} else if (value.charAt(0) == '\'') {
 				if (value.length() > 1 && value.charAt(value.length() - 1) == '\'') {
 					value = value.substring(1, value.length() - 1);
 				} else {
-					value = "#Error";
+					value = ERROR;
 				}
 			} else {
 				boolean isInteger = true;
@@ -69,7 +71,7 @@ public class Spreadsheet {
 				}
 				
 				if (!isInteger)
-					value = "#Error";
+					value = ERROR;
 			}
 		}
 	
