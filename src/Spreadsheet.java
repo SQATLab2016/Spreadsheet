@@ -108,13 +108,15 @@ public class Spreadsheet {
 		String[] splitFormula = value.substring(1).split("(?<=[-+*/])|(?=[-+*/])");
 		for (int i = 0; i < splitFormula.length; i++) {
 			if (i % 2 == 0) {
-				try {
-					Integer.parseInt(splitFormula[i]);
-				} catch (NumberFormatException nfe) {
+				if (!Character.isDigit(splitFormula[i]))
 					return false;
-				}
 			} else {
-				
+				if (value.charAt(i) != '+' &&
+					value.charAt(i) != '-' &&
+					value.charAt(i) != '*' &&
+					value.charAt(i) != '/') {
+						return false;
+					}
 			}
 		}
 		
