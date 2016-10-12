@@ -15,7 +15,7 @@ public class Spreadsheet {
 		String v = value;
 		
 		//String value
-		if (v.startsWith(STRING_IDENTIFIER) && v.endsWith(STRING_IDENTIFIER)) {
+		if (isStringCellValue(v)) {
 			
 		} else { //Integer
 			for (int i = 0; i < v.length(); i++) {
@@ -32,7 +32,18 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		String value = table.get(cell);
 		
+		if (isStringCellValue(value)) {
+			
+		}
+		
 		return value;
 	}
 	
+	
+	private boolean isStringCellValue(String value) {
+		if (value.startsWith(STRING_IDENTIFIER) && value.endsWith(STRING_IDENTIFIER))
+			return true;
+		
+		return false;
+	}
 }

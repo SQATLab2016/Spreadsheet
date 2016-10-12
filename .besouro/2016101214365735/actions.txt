@@ -68,3 +68,7 @@ CompilationAction 1476272897903 Spreadsheet.java
 EditAction 1476272904861 Spreadsheet.java 802 3 6 0
 CompilationAction 1476272905099 Spreadsheet.java
 EditAction 1476272911005 Spreadsheet.java 780 3 6 0
+CompilationAction 1476272911170 Spreadsheet.java
+RefactoringAction 1476272926999 Spreadsheet.java ADD boolean isStringCell(String) METHOD
+RefactoringAction 1476272960298 Spreadsheet.java RENAME isStringCell(String)=>boolean isStringCellValue(String) METHOD
+EditAction 1476272967805 Spreadsheet.java 963 4 9 0
