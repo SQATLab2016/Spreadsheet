@@ -58,8 +58,12 @@ public class Spreadsheet {
 					val -= Integer.parseInt(splitFormula[i+1]);
 				else if (splitFormula[i].equals("*"))
 					val *= Integer.parseInt(splitFormula[i+1]);
-				else if (splitFormula[i].equals("/"))
+				else if (splitFormula[i].equals("/")) {
+					int value = Integer.parseInt(splitFormula[i+1]);
+					if (value == 0)
+						return ERROR_VALUE;
 					val /= Integer.parseInt(splitFormula[i+1]);
+				}
 			}
 			
 			return String.valueOf(val);
