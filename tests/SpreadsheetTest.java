@@ -90,4 +90,11 @@ public class SpreadsheetTest {
 		oneSheet.set("A1", "=1*1+2");
 		assertEquals("3", oneSheet.evaluate("A1"));
 	}
+	
+	@Test (expected = SpreadSheetException.class)
+	public void testSpreadSheet_evaluateArithmaticOperation_Exception() throws SpreadSheetException {
+		Spreadsheet oneSheet = new Spreadsheet();
+		oneSheet.set("A1", "=1*1A");
+		oneSheet.evaluate("A1");
+	}
 }

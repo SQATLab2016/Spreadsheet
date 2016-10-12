@@ -208,3 +208,17 @@ RefactoringAction 1476276446799 Spreadsheet.java RENAME isOperator()=>boolean is
 CompilationAction 1476276484152 Spreadsheet.java
 EditAction 1476276512398 Spreadsheet.java 3090 7 16 0
 EditAction 1476276528649 Spreadsheet.java 3112 7 16 0
+UnitTestCaseAction 1476276547667 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276547668 SpreadsheetTest.java FAIL
+CompilationAction 1476276704532 Spreadsheet.java
+CompilationAction 1476276719588 Spreadsheet.java
+UnitTestCaseAction 1476276783100 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276783102 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476276845166 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276845167 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476276869169 SpreadsheetTest.java OK
+UnitTestSessionAction 1476276869169 SpreadsheetTest.java OK
+RefactoringAction 1476276904621 SpreadsheetTest.java ADD void testSpreadSheet_evaluateCellReferenceCircular_Exception()/2 METHOD
+RefactoringAction 1476276913138 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellReferenceCircular_Exception()/2=>void testSpreadSheet_evaluateArithmatic_Exception() METHOD
+RefactoringAction 1476276915659 SpreadsheetTest.java RENAME testSpreadSheet_evaluateArithmatic_Exception()=>void testSpreadSheet_evaluateArithmaticOperation_Exception() METHOD
+EditAction 1476276933825 SpreadsheetTest.java 3167 13 42 7

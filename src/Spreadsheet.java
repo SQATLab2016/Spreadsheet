@@ -36,6 +36,7 @@ public class Spreadsheet {
 				result = "" + Integer.parseInt(sheet.get(cell));
 			return result;
 		} catch (Exception e) {
+			e.printStackTrace();
 			throw new SpreadSheetException();
 		}
 	}
@@ -57,7 +58,7 @@ public class Spreadsheet {
 		String operator = "+";
 		boolean integerValue = false;
 		int previousIntegerValue = 0;
-		while (stringIndex <= value.length()) {
+		while (stringIndex < value.length()) {
 			if (isInteger(value.substring(stringIndex, stringIndex + 1))) {
 				if (integerValue == false) {
 					integerValue = true;
@@ -72,6 +73,8 @@ public class Spreadsheet {
 				}
 			} else if (isOperator(value.substring(stringIndex, stringIndex + 1))) {
 				operator = value.substring(stringIndex, stringIndex + 1);
+				integerValue = false;
+				previousIntegerValue = 0;
 			}
 			
 			stringIndex++;
