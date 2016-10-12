@@ -335,3 +335,4 @@ UnitTestSessionAction 1476276919791 SpreadsheetTest.java OK
 RefactoringAction 1476276938715 Spreadsheet.java ADD boolean isIntegerFormula(String)/2 METHOD
 EditAction 1476276942411 Spreadsheet.java 5027 10 36 0
 EditAction 1476276953147 Spreadsheet.java 5021 10 36 0
+EditAction 1476276959311 Spreadsheet.java 4935 10 35 0

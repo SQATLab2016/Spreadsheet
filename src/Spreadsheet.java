@@ -123,9 +123,6 @@ public class Spreadsheet {
 		
 		String[] splitFormula = value.substring(1).split("(?<=[&])|(?=[&])");
 		
-		if (splitFormula.length < 3 || splitFormula.length % 2 != 1)
-			return false;
-		
 		for (int i = 0; i < splitFormula.length; i++) {
 			if (i % 2 == 0) {
 				try {
