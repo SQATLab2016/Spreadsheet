@@ -24,11 +24,11 @@ public class SpreadsheetTest {
 	}
 
 	@Test
-	public void testEvaluateCell() {
+	public void testEvaluateNunmberHandlingCell() {
 		Spreadsheet sh = new Spreadsheet(5,5);
-		sh.set("A7", "6");
-		System.out.print(sh.get("A7"));
-		assertEquals(sh.get("A7"),null);
+		sh.set("A1", "-1");
+		System.out.print(sh.get("A1"));
+		assertEquals(sh.get("A1"),"-1");
 		
 	}
 }
