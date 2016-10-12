@@ -67,4 +67,14 @@ public class SpreadsheetTest {
 		sheet.set("A1", "5");
 		sheet.set("A2", "=A1");
 	}
+	
+	@Test
+	public void test_selfReference() {
+		sheet.set("A2", "=A2");
+	}
+	
+	@Test
+	public void test_invalidReference() {
+		sheet.set("A2", "=A1");
+	}
 }
