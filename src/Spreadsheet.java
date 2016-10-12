@@ -19,9 +19,13 @@ public class Spreadsheet {
 	private boolean isReference(String value) {
 		return value.length() > 0 && value.charAt(0) >= 'A' && value.charAt(0) <= 'Z';
 	}
-	
+
 	private boolean isAssignment(String value) {
 		return value.length() > 0 && value.charAt(0) == '=';
+	}
+	
+	private String evaluateAssignment(String value) {
+		return value.substring(1, value.length());
 	}
 
 	private boolean isInteger(String value) {
@@ -65,7 +69,7 @@ public class Spreadsheet {
 	
 	private boolean isCircularRecursive(String value) {
 		if (isAssignment(value)) {
-			String key = value.substring(1, value.length());
+			String key = evaluateAssignment(value);
 			if (isReference(key)) {
 				if (mVisited.contains(key)) {
 					return true;
@@ -96,7 +100,7 @@ public class Spreadsheet {
 		
 		if (value.length() > 0) {
 			if (isAssignment(value)) {
-				value = value.substring(1, value.length());
+				value =  evaluateAssignment(value);
 				
 				if (isString(value)) {
 					

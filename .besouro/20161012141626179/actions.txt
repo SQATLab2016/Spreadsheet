@@ -671,3 +671,9 @@ RefactoringAction 1476277208377 Spreadsheet.java RENAME eva(String)=>String eval
 CompilationAction 1476277238289 Spreadsheet.java
 CompilationAction 1476277238446 Spreadsheet.java
 EditAction 1476277239661 Spreadsheet.java 3206 11 16 0
+RefactoringAction 1476277258525 Spreadsheet.java ADD boolean isAssignment(String)/2 METHOD
+RefactoringAction 1476277260039 Spreadsheet.java RENAME isAssignment(String)/2=>boolean eva(String) METHOD
+RefactoringAction 1476277264554 Spreadsheet.java RENAME eva(String)=>boolean evaluateAssignment(String) METHOD
+CompilationAction 1476277283129 Spreadsheet.java
+CompilationAction 1476277310209 Spreadsheet.java
+EditAction 1476277316750 Spreadsheet.java 3289 12 17 0
