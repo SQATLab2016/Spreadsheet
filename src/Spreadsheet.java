@@ -28,8 +28,9 @@ public class Spreadsheet {
 			return tempString;
 		}
 		
-		else if (tempString.startsWith("\=")){
-			
+		else if (tempString.startsWith("=")){
+			tempString = tempString.substring(2, tempString.length()-1);
+			return tempString;
 		}
 		
 		try {
