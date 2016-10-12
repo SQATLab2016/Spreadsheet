@@ -25,7 +25,6 @@ public class Spreadsheet {
 							break;
 						}
 					}
-					
 					if (isInteger)
 						value = value.substring(1, value.length());
 					else
