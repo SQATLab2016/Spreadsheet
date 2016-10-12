@@ -705,3 +705,4 @@ RefactoringAction 1476277461382 SpreadsheetTest.java RENAME testAssignment_Add_1
 RefactoringAction 1476277462891 SpreadsheetTest.java RENAME testAssignment_Add_1_2_()=>void testAssignment_Add_1_2_Result() METHOD
 RefactoringAction 1476277463902 SpreadsheetTest.java RENAME testAssignment_Add_1_2_Result()=>void testAssignment_Add_1_2_Result_3() METHOD
 EditAction 1476277476593 SpreadsheetTest.java 3437 19 60 18
+EditAction 1476277482102 Spreadsheet.java 3012 13 17 0

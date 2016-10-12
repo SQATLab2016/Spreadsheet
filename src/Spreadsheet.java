@@ -16,6 +16,9 @@ public class Spreadsheet {
 		mValues.put(cell, value);
 	}
 
+	private boolean isMathFormula(String value) {
+	}
+	
 	private boolean isReference(String value) {
 		return value.length() > 0 && value.charAt(0) >= 'A' && value.charAt(0) <= 'Z';
 	}
