@@ -11,13 +11,11 @@ public class SpreadsheetTest {
 		Spreadsheet spready = new Spreadsheet();
 		
 		spready.set("A1", "2");
-		assertEquals("2", spready.get("A1"));
-		
-		
+		assertEquals("2", spready.get("A1"));	
 	}
 
 	@Test
-	public void test() {
+	public void spreadsheetEvaluateA2_-5_returns-5() {
 		fail("Not yet implemented");
 		
 	}
