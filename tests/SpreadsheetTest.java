@@ -7,7 +7,7 @@ import org.junit.Test;
 public class SpreadsheetTest {
 
 	@Test
-	public void test() {
+	public void testGetCell() {
 		fail("Not yet implemented");
 		
 	}

@@ -38,3 +38,4 @@ RefactoringAction 1476276429402 SpreadsheetTest.java RENAME test()=>void testGet
 RefactoringAction 1476276430414 SpreadsheetTest.java RENAME testGet()=>void testGetCe() METHOD
 RefactoringAction 1476276431425 SpreadsheetTest.java RENAME testGetCe()=>void testGetCell() METHOD
 EditAction 1476276498388 Cell.java 119 1 1 0
+EditAction 1476276507657 SpreadsheetTest.java 169 1 1 0
