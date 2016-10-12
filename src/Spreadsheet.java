@@ -74,7 +74,7 @@ public class Spreadsheet {
 			String newString = "";
 			
 			for (int i = 0; i < splitFormula.length; i += 2)
-				newString += splitFormula[i];
+				newString = newString.concat(splitFormula[i]);
 		}
 		
 		if (isFormula(value)) {
