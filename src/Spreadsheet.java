@@ -87,9 +87,13 @@ public class Spreadsheet {
 		}
 		
 		// String concatenation
-		p = Pattern.compile("^=?'(.*)('&'(.*))+'$");
+		p = Pattern.compile("^=?'(.*)('?&'?(.*))+'$");
 		m = p.matcher(value);
 		if (m.find()) {
+			if (m.group(2).split("'&'").length != m.group(2).split("&").length) {
+				return "#Error";
+			}
+			
 			return m.group(1) + String.join("", m.group(2).split("'&'"));
 		}
 		
