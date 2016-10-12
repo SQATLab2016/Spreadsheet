@@ -61,3 +61,11 @@ UnitTestCaseAction 1476272502142 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476272502142 SpreadsheetTest.java FAIL
 EditAction 1476272651965 Spreadsheet.java 460 3 3 0
 EditAction 1476272663988 Spreadsheet.java 445 3 3 0
+UnitTestCaseAction 1476272669238 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272669239 SpreadsheetTest.java OK
+RefactoringAction 1476272681372 SpreadsheetTest.java ADD void testSpreadsheetNegativeInt_setB2_neg3_getB2_returnneg3()/2 METHOD
+RefactoringAction 1476272687388 SpreadsheetTest.java RENAME testSpreadsheetNegativeInt_setB2_neg3_getB2_returnneg3()/2=>void testSpreadsheetEvaluInt_setB2_neg3_getB2_returnneg3() METHOD
+RefactoringAction 1476272688902 SpreadsheetTest.java RENAME testSpreadsheetEvaluInt_setB2_neg3_getB2_returnneg3()=>void testSpreadsheetEvaluateInt_setB2_neg3_getB2_returnneg3() METHOD
+RefactoringAction 1476272697415 SpreadsheetTest.java RENAME testSpreadsheetEvaluateInt_setB2_neg3_getB2_returnneg3()=>void testSpreadsheetEvaluateNegInt_setB2_neg3_getB2_returnneg3() METHOD
+RefactoringAction 1476272705928 SpreadsheetTest.java RENAME testSpreadsheetEvaluateNegInt_setB2_neg3_getB2_returnneg3()=>void testSpreadsheetEvaluateNegInt_setB2_neg3_evaluateB2_returnneg3() METHOD
+EditAction 1476272716910 SpreadsheetTest.java 746 4 8 4

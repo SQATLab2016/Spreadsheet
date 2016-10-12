@@ -29,6 +29,14 @@ public class SpreadsheetTest {
 		assertEquals(sheet.evaluate("C3"), "#ERROR");		
 		
 	}
+	
+	@Test
+	public void testSpreadsheetEvaluateNegInt_setB2_neg3_evaluateB2_returnneg3() {
+		sheet.set("B2", "-3");
+
+		assertEquals(sheet.evaluate("B2"), "-3");
+
+	}
 
 
 }
