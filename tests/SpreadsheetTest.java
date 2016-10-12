@@ -22,7 +22,7 @@ public class SpreadsheetTest {
 	public void testSpreadSheet_evaluateCell_negative1() throws SpreadSheetException {
 		Spreadsheet oneSheet = new Spreadsheet();
 		oneSheet.set("A1", "-1");
-		assertEquals(-1, oneSheet.evaluate("A1"));
+		assertEquals("-1", oneSheet.evaluate("A1"));
 	}
 	
 	@Test (expected = SpreadSheetException.class)
