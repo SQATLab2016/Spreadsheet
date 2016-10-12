@@ -14,8 +14,13 @@ public class Spreadsheet {
 	}
 	
 	public String evaluate(String cell) {
-		// to be implemented
-		return null;
+		try{
+		int intvalue= Integer.parseInt(sheet.get(cell));
+		
+		return sheet.get(cell);
+		}catch(NumberFormatException ex){
+			return "#ERROR";
+		}
 	}
 	
 }
