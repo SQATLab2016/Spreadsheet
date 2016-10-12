@@ -70,11 +70,13 @@ public class SpreadsheetTest {
 	
 	@Test
 	public void test_selfReference() {
-		sheet.set("A2", "=A2");
+		sheet.set("A1", "=A1");
+		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
 	}
 	
 	@Test
 	public void test_invalidReference() {
-		sheet.set("A2", "=A1");
+		sheet.set("A1", "=A2");
+		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
 	}
 }
