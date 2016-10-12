@@ -40,4 +40,11 @@ public class SpreadsheetTest {
 		assertFalse("Correctly formatted integer is mistaken as incorrectly formatted",
 						spreadsheet.evaluate("A6").equals("#Error"));
 	}
+	
+	@Test
+	public void evaluateString() {
+		spreadsheet.set("A1", "'a string'");
+		
+		assertEquals("", spreadsheet.evaluate("A1"))
+	}
 }

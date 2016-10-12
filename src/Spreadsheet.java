@@ -27,7 +27,7 @@ public class Spreadsheet {
 		
 		String rawVal = cells.get(cell);
 		
-		if (isString(rawVal))
+		if (containsString(rawVal))
 			return evaluatedString(rawVal);
 		
 		if (!containsAllowedIntegers(rawVal))
@@ -36,7 +36,7 @@ public class Spreadsheet {
 		return rawVal;
 	}
 	
-	private boolean containsString(String value) {
+	private boolean containsString(String value) throws SpreadsheetException {
 		if (!(charAsStringFromPos(value, 0).equals("'") && charAsStringFromPos(value, value.length()).equals("'")))
 			return false;
 		
