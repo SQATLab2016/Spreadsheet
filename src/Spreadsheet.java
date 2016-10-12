@@ -17,7 +17,7 @@ public class Spreadsheet {
 		while (isReference(value)) {
 			if (value.substring(1).equals(startCell)) {
 				value = ERROR_CIRCULAR;
-				brea;
+				break;
 			}
 			/*if (!selfChecked && value.substring(1).equals(cell)) {
 				value = ERROR_VALUE;
