@@ -72,6 +72,9 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		String value = (String) mValues.get(cell);
 		
+		if (mValues.containsKey(value)) {
+			return (String) mValues.get(cell);
+		}
 		
 		return value;
 	}
