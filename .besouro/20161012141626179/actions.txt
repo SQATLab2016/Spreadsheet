@@ -603,3 +603,6 @@ EditAction 1476276544509 Spreadsheet.java 3175 7 10 0
 UnitTestCaseAction 1476276545719 SpreadsheetTest.java OK
 UnitTestSessionAction 1476276545720 SpreadsheetTest.java OK
 EditAction 1476276548778 Spreadsheet.java 3186 7 10 0
+RefactoringAction 1476276630805 Spreadsheet.java ADD boolean isStringLiteral FIELD
+RefactoringAction 1476276634320 Spreadsheet.java RENAME isStringLiteral=>boolean isStringLiteral(String) METHOD
+EditAction 1476276641122 Spreadsheet.java 3188 7 10 0

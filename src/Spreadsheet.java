@@ -46,6 +46,7 @@ public class Spreadsheet {
 			return false;
 		}
 	}
+	
 	private boolean isCircular(String key) {
 		mVisited.clear();
 		return isCircularRecursive(get(key));
