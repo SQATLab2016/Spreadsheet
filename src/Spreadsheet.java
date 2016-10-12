@@ -124,7 +124,7 @@ public class Spreadsheet {
 			} else if (isString(value)) {
 				value = evaluateString(value);
 			} else {
-				value = evaluateString(value);
+				value = evaluateInteger(value);
 			}
 		}
 		
