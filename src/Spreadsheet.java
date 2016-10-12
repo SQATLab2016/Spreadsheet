@@ -26,24 +26,48 @@ public class Spreadsheet {
 	}
 	
 	public String evaluate(String cell) throws SpreadsheetException {
-		// to be implemented
-		
+		return evaluateCell(cell);
+	}
+	
+	private String evaluateCell(String cell) throws SpreadsheetException {
 		String rawVal = cells.get(cell);
+		System.out.println("rawVal == " + rawVal);
 		
-		if (containsString(rawVal))
-			return evaluatedString(rawVal);
+		return evaluation(rawVal);
+	}
+	
+	private String evaluateValue(String value) throws SpreadsheetException {
+		return evaluation(value);
+	}
+	
+	private String evaluation(String value) throws SpreadsheetException {
+		if (containsFormulaExpression(value))
+			return evaluateValue(processFormula(value));
 		
-		if (!containsAllowedIntegers(rawVal))
+		if (containsString(value))
+			return evaluatedString(value);
+		
+		if (!containsAllowedIntegers(value))
 			return ERROR_MESSAGE;
 		
-		return rawVal;
+		return value;
+	}
+	
+	private boolean containsFormulaExpression(String value) throws SpreadsheetException {
+		if (charAsStringFromPos(value, 0).equals("="))
+			return true;
+		return false;
+	}
+	
+	private String processFormula(String toProcess) {
+		return toProcess.substring(1);
 	}
 	
 	private boolean containsString(String value) throws SpreadsheetException {
 		if (!(charAsStringFromPos(value, 0).equals("'") && charAsStringFromPos(value, value.length() - 1).equals("'")))
 			return false;
 		
-		if (false == STR_MARKS_ALLOWED_INSIDE_STRING)
+		if ( !STR_MARKS_ALLOWED_INSIDE_STRING)
 			if (2 == characterCount(value, "'"))
 				return true;
 

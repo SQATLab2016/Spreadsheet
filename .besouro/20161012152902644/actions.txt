@@ -244,3 +244,65 @@ RefactoringAction 1476279717972 SpreadsheetTest.java RENAME formulaTestCorrect=>
 RefactoringAction 1476279719484 SpreadsheetTest.java RENAME formulaTestCorrectString=>void formulaTestCorrectString() METHOD
 EditAction 1476279770617 SpreadsheetTest.java 2235 8 22 6
 EditAction 1476279865772 SpreadsheetTest.java 2360 8 23 7
+CompilationAction 1476279866039 SpreadsheetTest.java
+CompilationAction 1476279875396 SpreadsheetTest.java
+UnitTestCaseAction 1476279877815 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476279877815 SpreadsheetTest.java FAIL
+CompilationAction 1476279946334 Spreadsheet.java
+CompilationAction 1476279946335 Spreadsheet.java
+RefactoringAction 1476279961520 Spreadsheet.java ADD boolean isFormulaExpression FIELD
+RefactoringAction 1476279963531 Spreadsheet.java RENAME isFormulaExpression=>boolean isFormulaExpression() METHOD
+CompilationAction 1476279977184 Spreadsheet.java
+CompilationAction 1476279977185 Spreadsheet.java
+CompilationAction 1476279977353 Spreadsheet.java
+CompilationAction 1476279977354 Spreadsheet.java
+CompilationAction 1476279977354 Spreadsheet.java
+CompilationAction 1476279980979 Spreadsheet.java
+CompilationAction 1476279981141 Spreadsheet.java
+CompilationAction 1476279981142 Spreadsheet.java
+CompilationAction 1476279981143 Spreadsheet.java
+RefactoringAction 1476279986095 Spreadsheet.java RENAME containsFormulaExpression()=>boolean containsFormulaExpression(String) METHOD
+CompilationAction 1476279989730 Spreadsheet.java
+CompilationAction 1476279989879 Spreadsheet.java
+CompilationAction 1476279989880 Spreadsheet.java
+CompilationAction 1476280028108 Spreadsheet.java
+CompilationAction 1476280028109 Spreadsheet.java
+CompilationAction 1476280035745 Spreadsheet.java
+CompilationAction 1476280035936 Spreadsheet.java
+RefactoringAction 1476280063919 Spreadsheet.java ADD String processFormula() METHOD
+RefactoringAction 1476280075955 Spreadsheet.java RENAME processFormula()=>String processFormula(String) METHOD
+UnitTestCaseAction 1476280158293 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476280158293 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476280383769 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476280383770 SpreadsheetTest.java FAIL
+RefactoringAction 1476280564981 Spreadsheet.java ADD void evaluateCell() METHOD
+RefactoringAction 1476280577012 Spreadsheet.java ADD void evaluateValue() METHOD
+CompilationAction 1476280609661 Spreadsheet.java
+CompilationAction 1476280609662 Spreadsheet.java
+CompilationAction 1476280609662 Spreadsheet.java
+CompilationAction 1476280609662 Spreadsheet.java
+CompilationAction 1476280635588 Spreadsheet.java
+CompilationAction 1476280635763 Spreadsheet.java
+CompilationAction 1476280635764 Spreadsheet.java
+CompilationAction 1476280635765 Spreadsheet.java
+CompilationAction 1476280644719 Spreadsheet.java
+CompilationAction 1476280644719 Spreadsheet.java
+RefactoringAction 1476280659282 Spreadsheet.java RENAME evaluateCell()=>String evaluateCell(String) METHOD
+CompilationAction 1476280659410 Spreadsheet.java
+CompilationAction 1476280659592 Spreadsheet.java
+CompilationAction 1476280678942 Spreadsheet.java
+UnitTestCaseAction 1476280680394 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476280680394 SpreadsheetTest.java FAIL
+RefactoringAction 1476280749879 Spreadsheet.java ADD String evaluation FIELD
+RefactoringAction 1476280751396 Spreadsheet.java RENAME evaluation=>String evaluation() METHOD
+RefactoringAction 1476280789520 Spreadsheet.java RENAME evaluation()=>String evaluation(String) METHOD
+CompilationAction 1476280791751 Spreadsheet.java
+CompilationAction 1476280807520 Spreadsheet.java
+CompilationAction 1476280807692 Spreadsheet.java
+CompilationAction 1476280832017 Spreadsheet.java
+CompilationAction 1476280832168 Spreadsheet.java
+CompilationAction 1476280839284 Spreadsheet.java
+UnitTestCaseAction 1476280842261 SpreadsheetTest.java OK
+UnitTestSessionAction 1476280842261 SpreadsheetTest.java OK
+UnitTestCaseAction 1476281016390 SpreadsheetTest.java OK
+UnitTestSessionAction 1476281016391 SpreadsheetTest.java OK
