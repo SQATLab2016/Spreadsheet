@@ -26,7 +26,11 @@ public class Spreadsheet {
 	}
 	
 	private String evaluateMathFormula(String value) {
-		return ERROR;
+		for (int i = 0; i < value.length(); i++) {
+			if (value.charAt(i) == '+') {
+				return true;
+			}
+		}
 	}
 	
 	private boolean isReference(String value) {
