@@ -33,10 +33,11 @@ public class Spreadsheet {
 			
 			if ((tempString.endsWith("\'")) && (tempString.startsWith("\'"))){
 				tempString = tempString.substring(1, tempString.length()-1);
-				return tempString;}
+				return tempString;
+				}
 			
-			tempString = tempString.substring(2, tempString.length()-1);
-			return tempString;
+			else{
+			return "#Error";
 		}
 		
 		try {
