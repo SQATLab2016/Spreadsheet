@@ -47,7 +47,7 @@ public class Spreadsheet {
 					}
 					
 				} else if (value.charAt(1) != '\'') {
-					
+					value = value.substring(1, value.length() - 1);
 				} else {
 					value = ERROR;
 				}
