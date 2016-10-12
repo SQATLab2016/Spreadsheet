@@ -597,3 +597,6 @@ RefactoringAction 1476276488024 Spreadsheet.java REMOVE isReference(String) METH
 RefactoringAction 1476276491038 Spreadsheet.java ADD boolean isReference(String) METHOD
 RefactoringAction 1476276491039 Spreadsheet.java ADD boolean isAssignment(String) METHOD
 EditAction 1476276491341 Spreadsheet.java 3194 7 10 0
+UnitTestCaseAction 1476276491868 SpreadsheetTest.java OK
+UnitTestSessionAction 1476276491868 SpreadsheetTest.java OK
+EditAction 1476276544509 Spreadsheet.java 3175 7 10 0

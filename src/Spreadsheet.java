@@ -17,7 +17,7 @@ public class Spreadsheet {
 	}
 
 	private boolean isReference(String value) {
-		return value.length() > 0 && value.charAt(1) >= 'A' && value.charAt(1) <= 'Z';
+		return value.length() > 0 && value.charAt(0) >= 'A' && value.charAt(0) <= 'Z';
 	}
 	
 	private boolean isAssignment(String value) {
@@ -25,9 +25,9 @@ public class Spreadsheet {
 	}
 	
 	private boolean isCircularRecursive(String value) {
-		if (value.length() > 1 && value.charAt(0) == '='
-				&& value.charAt(1) >= 'A' && value.charAt(1) <= 'Z') {
+		if (isAssignment(value)) {
 			String key = value.substring(1, value.length());
+			if (isReference(key)) {
 			if (mVisited.contains(key)) {
 				return true;
 				
@@ -38,6 +38,9 @@ public class Spreadsheet {
 				} else {
 					return false;
 				}
+			}
+			} else {
+				return false;
 			}
 		} else {
 			return false;
