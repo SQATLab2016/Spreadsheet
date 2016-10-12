@@ -4,3 +4,20 @@ RefactoringAction 1476271207436 SpreadsheetTest.java RENAME testSpreadSheet_getC
 RefactoringAction 1476271215983 SpreadsheetTest.java RENAME testSpreadSheet_getCellA1AfterSet_1()/2=>void testSpreadSheet_getCellA1AfterSet_ne1() METHOD
 RefactoringAction 1476271218512 SpreadsheetTest.java RENAME testSpreadSheet_getCellA1AfterSet_ne1()=>void testSpreadSheet_getCellA1AfterSet_negative1() METHOD
 EditAction 1476271229129 SpreadsheetTest.java 454 2 6 2
+UnitTestCaseAction 1476271300406 SpreadsheetTest.java OK
+UnitTestSessionAction 1476271300408 SpreadsheetTest.java OK
+RefactoringAction 1476271312149 SpreadsheetTest.java ADD void testSpreadSheet_getCellA1AfterSet_negative1()/2 METHOD
+RefactoringAction 1476271367734 SpreadsheetTest.java RENAME testSpreadSheet_getCellA1AfterSet_negative1()/2=>void testSpreadSheet_get() METHOD
+RefactoringAction 1476271369747 SpreadsheetTest.java RENAME testSpreadSheet_get()=>void testSpreadSheet_() METHOD
+RefactoringAction 1476271373265 SpreadsheetTest.java RENAME testSpreadSheet_()=>void testSpreadSheet_e() METHOD
+RefactoringAction 1476271374288 SpreadsheetTest.java RENAME testSpreadSheet_e()=>void testSpreadSheet_ev() METHOD
+RefactoringAction 1476271376310 SpreadsheetTest.java RENAME testSpreadSheet_ev()=>void testSpreadSheet_evaluate() METHOD
+RefactoringAction 1476271378834 SpreadsheetTest.java RENAME testSpreadSheet_evaluate()=>void testSpreadSheet_evaluateCwll() METHOD
+RefactoringAction 1476271382352 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCwll()=>void testSpreadSheet_evaluateCell() METHOD
+RefactoringAction 1476271384373 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell()=>void testSpreadSheet_evaluateCell_n() METHOD
+RefactoringAction 1476271387895 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_n()=>void testSpreadSheet_evaluateCell_nedative1() METHOD
+RefactoringAction 1476271391406 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_nedative1()=>void testSpreadSheet_evaluateCell_neative1() METHOD
+RefactoringAction 1476271392425 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_neative1()=>void testSpreadSheet_evaluateCell_neqative1() METHOD
+RefactoringAction 1476271393447 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_neqative1()=>void testSpreadSheet_evaluateCell_neative1() METHOD
+RefactoringAction 1476271394965 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_neative1()=>void testSpreadSheet_evaluateCell_negative1() METHOD
+EditAction 1476271412150 SpreadsheetTest.java 639 3 9 3

@@ -17,4 +17,11 @@ public class SpreadsheetTest {
 		oneSheet.set("A1", "-1");
 		assertEquals("-1", oneSheet.get("A1"));
 	}
+	
+	@Test
+	public void testSpreadSheet_evaluateCell_negative1() {
+		Spreadsheet oneSheet = new Spreadsheet();
+		oneSheet.set("A1", "-1");
+		assertEquals(-1, oneSheet.evaluate("A1"));
+	}
 }
