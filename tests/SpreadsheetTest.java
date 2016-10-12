@@ -10,7 +10,7 @@ public class SpreadsheetTest {
 	public void testGetCell() {
 		Spreadsheet sh = new Spreadsheet(5,5);
 		System.out.print(sh.get("D5"));
-		assertEquals(sh.get("D5"),"7");
+		assertEquals(sh.get("D6"),"7");
 		
 	}
 
