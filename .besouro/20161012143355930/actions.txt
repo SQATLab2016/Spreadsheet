@@ -26,3 +26,4 @@ RefactoringAction 1476275485235 Spreadsheet.java RENAME Spreadsheet()=>Spreadshe
 RefactoringAction 1476275498779 Spreadsheet.java RENAME Spreadsheet(int)=>Spreadsheet(int, int) METHOD
 RefactoringAction 1476276089498 Cell.java ADD Cell(String) METHOD
 EditAction 1476276122355 Cell.java 118 1 1 0
+EditAction 1476276127966 Spreadsheet.java 529 4 5 0
