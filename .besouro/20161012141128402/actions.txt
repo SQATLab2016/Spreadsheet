@@ -1,0 +1,208 @@
+FileOpenedAction 1476270688683 SpreadsheetTest.java 3219 16 52 16
+UnitTestCaseAction 1476270694645 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476270694645 SpreadsheetTest.java FAIL
+EditAction 1476270805749 SpreadsheetTest.java 3181 16 51 16
+UnitTestCaseAction 1476270810807 SpreadsheetTest.java OK
+UnitTestSessionAction 1476270810807 SpreadsheetTest.java OK
+RefactoringAction 1476270817328 SpreadsheetTest.java ADD void test_integer_operation_plus()/2 METHOD
+RefactoringAction 1476270819418 SpreadsheetTest.java RENAME test_integer_operation_plus()/2=>void test_integer_operation_plus_1() METHOD
+RefactoringAction 1476270824051 SpreadsheetTest.java RENAME test_integer_operation_plus()=>void test_integer_operation_plus_2() METHOD
+EditAction 1476270852615 SpreadsheetTest.java 3352 17 54 17
+UnitTestCaseAction 1476270855317 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476270855317 SpreadsheetTest.java FAIL
+EditAction 1476271103439 Spreadsheet.java 1829 3 21 0
+UnitTestCaseAction 1476271107154 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271107154 SpreadsheetTest.java FAIL
+EditAction 1476271120102 Spreadsheet.java 1829 3 21 0
+UnitTestCaseAction 1476271125472 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271125472 SpreadsheetTest.java FAIL
+EditAction 1476271153302 Spreadsheet.java 1829 3 21 0
+UnitTestCaseAction 1476271156971 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271156971 SpreadsheetTest.java FAIL
+EditAction 1476271162119 Spreadsheet.java 1829 3 21 0
+UnitTestCaseAction 1476271165508 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271165508 SpreadsheetTest.java FAIL
+EditAction 1476271201138 Spreadsheet.java 1827 3 21 0
+UnitTestCaseAction 1476271204791 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271204791 SpreadsheetTest.java FAIL
+EditAction 1476271239579 Spreadsheet.java 1818 3 21 0
+UnitTestCaseAction 1476271242706 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271242706 SpreadsheetTest.java FAIL
+EditAction 1476271250163 Spreadsheet.java 1820 3 21 0
+UnitTestCaseAction 1476271253068 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271253083 SpreadsheetTest.java FAIL
+EditAction 1476271320508 Spreadsheet.java 1828 3 21 0
+UnitTestCaseAction 1476271325376 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271325378 SpreadsheetTest.java FAIL
+EditAction 1476271383636 Spreadsheet.java 1876 3 21 0
+UnitTestCaseAction 1476271386869 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271386869 SpreadsheetTest.java FAIL
+EditAction 1476271431673 Spreadsheet.java 1902 3 21 0
+UnitTestCaseAction 1476271435108 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271435108 SpreadsheetTest.java FAIL
+EditAction 1476271439616 Spreadsheet.java 1902 3 21 0
+UnitTestCaseAction 1476271442989 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271442989 SpreadsheetTest.java FAIL
+EditAction 1476271615603 Spreadsheet.java 2170 3 21 0
+CompilationAction 1476271618130 Spreadsheet.java
+CompilationAction 1476271647848 Spreadsheet.java
+UnitTestCaseAction 1476271650035 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271650035 SpreadsheetTest.java FAIL
+EditAction 1476271669801 Spreadsheet.java 2193 3 21 0
+UnitTestCaseAction 1476271673797 SpreadsheetTest.java OK
+UnitTestSessionAction 1476271673797 SpreadsheetTest.java OK
+RefactoringAction 1476271688898 SpreadsheetTest.java ADD void test_integer_operation_plus_1()/2 METHOD
+RefactoringAction 1476271691472 SpreadsheetTest.java RENAME test_integer_operation_plus_1()/2=>void test_integer_operation_plus_minus() METHOD
+EditAction 1476271702517 SpreadsheetTest.java 3527 18 57 18
+UnitTestCaseAction 1476271705701 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271705701 SpreadsheetTest.java FAIL
+EditAction 1476271767898 Spreadsheet.java 2284 3 21 0
+UnitTestCaseAction 1476271771714 SpreadsheetTest.java OK
+UnitTestSessionAction 1476271771714 SpreadsheetTest.java OK
+RefactoringAction 1476271798546 SpreadsheetTest.java ADD void test_integer_operation_plus_minus()/2 METHOD
+RefactoringAction 1476271804739 SpreadsheetTest.java RENAME test_integer_operation_plus_minus()/2=>void test_integer_operation_all_operands() METHOD
+EditAction 1476271847514 SpreadsheetTest.java 3713 19 60 19
+UnitTestCaseAction 1476271851027 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271851027 SpreadsheetTest.java FAIL
+EditAction 1476271892306 Spreadsheet.java 2513 3 21 0
+UnitTestCaseAction 1476271896022 SpreadsheetTest.java OK
+UnitTestSessionAction 1476271896022 SpreadsheetTest.java OK
+EditAction 1476272016309 Spreadsheet.java 2476 3 21 0
+UnitTestCaseAction 1476272019403 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272019404 SpreadsheetTest.java OK
+EditAction 1476272050990 Spreadsheet.java 2513 3 21 0
+UnitTestCaseAction 1476272054154 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272054155 SpreadsheetTest.java OK
+RefactoringAction 1476272061584 SpreadsheetTest.java ADD void test_integer_operation_all_operands()/2 METHOD
+RefactoringAction 1476272066101 SpreadsheetTest.java RENAME test_integer_operation_all_operands()/2=>void test_integer_operation_incorrect_integer() METHOD
+EditAction 1476272076114 SpreadsheetTest.java 3899 20 63 20
+UnitTestCaseAction 1476272081850 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272081850 SpreadsheetTest.java OK
+RefactoringAction 1476272089369 SpreadsheetTest.java ADD void test_integer_operation_incorrect_integer()/2 METHOD
+RefactoringAction 1476272095562 SpreadsheetTest.java RENAME test_integer_operation_incorrect_integer()/2=>void test_integer_operation_division_by_zero() METHOD
+EditAction 1476272098885 SpreadsheetTest.java 4083 21 66 21
+UnitTestCaseAction 1476272102304 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272102304 SpreadsheetTest.java FAIL
+EditAction 1476272172161 Spreadsheet.java 2577 3 21 0
+UnitTestCaseAction 1476272179902 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272179902 SpreadsheetTest.java OK
+RefactoringAction 1476272215501 SpreadsheetTest.java ADD void test_integer_operation_division_by_zero()/2 METHOD
+RefactoringAction 1476272228902 SpreadsheetTest.java RENAME test_integer_operation_division_by_zero()/2=>void test_string_concatenation() METHOD
+EditAction 1476272243378 SpreadsheetTest.java 4263 22 69 22
+UnitTestCaseAction 1476272247016 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272247016 SpreadsheetTest.java FAIL
+EditAction 1476272535706 Spreadsheet.java 2861 3 24 0
+UnitTestCaseAction 1476272539567 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272539568 SpreadsheetTest.java FAIL
+EditAction 1476272664523 Spreadsheet.java 2861 3 24 0
+UnitTestCaseAction 1476272668966 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272668967 SpreadsheetTest.java FAIL
+EditAction 1476272756026 Spreadsheet.java 2951 3 24 0
+UnitTestCaseAction 1476272759078 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272759078 SpreadsheetTest.java OK
+EditAction 1476272817672 Spreadsheet.java 2771 3 24 0
+UnitTestCaseAction 1476272821372 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272821372 SpreadsheetTest.java OK
+RefactoringAction 1476272846223 SpreadsheetTest.java ADD void test_string_concatenation()/2 METHOD
+RefactoringAction 1476272848297 SpreadsheetTest.java RENAME test_string_concatenation()/2=>void test_string_concatenation_error() METHOD
+EditAction 1476272854990 SpreadsheetTest.java 4447 23 72 23
+UnitTestCaseAction 1476272859501 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272859501 SpreadsheetTest.java FAIL
+EditAction 1476273084509 Spreadsheet.java 2880 3 24 0
+UnitTestCaseAction 1476273088319 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476273088319 SpreadsheetTest.java FAIL
+RefactoringAction 1476273360677 Spreadsheet.java ADD import org.apache.commons.lang IMPORT
+RefactoringAction 1476273363707 Spreadsheet.java RENAME import org.apache.commons.lang=>import org.apache.commons.lang.StringUtils IMPORT
+RefactoringAction 1476273390732 Spreadsheet.java REMOVE import org.apache.commons.lang.StringUtils IMPORT
+EditAction 1476273573647 Spreadsheet.java 2980 3 24 0
+UnitTestCaseAction 1476273576739 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476273576739 SpreadsheetTest.java FAIL
+EditAction 1476273638999 Spreadsheet.java 2980 3 24 0
+UnitTestCaseAction 1476273642699 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476273642699 SpreadsheetTest.java FAIL
+EditAction 1476273716612 Spreadsheet.java 2985 3 24 0
+UnitTestCaseAction 1476273720125 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273720125 SpreadsheetTest.java OK
+EditAction 1476273834052 Spreadsheet.java 3240 3 24 0
+UnitTestCaseAction 1476273838095 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273838095 SpreadsheetTest.java OK
+RefactoringAction 1476274013659 SpreadsheetTest.java ADD void test_integer_operation_division_by_zero()/2 METHOD
+RefactoringAction 1476274018308 SpreadsheetTest.java RENAME test_integer_operation_division_by_zero()/2=>void test_integer_operation_with_parentheses() METHOD
+EditAction 1476274047823 SpreadsheetTest.java 4630 24 75 24
+UnitTestCaseAction 1476274051133 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274051133 SpreadsheetTest.java FAIL
+EditAction 1476274065704 Spreadsheet.java 3246 3 24 0
+UnitTestCaseAction 1476274069154 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274069154 SpreadsheetTest.java FAIL
+RefactoringAction 1476274988128 Spreadsheet.java ADD int calculateOpe FIELD
+RefactoringAction 1476274994321 Spreadsheet.java RENAME calculateOpe=>int calculateOperation(String) METHOD
+RefactoringAction 1476275002573 Spreadsheet.java RENAME calculateOperation(String)=>int doEquation(String) METHOD
+RefactoringAction 1476275236246 Spreadsheet.java RENAME doEquation(String)=>String calculateEquation(String) METHOD
+RefactoringAction 1476275238399 Spreadsheet.java RENAME calculateEquation(String)=>String doEquation(String) METHOD
+RefactoringAction 1476275255871 Spreadsheet.java RENAME doEquation(String)=>String calculateEquation(String) METHOD
+EditAction 1476275335072 Spreadsheet.java 4312 4 30 0
+UnitTestCaseAction 1476275341534 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275341534 SpreadsheetTest.java FAIL
+EditAction 1476275423701 Spreadsheet.java 4351 4 30 0
+UnitTestCaseAction 1476275426856 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275426856 SpreadsheetTest.java FAIL
+EditAction 1476275437433 Spreadsheet.java 4316 4 30 0
+UnitTestCaseAction 1476275440618 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275440618 SpreadsheetTest.java FAIL
+EditAction 1476275455579 Spreadsheet.java 4355 4 30 0
+UnitTestCaseAction 1476275459435 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275459435 SpreadsheetTest.java FAIL
+EditAction 1476275474848 Spreadsheet.java 4361 4 30 0
+UnitTestCaseAction 1476275478096 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275478096 SpreadsheetTest.java FAIL
+EditAction 1476275496457 Spreadsheet.java 4327 4 30 0
+UnitTestCaseAction 1476275500704 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275500704 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476275503266 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275503266 SpreadsheetTest.java FAIL
+EditAction 1476275523187 Spreadsheet.java 4361 4 30 0
+UnitTestCaseAction 1476275526606 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275526606 SpreadsheetTest.java FAIL
+EditAction 1476275565232 Spreadsheet.java 4372 4 30 0
+UnitTestCaseAction 1476275568714 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275568714 SpreadsheetTest.java FAIL
+EditAction 1476275596981 Spreadsheet.java 4360 4 30 0
+UnitTestCaseAction 1476275601167 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275601167 SpreadsheetTest.java FAIL
+EditAction 1476275611026 Spreadsheet.java 4345 4 30 0
+CompilationAction 1476275613818 Spreadsheet.java
+EditAction 1476275616174 Spreadsheet.java 4356 4 30 0
+UnitTestCaseAction 1476275619141 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275619141 SpreadsheetTest.java FAIL
+EditAction 1476275639717 Spreadsheet.java 4360 4 30 0
+UnitTestCaseAction 1476275643730 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275643730 SpreadsheetTest.java FAIL
+EditAction 1476275651155 Spreadsheet.java 4360 4 30 0
+UnitTestCaseAction 1476275654358 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275654358 SpreadsheetTest.java FAIL
+EditAction 1476275657650 Spreadsheet.java 4327 4 30 0
+UnitTestCaseAction 1476275662355 SpreadsheetTest.java OK
+UnitTestSessionAction 1476275662355 SpreadsheetTest.java OK
+RefactoringAction 1476275733679 Spreadsheet.java REMOVE calculateEquation(String) METHOD
+RefactoringAction 1476275734724 Spreadsheet.java ADD String calculateEquation(String) METHOD
+EditAction 1476275755269 Spreadsheet.java 4205 4 30 0
+UnitTestCaseAction 1476275758767 SpreadsheetTest.java OK
+UnitTestSessionAction 1476275758767 SpreadsheetTest.java OK
+RefactoringAction 1476275768376 SpreadsheetTest.java ADD void test_integer_operation_with_parentheses()/2 METHOD
+RefactoringAction 1476275772510 SpreadsheetTest.java RENAME test_integer_operation_with_parentheses()/2=>void test_integer_operation_with_parentheses_unbalanced_1() METHOD
+EditAction 1476275781465 SpreadsheetTest.java 4830 25 78 25
+UnitTestCaseAction 1476275784837 SpreadsheetTest.java OK
+UnitTestSessionAction 1476275784837 SpreadsheetTest.java OK
+RefactoringAction 1476275790531 SpreadsheetTest.java ADD void test_integer_operation_with_parentheses_unbalanced_1()/2 METHOD
+RefactoringAction 1476275792637 SpreadsheetTest.java RENAME test_integer_operation_with_parentheses_unbalanced_1()/2=>void test_integer_operation_with_parentheses_unbalanced_2() METHOD
+EditAction 1476275795008 SpreadsheetTest.java 5030 26 81 26
+UnitTestCaseAction 1476275798475 SpreadsheetTest.java OK
+UnitTestSessionAction 1476275798475 SpreadsheetTest.java OK
+RefactoringAction 1476275826601 SpreadsheetTest.java ADD void test_integer_operation_with_parentheses()/2 METHOD
+RefactoringAction 1476275830221 SpreadsheetTest.java RENAME test_integer_operation_with_parentheses()/2=>void test_integer_operation_with_parentheses_and_spaces() METHOD
+EditAction 1476275868005 SpreadsheetTest.java 5231 27 84 27
+UnitTestCaseAction 1476275871783 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275871783 SpreadsheetTest.java FAIL
+EditAction 1476275917491 Spreadsheet.java 4231 4 30 0
+UnitTestCaseAction 1476275921207 SpreadsheetTest.java OK
+UnitTestSessionAction 1476275921207 SpreadsheetTest.java OK

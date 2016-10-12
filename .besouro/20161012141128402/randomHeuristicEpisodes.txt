@@ -1,0 +1,17 @@
+1476270810807 refactoring 1A 122 false
+1476271673797 test-first 3 856 true
+1476271771714 test-first 3 82 true
+1476271896022 test-first 3 97 true
+1476272019404 refactoring 2A 3 false
+1476272054155 refactoring 2A 3 false
+1476272081850 test-addition 1 20 true
+1476272179902 test-first 3 90 true
+1476272759078 test-first 3 543 true
+1476272821372 refactoring 2A 3 true
+1476273720125 test-first 3 873 true
+1476273838095 refactoring 2A 4 true
+1476275662355 test-first 3 1648 true
+1476275758767 refactoring 2A 25 true
+1476275784837 test-addition 1 16 true
+1476275798475 test-addition 1 7 false
+1476275921207 test-first 3 94 true
