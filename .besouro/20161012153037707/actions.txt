@@ -7,3 +7,6 @@ RefactoringAction 1476275526805 SpreadsheetException.java ADD SpreadsheetExcepti
 EditAction 1476275545653 Spreadsheet.java 656 3 4 0
 CompilationAction 1476275545747 Spreadsheet.java
 EditAction 1476275545771 SpreadsheetException.java 123 1 1 0
+UnitTestCaseAction 1476275546112 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275546112 SpreadsheetTest.java FAIL
+EditAction 1476275601581 Spreadsheet.java 656 3 4 0
