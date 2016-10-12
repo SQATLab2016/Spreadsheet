@@ -71,3 +71,8 @@ EditAction 1476272016309 Spreadsheet.java 2476 3 21 0
 UnitTestCaseAction 1476272019403 SpreadsheetTest.java OK
 UnitTestSessionAction 1476272019404 SpreadsheetTest.java OK
 EditAction 1476272050990 Spreadsheet.java 2513 3 21 0
+UnitTestCaseAction 1476272054154 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272054155 SpreadsheetTest.java OK
+RefactoringAction 1476272061584 SpreadsheetTest.java ADD void test_integer_operation_all_operands()/2 METHOD
+RefactoringAction 1476272066101 SpreadsheetTest.java RENAME test_integer_operation_all_operands()/2=>void test_integer_operation_incorrect_integer() METHOD
+EditAction 1476272076114 SpreadsheetTest.java 3899 20 63 20

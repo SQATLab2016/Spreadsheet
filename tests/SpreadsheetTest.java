@@ -144,4 +144,11 @@ public class SpreadsheetTest {
 		assertEquals("1", evaluatedValue);
 	}
 
+	@Test
+	public void test_integer_operation_incorrect_integer() {
+		s.set("A1", "=1+1A");
+		String evaluatedValue = s.evaluate("A1");
+		assertEquals("#Error", evaluatedValue);
+	}
+
 }
