@@ -110,3 +110,7 @@ UnitTestCaseAction 1476273209684 SpreadsheetTest.java OK
 UnitTestSessionAction 1476273209685 SpreadsheetTest.java OK
 RefactoringAction 1476273224938 Spreadsheet.java ADD String ERROR FIELD
 EditAction 1476273224945 Spreadsheet.java 786 4 5 0
+UnitTestCaseAction 1476273233712 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273233713 SpreadsheetTest.java OK
+RefactoringAction 1476273253740 Spreadsheet.java ADD String evaluateString(String) METHOD
+EditAction 1476273253745 Spreadsheet.java 875 5 6 0
