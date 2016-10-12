@@ -32,7 +32,11 @@ public class Spreadsheet {
 	public void set(String cell, String value) {
 		String v = value;
 		
-		if (!isFormula(v) && !isIntegerCellValue(v) && !isStringCellValue(v)) {
+		if (isFormula(v)) {
+			v = v.substring(1);
+		}
+		
+		if (!isIntegerCellValue(v) && !isStringCellValue(v)) {
 			v = ERROR_VALUE;
 		}
 		
