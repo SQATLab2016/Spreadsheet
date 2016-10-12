@@ -29,7 +29,7 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void testWronglyFormattedInteger_expectSuccess() {
+	public void testWronglyFormattedInteger_expectSuccess() throws SpreadsheetException {
 		spreadsheet.set("A1", "43_27");
 		spreadsheet.set("A2", "437d813++");
 		spreadsheet.set("A3", "23.05843570");
@@ -37,7 +37,8 @@ public class SpreadsheetTest {
 		spreadsheet.set("A5", "-4719472819");
 		spreadsheet.set("A6", "-99378914327");
 		
-		assertFalse("", spreadsheet.evaluate("A5").equals("#Error"));
+		assertFalse("Correctly formatted integer is mistaken as incorrectly formatted",
+						spreadsheet.evaluate("A5").equals("#Error"));
 		assertEquals("Wrongly formatted integer not detected", "#Error", spreadsheet.evaluate("A1"));
 	}
 }
