@@ -31,4 +31,13 @@ public class SpreadsheetTest {
 		assertEquals(sh.get("A1"),"-1");
 		
 	}
+	
+	@Test
+	public void testWronglyFormattedIntegersCell() {
+		Spreadsheet sh = new Spreadsheet(5,5);
+		sh.set("A1", "1A");
+		System.out.print(sh.get("A1"));
+		assertEquals(sh.get("A1"),"#Error");
+		
+	}
 }

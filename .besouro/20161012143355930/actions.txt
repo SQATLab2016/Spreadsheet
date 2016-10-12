@@ -134,3 +134,9 @@ UnitTestCaseAction 1476279169037 SpreadsheetTest.java OK
 UnitTestSessionAction 1476279169038 SpreadsheetTest.java OK
 EditAction 1476279654583 Spreadsheet.java 1180 5 16 0
 EditAction 1476279796656 Spreadsheet.java 1200 5 17 0
+RefactoringAction 1476279813330 SpreadsheetTest.java ADD void testEvaluateNunmberHandlingCell()/2 METHOD
+RefactoringAction 1476279848866 SpreadsheetTest.java RENAME testEvaluateNunmberHandlingCell()/2=>void testWrongly FIELD
+RefactoringAction 1476279853881 SpreadsheetTest.java RENAME integersCell()=>void formattedntegersCell() METHOD
+RefactoringAction 1476279854897 SpreadsheetTest.java RENAME formattedntegersCell()=>void formattedIntegersCell() METHOD
+RefactoringAction 1476279859920 SpreadsheetTest.java RENAME testWronglyormattedIntegersCell()=>void testWronglyFormattedIntegersCell() METHOD
+EditAction 1476279891032 SpreadsheetTest.java 821 4 13 4
