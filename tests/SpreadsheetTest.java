@@ -28,7 +28,7 @@ public class SpreadsheetTest {
 		Spreadsheet sh = new Spreadsheet(5,5);
 		sh.set("A1", "-1");
 		//System.out.print(sh.get("A1"));
-		assertEquals(sh.get("A1"),"-1");
+		assertEquals(sh.evaluate("A1"),"-1");
 		
 	}
 	
