@@ -127,3 +127,6 @@ RefactoringAction 1476279096105 SpreadsheetTest.java RENAME testEvaluateCell()=>
 RefactoringAction 1476279099618 SpreadsheetTest.java RENAME testEvaluateNCell()=>void testEvaluateNunmberCell() METHOD
 RefactoringAction 1476279104631 SpreadsheetTest.java RENAME testEvaluateNunmberCell()=>void testEvaluateNunmberHandlingCell() METHOD
 EditAction 1476279137262 SpreadsheetTest.java 616 3 11 3
+UnitTestCaseAction 1476279139554 SpreadsheetTest.java OK
+UnitTestSessionAction 1476279139555 SpreadsheetTest.java OK
+EditAction 1476279166136 SpreadsheetTest.java 620 3 9 3
