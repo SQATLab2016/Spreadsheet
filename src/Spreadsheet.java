@@ -54,9 +54,13 @@ public class Spreadsheet {
 				return ERROR_VALUE;
 			}
 			
-			int value = Integer.parseInt(splitFormula[0]);
+			int val = Integer.parseInt(splitFormula[0]);
 			for (int i = 1; i < splitFormula.length; i += 2) {
+				if (i + 1 >= splitFormula.length)
+					return ERROR_VALUE;
 				
+				if (splitFormula[i].equals("+"))
+					val += Integer.parseInt(splitFormula[i+1]);
 			}
 		}
 		
