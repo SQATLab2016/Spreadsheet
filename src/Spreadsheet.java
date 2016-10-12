@@ -25,6 +25,10 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		String value = get(cell);
 		
+		while (isReference(value)) {
+			
+		}
+		
 		if (isFormula(value)) {
 			value = value.substring(1);
 		}
