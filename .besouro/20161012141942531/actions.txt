@@ -49,3 +49,6 @@ RefactoringAction 1476271899992 SpreadSheetException.java ADD SpreadSheetExcepti
 FileOpenedAction 1476271900129 SpreadSheetException.java 44 0 0 0
 CompilationAction 1476271900189 SpreadsheetTest.java
 EditAction 1476271909077 SpreadSheetException.java 62 0 0 0
+UnitTestCaseAction 1476271926612 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271926613 SpreadsheetTest.java FAIL
+EditAction 1476271969351 Spreadsheet.java 479 3 3 0
