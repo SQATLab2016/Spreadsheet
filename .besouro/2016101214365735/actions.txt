@@ -5,3 +5,5 @@ UnitTestSessionAction 1476272241021 SpreadsheetTest.java OK
 EditAction 1476272284299 Spreadsheet.java 383 3 4 0
 RefactoringAction 1476272297727 SpreadsheetTest.java ADD void test_evalueSetValue() METHOD
 EditAction 1476272307232 SpreadsheetTest.java 385 2 4 2
+RefactoringAction 1476272314270 SpreadsheetTest.java RENAME test_evalueSetValue()=>void test_evalueSetNegativesValue() METHOD
+EditAction 1476272314692 SpreadsheetTest.java 393 2 4 2

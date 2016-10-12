@@ -15,7 +15,7 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void test_evalueSetValue() {
+	public void test_evalueSetNegativeValue() {
 		sheet.set("A1", "-1");
 		assertEquals("-1", sheet.evaluate("A1"));
 	}
