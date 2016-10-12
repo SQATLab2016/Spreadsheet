@@ -51,7 +51,19 @@ public class Spreadsheet {
 		if (m.find()) {
 			String[] operands = m.group(1).replaceAll("\\d", "").split("\\s*");
 			String[] numbers = m.group(1).replaceAll("[^\\d]", " ").split("\\s+");
-			return numbers[1];
+			
+			if (numbers.length != operands.length + 1) {
+				return "#Error";
+			}
+			
+			int sum = Integer.parseInt(numbers[0]);
+			for (int i = 0; i < operands.length; i++) {
+				if (operands[i] == "+") {
+					sum += Integer.parseInt(numbers[i + 1]);
+				}
+			}
+			
+			return sum;
 		}
 		
 		// An invalid integer
