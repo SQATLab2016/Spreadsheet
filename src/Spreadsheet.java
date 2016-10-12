@@ -26,7 +26,7 @@ public class Spreadsheet {
 		String value = get(cell);
 		
 		while (isReference(value)) {
-			value = table.get(value);
+			value = table.get(value.substring(1));
 		}
 		
 		if (isFormula(value)) {
