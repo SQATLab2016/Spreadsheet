@@ -24,6 +24,9 @@ public class Spreadsheet {
 					result = sheet.get(cell).replaceAll("=", "");
 					result = result.replaceAll("'", "");
 				}
+				else{
+					throw new SpreadSheetException();
+				}
 			} else
 				result = "" + Integer.parseInt(sheet.get(cell));
 			return result;
