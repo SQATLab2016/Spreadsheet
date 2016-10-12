@@ -55,6 +55,9 @@ public class Spreadsheet {
 	}
 	
 	private boolean isStringCellValue(String value) {
+		if (isFormula(value))
+			value = value.substring(1);
+		
 		if (value.startsWith(STRING_IDENTIFIER) && value.endsWith(STRING_IDENTIFIER))
 			return true;
 		
