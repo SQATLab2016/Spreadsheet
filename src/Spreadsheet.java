@@ -136,11 +136,13 @@ public class Spreadsheet {
 			} else {
 				if (splitFormula[i].charAt(0) != '&') {
 					return false;
+				} else {
+					operatorFound = true;
 				}
 			}
 		}
 		
-		return true;
+		return operatorFound;
 	}
 	
 	private boolean isIntegerCellValue(String value) {
