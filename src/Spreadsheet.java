@@ -66,7 +66,7 @@ public class Spreadsheet {
 					String key = value.substring(1, value.length());
 					String refValue = get(key);
 					if (refValue != null) {
-						value = refValue;
+						value = evaluate(refValue);
 					} else {
 						value = ERROR;
 					}
