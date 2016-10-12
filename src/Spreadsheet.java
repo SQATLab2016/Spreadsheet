@@ -74,7 +74,7 @@ public class Spreadsheet {
 		
 		for (int i = 0; i < value.length(); i++) {
 			if (!Character.isWhitespace(value.charAt(i)))
-				
+				newValue += value.charAt(i);
 		}
 	}
 }
