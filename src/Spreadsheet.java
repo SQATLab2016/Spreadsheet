@@ -83,8 +83,13 @@ public class Spreadsheet {
 				i++;
 			}
 			
+			if (v.length() > i)
+				return false;
 			
+			return true;
 		}
+		
+		return false;
 	}
 	
 	private String getWhitespaceRemoved(String value) {
