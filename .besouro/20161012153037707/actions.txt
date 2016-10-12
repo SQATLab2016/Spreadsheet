@@ -1,0 +1,2 @@
+FileOpenedAction 1476275438019 Spreadsheet.java 642 3 4 0
+EditAction 1476275474922 Spreadsheet.java 643 3 4 0
