@@ -121,27 +121,10 @@ public class Spreadsheet {
 					value = ERROR;
 				}
 				
-			} else if (value.charAt(0) == '\'') {
-				if (value.length() > 1 && value.charAt(value.length() - 1) == '\'') {
-					value = value.substring(1, value.length() - 1);
-				} else {
-					value = ERROR;
-				}
+			} else if (isString(value)) {
+				value = evaluateString(value);
 			} else {
-				boolean isInteger = true;
-				for (int i = 0; i < value.length(); i++) {
-					char c = value.charAt(i);
-					if (i == 0 && c == '-')
-						continue;
-					
-					if (c < '0' || c > '9') {
-						isInteger = false;
-						break;
-					}
-				}
-				
-				if (!isInteger)
-					value = ERROR;
+				value = evaluateString(value);
 			}
 		}
 		
