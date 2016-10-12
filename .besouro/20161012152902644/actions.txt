@@ -1,0 +1,4 @@
+FileOpenedAction 1476275342933 SpreadsheetTest.java 803 4 7 3
+CompilationAction 1476275503008 SpreadsheetTest.java
+CompilationAction 1476275503164 SpreadsheetTest.java
+EditAction 1476275519071 SpreadsheetTest.java 859 4 7 3
