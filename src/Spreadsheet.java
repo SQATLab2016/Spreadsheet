@@ -39,6 +39,17 @@ public class Spreadsheet {
 	private boolean containsString(String value) {
 		if (!(value.charAt(0).equals("'") && value.charAt(value.length()).equals("'")))
 			return false;
+		
+		
+	}
+	
+	private int characterCount(String str, String target) {
+		int count = 0;
+		
+		for (int i = 0; i < str.length(); i++) {
+			if (charAsStringFromPos(str, i).equals(target))
+				count++;
+		}
 	}
 	
 	private String evaluatedString(String unevaluatedString) {

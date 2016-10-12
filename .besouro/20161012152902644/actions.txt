@@ -50,3 +50,12 @@ EditAction 1476276072115 Spreadsheet.java 1956 9 18 0
 CompilationAction 1476276072209 Spreadsheet.java
 CompilationAction 1476276072210 Spreadsheet.java
 EditAction 1476276204528 Spreadsheet.java 2052 9 19 0
+CompilationAction 1476276204619 Spreadsheet.java
+CompilationAction 1476276204619 Spreadsheet.java
+RefactoringAction 1476276302819 Spreadsheet.java ADD int charCount FIELD
+RefactoringAction 1476276303835 Spreadsheet.java RENAME charCount=>int charCount() METHOD
+RefactoringAction 1476276324895 Spreadsheet.java RENAME charCount()=>int characterCount() METHOD
+RefactoringAction 1476276347447 Spreadsheet.java RENAME characterCount()=>int characterCount(String) METHOD
+RefactoringAction 1476276352474 Spreadsheet.java RENAME characterCount(String)=>int characterCount(String, char) METHOD
+RefactoringAction 1476276426652 Spreadsheet.java RENAME characterCount(String, char)=>int characterCount(String, String) METHOD
+EditAction 1476276485084 Spreadsheet.java 2251 10 21 0
