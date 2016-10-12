@@ -191,3 +191,4 @@ RefactoringAction 1476275397376 Spreadsheet.java RENAME arithmeticOperation(Stri
 RefactoringAction 1476275509930 Spreadsheet.java RENAME arithmeticOperation(String, int)=>int arithmeticOperation(String) METHOD
 RefactoringAction 1476275703815 Spreadsheet.java ADD int evaluateOperator(int, int, String) METHOD
 EditAction 1476275887475 Spreadsheet.java 2290 6 12 0
+EditAction 1476275976242 Spreadsheet.java 2402 6 13 0

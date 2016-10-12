@@ -28,7 +28,7 @@ public class Spreadsheet {
 					} else
 						result = evaluate(sheet.get(cell).substring(1));
 				} else if (isInteger(sheet.get(cell).substring(1, 2))) {
-					result = ""+ arithmeticOperation(sheet.get(cell).substring(1));
+					result = "" + arithmeticOperation(sheet.get(cell).substring(1));
 				} else {
 					throw new SpreadSheetException();
 				}
@@ -50,21 +50,26 @@ public class Spreadsheet {
 		}
 		return true;
 	}
-	
-	public int arithmeticOperation(String value){
+
+	public int arithmeticOperation(String value) {
 		int result = 0;
 		int stringIndex = 0;
 		String operator = "+";
-		while(stringIndex <= value.length()){
-			if(isInteger(value.substring(stringIndex, stringIndex+1))){
-				result = evaluateOperator(result, Integer.parseInt(value.substring(stringIndex, stringIndex+1)), operator);
+		boolean integerVlaue = false;
+		while (stringIndex <= value.length()) {
+			if (isInteger(value.substring(stringIndex, stringIndex + 1))) {
+				if (integerVlaue = false) {
+					integerVlaue = true;
+					result = evaluateOperator(result, Integer.parseInt(value.substring(stringIndex, stringIndex + 1)),
+							operator);
+				}
 			}
 		}
 		return result;
 	}
 
 	private int evaluateOperator(int result, int parseInt, String operator) {
-		if(operator.equals("+"))
+		if (operator.equals("+"))
 			result = result + parseInt;
 		else if (operator.equals("-"))
 			result = result - parseInt;
@@ -74,7 +79,7 @@ public class Spreadsheet {
 			result = result / parseInt;
 		else if (operator.equals("%"))
 			result = result % parseInt;
-		
+
 		return result;
 	}
 }
