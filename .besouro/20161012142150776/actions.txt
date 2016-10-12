@@ -279,3 +279,23 @@ UnitTestSessionAction 1476276717635 SpreadsheetTest.java OK
 RefactoringAction 1476276726863 SpreadsheetTest.java ADD void testSpreadsheetFormulaCalculation_evaluateAdditionFormula()/2 METHOD
 RefactoringAction 1476276734875 SpreadsheetTest.java RENAME testSpreadsheetFormulaCalculation_evaluateAdditionFormula()/2=>void testSpreadsheetFormulaCalculation_evaluatesubstractionFormula() METHOD
 EditAction 1476276748220 SpreadsheetTest.java 2945 15 34 15
+UnitTestCaseAction 1476276754189 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276754190 SpreadsheetTest.java FAIL
+RefactoringAction 1476277258670 Spreadsheet.java ADD String evaluate FIELD
+RefactoringAction 1476277263189 Spreadsheet.java RENAME evaluate=>String evaluateIntFormula FIELD
+RefactoringAction 1476277264709 Spreadsheet.java RENAME evaluateIntFormula=>String evaluateIntFormula() METHOD
+RefactoringAction 1476277280283 Spreadsheet.java RENAME evaluateIntFormula()=>String evaluateIntFormula(char METHOD
+RefactoringAction 1476277387977 Spreadsheet.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1476277611674 Spreadsheet.java ADD import java.util.List IMPORT
+CompilationAction 1476277988380 Spreadsheet.java
+CompilationAction 1476277988381 Spreadsheet.java
+CompilationAction 1476277988382 Spreadsheet.java
+UnitTestCaseAction 1476278079560 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278079561 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476278174405 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278174407 Rerun SpreadsheetTest.testSpreadsheetequalSignWithCellRef_setA3_13_setC3_EqualsA3_evaluateC3_return_13 FAIL
+UnitTestCaseAction 1476278260535 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278260536 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476278431362 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278431362 SpreadsheetTest.java FAIL
+EditAction 1476278461296 SpreadsheetTest.java 2945 15 34 15

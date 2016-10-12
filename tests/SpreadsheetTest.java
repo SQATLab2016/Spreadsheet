@@ -27,7 +27,7 @@ public class SpreadsheetTest {
 	public void testSpreadsheetEvaluateNegInt_setB2_neg3_evaluateB2_returnneg3() {
 		sheet.set("B2", "-3");
 
-		assertEquals(sheet.evaluate("B2"), "-3");
+		assertEquals("-3", sheet.evaluate("B2"));
 
 	}
 

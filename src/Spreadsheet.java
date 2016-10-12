@@ -1,4 +1,6 @@
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Spreadsheet {
@@ -46,18 +48,34 @@ public class Spreadsheet {
 
 	private String evaluateInt(String cellStored) {
 		try {
-			String[] characters = cellStored.split("[+]");
-			int total = 0;
-			for (String s : characters) {
-				int i = Integer.parseInt(s);
-				total = total + i;
-			}
-			return String.valueOf(total);
+			char[] characters = cellStored.toCharArray();
+			return evaluateIntFormula(characters);	
 
 		} catch (NumberFormatException ex) {
 
 			return ERROR;
 		}
+	}
+
+	private String evaluateIntFormula(char[] characters) {
+		char operand = 0;
+		String number="";
+		int calculation = 0;
+		int i = 0;
+		for (char c : characters) {
+			if (c >= '0' && c <= '9') {
+				operand = c;
+			} else if (c == '+') {
+				int x = operand;
+				int y = Integer.parseInt(evaluateIntFormula(Arrays.copyOfRange(characters, i, characters.length)));
+				calculation = x + y;
+				return String.valueOf(calculation);
+			} else {
+				return ERROR;
+			}
+			number = number + String.valueOf(operand);
+		}
+		return number;
 	}
 
 }
