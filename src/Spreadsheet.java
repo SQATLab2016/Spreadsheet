@@ -68,6 +68,8 @@ public class Spreadsheet {
 				else if (splitFormula[i].equals("/"))
 					val /= Integer.parseInt(splitFormula[i+1]);
 			}
+			
+			return String.valueOf(val);
 		}
 		
 		if (isFormula(value)) {
