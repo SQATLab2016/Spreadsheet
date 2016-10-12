@@ -75,4 +75,12 @@ public class SpreadsheetTest {
 		oneSheet.set("A1", "=A5");
 		oneSheet.evaluate("A1");
 	}
+	
+	@Test (expected = SpreadSheetException.class)
+	public void testSpreadSheet_evaluateCellReferenceCircular_Exception() throws SpreadSheetException {
+		Spreadsheet oneSheet = new Spreadsheet();
+		oneSheet.set("A5", "=A1");
+		oneSheet.set("A1", "=A5");
+		oneSheet.evaluate("A1");
+	}
 }
