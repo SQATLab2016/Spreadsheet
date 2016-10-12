@@ -22,7 +22,7 @@ public class SpreadsheetTest {
 		
 	}
 	
-	@Test public void spreadsheetEvaluateA2_D4_returnsError() {
+	@Test public void spreadsheetEvaluateA3_D4_returnsError() {
 		Spreadsheet spready = new Spreadsheet();
 		
 		spready.set("A3", "D4");
@@ -30,7 +30,7 @@ public class SpreadsheetTest {
 		
 	}
 	
-	@Test public void spreadsheetEvaluateA2_What_returnsWhat() {
+	@Test public void spreadsheetEvaluateA3_What_returnsWhat() {
 		Spreadsheet spready = new Spreadsheet();
 		
 		spready.set("A3", "'What'");
@@ -38,7 +38,7 @@ public class SpreadsheetTest {
 		
 	}
 	
-	@Test public void spreadsheetEvaluateA2_What2_returnsError() {
+	@Test public void spreadsheetEvaluateA3_What2_returnsError() {
 		Spreadsheet spready = new Spreadsheet();
 		
 		spready.set("A3", "'What2");
@@ -46,7 +46,7 @@ public class SpreadsheetTest {
 		
 	}
 	
-	@Test public void spreadsheetEvaluateA2_3What_returnsError() {
+	@Test public void spreadsheetEvaluateA3_3What_returnsError() {
 		Spreadsheet spready = new Spreadsheet();
 		
 		spready.set("A3", "3What'");
@@ -54,7 +54,7 @@ public class SpreadsheetTest {
 		
 	}
 	
-	@Test public void spreadsheetEvaluateA2EgualsArbitary_returnsArbitary() {
+	@Test public void spreadsheetEvaluateA3EgualsArbitary_returnsArbitary() {
 		Spreadsheet spready = new Spreadsheet();
 		
 		spready.set("A3", "='Arbitary'");
@@ -62,7 +62,15 @@ public class SpreadsheetTest {
 		
 	}
 	
-	@Test public void spreadsheetEvaluateA2EgualsElbaWrongFormat_returnsError() {
+	@Test public void spreadsheetEvaluateA3EgualsElbaWrongFormat_returnsError() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A3", "='Elba");
+		assertEquals("#Error", spready.evaluate("A3"));	
+		
+	}
+	
+	@Test public void spreadsheetEvaluateA3EgualsElbaWrongFormat_returnsError() {
 		Spreadsheet spready = new Spreadsheet();
 		
 		spready.set("A3", "='Elba");

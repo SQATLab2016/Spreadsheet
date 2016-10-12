@@ -340,3 +340,20 @@ UnitTestCaseAction 1476275921869 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476275921869 SpreadsheetTest.java FAIL
 EditAction 1476275993189 Spreadsheet.java 1032 3 9 0
 EditAction 1476276015314 Spreadsheet.java 980 3 6 0
+CompilationAction 1476276015418 Spreadsheet.java
+CompilationAction 1476276041760 Spreadsheet.java
+CompilationAction 1476276041918 Spreadsheet.java
+CompilationAction 1476276060526 Spreadsheet.java
+CompilationAction 1476276060689 Spreadsheet.java
+CompilationAction 1476276089192 Spreadsheet.java
+UnitTestCaseAction 1476276118316 SpreadsheetTest.java OK
+UnitTestSessionAction 1476276118317 SpreadsheetTest.java OK
+RefactoringAction 1476276130954 SpreadsheetTest.java ADD void spreadsheetEvaluateA2EgualsElbaWrongFormat_returnsError()/2 METHOD
+RefactoringAction 1476276135464 SpreadsheetTest.java RENAME spreadsheetEvaluateA2EgualsElbaWrongFormat_returnsError()/2=>void spreadsheetEvaluateA3EgualsElbaWrongFormat_returnsError() METHOD
+RefactoringAction 1476276137476 SpreadsheetTest.java RENAME spreadsheetEvaluateA2EgualsElbaWrongFormat_returnsError()=>void spreadsheetEvaluateA3EgualsElbaWrongFormat_returnsError()/2 METHOD
+RefactoringAction 1476276139488 SpreadsheetTest.java RENAME spreadsheetEvaluateA2EgualsArbitary_returnsArbitary()=>void spreadsheetEvaluateA3EgualsArbitary_returnsArbitary() METHOD
+RefactoringAction 1476276141499 SpreadsheetTest.java RENAME spreadsheetEvaluateA2_3What_returnsError()=>void spreadsheetEvaluateA3_3What_returnsError() METHOD
+RefactoringAction 1476276144510 SpreadsheetTest.java RENAME spreadsheetEvaluateA2_What2_returnsError()=>void spreadsheetEvaluateA3_What2_returnsError() METHOD
+RefactoringAction 1476276148021 SpreadsheetTest.java RENAME spreadsheetEvaluateA2_What_returnsWhat()=>void spreadsheetEvaluateA3_What_returnsWhat() METHOD
+RefactoringAction 1476276152031 SpreadsheetTest.java RENAME spreadsheetEvaluateA2_D4_returnsError()=>void spreadsheetEvaluateA3_D4_returnsError() METHOD
+EditAction 1476276154056 SpreadsheetTest.java 1887 9 27 9
