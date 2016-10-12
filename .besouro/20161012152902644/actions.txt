@@ -182,3 +182,12 @@ CompilationAction 1476278400607 Spreadsheet.java
 CompilationAction 1476278400788 SpreadsheetTest.java
 CompilationAction 1476278400788 SpreadsheetTest.java
 EditAction 1476278467859 SpreadsheetTest.java 1818 6 17 5
+CompilationAction 1476278468107 SpreadsheetTest.java
+CompilationAction 1476278468108 SpreadsheetTest.java
+CompilationAction 1476278472281 SpreadsheetTest.java
+CompilationAction 1476278472442 SpreadsheetTest.java
+CompilationAction 1476278472442 SpreadsheetTest.java
+CompilationAction 1476278485291 SpreadsheetTest.java
+CompilationAction 1476278485446 SpreadsheetTest.java
+CompilationAction 1476278502191 SpreadsheetTest.java
+EditAction 1476278530275 SpreadsheetTest.java 1820 6 18 5
