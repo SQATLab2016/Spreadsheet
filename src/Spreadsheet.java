@@ -55,7 +55,7 @@ public class Spreadsheet {
 			}
 			
 			int value = Integer.parseInt(splitFormula[0]);
-			for (int i = 0; i < splitFormula.length; i++) {
+			for (int i = 1; i < splitFormula.length; i + 2) {
 				
 			}
 		}
