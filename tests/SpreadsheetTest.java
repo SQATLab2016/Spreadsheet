@@ -111,4 +111,12 @@ public class SpreadsheetTest {
 		String result = sheet.evaluate("A2");
 		assertEquals("123", result);
 	}
+
+	@Test
+	public void testAssignment_A2_InvalidReference_Error() {
+		sheet.set("A1", "123");
+		sheet.set("A2", "=A5");
+		String result = sheet.evaluate("A2");
+		assertEquals("123", result);
+	}
 }

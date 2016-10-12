@@ -229,3 +229,13 @@ UnitTestCaseAction 1476273611092 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476273611092 SpreadsheetTest.java FAIL
 EditAction 1476273627375 Spreadsheet.java 2161 3 6 0
 EditAction 1476273630857 Spreadsheet.java 2157 3 6 0
+UnitTestCaseAction 1476273633108 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273633109 SpreadsheetTest.java OK
+RefactoringAction 1476273654013 SpreadsheetTest.java ADD void testAssignment_A2_Reference_A1_Integer()/2 METHOD
+RefactoringAction 1476273666030 SpreadsheetTest.java RENAME testAssignment_A2_Reference_A1_Integer()/2=>void testAssignment_A2_Reference_A1_Integer FIELD
+RefactoringAction 1476273669053 SpreadsheetTest.java RENAME testAssignment_A2_Reference_A1_Integer()/2=>void testAssignment_A2_Reference_A1_Integer_() METHOD
+RefactoringAction 1476273670564 SpreadsheetTest.java RENAME testAssignment_A2_Reference_A1_Integer_()=>void testAssignment_A2_Reference_A1_Integer()/2 METHOD
+RefactoringAction 1476273673578 SpreadsheetTest.java RENAME testAssignment_A2_Reference_A1_Integer()/2=>void testAssignment_A2_InvalidReference_A1_Integer() METHOD
+RefactoringAction 1476273676091 SpreadsheetTest.java RENAME testAssignment_A2_InvalidReference_A1_Integer()=>void testAssignment_A2_InvalidReference_A1_Integer_Error() METHOD
+RefactoringAction 1476273679605 SpreadsheetTest.java RENAME testAssignment_A2_InvalidReference_A1_Integer_Error()=>void testAssignment_A2_InvalidReference_Error() METHOD
+EditAction 1476273690677 SpreadsheetTest.java 2889 16 49 15
