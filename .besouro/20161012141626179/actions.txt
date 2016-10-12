@@ -10,3 +10,4 @@ RefactoringAction 1476271113085 Spreadsheet.java RENAME consume=>int consumeStri
 RefactoringAction 1476271117605 Spreadsheet.java RENAME consumeStringLiteral=>int consumeStringLiteral(int) METHOD
 RefactoringAction 1476271241223 Spreadsheet.java RENAME consumeStringLiteral(int)=>String consumeStringLiteral(String, int) METHOD
 EditAction 1476271330224 Spreadsheet.java 1113 3 4 0
+EditAction 1476271351511 Spreadsheet.java 1393 3 4 0

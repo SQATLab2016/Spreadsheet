@@ -14,7 +14,20 @@ public class Spreadsheet {
 				if (value.length() > 3 && value.charAt(value.length() - 1) == '\'') {
 					value = value.substring(2, value.length() - 1);
 				} else {
-					value = "#Error";
+					boolean isInteger = true;
+					for (int i = 1; i < value.length(); i++) {
+						char c = value.charAt(i);
+						if (i == 0 && c == '-')
+							continue;
+						
+						if (c < '0' || c > '9') {
+							isInteger = false;
+							break;
+						}
+					}
+					
+					if (!isInteger)
+						value = "#Error";
 				}
 			} else if (value.charAt(0) == '\'') {
 				if (value.length() > 1 && value.charAt(value.length() - 1) == '\'') {
