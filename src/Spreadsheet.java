@@ -91,7 +91,6 @@ public class Spreadsheet {
 					value = ERROR;
 			}
 		}
-	
 		
 		if (value != null && value.length() > 0 && value.charAt(0) == '&') {
 			String key = value.substring(1, value.length());
