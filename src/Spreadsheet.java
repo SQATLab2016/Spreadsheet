@@ -104,6 +104,8 @@ public class Spreadsheet {
 					result = evaluateOperator(result, previousIntegerValue, operator);
 					stringIndex = nextIndex;
 				}
+				else
+					throw new SpreadSheetException();
 			} else {
 				throw new SpreadSheetException();
 			}

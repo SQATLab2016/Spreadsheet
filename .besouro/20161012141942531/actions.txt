@@ -302,3 +302,7 @@ RefactoringAction 1476279971843 SpreadsheetTest.java ADD void testSpreadSheet_ev
 RefactoringAction 1476279980354 SpreadsheetTest.java RENAME testSpreadSheet_evaluateStringOperations_Exception()/2=>void testSpreadSheet_evaluateParent_Exception() METHOD
 RefactoringAction 1476279983868 SpreadsheetTest.java RENAME testSpreadSheet_evaluateParent_Exception()=>void testSpreadSheet_evaluateParentheses_Exception() METHOD
 EditAction 1476279994971 SpreadsheetTest.java 4339 18 57 10
+UnitTestCaseAction 1476279999696 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476279999697 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476280013841 SpreadsheetTest.java OK
+UnitTestSessionAction 1476280013842 SpreadsheetTest.java OK
