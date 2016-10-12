@@ -19,7 +19,7 @@ public class SpreadsheetTest {
 		Spreadsheet sh = new Spreadsheet(5,5);
 		sh.set("A3", "6");
 		System.out.print(sh.get("A4"));
-		assertEquals(sh.get("A4"),"6");
+		assertEquals(sh.get("A4"),"7");
 		
 	}
 
