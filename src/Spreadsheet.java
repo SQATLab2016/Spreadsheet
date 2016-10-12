@@ -70,8 +70,17 @@ public class Spreadsheet {
 		
 		if (isFormula(v)) {
 			int i = 1;
+			boolean charFound = false;
+			boolean digitFound = false;
+			
 			while (Character.isLetter(v.charAt(i))) {
-				
+				charFound = true;
+				i++;
+			}
+			
+			while (Character.isDigit(v.charAt(i))) {
+				digitFound = true;
+				i++;
 			}
 		}
 	}
