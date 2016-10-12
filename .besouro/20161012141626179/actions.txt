@@ -3,3 +3,10 @@ EditAction 1476271032964 SpreadsheetTest.java 1580 9 22 7
 CompilationAction 1476271033171 SpreadsheetTest.java
 CompilationAction 1476271040180 SpreadsheetTest.java
 EditAction 1476271042845 Spreadsheet.java 1113 3 4 0
+UnitTestCaseAction 1476271043184 SpreadsheetTest.java OK
+UnitTestSessionAction 1476271043185 SpreadsheetTest.java OK
+RefactoringAction 1476271109564 Spreadsheet.java ADD int consume FIELD
+RefactoringAction 1476271113085 Spreadsheet.java RENAME consume=>int consumeStringLiteral FIELD
+RefactoringAction 1476271117605 Spreadsheet.java RENAME consumeStringLiteral=>int consumeStringLiteral(int) METHOD
+RefactoringAction 1476271241223 Spreadsheet.java RENAME consumeStringLiteral(int)=>String consumeStringLiteral(String, int) METHOD
+EditAction 1476271330224 Spreadsheet.java 1113 3 4 0
