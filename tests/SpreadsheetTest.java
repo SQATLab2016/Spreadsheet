@@ -102,10 +102,12 @@ public class SpreadsheetTest {
 		
 	}
 	
-	@Test public void spreadsheetEvaluateA5EqualsCUL8R_returnsError() {
+	@Test public void spreadsheetEvaluateA5EqualsA3_returnsValueOfA3() {
 		Spreadsheet spready = new Spreadsheet();
+		Spreadsheet spready2 = new Spreadsheet();
 		
-		spready.set("A3", "CUL8R");
+		spready.set("A5", "14");
+		spready2.set("A3", "313");
 		assertEquals("#Error", spready.evaluate("A3"));	
 		
 	}

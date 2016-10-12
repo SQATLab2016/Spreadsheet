@@ -417,3 +417,10 @@ UnitTestCaseAction 1476276761868 SpreadsheetTest.java OK
 UnitTestSessionAction 1476276761868 SpreadsheetTest.java OK
 RefactoringAction 1476277002129 SpreadsheetTest.java ADD void spreadsheetEvaluateA5EqualsCUL8R_returnsError()/2 METHOD
 EditAction 1476277003775 SpreadsheetTest.java 2695 13 39 13
+CompilationAction 1476277004031 SpreadsheetTest.java
+RefactoringAction 1476277017152 SpreadsheetTest.java RENAME spreadsheetEvaluateA5EqualsCUL8R_returnsError()/2=>void spreadsheetEvaluateA5EqualsA FIELD
+RefactoringAction 1476277022675 SpreadsheetTest.java RENAME spreadsheetEvaluateA5EqualsA3_returnsError()=>void spreadsheetEvaluateA5EqualsA3_returnsVakue() METHOD
+RefactoringAction 1476277023686 SpreadsheetTest.java RENAME spreadsheetEvaluateA5EqualsA3_returnsVakue()=>void spreadsheetEvaluateA5EqualsA3_returnsVakueOf() METHOD
+RefactoringAction 1476277027198 SpreadsheetTest.java RENAME spreadsheetEvaluateA5EqualsA3_returnsVakueOf()=>void spreadsheetEvaluateA5EqualsA3_returnsValueOfA3() METHOD
+CompilationAction 1476277027681 SpreadsheetTest.java
+EditAction 1476277091288 SpreadsheetTest.java 2766 13 41 13
