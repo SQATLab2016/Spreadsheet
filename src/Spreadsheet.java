@@ -10,7 +10,8 @@ public class Spreadsheet {
 	}
 	
 	public void set(String cell, String value) {
-		Cell cell(cell) = new Cell(cell, value);
+		Cell tempCell = new Cell(cell, value);
+		
 		
 	}
 	

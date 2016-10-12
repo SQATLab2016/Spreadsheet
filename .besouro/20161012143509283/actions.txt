@@ -56,3 +56,16 @@ EditAction 1476272688060 SpreadsheetTest.java 336 2 1 0
 CompilationAction 1476272688313 SpreadsheetTest.java
 CompilationAction 1476272688314 SpreadsheetTest.java
 EditAction 1476272763540 Spreadsheet.java 294 3 2 0
+CompilationAction 1476272763788 Spreadsheet.java
+CompilationAction 1476272763788 Spreadsheet.java
+CompilationAction 1476272763789 Spreadsheet.java
+CompilationAction 1476272781208 Spreadsheet.java
+CompilationAction 1476272781209 Spreadsheet.java
+CompilationAction 1476272781209 Spreadsheet.java
+CompilationAction 1476272781389 Spreadsheet.java
+CompilationAction 1476272781390 Spreadsheet.java
+CompilationAction 1476272811966 Spreadsheet.java
+CompilationAction 1476272811967 Spreadsheet.java
+CompilationAction 1476272812119 Spreadsheet.java
+CompilationAction 1476272842204 Spreadsheet.java
+EditAction 1476272868842 Spreadsheet.java 295 3 3 0
