@@ -58,12 +58,12 @@ public class Spreadsheet {
 			
 			int sum = Integer.parseInt(numbers[0]);
 			for (int i = 0; i < operands.length; i++) {
-				if (operands[i] == "+") {
+				if (operands[i].equals("+")) {
 					sum += Integer.parseInt(numbers[i + 1]);
 				}
 			}
 			
-			return sum;
+			return Integer.toString(sum);
 		}
 		
 		// An invalid integer
