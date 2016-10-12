@@ -114,7 +114,7 @@ public class Spreadsheet {
 					return "#Error";
 				}
 
-				equation = equation.replace(openingParenthesis, closingParenthesis - 1, calculatedSubEquation);
+				equation = equation.replace(openingParenthesis, closingParenthesis + 1, calculatedSubEquation);
 				return equation.toString();
 			}
 			
