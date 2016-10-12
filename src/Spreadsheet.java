@@ -12,11 +12,11 @@ public class Spreadsheet {
 	}
 	
 	public void set(String cell, String value) {
-		String v;
+		String v = value;
 		
 		//String value
 		if (v.startsWith(STRING_IDENTIFIER) && v.endsWith(STRING_IDENTIFIER)) {
-			v = value;
+			
 		} else { //Integer
 			for (int i = 0; i < v.length(); i++) {
 				if (!Character.isDigit(v.charAt(i))) {
@@ -24,8 +24,6 @@ public class Spreadsheet {
 					break;
 				}
 			}
-			
-			v = value;
 		}
 		
 		table.put(cell, v);
