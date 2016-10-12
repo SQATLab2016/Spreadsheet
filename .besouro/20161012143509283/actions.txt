@@ -396,3 +396,4 @@ RefactoringAction 1476276635393 SpreadsheetTest.java RENAME spreadsheetEvaluateA
 RefactoringAction 1476276638400 SpreadsheetTest.java RENAME spreadsheetEvaluateA5Equalsminus31_returnsminus31()=>void spreadsheetEvaluateA5Equalsminus31_returnsMinus31() METHOD
 RefactoringAction 1476276641411 SpreadsheetTest.java RENAME spreadsheetEvaluateA5Equalsminus31_returnsMinus31()=>void spreadsheetEvaluateA5EqualsMinus31_returnsMinus31() METHOD
 EditAction 1476276641446 SpreadsheetTest.java 2283 11 33 11
+EditAction 1476276649268 SpreadsheetTest.java 2287 11 33 11
