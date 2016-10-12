@@ -84,7 +84,6 @@ public class Spreadsheet {
 							return CIRCULAR;
 						} else {
 							value = evaluate(key);
-							mVisited.add(key);
 						}
 					} else {
 						value = ERROR;
