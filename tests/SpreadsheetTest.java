@@ -53,5 +53,13 @@ public class SpreadsheetTest {
 		assertEquals("#Error", spready.evaluate("A3"));	
 		
 	}
+	
+	@Test public void spreadsheetEvaluateA2EgualsArbitary_returnsArbitary() {
+		Spreadsheet spready = new Spreadsheet();
+		
+		spready.set("A3", "='Arbitary'");
+		assertEquals("Arbitary", spready.evaluate("A3"));	
+		
+	}
 }
 
