@@ -106,3 +106,7 @@ UnitTestCaseAction 1476273139086 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476273139087 SpreadsheetTest.java FAIL
 EditAction 1476273198417 Spreadsheet.java 740 4 5 0
 EditAction 1476273203109 Spreadsheet.java 745 4 5 0
+UnitTestCaseAction 1476273209684 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273209685 SpreadsheetTest.java OK
+RefactoringAction 1476273224938 Spreadsheet.java ADD String ERROR FIELD
+EditAction 1476273224945 Spreadsheet.java 786 4 5 0

@@ -3,6 +3,7 @@ import java.util.Map;
 
 public class Spreadsheet {
 
+	private static final String ERROR = "#ERROR";
 	Map<String, String> sheet = new HashMap<>();
 
 	public String get(String cell) {
@@ -19,7 +20,7 @@ public class Spreadsheet {
 			if (cellStored.endsWith("'")) {
 				return cellStored.substring(1, cellStored.length() - 1);
 			} else {
-				return "#ERROR";
+				return ERROR;
 			}
 		} else {
 			return evaluateInt(cell);
@@ -31,7 +32,7 @@ public class Spreadsheet {
 			Integer.parseInt(sheet.get(cell));
 			return sheet.get(cell);
 		} catch (NumberFormatException ex) {
-			return "#ERROR";
+			return ERROR;
 		}
 	}
 
