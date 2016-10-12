@@ -26,7 +26,7 @@ public class SpreadsheetTest {
 	}
 	
 	@Test (expected = SpreadSheetException.class)
-	public void testSpreadSheet_evaluateCellWrongFormatedInteger_Exception() {
+	public void testSpreadSheet_evaluateCellWrongFormatedInteger_Exception() throws SpreadSheetException {
 		Spreadsheet oneSheet = new Spreadsheet();
 		oneSheet.set("A1", "5A");
 		oneSheet.evaluate("A1");

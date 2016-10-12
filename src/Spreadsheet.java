@@ -13,11 +13,11 @@ public class Spreadsheet {
 		sheet.put(cell, value);
 	}
 
-	public int evaluate(String cell) throws SpreadSheetException {
+	public String evaluate(String cell) throws SpreadSheetException {
 		try {
 			int result = 0;
 			result = Integer.parseInt(sheet.get(cell));
-			return result;
+			return ""+result;
 		} catch (Exception e) {
 			throw new SpreadSheetException();
 		}
