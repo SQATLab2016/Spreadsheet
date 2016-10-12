@@ -62,11 +62,11 @@ public class Spreadsheet {
 				if (splitFormula[i].equals("+"))
 					val += Integer.parseInt(splitFormula[i+1]);
 				else if (splitFormula[i].equals("-"))
-					val += Integer.parseInt(splitFormula[i+1]);
+					val -= Integer.parseInt(splitFormula[i+1]);
 				else if (splitFormula[i].equals("*"))
-					val += Integer.parseInt(splitFormula[i+1]);
+					val *= Integer.parseInt(splitFormula[i+1]);
 				else if (splitFormula[i].equals("/"))
-					val += Integer.parseInt(splitFormula[i+1]);
+					val /= Integer.parseInt(splitFormula[i+1]);
 			}
 		}
 		
