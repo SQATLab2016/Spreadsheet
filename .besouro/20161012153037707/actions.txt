@@ -5,3 +5,5 @@ UnitTestSessionAction 1476275475298 SpreadsheetTest.java FAIL
 FileOpenedAction 1476275506279 SpreadsheetException.java 61 0 0 0
 RefactoringAction 1476275526805 SpreadsheetException.java ADD SpreadsheetException(String) METHOD
 EditAction 1476275545653 Spreadsheet.java 656 3 4 0
+CompilationAction 1476275545747 Spreadsheet.java
+EditAction 1476275545771 SpreadsheetException.java 123 1 1 0
