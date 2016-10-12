@@ -100,10 +100,10 @@ public class Spreadsheet {
 					return false;
 				}
 			} else {
-				if (value.charAt(i) != '+' &&
-					value.charAt(i) != '-' &&
-					value.charAt(i) != '*' &&
-					value.charAt(i) != '/') {
+				if (splitFormula[i].charAt(0) != '+' &&
+					splitFormula[i].charAt(0) != '-' &&
+					splitFormula[i].charAt(0) != '*' &&
+					splitFormula[i].charAt(0) != '/') {
 					return false;
 				}
 			}
