@@ -31,7 +31,7 @@ public class Spreadsheet {
 				}
 			}
 		} else {
-			return false;
+			return true;
 		}
 	}
 	private boolean isCircular(String key) {
