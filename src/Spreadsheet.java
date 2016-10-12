@@ -57,7 +57,7 @@ public class Spreadsheet {
 			return Integer.toString(result);
 			
 		} else {
-			return "asfasf";
+			return ERROR;
 		}
 	}
 
