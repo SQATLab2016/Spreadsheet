@@ -33,12 +33,16 @@ public class Spreadsheet {
 		String v = value;
 		
 		if (isFormula(v)) {
-			v = v.substring(1);
+			if (!isReference(v) && !isIntegerCellValue(v.substring(1)) && !isStringCellValue(v.substring(1))) {
+				v = ERROR_VALUE;
+			}
+		} else {
+			if (!isIntegerCellValue(v) && !isStringCellValue(v)) {
+				v = ERROR_VALUE;
+			}
 		}
 		
-		if (!isIntegerCellValue(v) && !isStringCellValue(v)) {
-			v = ERROR_VALUE;
-		}
+
 		
 		table.put(cell, v);
 	}
