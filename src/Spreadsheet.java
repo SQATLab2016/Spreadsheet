@@ -17,7 +17,7 @@ public class Spreadsheet {
 					boolean isInteger = true;
 					for (int i = 1; i < value.length(); i++) {
 						char c = value.charAt(i);
-						if (i == 0 && c == '-')
+						if (i == 1 && c == '-')
 							continue;
 						
 						if (c < '0' || c > '9') {
@@ -37,7 +37,7 @@ public class Spreadsheet {
 				}
 			} else {
 				boolean isInteger = true;
-				for (int i = 1; i < value.length(); i++) {
+				for (int i = 0; i < value.length(); i++) {
 					char c = value.charAt(i);
 					if (i == 0 && c == '-')
 						continue;
