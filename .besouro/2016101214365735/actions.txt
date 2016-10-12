@@ -164,3 +164,5 @@ EditAction 1476274093979 Spreadsheet.java 2139 8 21 0
 EditAction 1476274111889 Spreadsheet.java 2164 8 21 0
 EditAction 1476274115951 Spreadsheet.java 2177 8 21 0
 EditAction 1476274129747 Spreadsheet.java 2226 8 21 0
+RefactoringAction 1476274150947 SpreadsheetTest.java ADD void test_simpleReference() METHOD
+EditAction 1476274161946 SpreadsheetTest.java 1540 10 21 9
