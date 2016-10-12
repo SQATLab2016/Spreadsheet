@@ -59,10 +59,11 @@ public class Spreadsheet {
 				else if (splitFormula[i].equals("*"))
 					val *= Integer.parseInt(splitFormula[i+1]);
 				else if (splitFormula[i].equals("/")) {
-					int value = Integer.parseInt(splitFormula[i+1]);
-					if (value == 0)
+					int foo = Integer.parseInt(splitFormula[i+1]);
+					if (foo == 0)
 						return ERROR_VALUE;
-					val /= Integer.parseInt(splitFormula[i+1]);
+					
+					val /= foo;
 				}
 			}
 			
@@ -88,6 +89,35 @@ public class Spreadsheet {
 	}
 	
 	private boolean isIntegerFormula(String value) {
+		if (!value.startsWith("="))
+			return false;
+		
+		String[] splitFormula = value.substring(1).split("(?<=[-+*/])|(?=[-+*/])");
+		
+		if (splitFormula.length < 3 || splitFormula.length % 2 != 1)
+			return false;
+		
+		for (int i = 0; i < splitFormula.length; i++) {
+			if (i % 2 == 0) {
+				try {
+					Integer.parseInt(splitFormula[i]);
+				} catch (NumberFormatException nfe) {
+					return false;
+				}
+			} else {
+				if (splitFormula[i].charAt(0) != '+' &&
+					splitFormula[i].charAt(0) != '-' &&
+					splitFormula[i].charAt(0) != '*' &&
+					splitFormula[i].charAt(0) != '/') {
+					return false;
+				}
+			}
+		}
+		
+		return true;
+	}
+	
+	private boolean isStringFormula(String value) {
 		if (!value.startsWith("="))
 			return false;
 		
