@@ -69,3 +69,16 @@ RefactoringAction 1476276880592 SpreadsheetTest.java ADD void testGetCell()/2 ME
 RefactoringAction 1476276886106 SpreadsheetTest.java RENAME testGetCell()/2=>void testSetGetCell() METHOD
 RefactoringAction 1476276888118 SpreadsheetTest.java RENAME testSetGetCell()=>void testSetCell() METHOD
 EditAction 1476276893097 SpreadsheetTest.java 400 2 6 2
+RefactoringAction 1476277198096 Spreadsheet.java ADD find ce FIELD
+RefactoringAction 1476277200113 Spreadsheet.java RENAME ce=>find cell FIELD
+RefactoringAction 1476277206630 Spreadsheet.java REMOVE cell FIELD
+RefactoringAction 1476277237212 Spreadsheet.java ADD void getCellIndex() METHOD
+RefactoringAction 1476277243244 Spreadsheet.java RENAME getCellIndex()=>void getCellIndex(String) METHOD
+RefactoringAction 1476277321262 Spreadsheet.java RENAME getCellIndex(String)=>void IndegetCellIndex(String) METHOD
+RefactoringAction 1476277322274 Spreadsheet.java RENAME IndegetCellIndex(String)=>void IndexgetCellIndex(String) METHOD
+RefactoringAction 1476277323298 Spreadsheet.java RENAME IndexgetCellIndex(String)=>Index getCellIndex(String) METHOD
+RefactoringAction 1476277393091 Index.java ADD Index.java CLASS
+FileOpenedAction 1476277393253 Index.java 29 0 0 0
+RefactoringAction 1476277398749 Index.java ADD int i FIELD
+RefactoringAction 1476277404254 Index.java ADD int j FIELD
+EditAction 1476277407695 Index.java 45 0 0 0
