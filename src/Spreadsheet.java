@@ -103,9 +103,9 @@ public class Spreadsheet {
 				value = evaluateAssignment(value);
 				
 				if (isString(value)) {
-					
+					value = evaluateString(value);
 				} else if (isInteger(value)) {
-					value = evaluateInteger();
+					value = evaluateInteger(value);
 				} else if (isReference(value)) {
 					if (mValues.containsKey(value)) {
 						if (isCircular(value)) {
