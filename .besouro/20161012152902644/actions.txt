@@ -32,3 +32,6 @@ EditAction 1476275774927 SpreadsheetTest.java 1228 4 13 4
 UnitTestCaseAction 1476275775488 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476275775488 SpreadsheetTest.java FAIL
 EditAction 1476275778532 SpreadsheetTest.java 1228 4 13 4
+UnitTestCaseAction 1476275779118 SpreadsheetTest.java OK
+UnitTestSessionAction 1476275779118 SpreadsheetTest.java OK
+EditAction 1476275782389 SpreadsheetTest.java 1228 4 13 4
