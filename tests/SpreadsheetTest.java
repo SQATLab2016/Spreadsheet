@@ -52,4 +52,11 @@ public class SpreadsheetTest {
 		oneSheet.set("A1", "='a string'");
 		assertEquals("a string", oneSheet.evaluate("A1"));
 	}
+	
+	@Test (expected = SpreadSheetException.class)
+	public void testSpreadSheet_evaluateSimpleFormula_Exception() throws SpreadSheetException {
+		Spreadsheet oneSheet = new Spreadsheet();
+		oneSheet.set("A1", "='a string");
+		oneSheet.evaluate("A1");
+	}
 }

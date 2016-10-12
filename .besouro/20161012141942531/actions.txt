@@ -112,3 +112,10 @@ UnitTestCaseAction 1476272665504 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476272665505 SpreadsheetTest.testSpreadSheet_evaluateSimpleFormula FAIL
 EditAction 1476272719990 Spreadsheet.java 705 3 3 0
 EditAction 1476272861221 Spreadsheet.java 852 3 3 0
+UnitTestCaseAction 1476272865223 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272865224 SpreadsheetTest.testSpreadSheet_evaluateSimpleFormula OK
+RefactoringAction 1476272876202 SpreadsheetTest.java ADD void testSpreadSheet_evaluateSimpleFormula()/2 METHOD
+RefactoringAction 1476272885214 SpreadsheetTest.java RENAME testSpreadSheet_evaluateSimpleFormula()/2=>void testSpreadSheet_evaluateSimpleFormula_() METHOD
+RefactoringAction 1476272886728 SpreadsheetTest.java RENAME testSpreadSheet_evaluateSimpleFormula_()=>void testSpreadSheet_evaluateSimpleFormula_Ex() METHOD
+RefactoringAction 1476272888743 SpreadsheetTest.java RENAME testSpreadSheet_evaluateSimpleFormula_Ex()=>void testSpreadSheet_evaluateSimpleFormula_Exception() METHOD
+EditAction 1476272920197 SpreadsheetTest.java 1894 8 24 5
