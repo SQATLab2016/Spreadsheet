@@ -22,6 +22,7 @@ public class Spreadsheet {
 				return true;
 			}
 		}
+		return false;
 	}
 	
 	private boolean isReference(String value) {

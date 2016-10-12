@@ -711,3 +711,5 @@ UnitTestCaseAction 1476277487772 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476277487772 SpreadsheetTest.java FAIL
 RefactoringAction 1476277491220 Spreadsheet.java ADD boolean isMathFormula(String) METHOD
 EditAction 1476277504448 Spreadsheet.java 3116 13 18 0
+CompilationAction 1476277504582 Spreadsheet.java
+EditAction 1476277507111 Spreadsheet.java 3132 13 19 0
