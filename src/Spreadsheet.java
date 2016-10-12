@@ -22,7 +22,7 @@ public class Spreadsheet {
 	}
 	
 	public String evaluate(String cell) {
-		String value = table.get(cell);
+		String value = get(cell);
 		
 		if (isFormula(value)) {
 			value = value.substring(1);
