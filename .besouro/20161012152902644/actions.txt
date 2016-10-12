@@ -122,3 +122,14 @@ EditAction 1476277121606 SpreadsheetTest.java 1432 5 15 5
 UnitTestCaseAction 1476277125039 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476277125039 SpreadsheetTest.java FAIL
 EditAction 1476277183669 Spreadsheet.java 2655 10 25 0
+UnitTestCaseAction 1476277186084 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476277186084 SpreadsheetTest.java FAIL
+RefactoringAction 1476277265764 Spreadsheet.java ADD boolean string FIELD
+RefactoringAction 1476277277294 Spreadsheet.java REMOVE string FIELD
+RefactoringAction 1476277280808 Spreadsheet.java ADD boolean STR_MARKS FIELD
+RefactoringAction 1476277282322 Spreadsheet.java RENAME STR_MARKS=>boolean STR_MARKS_ FIELD
+RefactoringAction 1476277286838 Spreadsheet.java RENAME STR_MARKS_=>boolean STR_MARKS_NOT_ALLOWED_ON FIELD
+RefactoringAction 1476277298856 Spreadsheet.java RENAME STR_MARKS_NOT_ALLOWED_ON=>boolean STR_MARKS_NOT_ALLOWED_INSIDE_S FIELD
+RefactoringAction 1476277300370 Spreadsheet.java RENAME STR_MARKS_NOT_ALLOWED_INSIDE_S=>boolean STR_MARKS_NOT_ALLOWED_INSIDE_STRING FIELD
+RefactoringAction 1476277312411 Spreadsheet.java RENAME STR_MARKS_NOT_ALLOWED_INSIDE_STRING=>boolean STR_MARKS_ALLOWED_INSIDE_STRING FIELD
+EditAction 1476277315022 Spreadsheet.java 2728 10 25 0

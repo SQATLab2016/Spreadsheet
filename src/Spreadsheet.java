@@ -5,6 +5,7 @@ public class Spreadsheet {
 	
 	private String[] allowedIntegerChars = {"1","2","3","4","5","6","7","8","9","-" };
 	public final String ERROR_MESSAGE = "#Error";
+	public final boolean STR_MARKS_ALLOWED_INSIDE_STRING = false; 
 	
 	public Spreadsheet() {
 		cells = new Hashtable<String,String>();
@@ -40,6 +41,7 @@ public class Spreadsheet {
 		if (!(charAsStringFromPos(value, 0).equals("'") && charAsStringFromPos(value, value.length() - 1).equals("'")))
 			return false;
 		
+		
 		if (2 == characterCount(value, "'"))
 			return true; 
 		
@@ -61,6 +63,8 @@ public class Spreadsheet {
 	}
 	
 	private String evaluatedString(String unevaluatedString) {
+		
+		
 		return null;
 	}
 	
