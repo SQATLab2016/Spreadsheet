@@ -62,11 +62,11 @@ public class SpreadsheetTest {
 		
 	}
 	
-	@Test public void spreadsheetEvaluateA2EgualsArbitary_returnsArbitary() {
+	@Test public void spreadsheetEvaluateA2EgualsElbaWrongFormat_returnsError() {
 		Spreadsheet spready = new Spreadsheet();
 		
-		spready.set("A3", "='Arbitary'");
-		assertEquals("Arbitary", spready.evaluate("A3"));	
+		spready.set("A3", "='Elba");
+		assertEquals("#Error", spready.evaluate("A3"));	
 		
 	}
 }
