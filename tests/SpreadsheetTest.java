@@ -39,6 +39,5 @@ public class SpreadsheetTest {
 		
 		assertFalse("Correctly formatted integer is mistaken as incorrectly formatted",
 						spreadsheet.evaluate("A5").equals("#Error"));
-		assertEquals("Wrongly formatted integer not detected", "#Error", spreadsheet.evaluate("A1"));
 	}
 }
