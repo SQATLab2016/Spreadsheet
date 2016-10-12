@@ -73,6 +73,8 @@ public class Spreadsheet {
 			} else if (isOperator(value.substring(stringIndex, stringIndex + 1))) {
 				operator = value.substring(stringIndex, stringIndex + 1);
 			}
+			
+			stringIndex++;
 		}
 		return result;
 	}

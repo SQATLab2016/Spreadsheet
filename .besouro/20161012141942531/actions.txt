@@ -207,3 +207,4 @@ RefactoringAction 1476276445283 Spreadsheet.java RENAME isOperator(String)=>bool
 RefactoringAction 1476276446799 Spreadsheet.java RENAME isOperator()=>boolean isOperator(String) METHOD
 CompilationAction 1476276484152 Spreadsheet.java
 EditAction 1476276512398 Spreadsheet.java 3090 7 16 0
+EditAction 1476276528649 Spreadsheet.java 3112 7 16 0
