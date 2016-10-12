@@ -106,5 +106,14 @@ public class SpreadsheetTest {
 		assertEquals(sheet.evaluate("C3"), ERROR);		
 		
 	}
+	
+	@Test
+	public void testSpreadsheetCircularRef_setA1_eqA5_setA5_eqA1_evaluateA5_return_CircularErr(){
+		sheet.set("A1", "=A5");
+		sheet.set("A5", "=A1");
+		
+		assertEquals(sheet.evaluate("A5"), "#CIRCULAR");		
+		
+	}
 
 }
