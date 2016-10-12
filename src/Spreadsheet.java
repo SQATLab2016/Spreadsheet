@@ -66,7 +66,11 @@ public class Spreadsheet {
 	}
 	
 	private boolean isReference(String value) {
-		//if (isFormula(value) && value.)
+		String v = getWhitespaceRemoved(value);
+		
+		if (isFormula(v)) {
+			int i = 1;
+		}
 	}
 	
 	private String getWhitespaceRemoved(String value) {
