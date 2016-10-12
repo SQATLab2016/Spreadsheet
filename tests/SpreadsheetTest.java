@@ -21,7 +21,7 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void testSetNumbers() throws SpreadsheetException {
+	public void testSetMinusNumbers() throws SpreadsheetException {
 		Spreadsheet ss = new Spreadsheet();
 		ss.set("A1", "-1");
 		String x = ss.get("A1");

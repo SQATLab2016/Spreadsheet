@@ -35,3 +35,8 @@ EditAction 1476275835050 Spreadsheet.java 719 3 4 0
 UnitTestCaseAction 1476275835359 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476275835360 SpreadsheetTest.java FAIL
 EditAction 1476275840301 Spreadsheet.java 717 3 5 0
+UnitTestCaseAction 1476275840589 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476275840589 SpreadsheetTest.java FAIL
+RefactoringAction 1476275862794 SpreadsheetTest.java RENAME testSetNumbers()=>void testSetMinuxNumbers() METHOD
+RefactoringAction 1476275863808 SpreadsheetTest.java RENAME testSetMinuxNumbers()=>void testSetMinusNumbers() METHOD
+EditAction 1476275864729 SpreadsheetTest.java 937 4 14 3
