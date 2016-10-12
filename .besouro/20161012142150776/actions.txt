@@ -34,3 +34,14 @@ UnitTestCaseAction 1476271950605 SpreadsheetTest.java OK
 UnitTestSessionAction 1476271950606 SpreadsheetTest.java OK
 RefactoringAction 1476272009695 SpreadsheetTest.java ADD Spreadsheet sheet FIELD
 EditAction 1476272032065 SpreadsheetTest.java 408 2 4 2
+UnitTestCaseAction 1476272034215 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272034216 SpreadsheetTest.java OK
+RefactoringAction 1476272056337 SpreadsheetTest.java ADD void test FIELD
+RefactoringAction 1476272063353 SpreadsheetTest.java RENAME test=>void testSpreadsheet_setB2_neg3_getB2_returnneg3()/2 METHOD
+RefactoringAction 1476272077382 SpreadsheetTest.java RENAME testSpreadsheet_setB2_neg3_getB2_returnneg3()/2=>void testSpreadsheet_setB2_2A_getB2_returnneg3() METHOD
+RefactoringAction 1476272084395 SpreadsheetTest.java RENAME testSpreadsheet_setB2_2A_getB2_returnneg3()=>void testSpreadsheet_setB2_2A_getB2_returnError() METHOD
+RefactoringAction 1476272087410 SpreadsheetTest.java RENAME testSpreadsheet_setB2_2A_getB2_returnError()=>void testSpreadsheet_setB2_2A_getB2_return_Error() METHOD
+RefactoringAction 1476272100926 SpreadsheetTest.java RENAME testSpreadsheet_setB2_neg3_getB2_returnneg3()=>void testSpreadsheetNegative_setB2_neg3_getB2_returnneg3() METHOD
+RefactoringAction 1476272103440 SpreadsheetTest.java RENAME testSpreadsheetNegative_setB2_neg3_getB2_returnneg3()=>void testSpreadsheetNegativeInt_setB2_neg3_getB2_returnneg3() METHOD
+RefactoringAction 1476272109456 SpreadsheetTest.java RENAME testSpreadsheet_setB2_2A_getB2_return_Error()=>void testSpreadsheetInvalidInt_setB2_2A_getB2_return_Error() METHOD
+EditAction 1476272179612 SpreadsheetTest.java 573 3 6 3

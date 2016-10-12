@@ -15,14 +15,20 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void testSpreadsheet_setB2_neg3_getB2_returnneg3() {
+	public void testSpreadsheetNegativeInt_setB2_neg3_getB2_returnneg3() {
 		sheet.set("B2", "-3");
 
 		assertEquals(sheet.get("B2"), "-3");
 
 	}
 
-	
+	@Test
+	public void testSpreadsheetInvalidInt_setB2_2A_getB2_return_Error(){
+		sheet.set("C3", "2A");
+		
+		assertEquals(sheet.get("C3"), "#ERROR");		
+		
+	}
 
 
 }

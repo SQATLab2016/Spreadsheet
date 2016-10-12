@@ -3,3 +3,6 @@
 1476271950606 test-addition 1 233 true
 1476271950607 test-addition 1 233 true
 1476271950608 test-addition 1 233 true
+1476272034216 refactoring 1A 24 true
+1476272034217 refactoring 3 24 true
+1476272034218 refactoring 3 24 true
