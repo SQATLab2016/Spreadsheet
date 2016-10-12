@@ -63,7 +63,7 @@ public class SpreadsheetTest {
 
 	@Test
 	public void testAssignment_A1_Assign_String() {
-		sheet.set("A1", ""='a string'");
+		sheet.set("A1", "='a string'");
 		String result = sheet.evaluate("A1");
 		assertEquals("a string", result);
 	}

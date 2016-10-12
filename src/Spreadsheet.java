@@ -11,7 +11,7 @@ public class Spreadsheet {
 	public void set(String cell, String value) {
 		if (value.length() > 0) {
 			if (value.charAt(0) == '=') {
-				if (value.length() > 2 && value.charAt(value.length() - 1) == '\'') {
+				if (value.length() > 3 && value.charAt(value.length() - 1) == '\'') {
 					value = value.substring(2, value.length() - 1);
 				} else {
 					value = "#Error";
