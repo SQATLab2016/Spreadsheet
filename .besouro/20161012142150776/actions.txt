@@ -336,3 +336,12 @@ EditAction 1476279178983 SpreadsheetTest.java 3613 19 42 19
 UnitTestCaseAction 1476279185359 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476279185360 SpreadsheetTest.java FAIL
 EditAction 1476279359268 SpreadsheetTest.java 3614 19 42 19
+UnitTestCaseAction 1476279365276 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476279365277 SpreadsheetTest.java FAIL
+RefactoringAction 1476279609589 Spreadsheet.java ADD int get FIELD
+RefactoringAction 1476279611109 Spreadsheet.java RENAME get=>int getNext FIELD
+RefactoringAction 1476279613629 Spreadsheet.java RENAME getNext=>int getNextNumber FIELD
+RefactoringAction 1476279616148 Spreadsheet.java RENAME getNextNumber=>int getNextNumber() METHOD
+RefactoringAction 1476279625700 Spreadsheet.java RENAME getNextNumber()=>int getNextNumber(char METHOD
+UnitTestCaseAction 1476279945010 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476279945011 SpreadsheetTest.java FAIL

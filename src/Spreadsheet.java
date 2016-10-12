@@ -48,6 +48,7 @@ public class Spreadsheet {
 
 	private String evaluateInt(String cellStored) {
 		try {
+//			cellStored = new StringBuilder(cellStored).reverse().toString();
 			char[] characters = cellStored.toCharArray();
 			if(characters[0] == '-'){
 				return cellStored;
@@ -100,6 +101,18 @@ public class Spreadsheet {
 			i++;
 		}
 		return number;
+	}
+	
+	private int getNextNumber(char[] characters){
+		String number="";
+		for (char c : characters) {
+			if (c >= '0' && c <= '9') {
+				number = number + String.valueOf(c);
+			}else{
+				return Integer.parseInt(number);
+			}
+		}
+		return 0;
 	}
 
 }
