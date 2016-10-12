@@ -63,9 +63,10 @@ public class Spreadsheet {
 	}
 	
 	private String evaluatedString(String unevaluatedString) {
+		if (false == STR_MARKS_ALLOWED_INSIDE_STRING)
+			return removeStringMarks(unevaluatedString);
 		
-		
-		return null;
+		throw new SpreadsheetException("String evaluation method not found");
 	}
 	
 	private String charAsStringFromPos(String str, int pos) throws SpreadsheetException {
