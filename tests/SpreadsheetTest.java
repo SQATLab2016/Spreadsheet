@@ -155,6 +155,14 @@ public class SpreadsheetTest {
 		assertEquals(sheet.evaluate("A1"), "1");		
 		
 	}
+	
+	@Test
+	public void testSpreadsheetFormulaCalculation_evaluateadditionMultiplicationFormula(){
+		sheet.set("A1", "=1+1*2");
+		
+		assertEquals(sheet.evaluate("A1"), "4");		
+		
+	}
 
 
 }
