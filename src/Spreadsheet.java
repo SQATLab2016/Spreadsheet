@@ -20,8 +20,14 @@ public class Spreadsheet {
 				result = sheet.get(cell).replaceAll("'", "");
 			} else if (sheet.get(cell).startsWith("=")) {
 				if (sheet.get(cell).startsWith("'", 1) && sheet.get(cell).endsWith("'")) {
-					result = sheet.get(cell).replaceAll("=", "");
-					result = result.replaceAll("'", "");
+					if (sheet.get(cell).contains("&")) {
+						result = sheet.get(cell).replaceAll("=", "");
+						result = result.replaceAll("'", "");
+						result = result.replaceAll("&", "");
+					} else {
+						result = sheet.get(cell).replaceAll("=", "");
+						result = result.replaceAll("'", "");
+					}
 				} else if (sheet.containsKey(sheet.get(cell).substring(1))) {
 					if (sheet.get(sheet.get(cell).substring(1)).contains("=" + cell)) {
 						throw new SpreadSheetException();
@@ -75,11 +81,10 @@ public class Spreadsheet {
 				operator = value.substring(stringIndex, stringIndex + 1);
 				integerValue = false;
 				previousIntegerValue = 0;
-			}
-			else {
+			} else {
 				throw new SpreadSheetException();
 			}
-			
+
 			stringIndex++;
 		}
 		return result;

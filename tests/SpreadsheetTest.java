@@ -102,6 +102,6 @@ public class SpreadsheetTest {
 	public void testSpreadSheet_evaluateStringOperations() throws SpreadSheetException {
 		Spreadsheet oneSheet = new Spreadsheet();
 		oneSheet.set("A1", "='a'&'string'");
-		assertEquals("a string", oneSheet.evaluate("A1"));
+		assertEquals("astring", oneSheet.evaluate("A1"));
 	}
 }
