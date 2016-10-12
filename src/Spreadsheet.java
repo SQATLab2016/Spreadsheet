@@ -97,6 +97,10 @@ public class Spreadsheet {
 			int i = 1;
 			boolean charFound = false;
 			boolean digitFound = false;
+			char letter = '';
+			
+			if (v.length() <= 1)
+				return false;
 			
 			while (Character.isLetter(v.charAt(i))) {
 				charFound = true;
