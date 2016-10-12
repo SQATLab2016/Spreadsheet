@@ -43,3 +43,9 @@ EditAction 1476271826173 SpreadsheetTest.java 799 4 11 3
 FileOpenedAction 1476271840799 SudokuVerifierTest.java 1977 5 5 5
 FileOpenedAction 1476271853283 TestRomanNumerals.java 2101 15 16 12
 EditAction 1476271880327 SpreadsheetTest.java 839 4 11 3
+CompilationAction 1476271883055 SpreadsheetTest.java
+CompilationAction 1476271883056 SpreadsheetTest.java
+RefactoringAction 1476271899992 SpreadSheetException.java ADD SpreadSheetException.java CLASS
+FileOpenedAction 1476271900129 SpreadSheetException.java 44 0 0 0
+CompilationAction 1476271900189 SpreadsheetTest.java
+EditAction 1476271909077 SpreadSheetException.java 62 0 0 0
