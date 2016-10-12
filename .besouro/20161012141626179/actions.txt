@@ -267,3 +267,6 @@ RefactoringAction 1476273934302 SpreadsheetTest.java RENAME testAssignment_A2_Re
 EditAction 1476273944127 SpreadsheetTest.java 3034 17 51 16
 EditAction 1476273959271 SpreadsheetTest.java 3062 17 52 16
 EditAction 1476273965763 SpreadsheetTest.java 3062 17 52 16
+UnitTestCaseAction 1476273967822 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476273967823 SpreadsheetTest.java FAIL
+EditAction 1476274043348 Spreadsheet.java 2357 3 6 0

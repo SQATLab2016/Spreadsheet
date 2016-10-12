@@ -84,6 +84,8 @@ public class Spreadsheet {
 		if (value.length() > 0 && value.charAt(0) == '&') {
 			String key = value.substring(1, value.length());
 			if (mValues.containsKey(key)) {
+				String refValue = (String) mValues.get(key);
+				if (value.equals(anObject))
 				return (String) mValues.get(key);
 			} else {
 				return ERROR;
