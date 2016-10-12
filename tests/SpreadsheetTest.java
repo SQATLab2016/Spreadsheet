@@ -24,4 +24,10 @@ public class SpreadsheetTest {
 		oneSheet.set("A1", "-1");
 		assertEquals(-1, oneSheet.evaluate("A1"));
 	}
+	
+	@Test
+	public void testSpreadSheet_evaluateCellWrongFormatedInteger_Exception() {
+		Spreadsheet oneSheet = new Spreadsheet();
+		oneSheet.set("A1", "5A");
+	}
 }

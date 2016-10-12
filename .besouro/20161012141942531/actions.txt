@@ -27,3 +27,16 @@ EditAction 1476271656405 Spreadsheet.java 392 3 5 0
 UnitTestCaseAction 1476271671569 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476271671570 SpreadsheetTest.java FAIL
 EditAction 1476271703900 Spreadsheet.java 403 3 5 0
+UnitTestCaseAction 1476271710367 SpreadsheetTest.java OK
+UnitTestSessionAction 1476271710368 SpreadsheetTest.java OK
+RefactoringAction 1476271726070 SpreadsheetTest.java ADD void testSpreadSheet_evaluateCell_negative1()/2 METHOD
+RefactoringAction 1476271747591 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_negative1()/2=>void testSpreadSheet_evaluateCell_() METHOD
+RefactoringAction 1476271749612 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_()=>void testSpreadSheet_evaluateCell() METHOD
+RefactoringAction 1476271751629 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell()=>void testSpreadSheet_evaluateCell_() METHOD
+RefactoringAction 1476271755150 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_()=>void testSpreadSheet_evaluateCellW_() METHOD
+RefactoringAction 1476271786670 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellW_()=>void testSpreadSheet_evaluateCellWrong_() METHOD
+RefactoringAction 1476271789196 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellWrong_()=>void testSpreadSheet_evaluateCellWrongFr_() METHOD
+RefactoringAction 1476271792212 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellWrongFr_()=>void testSpreadSheet_evaluateCellWrongFormated_() METHOD
+RefactoringAction 1476271794227 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellWrongFormated_()=>void testSpreadSheet_evaluateCellWrongFormatedInteger_() METHOD
+RefactoringAction 1476271802245 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellWrongFormatedInteger_()=>void testSpreadSheet_evaluateCellWrongFormatedInteger_Exception() METHOD
+EditAction 1476271826173 SpreadsheetTest.java 799 4 11 3
