@@ -656,3 +656,18 @@ RefactoringAction 1476277068582 Spreadsheet.java ADD boolean isString(String) ME
 EditAction 1476277069073 Spreadsheet.java 3135 9 12 0
 RefactoringAction 1476277160639 Spreadsheet.java ADD String evaluateString(String) METHOD
 EditAction 1476277164894 Spreadsheet.java 3263 10 12 0
+CompilationAction 1476277165039 Spreadsheet.java
+CompilationAction 1476277165039 Spreadsheet.java
+CompilationAction 1476277165039 Spreadsheet.java
+CompilationAction 1476277167926 Spreadsheet.java
+CompilationAction 1476277168055 Spreadsheet.java
+CompilationAction 1476277168055 Spreadsheet.java
+CompilationAction 1476277168056 Spreadsheet.java
+CompilationAction 1476277181691 Spreadsheet.java
+CompilationAction 1476277181874 Spreadsheet.java
+RefactoringAction 1476277204847 Spreadsheet.java ADD String evaluateString(String)/2 METHOD
+RefactoringAction 1476277206361 Spreadsheet.java RENAME evaluateString(String)/2=>String eva(String) METHOD
+RefactoringAction 1476277208377 Spreadsheet.java RENAME eva(String)=>String evaluateInteger(String) METHOD
+CompilationAction 1476277238289 Spreadsheet.java
+CompilationAction 1476277238446 Spreadsheet.java
+EditAction 1476277239661 Spreadsheet.java 3206 11 16 0
