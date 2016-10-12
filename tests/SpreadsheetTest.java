@@ -38,6 +38,14 @@ public class SpreadsheetTest {
 		
 	}
 	
+	@Test
+	public void testSpreadsheetString_setA5_aString_evaluateB2_return_aString(){
+		sheet.set("C3", "'a String'");
+		
+		assertEquals(sheet.evaluate("C3"), "a String");		
+		
+	}
+	
 
 
 
