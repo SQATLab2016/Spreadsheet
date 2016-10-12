@@ -72,7 +72,7 @@ public class SpreadsheetTest {
 	@Test
 	public void test_selfReference() {
 		sheet.set("A1", "=A1");
-		assertEquals(Spreadsheet.ERROR_VALUE, sheet.evaluate("A1"));
+		assertEquals(Spreadsheet.ERROR_CIRCULAR, sheet.evaluate("A1"));
 	}
 	
 	@Test
@@ -98,5 +98,6 @@ public class SpreadsheetTest {
 	public void test_circularReference() {
 		sheet.set("A5", "=A1");
 		sheet.set("A1", "=A5");
+		assertEquals(Spreadsheet.ERROR_CIRCULAR, sheet.evaluate("A1"));
 	}
 }
