@@ -10,14 +10,6 @@ public class Spreadsheet {
 	
 	private Map<String, String> cells = new HashMap<String, String>();
 	private List<String> referencedCells = new ArrayList<String>();
-
-	public String get(String cell) {
-		return cells.get(cell);
-	}
-	
-	public void set(String cell, String value) {
-		cells.put(cell, value);
-	}
 	
 	private String calculateEquation(String equation) {
 		String[] operands = equation.replaceAll("\\d", "").split("\\s*");
@@ -50,6 +42,14 @@ public class Spreadsheet {
 		}
 		
 		return Integer.toString(sum);
+	}
+
+	public String get(String cell) {
+		return cells.get(cell);
+	}
+	
+	public void set(String cell, String value) {
+		cells.put(cell, value);
 	}
 	
 	public String evaluate(String cell) {
@@ -84,19 +84,6 @@ public class Spreadsheet {
 		if (m.find()) {
 			StringBuffer equation = new StringBuffer(m.group(1));
 			
-//			p = Pattern.compile("\\((.+)\\)");
-//			m = p.matcher(equation);
-//			
-//			if (m.find()) {
-//				for (int i = 0; i < m.groupCount(); i++) {
-//					
-//				}
-//			}
-			
-//			for (int i = 0; i < equation.length(); i++) {
-//				
-//			}
-			
 			// Look for parentheses
 			while (equation.indexOf(")") != -1) {
 				int closingParenthesis = equation.indexOf(")");
@@ -114,9 +101,11 @@ public class Spreadsheet {
 					return "#Error";
 				}
 
+				// Replace the parentheses and their content with the calculated result
 				equation = equation.replace(openingParenthesis, closingParenthesis + 1, calculatedSubEquation);
 			}
 			
+			// No more parentheses; calculate the full equation
 			return calculateEquation(equation.toString());
 		}
 		
