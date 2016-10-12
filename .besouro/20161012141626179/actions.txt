@@ -579,3 +579,9 @@ EditAction 1476276140511 Spreadsheet.java 2958 5 8 0
 RefactoringAction 1476276215254 Spreadsheet.java ADD void isVariable() METHOD
 RefactoringAction 1476276219770 Spreadsheet.java RENAME isVariable()=>void isVariable(String) METHOD
 EditAction 1476276244425 Spreadsheet.java 3088 6 9 0
+RefactoringAction 1476276270483 Spreadsheet.java ADD boolean isAssignment FIELD
+RefactoringAction 1476276272496 Spreadsheet.java RENAME isAssignment=>boolean isAssignment() METHOD
+RefactoringAction 1476276283026 Spreadsheet.java RENAME isAssignment()=>boolean isAssignment(String) METHOD
+RefactoringAction 1476276321651 Spreadsheet.java ADD String get FIELD
+RefactoringAction 1476276326167 Spreadsheet.java REMOVE get FIELD
+EditAction 1476276401484 Spreadsheet.java 3252 7 10 0

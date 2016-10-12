@@ -20,20 +20,28 @@ public class Spreadsheet {
 		return value.length() > 0 && value.charAt(1) >= 'A' && value.charAt(1) <= 'Z';
 	}
 	
+	private boolean isAssignment(String value) {
+		return value.length() > 0 && value.charAt(0) == '=';
+	}
+	
 	private boolean isCircularRecursive(String value) {
-		if (value.length() > 1 && value.charAt(0) == '='
-				&& value.charAt(1) >= 'A' && value.charAt(1) <= 'Z') {
-			String key = value.substring(1, value.length());
-			if (mVisited.contains(key)) {
-				return true;
-				
-			} else {
-				if (mValues.containsKey(key)) {
-					mVisited.add(key);
-					return isCircularRecursive(get(key));
+		if (isAssignment(value)) {
+			String assignment = value.substring(1, value.length());
+			if (isVariable(assignment)) {
+				String key = value.substring(1, value.length());
+				if (mVisited.contains(key)) {
+					return true;
+					
 				} else {
-					return false;
+					if (mValues.containsKey(key)) {
+						mVisited.add(key);
+						return isCircularRecursive(get(key));
+					} else {
+						return false;
+					}
 				}
+			} else {
+				return false;
 			}
 		} else {
 			return false;
