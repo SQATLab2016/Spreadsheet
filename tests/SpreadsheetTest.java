@@ -81,24 +81,24 @@ public class SpreadsheetTest {
 	@Test public void spreadsheetEvaluateA4Equals3_returns3() {
 		Spreadsheet spready = new Spreadsheet();
 		
-		spready.set("A3", "=3");
-		assertEquals("3", spready.evaluate("A3"));	
+		spready.set("A4", "=3");
+		assertEquals("3", spready.evaluate("A4"));	
 		
 	}
 	
 	@Test public void spreadsheetEvaluateA5EqualsMinus31_returnsMinus31() {
 		Spreadsheet spready = new Spreadsheet();
 		
-		spready.set("A3", "=-31");
-		assertEquals("-31", spready.evaluate("A3"));	
+		spready.set("A5", "=-31");
+		assertEquals("-31", spready.evaluate("A5"));	
 		
 	}
 	
 	@Test public void spreadsheetEvaluateA5EqualsCUL8R_returnsError() {
 		Spreadsheet spready = new Spreadsheet();
 		
-		spready.set("A3", "CUL8R");
-		assertEquals("#Error", spready.evaluate("A3"));	
+		spready.set("A5", "CUL8R");
+		assertEquals("#Error", spready.evaluate("A5"));	
 		
 	}
 	
