@@ -17,7 +17,7 @@ public class Spreadsheet {
 		try {
 			String result = "";
 			if (cell.startsWith("'")) {
-
+				result = sheet.get(cell).replaceAll("'", "");
 			} else
 				result = "" + Integer.parseInt(sheet.get(cell));
 			return result;
