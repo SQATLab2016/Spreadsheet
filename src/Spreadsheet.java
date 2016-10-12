@@ -56,6 +56,7 @@ public class Spreadsheet {
 				} else if (value.charAt(1) >= 'A' && value.charAt(1) <= 'Z') {
 					String key = value.substring(1, value.length());
 					if (mValues.containsKey(key)) {
+						if ()
 						value = evaluate(key);
 					} else {
 						value = ERROR;
@@ -87,6 +88,8 @@ public class Spreadsheet {
 					value = ERROR;
 			}
 		}
+		
+		mVisited.clear();
 		
 		return value;
 	}

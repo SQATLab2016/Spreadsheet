@@ -489,3 +489,6 @@ UnitTestSessionAction 1476275223743 SpreadsheetTest.java FAIL
 RefactoringAction 1476275276108 Spreadsheet.java ADD HashMap<String,String> mValues/2 FIELD
 RefactoringAction 1476275277622 Spreadsheet.java RENAME mValues/2=>HashMap<String,String> m FIELD
 EditAction 1476275279468 Spreadsheet.java 2295 3 5 0
+RefactoringAction 1476275297632 Spreadsheet.java REMOVE mVisited FIELD
+RefactoringAction 1476275299615 Spreadsheet.java ADD HashMap<String,String> mVisited FIELD
+EditAction 1476275385740 Spreadsheet.java 2330 3 2 0
