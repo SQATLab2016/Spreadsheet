@@ -66,9 +66,15 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void detectStringIncorrectFormatting() {
+	public void detectStringIncorrectFormatting() throws SpreadsheetException {
 		spreadsheet.set("A1", "'a string");
 		
-		assertEquals("Did not detect incorrect string formatting", "#Error", spreadsheet.evaluate("A1"));
+		assertEquals("Did not detect incorrect string formatting",
+				"#Error", spreadsheet.evaluate("A1"));
+	}
+	
+	@Test
+	public void formulaTestCorrectString() {
+		spreadsheet.set("A1", "='a string'");
 	}
 }

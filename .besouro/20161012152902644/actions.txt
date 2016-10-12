@@ -231,3 +231,15 @@ EditAction 1476279293836 SpreadsheetTest.java 2006 7 20 5
 EditAction 1476279337902 SpreadsheetTest.java 2073 7 19 5
 CompilationAction 1476279338124 SpreadsheetTest.java
 EditAction 1476279354817 SpreadsheetTest.java 2109 7 21 6
+CompilationAction 1476279354918 SpreadsheetTest.java
+CompilationAction 1476279358921 SpreadsheetTest.java
+CompilationAction 1476279359097 SpreadsheetTest.java
+CompilationAction 1476279370277 SpreadsheetTest.java
+UnitTestCaseAction 1476279373373 SpreadsheetTest.java OK
+UnitTestSessionAction 1476279373374 SpreadsheetTest.java OK
+RefactoringAction 1476279703936 SpreadsheetTest.java ADD void formula FIELD
+RefactoringAction 1476279711949 SpreadsheetTest.java RENAME formula=>void formulaTest FIELD
+RefactoringAction 1476279716460 SpreadsheetTest.java RENAME formulaTest=>void formulaTestCorrect FIELD
+RefactoringAction 1476279717972 SpreadsheetTest.java RENAME formulaTestCorrect=>void formulaTestCorrectString FIELD
+RefactoringAction 1476279719484 SpreadsheetTest.java RENAME formulaTestCorrectString=>void formulaTestCorrectString() METHOD
+EditAction 1476279770617 SpreadsheetTest.java 2235 8 22 6
