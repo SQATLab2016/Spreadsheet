@@ -128,6 +128,7 @@ public class Spreadsheet {
 		
 		String[] splitFormula = value.substring(1).split("(?<=[&])|(?=[&])");
 		
+		boolean operatorFound = false;
 		for (int i = 0; i < splitFormula.length; i++) {
 			if (i % 2 == 0) {
 				if (!isStringCellValue(splitFormula[i]))
