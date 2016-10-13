@@ -1,0 +1,34 @@
+FileOpenedAction 1475758625332 SpreadsheetTest.java 619 5 8 4
+EditAction 1475758663153 SpreadsheetTest.java 648 5 9 4
+UnitTestCaseAction 1475758667052 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475758667055 SpreadsheetTest.java FAIL
+FileOpenedAction 1475758678964 Spreadsheet.java 547 3 6 0
+RefactoringAction 1475759528049 SpreadsheetTest.java ADD void GetCell FIELD
+RefactoringAction 1475759531075 SpreadsheetTest.java RENAME GetCell=>void GetCellValue FIELD
+RefactoringAction 1475759533099 SpreadsheetTest.java RENAME GetCellValue=>void GetCellValue_ FIELD
+RefactoringAction 1475759534620 SpreadsheetTest.java RENAME GetCellValue_=>void GetCellValue_INT FIELD
+RefactoringAction 1475759535647 SpreadsheetTest.java RENAME GetCellValue_INT=>void GetCellValue_INT() METHOD
+EditAction 1475759575219 SpreadsheetTest.java 749 6 11 5
+UnitTestCaseAction 1475759577530 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475759577531 SpreadsheetTest.java FAIL
+EditAction 1475760534654 Spreadsheet.java 547 3 6 0
+EditAction 1475760537538 Cell.java 446 5 5 0
+CompilationAction 1475760539675 Cell.java
+UnitTestCaseAction 1475760545107 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760545108 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1475760786374 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760786375 SpreadsheetTest.java FAIL
+RefactoringAction 1475761764728 Cell.java ADD void isNaN() METHOD
+RefactoringAction 1475761766744 Cell.java REMOVE isNaN() METHOD
+EditAction 1475762182258 Cell.java 471 5 5 0
+CompilationAction 1475762184385 Cell.java
+UnitTestCaseAction 1475762187162 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475762187163 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1475762198862 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475762198863 SpreadsheetTest.java FAIL
+EditAction 1475762220081 SpreadsheetTest.java 743 6 11 5
+UnitTestCaseAction 1475762222409 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475762222410 SpreadsheetTest.java FAIL
+EditAction 1475762240048 SpreadsheetTest.java 745 6 11 5
+UnitTestCaseAction 1475762242373 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475762242374 SpreadsheetTest.java FAIL
