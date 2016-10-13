@@ -1,0 +1,90 @@
+FileOpenedAction 1475760397941 SpreadsheetTest.java 323 2 5 1
+EditAction 1475760420015 SpreadsheetTest.java 326 2 5 1
+CompilationAction 1475760420171 SpreadsheetTest.java
+CompilationAction 1475760420171 SpreadsheetTest.java
+UnitTestCaseAction 1475760425033 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760425034 SpreadsheetTest.java FAIL
+RefactoringAction 1475760476452 TableCell.java ADD TableCell.java CLASS
+FileOpenedAction 1475760476609 TableCell.java 33 0 0 0
+RefactoringAction 1475760491520 TableCell.java REMOVE TableCell.java CLASS
+RefactoringAction 1475760512672 Tablecell.java ADD Tablecell.java CLASS
+FileOpenedAction 1475760512792 Tablecell.java 33 0 0 0
+RefactoringAction 1475760549974 Tablecell.java REMOVE Tablecell.java CLASS
+RefactoringAction 1475760566738 Cell.java ADD Cell.java CLASS
+FileOpenedAction 1475760566858 Cell.java 28 0 0 0
+RefactoringAction 1475760581353 Spreadsheet.java ADD Cell cells FIELD
+RefactoringAction 1475760630905 Cell.java ADD String id FIELD
+RefactoringAction 1475760639419 Cell.java ADD String value FIELD
+RefactoringAction 1475760652935 Cell.java ADD String getId() METHOD
+RefactoringAction 1475760652936 Cell.java ADD void setId(String) METHOD
+RefactoringAction 1475760652937 Cell.java ADD String getValue() METHOD
+RefactoringAction 1475760652938 Cell.java ADD void setValue(String) METHOD
+RefactoringAction 1475760792258 Cell.java REMOVE Cell.java CLASS
+RefactoringAction 1475760797474 Spreadsheet.java REMOVE cells FIELD
+RefactoringAction 1475761112631 Cell.java ADD Cell.java CLASS
+FileOpenedAction 1475761112776 Cell.java 28 0 0 0
+RefactoringAction 1475761133807 Cell.java ADD String id FIELD
+RefactoringAction 1475761133808 Cell.java ADD String value FIELD
+RefactoringAction 1475761157828 Cell.java ADD String getId() METHOD
+RefactoringAction 1475761157829 Cell.java ADD void setId(String) METHOD
+RefactoringAction 1475761157829 Cell.java ADD String getValue() METHOD
+RefactoringAction 1475761157830 Cell.java ADD void setValue(String) METHOD
+EditAction 1475761180142 Cell.java 291 4 4 0
+RefactoringAction 1475761190050 Spreadsheet.java ADD Cell cells FIELD
+RefactoringAction 1475761201096 Spreadsheet.java ADD void init FIELD
+RefactoringAction 1475761204609 Spreadsheet.java RENAME init=>void init() METHOD
+RefactoringAction 1475761239195 Spreadsheet.java REMOVE init() METHOD
+RefactoringAction 1475761291168 Spreadsheet.java ADD import java.util.ArrayList IMPORT
+CompilationAction 1475761340878 SpreadsheetTest.java
+RefactoringAction 1475761372891 SpreadsheetTest.java ADD import org.junit.Before IMPORT
+CompilationAction 1475761377331 SpreadsheetTest.java
+RefactoringAction 1475761463921 Cell.java ADD Cell(String, String) METHOD
+EditAction 1475761475432 Cell.java 396 5 6 0
+EditAction 1475761616333 Spreadsheet.java 364 3 3 0
+EditAction 1475761778311 Spreadsheet.java 423 3 4 0
+UnitTestCaseAction 1475761782519 SpreadsheetTest.java OK
+UnitTestSessionAction 1475761782520 SpreadsheetTest.java OK
+RefactoringAction 1475761841966 SpreadsheetTest.java ADD void testCreateCellA1()/2 METHOD
+RefactoringAction 1475761846485 SpreadsheetTest.java RENAME testCreateCellA1()/2=>void testCreateCellA1_ FIELD
+EditAction 1475761865867 SpreadsheetTest.java 471 3 7 2
+UnitTestCaseAction 1475761868322 SpreadsheetTest.java OK
+UnitTestSessionAction 1475761868322 SpreadsheetTest.java OK
+RefactoringAction 1475761914545 SpreadsheetTest.java ADD void testCreateCellA1_minus1()/2 METHOD
+RefactoringAction 1475761919073 SpreadsheetTest.java RENAME testCreateCellA1_minus1()/2=>void testCreateCellA1_5() METHOD
+RefactoringAction 1475761920086 SpreadsheetTest.java RENAME testCreateCellA1_5()=>void testCreateCellA1_5A() METHOD
+EditAction 1475761995345 SpreadsheetTest.java 610 4 10 3
+EditAction 1475762016230 SpreadsheetTest.java 619 4 10 3
+UnitTestCaseAction 1475762018134 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475762018135 SpreadsheetTest.java FAIL
+EditAction 1475762935482 Spreadsheet.java 621 3 7 0
+UnitTestCaseAction 1475762937427 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475762937428 SpreadsheetTest.java FAIL
+EditAction 1475763226289 Spreadsheet.java 674 3 7 0
+UnitTestCaseAction 1475763229457 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475763229457 SpreadsheetTest.java FAIL
+EditAction 1475763312214 Spreadsheet.java 710 3 7 0
+UnitTestCaseAction 1475763314092 SpreadsheetTest.java OK
+UnitTestSessionAction 1475763314092 SpreadsheetTest.java OK
+RefactoringAction 1475763444823 SpreadsheetTest.java ADD void set() METHOD
+RefactoringAction 1475763450339 SpreadsheetTest.java ADD void testCreateCellA1_5A()/2 METHOD
+RefactoringAction 1475763505465 SpreadsheetTest.java RENAME testCreateCellA1_5A()/2=>void testCreateCellA1astring() METHOD
+RefactoringAction 1475763513478 SpreadsheetTest.java REMOVE set() METHOD
+EditAction 1475763515350 SpreadsheetTest.java 776 5 13 4
+UnitTestCaseAction 1475763517210 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475763517210 SpreadsheetTest.java FAIL
+EditAction 1475764116999 Spreadsheet.java 936 3 7 0
+UnitTestCaseAction 1475764119390 SpreadsheetTest.java OK
+UnitTestSessionAction 1475764119390 SpreadsheetTest.java OK
+RefactoringAction 1475764135540 SpreadsheetTest.java ADD void testCreateCellA1astring()/2 METHOD
+RefactoringAction 1475764139052 SpreadsheetTest.java RENAME testCreateCellA1astring()/2=>void testCreateCellA1astringW() METHOD
+RefactoringAction 1475764140064 SpreadsheetTest.java RENAME testCreateCellA1astringW()=>void testCreateCellA1astringWith() METHOD
+RefactoringAction 1475764141075 SpreadsheetTest.java RENAME testCreateCellA1astringWith()=>void testCreateCellA1astringWithBAd() METHOD
+RefactoringAction 1475764144589 SpreadsheetTest.java RENAME testCreateCellA1astringWithBAd()=>void testCreateCellA1astringWithBadFormat() METHOD
+EditAction 1475764160091 SpreadsheetTest.java 943 6 16 5
+UnitTestCaseAction 1475764163364 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475764163364 SpreadsheetTest.java FAIL
+EditAction 1475764189020 Spreadsheet.java 965 3 7 0
+CompilationAction 1475764189298 Spreadsheet.java
+CompilationAction 1475764204616 Spreadsheet.java
+UnitTestCaseAction 1475764206957 SpreadsheetTest.java OK
+UnitTestSessionAction 1475764206957 SpreadsheetTest.java OK
