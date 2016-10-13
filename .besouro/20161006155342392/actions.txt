@@ -1,0 +1,103 @@
+FileOpenedAction 1475758422479 Spreadsheet.java 346 3 2 0
+RefactoringAction 1475758738503 Spreadsheet.java ADD static void main(String METHOD
+RefactoringAction 1475758754055 Spreadsheet.java RENAME main(String=>void create FIELD
+RefactoringAction 1475758755570 Spreadsheet.java RENAME create=>void createAl FIELD
+RefactoringAction 1475758758079 Spreadsheet.java RENAME createAl=>void createAlphabet FIELD
+RefactoringAction 1475758760589 Spreadsheet.java RENAME createAlphabet=>void createAlphabetArray FIELD
+RefactoringAction 1475758787679 Spreadsheet.java ADD char FIELD
+RefactoringAction 1475758863258 Spreadsheet.java ADD Spreadsheet(char METHOD
+RefactoringAction 1475758874785 Spreadsheet.java RENAME Spreadsheet(char=>Spreadsheet() METHOD
+EditAction 1475758896582 Spreadsheet.java 667 5 6 0
+EditAction 1475758941749 SpreadsheetTest.java 304 1 4 1
+RefactoringAction 1475758949383 SpreadsheetTest.java ADD char FIELD
+RefactoringAction 1475758950893 SpreadsheetTest.java REMOVE alphabet FIELD
+RefactoringAction 1475758954907 SpreadsheetTest.java ADD void test_setAndGet_1()/2 METHOD
+RefactoringAction 1475758964419 SpreadsheetTest.java RENAME test_setAndGet_1()/2=>void test_contru_1() METHOD
+RefactoringAction 1475758968429 SpreadsheetTest.java RENAME test_contru_1()=>void test_consctuctor_1() METHOD
+RefactoringAction 1475758970440 SpreadsheetTest.java RENAME test_consctuctor_1()=>void test_consctuctor_() METHOD
+RefactoringAction 1475758977453 SpreadsheetTest.java RENAME test_consctuctor_()=>void test_consctuctor_a() METHOD
+RefactoringAction 1475758978965 SpreadsheetTest.java RENAME test_consctuctor_a()=>void test_consctuctor_A() METHOD
+EditAction 1475758989779 Spreadsheet.java 667 5 6 0
+RefactoringAction 1475759082550 Spreadsheet.java ADD void getAlphabet() METHOD
+RefactoringAction 1475759096082 Spreadsheet.java RENAME getAlphabet()=>void chargetAlphabet() METHOD
+RefactoringAction 1475759099097 Spreadsheet.java RENAME chargetAlphabet()=>char METHOD
+EditAction 1475759270457 SpreadsheetTest.java 495 2 7 2
+EditAction 1475759276128 SpreadsheetTest.java 495 2 7 2
+UnitTestCaseAction 1475759303710 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475759303710 SpreadsheetTest.java FAIL
+EditAction 1475759320315 Spreadsheet.java 723 6 7 0
+UnitTestCaseAction 1475759320619 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475759320619 SpreadsheetTest.java FAIL
+EditAction 1475759327750 SpreadsheetTest.java 495 2 7 2
+UnitTestCaseAction 1475759328101 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475759328102 SpreadsheetTest.java FAIL
+EditAction 1475759351059 Spreadsheet.java 723 6 7 0
+UnitTestCaseAction 1475759353635 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475759353635 SpreadsheetTest.java FAIL
+RefactoringAction 1475759363710 SpreadsheetTest.java ADD void test_consctuctor_A()/2 METHOD
+RefactoringAction 1475759366723 SpreadsheetTest.java RENAME test_consctuctor_A()/2=>void test_consctuctor_Z() METHOD
+EditAction 1475759373331 SpreadsheetTest.java 691 3 10 3
+UnitTestCaseAction 1475759374635 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475759374635 SpreadsheetTest.java FAIL
+RefactoringAction 1475759581002 Spreadsheet.java ADD void alphabe FIELD
+RefactoringAction 1475759583020 Spreadsheet.java RENAME alphabe=>void alphabet/2 FIELD
+RefactoringAction 1475759585539 Spreadsheet.java RENAME alphabet/2=>void alphabetNumber FIELD
+RefactoringAction 1475759602056 Spreadsheet.java RENAME alphabetNumber=>void alphabetNumber() METHOD
+RefactoringAction 1475759736418 Spreadsheet.java RENAME alphabetNumber()=>void alphabetNumber(char) METHOD
+EditAction 1475759768828 Spreadsheet.java 897 7 10 0
+CompilationAction 1475759768948 Spreadsheet.java
+EditAction 1475759832754 Spreadsheet.java 918 7 7 0
+CompilationAction 1475759832880 Spreadsheet.java
+RefactoringAction 1475759850694 Spreadsheet.java REMOVE sheetMatrix FIELD
+RefactoringAction 1475759854723 Spreadsheet.java ADD ArrayList<ArrayList<String>> sheetMatrix FIELD
+CompilationAction 1475759860019 Spreadsheet.java
+EditAction 1475760108066 Spreadsheet.java 1003 7 12 0
+UnitTestCaseAction 1475760111552 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760111552 SpreadsheetTest.java FAIL
+CompilationAction 1475760204753 Spreadsheet.java
+CompilationAction 1475760204753 Spreadsheet.java
+RefactoringAction 1475760375774 Spreadsheet.java REMOVE sheetMatrix FIELD
+RefactoringAction 1475760376788 Spreadsheet.java ADD ArrayList<ArrayList<S>> sheetMatrix FIELD
+CompilationAction 1475760397700 Spreadsheet.java
+CompilationAction 1475760397701 Spreadsheet.java
+CompilationAction 1475760397879 Spreadsheet.java
+CompilationAction 1475760397879 Spreadsheet.java
+CompilationAction 1475760397879 Spreadsheet.java
+CompilationAction 1475760404415 Spreadsheet.java
+CompilationAction 1475760404416 Spreadsheet.java
+CompilationAction 1475760404417 Spreadsheet.java
+UnitTestCaseAction 1475760407249 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760407250 SpreadsheetTest.java FAIL
+CompilationAction 1475760437001 Spreadsheet.java
+UnitTestCaseAction 1475760454061 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760454061 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1475760501785 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760501790 SpreadsheetTest.java FAIL
+RefactoringAction 1475760840658 Spreadsheet.java REMOVE sheetMatrix FIELD
+RefactoringAction 1475760882714 Spreadsheet.java ADD ArrayList<String FIELD
+UnitTestCaseAction 1475760886796 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475760886796 SpreadsheetTest.java FAIL
+RefactoringAction 1475760946866 Spreadsheet.java REMOVE sheetMatrix FIELD
+RefactoringAction 1475760948878 Spreadsheet.java ADD String sheetMatrix FIELD
+RefactoringAction 1475760955399 Spreadsheet.java REMOVE sheetMatrix FIELD
+RefactoringAction 1475760989955 Spreadsheet.java ADD String FIELD
+CompilationAction 1475761122102 Spreadsheet.java
+CompilationAction 1475761148232 Spreadsheet.java
+CompilationAction 1475761148380 Spreadsheet.java
+UnitTestCaseAction 1475761201235 SpreadsheetTest.java OK
+UnitTestSessionAction 1475761201236 SpreadsheetTest.java OK
+RefactoringAction 1475761736988 SpreadsheetTest.java ADD void test_setAndGet_1()/2 METHOD
+RefactoringAction 1475761741498 SpreadsheetTest.java RENAME test_setAndGet_1()/2=>void test_setAndGet_minus1() METHOD
+EditAction 1475761748319 SpreadsheetTest.java 904 4 14 4
+UnitTestCaseAction 1475761749958 SpreadsheetTest.java OK
+UnitTestSessionAction 1475761749959 SpreadsheetTest.java OK
+RefactoringAction 1475761795530 SpreadsheetTest.java RENAME test_setAndGet_minus1()=>void test_setAndGet_1()/2 METHOD
+RefactoringAction 1475761798041 SpreadsheetTest.java RENAME test_setAndGet_1()/2=>void test_setAndGet_minus1() METHOD
+RefactoringAction 1475761801052 SpreadsheetTest.java ADD void test_setAndGet_minus1()/2 METHOD
+EditAction 1475761849572 SpreadsheetTest.java 1122 5 18 5
+CompilationAction 1475761849860 SpreadsheetTest.java
+RefactoringAction 1475761884159 SpreadsheetTest.java RENAME test_setAndGet_minus1()/2=>void test_evaluate_minus1() METHOD
+CompilationAction 1475761884995 SpreadsheetTest.java
+UnitTestCaseAction 1475761887068 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475761887068 SpreadsheetTest.test_evaluate_minus1 FAIL
+CompilationAction 1475762176176 Spreadsheet.java
