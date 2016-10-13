@@ -54,5 +54,35 @@ public class SpreadsheetTest {
 		assertEquals("Elite", value);
 	}
 	
-	// To be continued next week, above test is failing as of now.
+	@Test
+	public void testSetA6WithBadString_EvaluateA6() {
+		Spreadsheet ss = new Spreadsheet();
+		ss.set("A6", "Elite'");
+		String value = ss.evaluate("A6");
+		assertEquals("#Error", value);
+	}
+
+	@Test
+	public void testSetA7WithEqualSignValue_EvaluateA7() {
+		Spreadsheet ss = new Spreadsheet();
+		ss.set("A7", "='Dangerous'");
+		String value = ss.evaluate("A7");
+		assertEquals("Dangerous", value);
+	}
+
+	@Test
+	public void testSetA8WithEqualSignBadString_EvaluateA8() {
+		Spreadsheet ss = new Spreadsheet();
+		ss.set("A8", "=Dangerous'");
+		String value = ss.evaluate("A8");
+		assertEquals("#Error", value);
+	}
+
+	@Test
+	public void testSetA9WithCellReferenceToA7_EvaluateA9() {
+		Spreadsheet ss = new Spreadsheet();
+		ss.set("A9", "=A7");
+		String value = ss.evaluate("A9");
+		assertEquals("Dangerous", value);
+	}
 }

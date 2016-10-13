@@ -18,10 +18,38 @@ public class Spreadsheet {
 		String value = sheet.get(cell);
 		int number = 0;
 		try {
-			number = Integer.parseInt(value);
+			number = getNumberValue(value);
 		} catch (NumberFormatException numberError) {
-			return "#Error";
+			return this.getStringValue(value);
 		}
 		return Integer.toString(number);
+	}
+	
+	private String getEqualSignValue(String value) {
+		if (value.charAt(0) == '=') {
+			return value.substring(1,  value.length()-1);
+		}
+		return "#Error";
+	}
+
+	private int getNumberValue(String value) {
+		if (value.charAt(0) == '=') {
+			return Integer.parseInt(value.substring(1));
+		} else {
+			return Integer.parseInt(value);
+		}
+	}
+	
+	private String getStringValue(String value) {
+		if (value.charAt(0) == '=') {
+			if (value.charAt(value.length()-1) == '\'' && value.charAt(1) == '\'') {
+				return value.substring(2,value.length()-1);
+			}
+		} else {
+			if (value.charAt(value.length()-1) == '\'' && value.charAt(0) == '\'') {
+				return value.substring(1,value.length()-1);
+			}
+		}
+		return "#Error";
 	}
 }
