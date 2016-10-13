@@ -4,9 +4,14 @@ public class Cell  {
 	public String value;
 	
 	
-	public Object getValue(){ 
-		 return Integer.parseInt(value,10);
+	public String getValue(){ 
+		return value;
 	}
+	
+	
+	
+	
+	
 	public void setValue(String value) {
 
 		this.value=value;
