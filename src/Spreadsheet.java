@@ -1,16 +1,13 @@
 import java.util.HashMap;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
+import javax.script.ScriptEngine;
 
 public class Spreadsheet {
 	HashMap<String, String> sheet = new HashMap<String, String>();
 	
-	
 	public String get(String cell) {
 		String value = sheet.get(cell);
-		
-		/*if(isInteger(value))
-			return value;
-		else if(isCellString(value))
-			return value;*/
 		return value;
 	}
 	
@@ -21,38 +18,85 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		String value = sheet.get(cell);
 		
+		// Is normal integer?
 		if(isInteger(value))
 			return value;
 		
+		// Is a quoted string e.g. 'a string'?
 		else if(isCellString(value)){
 			// Remove quotes
 			value = value.substring(1,value.length()-1);
 			return value;
 		}
 		
+		// Is a formula to be evaluated?
 		else if (beginsEquals(value)){
 			// Remove the equals sign.
 			value = value.substring(1);
+			
+			// If integer return it.
 			if(isInteger(value))
 				return value;
-			
+			// Is string operation? 
+			// Also works for quoted string
 			else if(isCellString(value)){
-				// Remove quotes.
-				value = value.substring(0,value.length()-1);
-				return value;
+				String result = "";
+				String temp = value;
+				while(!temp.equals("")){
+					int index1 = temp.indexOf('\'');
+					int index2 = temp.indexOf('\'',temp.indexOf('\'')+1);
+					String subStr = temp.substring(index1+1, index2);
+					if(subStr.contains("&"))
+						return "#Error";
+					result += subStr;
+					temp = temp.substring(index2+1);
+				}
+				result = result.replaceAll("&", "");
+				return result;
 			}
 			
-			// If reference to a cell.
+			// Is reference to a cell?
 			else if(isCell(value)){
-				String refCell = evaluate("=" + value);
-				if(refCell.equals("="+value)) // Circular?
-					return "#Circular";
-				return evaluate("="+value);
+				// Check circular case.
+				String refCell = get(value);
+				refCell = refCell.substring(1); // Remove =	
+				if(refCell.equals(cell)) // Circular?
+					return "#Circular";			
+
+				refCell = evaluate(value);
+				return refCell;
 			}
+			
+			else if(isFormula(value)){
+				ScriptEngineManager mgr = new ScriptEngineManager();
+		    ScriptEngine engine = mgr.getEngineByName("JavaScript");
+		    String result = "";
+		    
+		    try {
+					int temp = (Integer) engine.eval(value);
+					result = Integer.toString(temp);
+				} catch (ScriptException e) {
+					return "#Error";
+				}
+		    
+		    return result;
+			}
+			
 		}
 		return  "#Error";
 	}
 	
+	private boolean isFormula(String value) {
+		if(value.contains("+")
+				|| value.contains("-")
+				|| value.contains("/")
+				|| value.contains("*")
+				|| value.contains("%")
+				)
+			return true;
+		return false;
+	}
+
 	public boolean isInteger(String string) {
     try {
         Integer.valueOf(string);

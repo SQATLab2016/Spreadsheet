@@ -74,5 +74,171 @@ public class SpreadsheetTest {
 		sheet.set("B2", "=12345");
 		
 		String value = sheet.evaluate("B2");
+		assertEquals("12345", value);
+	}
+	
+	@Test
+	public void testEvaluate_Reference(){
+		sheet.set("B2", "=12345");
+		sheet.set("B1", "=B2");
+		
+		String value = sheet.evaluate("B1");
+		
+		assertEquals("12345", value);
+	}
+	
+	@Test
+	public void testEvaluate_Circular(){
+		sheet.set("B2", "=B1");
+		sheet.set("B1", "=B2");
+		
+		String value = sheet.evaluate("B1");
+		
+		assertEquals("#Circular", value);
+	}	
+	@Test
+	public void testEvaluate_MathExpression(){
+		sheet.set("A4", "=3+2-1");
+		
+		String value = sheet.evaluate("A4");
+		
+		assertEquals("4", value);
+	}
+	@Test
+	public void testEvaluate_MathExpression2(){
+		sheet.set("A4", "=10*2+24-1");
+		
+		String value = sheet.evaluate("A4");
+		
+		assertEquals("43", value);
+	}
+	@Test
+	public void testEvaluate_MathExpressionParanthesis(){
+		sheet.set("A4", "=1+(1*2)");
+		
+		String value = sheet.evaluate("A4");
+		
+		assertEquals("3", value);
+	}
+	@Test
+	public void testEvaluate_Whitespaces(){
+		sheet.set("A4", "=10 *   2 +      24-1");
+		
+		String value = sheet.evaluate("A4");
+		
+		assertEquals("43", value);
+	}
+	@Test
+	public void testEvaluate_WrongInteger(){
+		sheet.set("C21", "22A");
+		
+		String value = sheet.evaluate("C21");
+		
+		assertEquals("#Error", value);
+	}
+	@Test
+	public void testEvaluate_UnquotedString(){
+		sheet.set("C21", "'a string");
+		
+		String value = sheet.evaluate("C21");
+		
+		assertEquals("#Error", value);
+	}
+	@Test
+	public void testEvaluate_UnquotedStringInFormula(){
+		sheet.set("C21", "='a string");
+		
+		String value = sheet.evaluate("C21");
+		
+		assertEquals("#Error", value);
+	}
+	@Test
+	public void testEvaluate_ErrorInReferenceCell(){
+		sheet.set("B2", "=B1");
+		sheet.set("B1", "5A");
+		
+		String value = sheet.evaluate("B2");
+		
+		assertEquals("#Error", value);
+	}
+	@Test
+	public void testEvaluate_ErrorInIntegerFormula(){
+		sheet.set("B2", "=1+1A");
+		
+		String value = sheet.evaluate("B2");
+		
+		assertEquals("#Error", value);
+	}
+	@Test
+	public void testEvaluate_StringConcat(){
+		sheet.set("B2", "='a'&'string'");
+		
+		String value = sheet.evaluate("B2");
+		
+		assertEquals("astring", value);
+	}
+	@Test
+	public void testEvaluate_StringConcatError(){
+		sheet.set("B2", "='a&'string'");
+		
+		String value = sheet.evaluate("B2");
+		
+		assertEquals("#Error", value);
+	}
+	@Test
+	public void testEvaluate_2(){
+		sheet.set("B2", "-1");
+		
+		String value = sheet.evaluate("B2");
+		
+		assertEquals("-1", value);
+	}
+	@Test
+	public void testEvaluate_3(){
+		sheet.set("B2", "5A");
+		
+		String value = sheet.evaluate("B2");
+		
+		assertEquals("#Error", value);
+	}
+	@Test
+	public void testEvaluate_4(){
+		sheet.set("B2", "'a string'");
+		
+		String value = sheet.evaluate("B2");
+		
+		assertEquals("a string", value);
+	}
+	@Test
+	public void testEvaluate_5(){
+		sheet.set("B2", "'a string");
+		
+		String value = sheet.evaluate("B2");
+		
+		assertEquals("#Error", value);
+	}
+	@Test
+	public void testEvaluate_6(){
+		sheet.set("B2", "='a string'");
+		
+		String value = sheet.evaluate("B2");
+		
+		assertEquals("a string", value);
+	}
+	@Test
+	public void testEvaluate_7(){
+		sheet.set("B2", "='a string");
+		
+		String value = sheet.evaluate("B2");
+		
+		assertEquals("#Error", value);
+	}
+	@Test
+	public void testEvaluate_13(){
+		sheet.set("B2", "='a'&'string'");
+		
+		String value = sheet.evaluate("B2");
+		
+		assertEquals("astring", value);
 	}
 }
