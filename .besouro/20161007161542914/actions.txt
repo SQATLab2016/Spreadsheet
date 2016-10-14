@@ -1,0 +1,80 @@
+FileOpenedAction 1475846143101 Spreadsheet.java 264 3 2 0
+UnitTestCaseAction 1475846188251 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846188251 tests FAIL
+FileOpenedAction 1475846201261 SpreadsheetTest.java 162 1 1 0
+RefactoringAction 1475846277951 SpreadsheetTest.java RENAME test()=>void test_() METHOD
+RefactoringAction 1475846282069 SpreadsheetTest.java RENAME test_()=>void test_set() METHOD
+RefactoringAction 1475846285158 SpreadsheetTest.java RENAME test_set()=>void test_setCellTovalue() METHOD
+RefactoringAction 1475846289277 SpreadsheetTest.java RENAME test_setCellTovalue()=>void test_setCellToValue() METHOD
+RefactoringAction 1475846316561 SpreadsheetTest.java RENAME test_setCellToValue()=>void test_setCellToValueA1() METHOD
+RefactoringAction 1475846317591 SpreadsheetTest.java RENAME test_setCellToValueA1()=>void test_setCellToValueA1_V() METHOD
+RefactoringAction 1475846318620 SpreadsheetTest.java RENAME test_setCellToValueA1_V()=>void test_setCellToValueA1_1() METHOD
+EditAction 1475846391004 SpreadsheetTest.java 194 1 1 0
+CompilationAction 1475846392954 SpreadsheetTest.java
+EditAction 1475846531919 SpreadsheetTest.java 194 1 1 0
+EditAction 1475846550998 SpreadsheetTest.java 215 1 2 0
+EditAction 1475846554664 SpreadsheetTest.java 214 1 2 0
+EditAction 1475846589328 SpreadsheetTest.java 248 1 3 1
+UnitTestCaseAction 1475846594403 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846594403 SpreadsheetTest.java FAIL
+RefactoringAction 1475846708440 Spreadsheet.java ADD Map<String,String> sheet FIELD
+RefactoringAction 1475846709953 Spreadsheet.java RENAME sheet=>Map<String,String> sheetmap FIELD
+EditAction 1475846723488 Spreadsheet.java 333 3 2 0
+CompilationAction 1475846725860 Spreadsheet.java
+RefactoringAction 1475846735641 Spreadsheet.java ADD import java.util.Map IMPORT
+CompilationAction 1475846747590 Spreadsheet.java
+CompilationAction 1475846747746 Spreadsheet.java
+CompilationAction 1475846825204 Spreadsheet.java
+CompilationAction 1475846825263 Spreadsheet.java
+CompilationAction 1475846838659 Spreadsheet.java
+EditAction 1475846907300 Spreadsheet.java 395 3 3 0
+EditAction 1475846942197 Spreadsheet.java 423 3 4 0
+UnitTestCaseAction 1475846960795 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475846960811 SpreadsheetTest.java FAIL
+EditAction 1475847078763 Spreadsheet.java 418 3 3 0
+UnitTestCaseAction 1475847083851 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847083851 SpreadsheetTest.java FAIL
+RefactoringAction 1475847099685 SpreadsheetTest.java RENAME test_setCellToValueA1_1()=>void test_setCellToValueSA1_1() METHOD
+RefactoringAction 1475847101230 SpreadsheetTest.java RENAME test_setCellToValueSA1_1()=>void test_setCellToValueStringA1_1() METHOD
+EditAction 1475847102103 SpreadsheetTest.java 254 1 3 1
+EditAction 1475847107906 SpreadsheetTest.java 256 1 3 1
+UnitTestCaseAction 1475847111747 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847111747 SpreadsheetTest.java OK
+RefactoringAction 1475847224254 SpreadsheetTest.java ADD void test_a FIELD
+RefactoringAction 1475847229402 SpreadsheetTest.java RENAME test_a=>void test_evaluateCellInteger FIELD
+RefactoringAction 1475847232491 SpreadsheetTest.java RENAME test_evaluateCellInteger=>void test_evaluateCorrectCellInteger FIELD
+RefactoringAction 1475847235580 SpreadsheetTest.java RENAME test_evaluateCorrectCellInteger=>void test_evaluateCorrectlyFormattedCellInteger FIELD
+RefactoringAction 1475847236610 SpreadsheetTest.java RENAME test_evaluateCorrectlyFormattedCellInteger=>void test_evaluateCorrectlyFormattedCellInteger() METHOD
+RefactoringAction 1475847246391 SpreadsheetTest.java ADD Spreadsheet sheet FIELD
+EditAction 1475847247888 SpreadsheetTest.java 335 2 2 1
+RefactoringAction 1475847255657 SpreadsheetTest.java RENAME sheet=>Spreadsheet test_sheet FIELD
+EditAction 1475847260977 SpreadsheetTest.java 350 2 2 1
+EditAction 1475847338728 SpreadsheetTest.java 451 2 5 2
+UnitTestCaseAction 1475847345689 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847345689 SpreadsheetTest.java OK
+EditAction 1475847390898 SpreadsheetTest.java 458 2 5 2
+UnitTestCaseAction 1475847394083 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847394083 SpreadsheetTest.java FAIL
+EditAction 1475847433411 Spreadsheet.java 432 3 3 0
+UnitTestCaseAction 1475847439404 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847439404 SpreadsheetTest.java FAIL
+EditAction 1475847465597 SpreadsheetTest.java 457 2 5 2
+UnitTestCaseAction 1475847469391 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847469391 SpreadsheetTest.java OK
+EditAction 1475847481621 SpreadsheetTest.java 465 2 5 2
+RefactoringAction 1475847488828 SpreadsheetTest.java ADD void test_evaluateCorrectlyFormattedCellPositiveInteger()/2 METHOD
+EditAction 1475847496020 SpreadsheetTest.java 651 3 8 3
+EditAction 1475847502978 SpreadsheetTest.java 653 3 8 3
+UnitTestCaseAction 1475847507614 SpreadsheetTest.java OK
+UnitTestSessionAction 1475847507614 SpreadsheetTest.java OK
+EditAction 1475847524431 SpreadsheetTest.java 655 3 8 3
+EditAction 1475847595723 Spreadsheet.java 433 3 3 0
+EditAction 1475847601854 SpreadsheetTest.java 654 3 8 3
+RefactoringAction 1475847610309 SpreadsheetTest.java ADD void test_evaluateCorrectlyFormattedCellNegativeInteger()/2 METHOD
+RefactoringAction 1475847617001 SpreadsheetTest.java RENAME test_evaluateCorrectlyFormattedCellNegativeInteger()/2=>void test_evaluateInvalidFormattedCellNegativeInteger() METHOD
+RefactoringAction 1475847621634 SpreadsheetTest.java RENAME test_evaluateInvalidFormattedCellNegativeInteger()=>void test_evaluateInvalidFormattedCellInteger() METHOD
+EditAction 1475847622773 SpreadsheetTest.java 831 4 11 4
+EditAction 1475847650494 SpreadsheetTest.java 835 4 11 4
+UnitTestCaseAction 1475847657720 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475847657720 SpreadsheetTest.java FAIL
+EditAction 1475847713397 Spreadsheet.java 362 3 3 0
