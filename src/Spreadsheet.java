@@ -40,7 +40,7 @@ public class Spreadsheet {
 			isEquals = true;
 			if (!value.matches("[A-Z]"))
 			{
-				;//System.out.println(value);
+				;
 			}
 		}
 		
