@@ -1,8 +1,6 @@
 import static org.junit.Assert.*;
 
-
 import org.junit.Test;
-
 
 public class SpreadsheetTest {
     
@@ -60,6 +58,41 @@ public class SpreadsheetTest {
 		test.set("P6", "=O6");
 	    assertTrue(test.evaluate("P6").equals("#Circular"));	
 	}
+	@Test
+	public void test11() {
+		test.set("A1", "=1+1*2");
+		assertTrue(test.evaluate("A1").equals("4"));	
+	}
+	@Test
+	public void test12(){
+		test.set("A2", "=1+A1");
+		assertTrue(test.evaluate("A2").equals("#Error"));
+	}
 	
+	@Test
+	public void test13(){
+		test.set("A5", "=’a’&’String’");
+		assertTrue(test.evaluate("A5").equals("aString"));
+	}
+	@Test
+	public void test14(){
+		test.set("A6", "=’a&’String’");
+		assertTrue(test.evaluate("A6").equals("#Error"));
+	}
+	@Test
+	public void test15(){
+		test.set("A9", "=1+(1*2)");
+		assertTrue(test.evaluate("A9").equals("3"));
+	}
+	@Test
+	public void test16(){
+		test.set("G1", "=1+(1*2");
+		assertTrue(test.evaluate("G1").equals("#Error"));
+	}
+	@Test
+	public void test17(){
+		test.set("A9", "=1  +  (   1   *   2)");
+		assertEquals(test.evaluate("A9"),"3");
+	}
 
 }
