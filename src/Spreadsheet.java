@@ -46,9 +46,9 @@ public class Spreadsheet {
 							cells.get(cells.lastIndexOf(cell)+1); // 2 number 
 						}
 				    }	
-				}else if(cells.get(cells.lastIndexOf(cell)+1).startsWith("’")){ // starts with quote
+				}else if(cells.get(cells.lastIndexOf(cell)+1).startsWith("ï¿½")){ // starts with quote
 					
-					if(cells.get(cells.lastIndexOf(cell)+1).endsWith("’")){ // 4 ends with quote
+					if(cells.get(cells.lastIndexOf(cell)+1).endsWith("ï¿½")){ // 4 ends with quote
 						
 						return cells.get(cells.lastIndexOf(cell)+1).substring(1,cells.get(cells.lastIndexOf(cell)+1).length()-1);
 						
@@ -57,13 +57,13 @@ public class Spreadsheet {
 					}
 					
 				}else if(cells.get(cells.lastIndexOf(cell)+1).startsWith("=")){ // starts with equation
-					   if(cells.get(cells.lastIndexOf(cell)+1).substring(1,2).equals("’")){ // starts with equation end quote 
+					   if(cells.get(cells.lastIndexOf(cell)+1).substring(1,2).equals("ï¿½")){ // starts with equation end quote 
 						   String operation = cells.get(cells.lastIndexOf(cell)+1).substring(1);
 						   if(operation.contains("&")){
-								 if(operation.startsWith("’") & operation.endsWith("")){
+								 if(operation.startsWith("ï¿½") & operation.endsWith("")){
 							     int index = operation.indexOf('&')-1;
-								 int firstIndex =operation.substring(1, operation.length()-2).indexOf('’');
-								 int lastIndex = operation.substring(1, operation.length()-2).lastIndexOf('’');
+								 int firstIndex =operation.substring(1, operation.length()-2).indexOf('ï¿½');
+								 int lastIndex = operation.substring(1, operation.length()-2).lastIndexOf('ï¿½');
 							// 	System.out.println(operation.substring(1,firstIndex+1) + operation.substring(lastIndex+2,operation.length()-1));
 						    // System.out.println(firstIndex +" "+index+" "+lastIndex);
 								 if((firstIndex +1 == index) & (index +1==lastIndex)){
@@ -75,7 +75,7 @@ public class Spreadsheet {
 									 return "#Error";
 								 }
 								 
-							 }else if(cells.get(cells.lastIndexOf(cell)+1).endsWith("’")){ // 6
+							 }else if(cells.get(cells.lastIndexOf(cell)+1).endsWith("ï¿½")){ // 6
 							   return cells.get(cells.lastIndexOf(cell)+1).substring(2,cells.get(cells.lastIndexOf(cell)+1).length()-1);
 						   }else{
 							   return "#Error"; // 7
@@ -94,35 +94,17 @@ public class Spreadsheet {
 							   cells.get(cells.lastIndexOf(cell)+1).contains("/")||
 							   cells.get(cells.lastIndexOf(cell)+1).contains("%")){
 						 String operation = cells.get(cells.lastIndexOf(cell)+1).substring(1);
-					/*	for(int i=0 ; i<operation.length();i++){
-							if(!(operation.charAt(i)==('0')||
-							  operation.charAt(i)==('1')||
-							  operation.charAt(i)==('2')||
-							  operation.charAt(i)==('3')||
-							  operation.charAt(i)==('4')||
-							  operation.charAt(i)==('5')||
-							  operation.charAt(i)==('6')||
-							  operation.charAt(i)==('7')||
-							  operation.charAt(i)==('8')||
-							  operation.charAt(i)==('9')||
-							  operation.charAt(i)==('+')||
-							  operation.charAt(i)==('-')||
-							  operation.charAt(i)==('*')||
-							  operation.charAt(i)==('/')||
-							  operation.charAt(i)==('%')||
-							  operation.charAt(i)==('(')||
-							  operation.charAt(i)==(')'))||
-							  operation.charAt(i)==(' ')||
-							  operation.charAt(i)==('\r')||
-							  operation.charAt(i)==('\t')||
-                              operation.charAt(i)==('\r')
+						for(int i=0 ; i<operation.length();i++){
+							char ch = operation.charAt(i) ;
+							
+							if((ch>= 'A'&& ch<= 'Z')||(ch>='a' && ch<='z') 
 							  ){
 								
 								
 								return "#Error";
 						}
 						}
-					*/		
+							
 						
 						if((operation.contains("(")&& !operation.contains(")"))||(!operation.contains("(") && operation.contains(")"))){
 							return "#Error";
