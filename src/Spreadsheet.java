@@ -19,7 +19,7 @@ public class Spreadsheet {
 				val = handleFormula(cell, val);
 			}
 		}
-		else if (val != circular) {
+		if (val != circular && nodes.contains(cell)) {
 			nodes.remove(cell);
 		}
 		return val;
@@ -27,7 +27,6 @@ public class Spreadsheet {
 
 	private String handleFormula(String cell, String val) {
 		if (isValidCalculation(val.substring(1))) {
-			System.err.println("calc");
 			val = calculate(val.substring(1));
 		}
 		else if (isReference(val.substring(1))) {
@@ -38,7 +37,7 @@ public class Spreadsheet {
 				val = circular;
 			}
 		}
-		if (val != circular) {
+		if (val != circular && !isValidInteger(val)) {
 			val = evaluate(val.substring(1));
 		}
 		return val;
@@ -53,6 +52,7 @@ public class Spreadsheet {
 
 	private String stripStringTags(String val) {
 		val = val.replace("'", "");
+		val = val.replace("&", "");
 		return val;
 	}
 	
@@ -84,10 +84,15 @@ public class Spreadsheet {
 	public String evaluate(String cell) {
 		String val = cell;
 		if (isValidString(val)) {
-			val = stripStringTags(val);
+			if (hasStringOperation(val)) {
+				val = performStringOperation(val);
+			}
+			else {
+				val = stripStringTags(val);
+			}
 		}
 		else if (isValidInteger(val)) {
-			//
+			// do nothing
 		}
 		else if (isReference(val)) {
 			val = this.get(val);
@@ -98,21 +103,72 @@ public class Spreadsheet {
 		return val;
 	}
 
+	private String performStringOperation(String val) {
+		String[] strings = val.split("&");
+		String word;
+		String phrase = "";
+		for (int i = 0; i < strings.length; i++) {
+			word = this.evaluate(strings[i]);
+			phrase = phrase.concat(word);
+			if (word == error) {
+				phrase = error;
+				break;
+			}
+		}
+		return phrase;
+	}
+
+	private boolean hasStringOperation(String val) {
+		if (val.indexOf("&") != -1) {
+			return true;
+		}
+		return false;
+	}
+
 	private String calculate(String cell) {
-		String[] values = cell.split("[-+*/%]");
+		String operations = "+";
 		int result = 0;
+		int val;
+		char operation;
+		String[] values = cell.split("[-+*/%]");
+		operations += cell.replaceAll("\\w", "");
 		for (int i = 0; i < values.length; i++) {
-			System.err.println(values[i]);
-			result += Integer.parseInt(this.get(values[i]));
+			operation = operations.charAt(i);
+			if (isValidInteger(values[i])) {
+				val = Integer.parseInt(values[i]);
+			}
+			else {
+				val = Integer.parseInt(this.get(values[i]));
+			}
+			result = performOperation(result, val, operation);
 		}
 		return Integer.toString(result);
+	}
+
+	private int performOperation(int result, int val, char operation) {
+		if (operation == '+') {
+			result += val;
+		}
+		else if (operation == '-') {
+			result -= val;
+		}
+		else if (operation == '*') {
+			result *= val;
+		}
+		else if (operation == '/') {
+			result /= val;
+		}
+		else if (operation == '%') {
+			result %= val;
+		}
+		return result;
 	}
 
 	private boolean isValidCalculation(String cell) {
 		String[] values = cell.split("[-+*/%]");
 		if (values.length > 1) {
 			for (int i = 0; i < values.length; i++) {
-				if (!isValidInteger(this.get(values[i]))) {
+				if (!isValidInteger(values[i]) && !isValidInteger(this.get(values[i]))) {
 					return false;
 				}
 			}

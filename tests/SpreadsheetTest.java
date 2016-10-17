@@ -85,7 +85,7 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void SpreadsheetTest_valid_calculation() {
+	public void SpreadsheetTest_valid_sum_calculation() {
 		sheet.set("A1", "10");
 		sheet.set("A2", "5");
 		sheet.set("A3", "4");
@@ -95,7 +95,7 @@ public class SpreadsheetTest {
 	}
 	
 	@Test
-	public void SpreadsheetTest_valid_calculation_with_ref() {
+	public void SpreadsheetTest_valid_sum_calculation_with_ref() {
 		sheet.set("A1", "10");
 		sheet.set("A2", "5");
 		sheet.set("A3", "=A1");
@@ -103,5 +103,52 @@ public class SpreadsheetTest {
 		String val = sheet.get("A4");
 		assertEquals("25", val);
 	}
+	
+	@Test
+	public void SpreadsheetTest_ref_error() {
+		sheet.set("A5", "5A");
+		sheet.set("A1", "=A5");
+		String val = sheet.get("A1");
+		assertEquals("#Error", val);
+	}
+	
+	@Test
+	public void SpreadsheetTest_valid_mul_calculation() {
+		sheet.set("A1", "1");
+		sheet.set("A2", "1");
+		sheet.set("A3", "3");
+		sheet.set("A4", "=A1+A2*A3");
+		String val = sheet.get("A4");
+		assertEquals("6", val);
+	}
+	
+	@Test
+	public void SpreadsheetTest_calc_error() {
+		sheet.set("A1", "1+A1");
+		String val = sheet.get("A1");
+		assertEquals("#Error", val);
+	}
+	
+	@Test
+	public void SpreadsheetTest_simple_calc() {
+		sheet.set("A1", "=1+2");
+		String val = sheet.get("A1");
+		assertEquals("3", val);
+	}
+	
+	@Test
+	public void SpreadsheetTest_string_concat() {
+		sheet.set("A1", "='a'&'string'");
+		String val = sheet.get("A1");
+		assertEquals("astring", val);
+	}
+	
+	@Test
+	public void SpreadsheetTest_string_concat_invalid() {
+		sheet.set("A1", "='a&'string'");
+		String val = sheet.get("A1");
+		assertEquals("#Error", val);
+	}
+	
 
 }
