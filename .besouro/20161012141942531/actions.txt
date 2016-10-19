@@ -306,3 +306,5 @@ UnitTestCaseAction 1476279999696 SpreadsheetTest.java FAIL
 UnitTestSessionAction 1476279999697 SpreadsheetTest.java FAIL
 UnitTestCaseAction 1476280013841 SpreadsheetTest.java OK
 UnitTestSessionAction 1476280013842 SpreadsheetTest.java OK
+FileOpenedAction 1476280048491 SpreadSheetException.java 62 0 0 0
+FileOpenedAction 1476280058984 Cell.java 286 4 4 0
