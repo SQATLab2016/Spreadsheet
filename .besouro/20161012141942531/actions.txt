@@ -1,0 +1,310 @@
+FileOpenedAction 1476271183117 Cell.java 286 4 4 0
+RefactoringAction 1476271196371 SpreadsheetTest.java ADD void testSpreadSheet_getCellA1AfterSet_1()/2 METHOD
+RefactoringAction 1476271207436 SpreadsheetTest.java RENAME testSpreadSheet_getCellA1AfterSet_1()/2=>void testSpreadSheet_getCellA1AfterSet_ FIELD
+RefactoringAction 1476271215983 SpreadsheetTest.java RENAME testSpreadSheet_getCellA1AfterSet_1()/2=>void testSpreadSheet_getCellA1AfterSet_ne1() METHOD
+RefactoringAction 1476271218512 SpreadsheetTest.java RENAME testSpreadSheet_getCellA1AfterSet_ne1()=>void testSpreadSheet_getCellA1AfterSet_negative1() METHOD
+EditAction 1476271229129 SpreadsheetTest.java 454 2 6 2
+UnitTestCaseAction 1476271300406 SpreadsheetTest.java OK
+UnitTestSessionAction 1476271300408 SpreadsheetTest.java OK
+RefactoringAction 1476271312149 SpreadsheetTest.java ADD void testSpreadSheet_getCellA1AfterSet_negative1()/2 METHOD
+RefactoringAction 1476271367734 SpreadsheetTest.java RENAME testSpreadSheet_getCellA1AfterSet_negative1()/2=>void testSpreadSheet_get() METHOD
+RefactoringAction 1476271369747 SpreadsheetTest.java RENAME testSpreadSheet_get()=>void testSpreadSheet_() METHOD
+RefactoringAction 1476271373265 SpreadsheetTest.java RENAME testSpreadSheet_()=>void testSpreadSheet_e() METHOD
+RefactoringAction 1476271374288 SpreadsheetTest.java RENAME testSpreadSheet_e()=>void testSpreadSheet_ev() METHOD
+RefactoringAction 1476271376310 SpreadsheetTest.java RENAME testSpreadSheet_ev()=>void testSpreadSheet_evaluate() METHOD
+RefactoringAction 1476271378834 SpreadsheetTest.java RENAME testSpreadSheet_evaluate()=>void testSpreadSheet_evaluateCwll() METHOD
+RefactoringAction 1476271382352 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCwll()=>void testSpreadSheet_evaluateCell() METHOD
+RefactoringAction 1476271384373 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell()=>void testSpreadSheet_evaluateCell_n() METHOD
+RefactoringAction 1476271387895 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_n()=>void testSpreadSheet_evaluateCell_nedative1() METHOD
+RefactoringAction 1476271391406 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_nedative1()=>void testSpreadSheet_evaluateCell_neative1() METHOD
+RefactoringAction 1476271392425 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_neative1()=>void testSpreadSheet_evaluateCell_neqative1() METHOD
+RefactoringAction 1476271393447 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_neqative1()=>void testSpreadSheet_evaluateCell_neative1() METHOD
+RefactoringAction 1476271394965 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_neative1()=>void testSpreadSheet_evaluateCell_negative1() METHOD
+EditAction 1476271412150 SpreadsheetTest.java 639 3 9 3
+UnitTestCaseAction 1476271427786 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271427787 SpreadsheetTest.java FAIL
+EditAction 1476271656405 Spreadsheet.java 392 3 5 0
+UnitTestCaseAction 1476271671569 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271671570 SpreadsheetTest.java FAIL
+EditAction 1476271703900 Spreadsheet.java 403 3 5 0
+UnitTestCaseAction 1476271710367 SpreadsheetTest.java OK
+UnitTestSessionAction 1476271710368 SpreadsheetTest.java OK
+RefactoringAction 1476271726070 SpreadsheetTest.java ADD void testSpreadSheet_evaluateCell_negative1()/2 METHOD
+RefactoringAction 1476271747591 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_negative1()/2=>void testSpreadSheet_evaluateCell_() METHOD
+RefactoringAction 1476271749612 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_()=>void testSpreadSheet_evaluateCell() METHOD
+RefactoringAction 1476271751629 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell()=>void testSpreadSheet_evaluateCell_() METHOD
+RefactoringAction 1476271755150 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_()=>void testSpreadSheet_evaluateCellW_() METHOD
+RefactoringAction 1476271786670 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellW_()=>void testSpreadSheet_evaluateCellWrong_() METHOD
+RefactoringAction 1476271789196 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellWrong_()=>void testSpreadSheet_evaluateCellWrongFr_() METHOD
+RefactoringAction 1476271792212 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellWrongFr_()=>void testSpreadSheet_evaluateCellWrongFormated_() METHOD
+RefactoringAction 1476271794227 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellWrongFormated_()=>void testSpreadSheet_evaluateCellWrongFormatedInteger_() METHOD
+RefactoringAction 1476271802245 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellWrongFormatedInteger_()=>void testSpreadSheet_evaluateCellWrongFormatedInteger_Exception() METHOD
+EditAction 1476271826173 SpreadsheetTest.java 799 4 11 3
+FileOpenedAction 1476271840799 SudokuVerifierTest.java 1977 5 5 5
+FileOpenedAction 1476271853283 TestRomanNumerals.java 2101 15 16 12
+EditAction 1476271880327 SpreadsheetTest.java 839 4 11 3
+CompilationAction 1476271883055 SpreadsheetTest.java
+CompilationAction 1476271883056 SpreadsheetTest.java
+RefactoringAction 1476271899992 SpreadSheetException.java ADD SpreadSheetException.java CLASS
+FileOpenedAction 1476271900129 SpreadSheetException.java 44 0 0 0
+CompilationAction 1476271900189 SpreadsheetTest.java
+EditAction 1476271909077 SpreadSheetException.java 62 0 0 0
+UnitTestCaseAction 1476271926612 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271926613 SpreadsheetTest.java FAIL
+EditAction 1476271969351 Spreadsheet.java 479 3 3 0
+CompilationAction 1476271971595 Spreadsheet.java
+CompilationAction 1476271975116 Spreadsheet.java
+CompilationAction 1476271975332 SpreadsheetTest.java
+UnitTestCaseAction 1476271980507 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271980508 SpreadsheetTest.java FAIL
+CompilationAction 1476271987690 SpreadsheetTest.java
+UnitTestCaseAction 1476271991292 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476271991293 SpreadsheetTest.java FAIL
+EditAction 1476272032850 SpreadsheetTest.java 894 4 12 3
+CompilationAction 1476272035417 SpreadsheetTest.java
+CompilationAction 1476272040682 SpreadsheetTest.java
+UnitTestCaseAction 1476272043957 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272043958 SpreadsheetTest.java OK
+EditAction 1476272123532 Spreadsheet.java 513 3 3 0
+UnitTestCaseAction 1476272127595 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272127596 SpreadsheetTest.java FAIL
+EditAction 1476272143292 SpreadsheetTest.java 924 4 12 3
+UnitTestCaseAction 1476272148165 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272148166 SpreadsheetTest.java OK
+RefactoringAction 1476272162689 SpreadsheetTest.java ADD void testSpreadSheet_evaluateCellWrongFormatedInteger_Exception()/2 METHOD
+RefactoringAction 1476272175719 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellWrongFormatedInteger_Exception()/2=>void testSpreadSheet_evaluateCellHandling_Exception() METHOD
+RefactoringAction 1476272178234 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellHandling_Exception()=>void testSpreadSheet_evaluateCellHandlingString_Exception() METHOD
+EditAction 1476272199025 SpreadsheetTest.java 1168 5 15 4
+UnitTestCaseAction 1476272202825 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272202826 SpreadsheetTest.java FAIL
+EditAction 1476272277553 Spreadsheet.java 562 3 3 0
+EditAction 1476272378528 Spreadsheet.java 611 3 3 0
+UnitTestCaseAction 1476272384175 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272384176 SpreadsheetTest.java FAIL
+EditAction 1476272402165 Spreadsheet.java 622 3 3 0
+UnitTestCaseAction 1476272406129 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272406130 SpreadsheetTest.java FAIL
+EditAction 1476272436497 SpreadsheetTest.java 1167 5 15 4
+UnitTestCaseAction 1476272441887 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272441888 SpreadsheetTest.java OK
+RefactoringAction 1476272476842 SpreadsheetTest.java ADD void testSpreadSheet_evaluateCellWrongFormatedInteger_Exception()/2 METHOD
+RefactoringAction 1476272489370 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellWrongFormatedInteger_Exception()/2=>void testSpreadSheet_evaluateCell_Exception() METHOD
+RefactoringAction 1476272492386 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCell_Exception()=>void testSpreadSheet_evaluateCellHandling_Exception() METHOD
+RefactoringAction 1476272495411 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellHandling_Exception()=>void testSpreadSheet_evaluateCellHandlingStrign FIELD
+RefactoringAction 1476272497941 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellHandlingStri_Exception()=>void testSpreadSheet_evaluateCellHandlingString_Exception()/2 METHOD
+RefactoringAction 1476272507455 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellHandlingString_Exception()/2=>void testSpreadSheet_evaluateCellHandlingString() METHOD
+EditAction 1476272508502 SpreadsheetTest.java 1406 6 18 4
+EditAction 1476272528576 SpreadsheetTest.java 1413 6 18 4
+UnitTestCaseAction 1476272533094 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272533095 SpreadsheetTest.java FAIL
+EditAction 1476272555097 Spreadsheet.java 655 3 3 0
+UnitTestCaseAction 1476272562644 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272562645 SpreadsheetTest.java OK
+RefactoringAction 1476272623049 SpreadsheetTest.java ADD void testSpreadSheet_evaluateCellHandlingString_Exception()/2 METHOD
+EditAction 1476272642171 SpreadsheetTest.java 1657 7 21 5
+CompilationAction 1476272645141 SpreadsheetTest.java
+RefactoringAction 1476272651111 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellHandlingString_Exception()/2=>void testSpreadSheet_evaluateS() METHOD
+RefactoringAction 1476272652123 SpreadsheetTest.java RENAME testSpreadSheet_evaluateS()=>void testSpreadSheet_evaluateSin() METHOD
+RefactoringAction 1476272654138 SpreadsheetTest.java RENAME testSpreadSheet_evaluateSin()=>void testSpreadSheet_evaluateSimple() METHOD
+RefactoringAction 1476272656652 SpreadsheetTest.java RENAME testSpreadSheet_evaluateSimple()=>void testSpreadSheet_evaluateSimpleFormula() METHOD
+CompilationAction 1476272656894 SpreadsheetTest.java
+UnitTestCaseAction 1476272665504 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272665505 SpreadsheetTest.testSpreadSheet_evaluateSimpleFormula FAIL
+EditAction 1476272719990 Spreadsheet.java 705 3 3 0
+EditAction 1476272861221 Spreadsheet.java 852 3 3 0
+UnitTestCaseAction 1476272865223 SpreadsheetTest.java OK
+UnitTestSessionAction 1476272865224 SpreadsheetTest.testSpreadSheet_evaluateSimpleFormula OK
+RefactoringAction 1476272876202 SpreadsheetTest.java ADD void testSpreadSheet_evaluateSimpleFormula()/2 METHOD
+RefactoringAction 1476272885214 SpreadsheetTest.java RENAME testSpreadSheet_evaluateSimpleFormula()/2=>void testSpreadSheet_evaluateSimpleFormula_() METHOD
+RefactoringAction 1476272886728 SpreadsheetTest.java RENAME testSpreadSheet_evaluateSimpleFormula_()=>void testSpreadSheet_evaluateSimpleFormula_Ex() METHOD
+RefactoringAction 1476272888743 SpreadsheetTest.java RENAME testSpreadSheet_evaluateSimpleFormula_Ex()=>void testSpreadSheet_evaluateSimpleFormula_Exception() METHOD
+EditAction 1476272920197 SpreadsheetTest.java 1894 8 24 5
+UnitTestCaseAction 1476272932005 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272932006 SpreadsheetTest.java FAIL
+EditAction 1476272961976 Spreadsheet.java 885 3 3 0
+UnitTestCaseAction 1476272968335 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476272968337 SpreadsheetTest.java FAIL
+EditAction 1476272999831 Spreadsheet.java 940 3 3 0
+UnitTestCaseAction 1476273006479 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273006480 SpreadsheetTest.java OK
+RefactoringAction 1476273019842 SpreadsheetTest.java ADD void testSpreadSheet_evaluateSimpleFormula()/2 METHOD
+RefactoringAction 1476273060358 SpreadsheetTest.java RENAME testSpreadSheet_evaluateSimpleFormula()/2=>void testSpreadSheet_evaluateCellReference() METHOD
+EditAction 1476273092135 SpreadsheetTest.java 2135 9 28 6
+UnitTestCaseAction 1476273100733 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476273100734 SpreadsheetTest.java FAIL
+EditAction 1476273307644 Spreadsheet.java 1063 3 3 0
+UnitTestCaseAction 1476273311808 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273311809 SpreadsheetTest.java OK
+RefactoringAction 1476273349974 SpreadsheetTest.java ADD void testSpreadSheet_evaluateCellReference()/2 METHOD
+RefactoringAction 1476273352988 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellReference()/2=>void testSpreadSheet_evaluateCellReference_() METHOD
+RefactoringAction 1476273356000 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellReference_()=>void testSpreadSheet_evaluateCellReference_Exception() METHOD
+EditAction 1476273397134 SpreadsheetTest.java 2408 10 32 6
+UnitTestCaseAction 1476273401232 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476273401233 SpreadsheetTest.java FAIL
+EditAction 1476273430025 Spreadsheet.java 1062 3 3 0
+UnitTestCaseAction 1476273436931 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273436932 SpreadsheetTest.java OK
+RefactoringAction 1476273507184 SpreadsheetTest.java ADD void testSpreadSheet_evaluateCellReference_Exception()/2 METHOD
+RefactoringAction 1476273513699 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellReference_Exception()/2=>void testSpreadSheet_evaluateCellReferenceC_Exception() METHOD
+RefactoringAction 1476273516717 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellReferenceC_Exception()=>void testSpreadSheet_evaluateCellReferenceCircular_Exception() METHOD
+EditAction 1476273524414 SpreadsheetTest.java 2690 11 36 6
+UnitTestCaseAction 1476273532120 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476273532121 SpreadsheetTest.java FAIL
+EditAction 1476273762635 Spreadsheet.java 1180 3 3 0
+UnitTestCaseAction 1476273770697 SpreadsheetTest.java OK
+UnitTestSessionAction 1476273770697 SpreadsheetTest.java OK
+EditAction 1476274035751 Spreadsheet.java 1258 3 3 0
+RefactoringAction 1476274049297 SpreadsheetTest.java ADD void testSpreadSheet_evaluateCellReferenceCircular_Exception()/2 METHOD
+RefactoringAction 1476274069855 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellReferenceCircular_Exception()/2=>void testSpreadSheet_evaluateArithmeticOperations() METHOD
+EditAction 1476274099451 SpreadsheetTest.java 2914 12 39 7
+EditAction 1476274109682 Spreadsheet.java 1184 3 3 0
+UnitTestCaseAction 1476274113628 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476274113629 SpreadsheetTest.java FAIL
+RefactoringAction 1476274126781 Spreadsheet.java ADD static boolean isInteger(String) METHOD
+RefactoringAction 1476274138813 Spreadsheet.java REMOVE isInteger(String) METHOD
+RefactoringAction 1476274142331 Spreadsheet.java ADD static boolean isInteger(String) METHOD
+EditAction 1476274143772 Spreadsheet.java 1507 4 5 0
+EditAction 1476274173052 Spreadsheet.java 1495 4 5 0
+EditAction 1476274481956 Spreadsheet.java 1573 4 5 0
+EditAction 1476274523519 Spreadsheet.java 1604 4 5 0
+RefactoringAction 1476274909585 Spreadsheet.java ADD int E FIELD
+RefactoringAction 1476274910600 Spreadsheet.java REMOVE E FIELD
+RefactoringAction 1476274912115 Spreadsheet.java ADD int A FIELD
+RefactoringAction 1476274914630 Spreadsheet.java RENAME A=>int a FIELD
+RefactoringAction 1476274917647 Spreadsheet.java RENAME a=>int arithmetic FIELD
+RefactoringAction 1476274920663 Spreadsheet.java RENAME arithmetic=>int arithmeticOperation FIELD
+RefactoringAction 1476274921680 Spreadsheet.java RENAME arithmeticOperation=>int arithmeticOperation() METHOD
+RefactoringAction 1476274926712 Spreadsheet.java RENAME arithmeticOperation()=>int arithmeticOperation(String) METHOD
+EditAction 1476275024319 Spreadsheet.java 1709 5 5 0
+CompilationAction 1476275026370 Spreadsheet.java
+CompilationAction 1476275026371 Spreadsheet.java
+CompilationAction 1476275031734 Spreadsheet.java
+CompilationAction 1476275031735 Spreadsheet.java
+CompilationAction 1476275031969 Spreadsheet.java
+CompilationAction 1476275031970 Spreadsheet.java
+CompilationAction 1476275153947 Spreadsheet.java
+CompilationAction 1476275154161 Spreadsheet.java
+EditAction 1476275163205 Spreadsheet.java 1686 5 7 0
+CompilationAction 1476275165726 Spreadsheet.java
+CompilationAction 1476275234115 Spreadsheet.java
+RefactoringAction 1476275397376 Spreadsheet.java RENAME arithmeticOperation(String)=>int arithmeticOperation(String, int) METHOD
+RefactoringAction 1476275509930 Spreadsheet.java RENAME arithmeticOperation(String, int)=>int arithmeticOperation(String) METHOD
+RefactoringAction 1476275703815 Spreadsheet.java ADD int evaluateOperator(int, int, String) METHOD
+EditAction 1476275887475 Spreadsheet.java 2290 6 12 0
+EditAction 1476275976242 Spreadsheet.java 2402 6 13 0
+EditAction 1476276071925 Spreadsheet.java 2498 6 7 0
+CompilationAction 1476276074731 Spreadsheet.java
+CompilationAction 1476276074733 Spreadsheet.java
+EditAction 1476276164887 Spreadsheet.java 2504 6 7 0
+CompilationAction 1476276167629 Spreadsheet.java
+CompilationAction 1476276167630 Spreadsheet.java
+CompilationAction 1476276321652 Spreadsheet.java
+EditAction 1476276332512 Spreadsheet.java 2665 6 14 0
+EditAction 1476276394548 Spreadsheet.java 2817 6 14 0
+CompilationAction 1476276397284 Spreadsheet.java
+RefactoringAction 1476276400615 Spreadsheet.java ADD boolean isOperator(String) METHOD
+RefactoringAction 1476276445283 Spreadsheet.java RENAME isOperator(String)=>boolean isOperator() METHOD
+RefactoringAction 1476276446799 Spreadsheet.java RENAME isOperator()=>boolean isOperator(String) METHOD
+CompilationAction 1476276484152 Spreadsheet.java
+EditAction 1476276512398 Spreadsheet.java 3090 7 16 0
+EditAction 1476276528649 Spreadsheet.java 3112 7 16 0
+UnitTestCaseAction 1476276547667 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276547668 SpreadsheetTest.java FAIL
+CompilationAction 1476276704532 Spreadsheet.java
+CompilationAction 1476276719588 Spreadsheet.java
+UnitTestCaseAction 1476276783100 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276783102 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476276845166 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276845167 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476276869169 SpreadsheetTest.java OK
+UnitTestSessionAction 1476276869169 SpreadsheetTest.java OK
+RefactoringAction 1476276904621 SpreadsheetTest.java ADD void testSpreadSheet_evaluateCellReferenceCircular_Exception()/2 METHOD
+RefactoringAction 1476276913138 SpreadsheetTest.java RENAME testSpreadSheet_evaluateCellReferenceCircular_Exception()/2=>void testSpreadSheet_evaluateArithmatic_Exception() METHOD
+RefactoringAction 1476276915659 SpreadsheetTest.java RENAME testSpreadSheet_evaluateArithmatic_Exception()=>void testSpreadSheet_evaluateArithmaticOperation_Exception() METHOD
+EditAction 1476276933825 SpreadsheetTest.java 3167 13 42 7
+UnitTestCaseAction 1476276939293 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476276939294 SpreadsheetTest.java FAIL
+CompilationAction 1476276976739 Spreadsheet.java
+CompilationAction 1476276982092 Spreadsheet.java
+UnitTestCaseAction 1476276987171 SpreadsheetTest.java OK
+UnitTestSessionAction 1476276987172 SpreadsheetTest.java OK
+RefactoringAction 1476277116743 SpreadsheetTest.java ADD void testSpreadSheet_evaluateArithmaticOperation_Exception()/2 METHOD
+RefactoringAction 1476277131268 SpreadsheetTest.java RENAME testSpreadSheet_evaluateArithmaticOperation_Exception()/2=>void testSpreadSheet_evaluateStringOperations() METHOD
+EditAction 1476277157589 SpreadsheetTest.java 3401 14 45 8
+UnitTestCaseAction 1476277164044 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476277164045 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476277578889 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476277578890 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476277655515 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476277655521 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476277777185 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476277777186 SpreadsheetTest.java FAIL
+EditAction 1476277794144 SpreadsheetTest.java 3400 14 45 8
+UnitTestCaseAction 1476277799912 SpreadsheetTest.java OK
+UnitTestSessionAction 1476277799913 SpreadsheetTest.java OK
+RefactoringAction 1476277816893 SpreadsheetTest.java ADD void testSpreadSheet_evaluateStringOperations()/2 METHOD
+RefactoringAction 1476277820405 SpreadsheetTest.java RENAME testSpreadSheet_evaluateStringOperations()/2=>void testSpreadSheet_evaluateStringOperations_() METHOD
+RefactoringAction 1476277823418 SpreadsheetTest.java RENAME testSpreadSheet_evaluateStringOperations_()=>void testSpreadSheet_evaluateStringOperations_Exception() METHOD
+EditAction 1476277849438 SpreadsheetTest.java 3657 15 48 8
+UnitTestCaseAction 1476277856812 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476277856813 SpreadsheetTest.java FAIL
+CompilationAction 1476278200096 Spreadsheet.java
+RefactoringAction 1476278201843 Spreadsheet.java ADD void checkIndividualStrings(Map<String,String>) METHOD
+RefactoringAction 1476278215056 Spreadsheet.java RENAME checkIndividualStrings(Map<String,String>)=>void checkIndividualStrings(Cell) METHOD
+CompilationAction 1476278221095 Spreadsheet.java
+CompilationAction 1476278221096 Spreadsheet.java
+CompilationAction 1476278226878 Spreadsheet.java
+CompilationAction 1476278227086 Spreadsheet.java
+RefactoringAction 1476278235436 Spreadsheet.java RENAME checkIndividualStrings(Cell)=>void checkIndividualStrings(String) METHOD
+UnitTestCaseAction 1476278242869 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278242870 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476278333130 SpreadsheetTest.java OK
+UnitTestSessionAction 1476278333131 SpreadsheetTest.java OK
+RefactoringAction 1476278363073 SpreadsheetTest.java ADD void testSpreadSheet_evaluateStringOperations()/2 METHOD
+RefactoringAction 1476278376093 SpreadsheetTest.java RENAME testSpreadSheet_evaluateStringOperations()/2=>void testSpreadSheet_evaluateWithSpaces() METHOD
+EditAction 1476278391281 SpreadsheetTest.java 3872 16 51 9
+UnitTestCaseAction 1476278396135 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278396136 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476278469467 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278469469 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476278489700 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278489701 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476278540103 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278540105 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476278649549 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278649550 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476278726716 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278726717 SpreadsheetTest.java FAIL
+EditAction 1476278764946 SpreadsheetTest.java 3871 16 51 9
+UnitTestCaseAction 1476278771592 SpreadsheetTest.java OK
+UnitTestSessionAction 1476278771593 SpreadsheetTest.java OK
+EditAction 1476278817172 Spreadsheet.java 3944 8 19 0
+RefactoringAction 1476278903693 SpreadsheetTest.java ADD void testSpreadSheet_evaluateWithSpaces()/2 METHOD
+RefactoringAction 1476278911706 SpreadsheetTest.java RENAME testSpreadSheet_evaluateWithSpaces()/2=>void testSpreadSheet_evaluateWithParantheses() METHOD
+EditAction 1476278933942 SpreadsheetTest.java 4092 17 54 10
+UnitTestCaseAction 1476278938407 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476278938408 SpreadsheetTest.java FAIL
+EditAction 1476279416983 Spreadsheet.java 4299 8 20 0
+EditAction 1476279501116 Spreadsheet.java 4445 8 20 0
+UnitTestCaseAction 1476279506079 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476279506080 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476279521455 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476279521457 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476279608303 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476279608304 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476279776880 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476279776881 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476279809254 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476279809255 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476279956956 SpreadsheetTest.java OK
+UnitTestSessionAction 1476279956958 SpreadsheetTest.java OK
+RefactoringAction 1476279971843 SpreadsheetTest.java ADD void testSpreadSheet_evaluateStringOperations_Exception()/2 METHOD
+RefactoringAction 1476279980354 SpreadsheetTest.java RENAME testSpreadSheet_evaluateStringOperations_Exception()/2=>void testSpreadSheet_evaluateParent_Exception() METHOD
+RefactoringAction 1476279983868 SpreadsheetTest.java RENAME testSpreadSheet_evaluateParent_Exception()=>void testSpreadSheet_evaluateParentheses_Exception() METHOD
+EditAction 1476279994971 SpreadsheetTest.java 4339 18 57 10
+UnitTestCaseAction 1476279999696 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1476279999697 SpreadsheetTest.java FAIL
+UnitTestCaseAction 1476280013841 SpreadsheetTest.java OK
+UnitTestSessionAction 1476280013842 SpreadsheetTest.java OK
+FileOpenedAction 1476280048491 SpreadSheetException.java 62 0 0 0
+FileOpenedAction 1476280058984 Cell.java 286 4 4 0

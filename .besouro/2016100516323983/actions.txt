@@ -1,0 +1,40 @@
+FileOpenedAction 1475674359330 SpreadsheetTest.java 162 1 1 0
+RefactoringAction 1475674364919 SpreadsheetTest.java RENAME test()=>void testSpread() METHOD
+RefactoringAction 1475674367423 SpreadsheetTest.java RENAME testSpread()=>void testSpreadS() METHOD
+RefactoringAction 1475674369934 SpreadsheetTest.java RENAME testSpreadS()=>void testSpreadSheet() METHOD
+RefactoringAction 1475674371941 SpreadsheetTest.java RENAME testSpreadSheet()=>void testSpreadSheet_() METHOD
+RefactoringAction 1475674374452 SpreadsheetTest.java RENAME testSpreadSheet_()=>void testSpreadSheet_se() METHOD
+RefactoringAction 1475674375957 SpreadsheetTest.java RENAME testSpreadSheet_se()=>void testSpreadSheet_set() METHOD
+RefactoringAction 1475674398468 SpreadsheetTest.java RENAME testSpreadSheet_set()=>void testSpreadSheet_setCell() METHOD
+RefactoringAction 1475674400473 SpreadsheetTest.java RENAME testSpreadSheet_setCell()=>void testSpreadSheet_setCellA FIELD
+RefactoringAction 1475674401978 SpreadsheetTest.java RENAME <initializer /1>=>void _2() METHOD
+RefactoringAction 1475674405490 SpreadsheetTest.java RENAME testSpreadSheet_setCellA1()=>void testSpreadSheet_setCellA1_() METHOD
+RefactoringAction 1475674406494 SpreadsheetTest.java RENAME testSpreadSheet_setCellA1_()=>void testSpreadSheet_setCellA1_1() METHOD
+EditAction 1475674433822 SpreadsheetTest.java 198 1 1 0
+RefactoringAction 1475674590589 SpreadsheetTest.java RENAME testSpreadSheet_setCellA1_1()=>void testSpreadSheet_getCellA1_1() METHOD
+RefactoringAction 1475674596105 SpreadsheetTest.java RENAME testSpreadSheet_getCellA1_1()=>void testSpreadSheet_getCellA1After_1() METHOD
+RefactoringAction 1475674598118 SpreadsheetTest.java RENAME testSpreadSheet_getCellA1After_1()=>void testSpreadSheet_getCellA1AfterSet_1() METHOD
+EditAction 1475674639972 Spreadsheet.java 371 3 2 0
+EditAction 1475674644549 SpreadsheetTest.java 228 1 2 0
+EditAction 1475674694432 SpreadsheetTest.java 265 1 3 1
+UnitTestCaseAction 1475674701710 SpreadsheetTest.java FAIL
+UnitTestSessionAction 1475674701721 SpreadsheetTest.java FAIL
+EditAction 1475674726052 Spreadsheet.java 374 3 3 0
+EditAction 1475674754915 Spreadsheet.java 363 3 3 0
+CompilationAction 1475674756333 SpreadsheetTest.java
+EditAction 1475674785485 Spreadsheet.java 359 3 3 0
+UnitTestCaseAction 1475674791196 SpreadsheetTest.java OK
+UnitTestSessionAction 1475674791198 SpreadsheetTest.java OK
+EditAction 1475674805276 SpreadsheetTest.java 269 1 3 1
+CompilationAction 1475674806742 SpreadsheetTest.java
+RefactoringAction 1475674817664 Spreadsheet.java RENAME set(String, int)=>void set(String, String) METHOD
+EditAction 1475674817700 Spreadsheet.java 365 3 3 0
+CompilationAction 1475674819249 Spreadsheet.java
+CompilationAction 1475674819254 Spreadsheet.java
+CompilationAction 1475674831356 Spreadsheet.java
+CompilationAction 1475674831357 Spreadsheet.java
+UnitTestCaseAction 1475674835910 SpreadsheetTest.java OK
+UnitTestSessionAction 1475674835916 SpreadsheetTest.java OK
+FileOpenedAction 1475675334460 RomanNumerals.java 3027 5 25 0
+FileOpenedAction 1475675593480 Spreadsheet.java 363 3 3 0
+FileOpenedAction 1475675598732 SpreadsheetTest.java 269 1 3 1
